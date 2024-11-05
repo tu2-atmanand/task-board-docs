@@ -10,12 +10,12 @@ permalink: /
 
 ## Topics
 
-- [01 - Installation](./docs/01-Installation.md)
-- [02 - Getting Started](./docs/02-GettingStarted.md)
-- [03 - Features](./docs/Features/index.md)
-- [04 - Examples](./docs/Examples/index.md)
-- [05 - How to do Anything](./docs/How_To/index.md)
-- [06 - FAQs](FAQs/README.md)
+- [01 - Installation]({% link docs/01-Installation.md %})
+- [02 - Getting Started]({% link docs/02-GettingStarted.md %})
+- [03 - Features]({% link docs/Features/index.md %})
+- [04 - Examples]({% link docs/Examples/index.md %})
+- [05 - How to do Anything]({% link docs/How_To/index.md %})
+- [06 - FAQs]({% link docs/FAQs/index.md %})
 
 ## What is Task Board?
 
@@ -23,7 +23,7 @@ permalink: /
 
 ![Task Board Thumbnail](./assets/TaskBoardThumbnail.png)
 
-Understand the complete UI of Task Board from here : [Task Board Pane](./docs/Features/Task_Board_Pane.md)
+Understand the complete UI of Task Board from here : [Task Board Pane]({% link docs/Features/Task_Board_Pane.md %})
 
 ## **How Does it work ?**
 
@@ -33,12 +33,12 @@ Understand the complete UI of Task Board from here : [Task Board Pane](./docs/Fe
 
 ## **How to start ?**
 
-**STEP 1 :** First install the plugin : [Installation](./docs/01-Installation.md)
+**STEP 1 :** First install the plugin : [Installation]({% link docs/01-Installation.md %})
 
-**STEP 2 :** Learn how to start using the plugin, initial setup : [Getting Started](./docs/02-GettingStarted.md)
+**STEP 2 :** Learn how to start using the plugin, initial setup : [Getting Started]({% link docs/02-GettingStarted.md %})
 
-**STEP 3 :** Go through various examples : [Examples](./docs/Examples/index.md)
+**STEP 3 :** Go through various examples : [Examples]({% link docs/Examples/index.md %})
 
-**STEP 4 :** Understand all the features to use the plugin efficiently : [Features](./docs/Features/index.md)
+**STEP 4 :** Understand all the features to use the plugin efficiently : [Features]({% link docs/Features/index.md %})
 
-> For any queries try to find your answer here : [Frequently Asked Questions](./docs/FAQs/index.md)
+> For any queries try to find your answer here : [Frequently Asked Questions]({% link docs/FAQs/index.md %})
