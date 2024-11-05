@@ -10,35 +10,35 @@ permalink: /
 
 ## Topics
 
-- [01 - Installation](01-Installation.md)
-- [02 - Getting Started](02-GettingStarted.md)
-- [03 - Features](Features/README.md)
-- [04 - Examples](Examples/README.md)
-- [05 - How to do Anything](<How To/README.md>)
+- [01 - Installation](./docs/01-Installation.md)
+- [02 - Getting Started](./docs/02-GettingStarted.md)
+- [03 - Features](./docs/Features/index.md)
+- [04 - Examples](./docs/Examples/index.md)
+- [05 - How to do Anything](./docs/How_To/index.md)
 - [06 - FAQs](FAQs/README.md)
 
 ## What is Task Board?
 
 [**Task Board**](https://github.com/tu2-atmanand/Task-Board) is an Obsidian plugin to view and manage all your task in a much more efficient Kanban Board format. Easily manage your tasks throughout your vault.
 
-![Task Board Thumbnail]((https://github.com/tu2-atmanand/task-board-docs/assets/TaskBoardThumbnail.png))
+![Task Board Thumbnail](./assets/TaskBoardThumbnail.png)
 
-Understand the complete UI of Task Board from here : [Task Board Pane](./Features/Task_Board_Pane.md)
+Understand the complete UI of Task Board from here : [Task Board Pane](./docs/Features/Task_Board_Pane.md)
 
 ## **How Does it work ?**
 
-- This plugin scans tasks from all or the [filtered](Features/Filters_for_Scanning.md) Markdown file from your whole vault and show them on a Kanban type Board.
+- This plugin scans tasks from all or the [filtered](./docs/Features/Filters_for_Scanning.md) Markdown file from your whole vault and show them on a Kanban type Board.
 - You can edit the task directly from the Task Board, without opening the Markdown file.
 - Add task to currently opened files using a pop-up window.
 
 ## **How to start ?**
 
-**STEP 1 :** First install the plugin : [Installation](01-Installation.md)
+**STEP 1 :** First install the plugin : [Installation](./docs/01-Installation.md)
 
-**STEP 2 :** Learn how to start using the plugin, initial setup : [Getting Started](02-GettingStarted.md)
+**STEP 2 :** Learn how to start using the plugin, initial setup : [Getting Started](./docs/02-GettingStarted.md)
 
-**STEP 3 :** Go through various examples : [Examples](Examples/README.md)
+**STEP 3 :** Go through various examples : [Examples](./docs/Examples/index.md)
 
-**STEP 4 :** Understand all the features to use the plugin efficiently : [Features](Features/README.md)
+**STEP 4 :** Understand all the features to use the plugin efficiently : [Features](./docs/Features/index.md)
 
-> For any queries try to find your answer here : [Frequently Asked Questions](FAQs/README.md)
+> For any queries try to find your answer here : [Frequently Asked Questions](./docs/FAQs/index.md)
