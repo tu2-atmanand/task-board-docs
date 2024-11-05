@@ -1,8 +1,3 @@
----
-layout: default
-title: Task Board Docs
----
-
 # **Task Board** plugin Documentation
 
 ## Topics

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: How to create New Board
+parent: How To
+title: Create new Board
+nav_order: 2
 ---
 
 # How to create a new Board

@@ -1,3 +1,9 @@
+---
+parent: How To
+title: Use Board Settings
+nav_order: 4
+---
+
 # How to use the Board Specific Settigns
 
 You can able to open the Board Specific Settings from the Configure Board buttton onthe top right corner in the Task Board View as can be seen in the below impage.

@@ -1,3 +1,9 @@
+---
+parent: How To
+title: Use Global Settings
+nav_order: 5
+---
+
 # How to use the Global Settings
 
 This settings will be applied on all boards and is a global settings for the plugin.

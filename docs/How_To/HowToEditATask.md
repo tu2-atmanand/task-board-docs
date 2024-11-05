@@ -1,3 +1,9 @@
+---
+parent: How To
+title: Edit a Task
+nav_order: 3
+---
+
 # Editing A Task
 
 There are two ways to edit the old content of your task.
