@@ -2,13 +2,21 @@ version: 0.1.1
 title: Task Board Documentation
 name: Task Board Documentation
 description: This is an detailed documentation for the Task Board plugin of Obsidian.
+url: https://tu2-atmanand.github.io
 repository: tu2-atmanand/test-justTheDocs
 github_username: tu2-atmanand
 site_branch: main
 
 theme: just-the-docs
 
-url: https://tu2-atmanand.github.io
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
 
 exclude:
   # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
@@ -92,10 +100,10 @@ nav_enabled: true
 # nav_sort: case_insensitive # default, equivalent to nil
 nav_sort: case_sensitive # Capital letters sorted before lowercase
 
-# External navigation links
-nav_external_links:
-  - title: Task Board on GitHub
-    url: https://github.com/tu2-atmanand/Task-Board
+# External navigation links in the Sidebar
+# nav_external_links:
+#   - title: Task Board on GitHub
+#     url: https://github.com/tu2-atmanand/Task-Board
 
 # For copy button on code
 enable_copy_code_button: true
