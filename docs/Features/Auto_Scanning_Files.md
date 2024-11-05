@@ -7,7 +7,7 @@ title: Auto Scanning Files
 
 This feature helps you to detect the files you have modified and then scan them automatically to extract any new added task or the old task which you have edited.
 
-This feature can be used two way, which can be controlled using the settings option : [Real-time scanning](./docs/Features/RealTimeScanning.md).
+This feature can be used two way, which can be controlled using the settings option : [Real-time scanning](./RealTimeScanning.md).
 
 ## Real Time Scanning
 

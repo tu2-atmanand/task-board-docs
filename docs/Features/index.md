@@ -9,7 +9,7 @@ nav_order: 4
 
 This plugin will only detect and work with the checkbox items/tasks which are in a specific format. You can use the other formats to make the plugin ignore those tasks or subtasks.
 
-Checkout in Details here : [Task Formats](Task_Formats.md)
+Checkout in Details here : [Task Formats](./Task_Formats.md)
 
 ### Adding a Task
 
@@ -19,15 +19,15 @@ Checkout detailed information here : [Adding new Task](./AddingANewTask.md)
 
 ### Marking as Complete
 
-![Marking Task as Complete](../assets/MarkTaskComplete.gif)
+![Marking Task as Complete](../../assets/MarkTaskComplete.gif)
 
 Marking a Task as complete from the board is real-time, as soon as you will mark or unmark the task, the changes will be instantly made in the parent markdown file.
 
-Checkout detailed information here : [Marking a task complete](MarkingTaskComplete.md)
+Checkout detailed information here : [Marking a task complete](./MarkingTaskComplete.md)
 
 ### Editing a Task
 
-![Editing a Task from Board](../assets/EditTaskWindow.gif)
+![Editing a Task from Board](../../assets/EditTaskWindow.gif)
 
 Edit task directly from the Edit Task Window. You can add different properties to the task, add more subTask, add or edit description to the task. And the changes will be return to the parent markdown file exactly the way you see it in the preview.
 
@@ -39,7 +39,7 @@ Directly delete unwanted task from the board using the delete Icon. The task wil
 
 ### Applying Filters
 
-At present there are mainly two types of filters. The first one is [Filters for Scanning](docs/Features/Filters_for_Scanning.md), which is a very powerful feature and give you the option to scan only specific folder, file to look out for tasks and also only scan tasks with certain tags on them.
+At present there are mainly two types of filters. The first one is [Filters for Scanning](./Filters_for_Scanning.md), which is a very powerful feature and give you the option to scan only specific folder, file to look out for tasks and also only scan tasks with certain tags on them.
 The second type of filters, are [Board Filters](../How_To/HowToUseBoardSettings.md#Board%20Filters) which allows you to only show the tasks with certain tags in them. You can use this filters to search for few related tasks.
 
 A new type of filters are coming soon, called as Column Filters to filter out tasks under any column.

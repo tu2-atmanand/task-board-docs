@@ -23,7 +23,7 @@ permalink: /
 
 ![Task Board Thumbnail](./assets/TaskBoardThumbnail.png)
 
-Understand the complete UI of Task Board from here : [Task Board Pane]./docs/Features/Task_Board_Pane.md )
+Understand the complete UI of Task Board from here : [Task Board Pane](./docs/Features/Task_Board_Pane.md)
 
 ## **How Does it work ?**
 
@@ -39,7 +39,7 @@ Understand the complete UI of Task Board from here : [Task Board Pane]./docs/Fea
 
 **STEP 3 :** Go through various examples : [Examples](./docs/Examples/index.md)
 
-**STEP 4 :** Understand all the features to use the plugin efficiently : [Features]./docs/Features/index.md )
+**STEP 4 :** Understand all the features to use the plugin efficiently : [Features](./docs/Features/index.md)
 
 > For any queries try to find your answer here : [Frequently Asked Questions](./docs/FAQs/index.md)
 

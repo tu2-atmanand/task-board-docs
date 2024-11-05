@@ -7,12 +7,12 @@ nav_order: 6
 
 ## How to Contribute for Language Translation
 
-Check-out here :[Contribution for Language Translation](Contribution_For_Languages.md)
+Check-out here :[Contribution for Language Translation](./Contribution_For_Languages.md)
 
 ## How to create a Request
 
-Check-out here : [How to create a Request](HowToCreateRequest.md)
+Check-out here : [How to create a Request](./HowToCreateRequest.md)
 
 ### How to Join plugin Development
 
-Check-out here :[How to Join plugin development](HowToJoinDevelopment.md)
+Check-out here :[How to Join plugin development](./HowToJoinDevelopment.md)

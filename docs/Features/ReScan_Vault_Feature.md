@@ -17,7 +17,7 @@ Please note  that, if your Vault is very large in size and contains files with h
 
 ## Re-Scan Window
 
-![ReScan Vault Window Open](../assets/ReScanVaultModalOpen.png)
+![ReScan Vault Window Open](../../assets/ReScanVaultModalOpen.png)
 
 In this wiindow you can see a terminal like section. Once this window is open to scan all the files you need to click on the Run button. After you click on the run button the plugin will start scanning all the files from your vault to detect any tasks are present in them.
 
