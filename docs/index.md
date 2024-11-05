@@ -18,7 +18,7 @@ title: Task Board Docs
 
 [**Task Board**](https://github.com/tu2-atmanand/Task-Board) is an Obsidian plugin to view and manage all your task in a much more efficient Kanban Board format. Easily manage your tasks throughout your vault.
 
-![Task Board Thumbnail]((https://github.com/tu2-atmanand/task-board-docs/assets/TaskBoardThumbnail.png))
+![Task Board Thumbnail](https://github.com/tu2-atmanand/task-board-docs/assets/TaskBoardThumbnail.png)
 
 Understand the complete UI of Task Board from here : [Task Board Pane](./Features/Task_Board_Pane.md)
 
