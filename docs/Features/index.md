@@ -1,5 +1,5 @@
 ---
-title: Task Board Features
+title: Features
 nav_order: 4
 ---
 

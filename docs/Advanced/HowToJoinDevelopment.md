@@ -1,3 +1,8 @@
+---
+parent: Advanced Topics
+title: Join the plugin Development
+---
+
 # How to join the plugin development
 
 To contribute for development of this project on github, I have made few fixed repositories for now, which have their specific tasks.

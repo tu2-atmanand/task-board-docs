@@ -2,8 +2,8 @@
 
 ## Topics
 
-- [01 - Installation](01-Installation.md)
-- [02 - Getting Started](02-GettingStarted.md)
+- [01 - Installation](Installation.md)
+- [02 - Getting Started](Getting_Started.md)
 - [03 - Features](Features/README.md)
 - [04 - Examples](Examples/README.md)
 - [05 - How to do Anything](<How To/README.md>)
@@ -25,9 +25,9 @@ Understand the complete UI of Task Board from here : [Task Board Pane](./Feature
 
 ## **How to start ?**
 
-**STEP 1 :** First install the plugin : [Installation](01-Installation.md)
+**STEP 1 :** First install the plugin : [Installation](Installation.md)
 
-**STEP 2 :** Learn how to start using the plugin, initial setup : [Getting Started](02-GettingStarted.md)
+**STEP 2 :** Learn how to start using the plugin, initial setup : [Getting Started](Getting_Started.md)
 
 **STEP 3 :** Go through various examples : [Examples](Examples/README.md)
 

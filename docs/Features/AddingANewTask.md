@@ -1,5 +1,5 @@
 ---
-layout: default
+parent: Features
 title: Adding a New Task
 ---
 
@@ -9,7 +9,7 @@ There are two way to add a new task.
 
 ## From File
 
-This method is straight forward, you have to write your task inside the file, and add all the properties to the task like due, priority, etc. in the format you follow ( Checkout : [metadata formats](./MetadataFormats.md)).
+This method is straight forward, you have to write your task inside the file, and add all the properties to the task like due, priority, etc. in the format you follow ( Checkout : [metadata formats]({% link docs/Features/MetadataFormats.md %})).
 
 ## Using Pop up Window
 

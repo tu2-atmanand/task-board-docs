@@ -1,3 +1,8 @@
+---
+parent: Features
+title: Re-scan Vault
+---
+
 # Re-Scan Vault Feature
 
 This feature helps you to scan your whole Vault files to extract the tasks. After installing the plugin you will be required to run this feature to extract all tasks only for the first time.

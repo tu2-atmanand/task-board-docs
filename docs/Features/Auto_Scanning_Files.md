@@ -1,13 +1,13 @@
 ---
-layout: default
-title: Auto Scanning
+parent: Features
+title: Auto Scanning Files
 ---
 
 # Auto Scanning
 
 This feature helps you to detect the files you have modified and then scan them automatically to extract any new added task or the old task which you have edited.
 
-This feature can be used two way, which can be controlled using the settings option : [Real-time scanning]().
+This feature can be used two way, which can be controlled using the settings option : [Real-time scanning]({% link docs/Features/RealTimeScanning.md %}).
 
 ## Real Time Scanning
 

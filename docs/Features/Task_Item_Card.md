@@ -1,3 +1,8 @@
+---
+parent: Features
+title: Task Item Card
+---
+
 # Task Item Card
 
 These is the card which you see inside the column under any specific board.

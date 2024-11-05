@@ -1,3 +1,8 @@
+---
+parent: Features
+title: Metadata Formats
+---
+
 # Metadata Format
 
 Task Board supports different types of formats to add the metadata to your tasks.

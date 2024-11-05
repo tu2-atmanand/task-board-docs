@@ -1,3 +1,8 @@
+---
+parent: Features
+title: Task Board Pane
+---
+
 # Task Board Pane
 
 This is the complete View which you will see when you will open Task Board in a new tab or in a new window.

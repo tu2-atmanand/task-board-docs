@@ -1,3 +1,8 @@
+---
+parent: Features
+title: Editing a Task
+---
+
 # Editing a Task
 
 There are two ways to edit a task.

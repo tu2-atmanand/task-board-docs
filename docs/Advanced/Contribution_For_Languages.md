@@ -1,3 +1,8 @@
+---
+parent: Advanced Topics
+title: Contribute to Language Translation
+---
+
 # Contribute to Language Translation
 
 ## How to Update existing Language content

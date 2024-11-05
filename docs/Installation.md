@@ -27,7 +27,7 @@ There are two ways you can install this plugin, either from the Official Obsidia
 
 **Step 8 :** After installing you will see a **Enable** button, click on it.
 
-**Step 9 :** The plugin has been Enabled. Move to the next step on how to start using the plugin here : [Getting Started.](02-GettingStarted.md)
+**Step 9 :** The plugin has been Enabled. Move to the next step on how to start using the plugin here : [Getting Started.](Getting_Started.md)
 
 ## Method 2 : Download the source files from Github
 
@@ -55,4 +55,4 @@ There are two ways you can install this plugin, either from the Official Obsidia
 
 **Step 12 :** Enable this plugin.
 
-**Step 13 :** The plugin has been Enabled. Move to the next step on how to start using the plugin here : [Getting Started.](02-GettingStarted.md)
+**Step 13 :** The plugin has been Enabled. Move to the next step on how to start using the plugin here : [Getting Started.](Getting_Started.md)

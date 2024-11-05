@@ -1,3 +1,8 @@
+---
+parent: Features
+title: Task Formats
+---
+
 # Task Formats
 
 This plugin only works for a specific type of tasks, which are in a particular format.
