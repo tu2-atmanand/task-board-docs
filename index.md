@@ -10,7 +10,7 @@ permalink: /
 
 ## Topics
 
-- [01 - Installation]({% link docs/Installation.md %})
+- [01 - Installation](./docs/Installation.md)
 - [02 - Getting Started]({% link docs/Getting_Started.md %})
 - [03 - Features]({% link docs/Features/index.md %})
 - [04 - Examples]({% link docs/Examples/index.md %})
