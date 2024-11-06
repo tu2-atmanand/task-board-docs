@@ -1,6 +1,7 @@
 ---
 parent: Components
 title: Metadata Formats
+nav_order: 5
 ---
 
 # Metadata Format

@@ -1,5 +1,4 @@
 ---
-layout: default
 parent: How To
 title: Create new Board
 nav_order: 3

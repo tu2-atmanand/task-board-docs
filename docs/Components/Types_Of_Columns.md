@@ -1,6 +1,7 @@
 ---
 parent: Components
 title: Types of Columns
+nav_order: 2
 ---
 
 # Types of Columns

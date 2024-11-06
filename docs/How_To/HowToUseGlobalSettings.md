@@ -16,7 +16,7 @@ If you are using only one of this filter at a time and keeping the other two dis
 
 ## Board UI Settings
 
-This are all the settings which deals with the UI part of the Task Board.
+These are all the settings which deals with the UI part of the Task Board.
 
 ### Plugin Language
 
@@ -46,7 +46,21 @@ If you like to see the scrollbar for each column, to know, how length your speci
 
 ## Tag Colors
 
+This section will allow you to assign your unique custom colors to the specific tags you want. This feature is very helpful if you have multiple tags assigned to a single task. It help to visually see the task item card appealing.
+
+If you have already added a custom tag, then it will look like below :
+![CustomTagColor](../../assets/CustomTagColor.png)
+
+- **Preview :** On the left most there will be the preview of how your tag will look like in the [header of the task item card](../Components/Task_Item_Card.md#header).
+- **Tag Name :** Next you will see the name of the tag. As of now, once you add the tag, its not editable, but soon, it will be editable.
+- **Custom Tag Color :** Next there will be an input field, in which you can enter the value of the color in RGBA Hex format.
+- **Delete Button :** Lastly there will be a delete button, using which you can delete that specific color, so that tag will take the default color/theme from your current Obsidian theme.
+
+**Add tag color :** Below all the custom colors, you will see the button to add more new custom colors for your other tags. You can add as many tag-colors as you want. Once you press the button, you will be asked to enter the name of the tag, then the to enter the color, there will be first a color palette for you to choose the color easily. And thirdly there will be an input field, for you to enter the opacity of the color since the color pallette do not supports the opacity option. Enter the value for the opacity from 0 to 1, in fractions, like 0.4, etc.
+
 ## Automation
+
+Following settings deals with the automation features supported by this plugin.
 
 ### Real-time scanning
 
