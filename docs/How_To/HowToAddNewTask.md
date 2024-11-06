@@ -8,7 +8,7 @@ nav_order: 1
 
 There are 2 ways at present to add a new task to the board.
 
-## Manual Method
+## From File
 
 This is a simplest one, old fashioned method, how you normally add a task to any file.
 Simply create a supported checkbox Item and start writing your task after the checkbox pattern. On a new line you can add more sub-tasks or description for the task as required.

@@ -1,6 +1,6 @@
 ---
-parent: Features
-title: Adding a New Task
+parent: What is new
+title: Changelog
 ---
 
 # Changelog
@@ -11,4 +11,4 @@ _In recent [Task Board releases](https://github.com/tu2-atmanand/Task-Board/rele
 
 ## 1.x.x
 
-- 
+-

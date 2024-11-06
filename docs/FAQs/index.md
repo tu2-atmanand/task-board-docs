@@ -5,12 +5,6 @@ nav_order: 8
 
 # Task Board FAQs
 
+> Questions will be added here, based on users queries.
 
-
-
-
-
-
-
-
-> If you havent found your answer here, ask question in the forum : [How to user Forum](HowTOAskQuestion.md)
+> If you haven't found your answer in this docs, ask question in the forum : [How to use Forum](../Advanced/HowToCreateRequest.md)

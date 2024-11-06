@@ -6,11 +6,13 @@ nav_order: 4
 
 # How to use the Board Specific Settigns
 
-You can able to open the Board Specific Settings from the Configure Board buttton onthe top right corner in the Task Board View as can be seen in the below impage.
+You can open the Board Specific Settings from the Configure Board button on the top right corner in the Task Board View as can be seen in the below image.
 
-< Image showing the Configure Button Icon >
+![BoardConfigButton](../../assets/BoardConfigButton.png)
 
-< Image Showing the Board Config Modal >
+This will open the settings panel as shown below :
+
+![BoardConfigureModal](../../assets/BoardConfigureModal.png)
 
 **NOTE :** Remeber to press on the `Save` button after you have changed any value for the Board settings.
 
@@ -19,7 +21,6 @@ You can able to open the Board Specific Settings from the Configure Board buttto
 ### Board Name
 
 In this text input field you will be able to enter the Name of the Board or change it any time
-
 
 ### Show tags for namedTag type columns
 
@@ -32,7 +33,7 @@ For multi-tag Task Item, other tags will be show, only the specific tag will be 
 
 ## Board Filters
 
-These are the filters you can apply to this specific board. The [Filters for Scanning](docs/Features/Filters_for_Scanning.md) works while scanning the tasks from your vault. But after all your tasks has been scanned, you can decide which of this tasks you want to see on the current board using this **Board Filters** using the following settings.
+These are the filters you can apply to this specific board. The [Filters for Scanning](../Features/Filters_for_Scanning.md) works while scanning the tasks from your vault. But after all your tasks has been scanned, you can decide which of this tasks you want to see on the current board using this **Board Filters** using the following settings.
 
 ### Filter Tags
 
@@ -42,54 +43,49 @@ For example, you can enter : #Test, #Bug, #New
 
 Now, from all the scanned tasks, only the tasks which contains either one of this tags will be shown under this board. Rest of the tasks will be hidden.
 
-
 ### Filter Polarity
 
-This is a toggle input, where you can enable or disable the complete **Board Filters** feature. 
+This is a toggle input, where you can enable or disable the complete **Board Filters** feature.
 If this checkbox is enabled, then this filters will be applied on this board.
 If this checkbox is disabled, then the filters will not be applied.
 
 You can use ths feature, kind of like searching or viewing only the specific tasks for a moment and then disable it, to see all the applicable tasks under this board.
 
-
 ### Show Filtered Tags
 
 This is again a checkbox field, which gives you an option to either show the tags on the Task Items or keep them hidden. Since, if you have enabled this feature to only show tasks which has, for example, `#Test` tag. Then You can disable this option, so the `#Test` tag will be hidden from the Task Items.
-
 
 ## Columns
 
 Under this section of settings you will see a tabular format arrangement to configure the columns under this board and also change their position.
 
-The first row in this tabular data show the information of the Task Board column and it will be show at the first postion in the Task Board View. Followed by the rest of the Columns in order.
+The first row in this tabular data show the information of the Task Board column and it will be show at the first position in the Task Board View. Followed by the rest of the Columns in order.
 
 ### Properties of the Column
 
-**Handler Button :** This button helps you to drag and drop the row, to arrange the postion of the Column inside the Task Board. If you want to change the position of the column, say from the first position to the third. Then you will have to drag the row inside this Tabular data to the third position. After saving your column will be moved to the third postion from the first.
+**Handler Button :** This button helps you to drag and drop the row, to arrange the postion of the Column inside the Task Board. If you want to change the position of the column, say from the first position to the third. Then you will have to drag the row inside this Tabular data to the third position. After saving your column will be moved to the third position from the first.
 
 **Eye Icon :** Use this button to hide your column from your board. If say, you dont want to see a specific column in the current board, but also do not want to delete that column. You can keep the board hidden, as long as you want.
 
-**Column Type :** At present there are total 6 types of columns. Learn more about each of theme from here : [Types of Columns](docs/Features/Types_Of_Columns.md).
-- **From :** Enter the value, either positive, zero or negative. Zero mean, all tasks which are scheduled for today. Postive value means, due date starting from today and in future. Negative value means, startuing from today and days in past. 
-- **To :** Enter the end value, till which the due date will be considered. Use the Types of Columns section to understand this properly.
+**Column Type :** At present there are total 6 types of columns. Learn more about each of these from here : [Types of Columns](../Features/Types_Of_Columns.md).
 
 **Column Name :** This text input field will allow you to enter or change the name of the column.
 
+- You will notice there are further more fields, which are specific to the column type. So, read the [Types of Columns](../Features/Types_Of_Columns.md) to understand more about what value to enter based on your requirement.
+
 **Max number of Items :** Currently this feature is only available to a column of type `Completed`, to restrict from showing all your completed tasks. Its recommended not to show all your completed tasks on the board, if you have completed many tasks. Only show few tasks under this column, by entering the number here, how many tasks you want to see under this column, which will help you to render the board faster.
 
-- In the future releases, there will be a new window to see all your Completed tasks.
+- In the future releases, there will be a new window to see all your completed tasks.
 
 **Delete Icon :** Using these Icons, you can able to delete the specific Column from the board. This will only delete the column and wont affect any of your tasks. You can easily create the column back if you know the configuration of this column.
-
 
 ### Add Column Button
 
 This button allows you to add more column to this board. Once you press on this button, a pop will appear as shown below :
 
-![Add Column PopUp](image.png)
+![Add Column PopUp](../../assets/AddColumnModal.png)
 
 This pop-up will ask you to select the type of the new board and the name of this new column, which are the most important fields. Dont worry, you can change the name of the column later at any time. But the type of the Column will be fixed. If you want to change the type, you will have to create a new Column and delet the previous one.
-
 
 ## Delete This Board Button
 

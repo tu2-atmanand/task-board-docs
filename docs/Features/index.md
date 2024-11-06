@@ -17,14 +17,6 @@ There are two way you can add a task to the Task Board. First is the usual old m
 
 Checkout detailed information here : [Adding new Task](./AddingANewTask.md)
 
-### Marking as Complete
-
-![Marking Task as Complete](../../assets/MarkTaskComplete.gif)
-
-Marking a Task as complete from the board is real-time, as soon as you will mark or unmark the task, the changes will be instantly made in the parent markdown file.
-
-Checkout detailed information here : [Marking a task complete](./MarkingTaskComplete.md)
-
 ### Editing a Task
 
 ![Editing a Task from Board](../../assets/EditTaskWindow.gif)
@@ -33,9 +25,17 @@ Edit task directly from the Edit Task Window. You can add different properties t
 
 Checkout detailed information here : [Editing a task](./EditingATask.md)
 
+### Marking as Complete
+
+![Marking Task as Complete](../../assets/MarkTaskComplete.gif)
+
+Marking a Task as complete from the board is real-time, as soon as you will mark or unmark the task, the changes will be instantly made in the parent markdown file.
+
+Checkout detailed information here : [Marking a task complete](./MarkingTaskComplete.md)
+
 ### Deleting a Task
 
-Directly delete unwanted task from the board using the delete Icon. The task will aslo be deleted from the parent markdown file.
+Directly delete unwanted task from the board using the delete Icon. The task will also be deleted from the parent markdown file.
 
 ### Applying Filters
 
@@ -51,4 +51,4 @@ Your contribution for updating the current content in any language or adding a n
 
 ### Re Scan Vault
 
-This is a Special feature which allows you to re-scan your whole vault to detect any undetected changes or when you update the Scan Filters settings from the Global Settings.
+This is a Special feature which allows you to re-scan your whole vault to detect any undetected changes or when you update the [Scan Filters](./Filters_for_Scanning.md) settings from the Global Settings.
