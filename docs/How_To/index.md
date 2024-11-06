@@ -1,6 +1,6 @@
 ---
 title: How To
-nav_order: 5
+nav_order: 6
 ---
 
 # How to do Anything

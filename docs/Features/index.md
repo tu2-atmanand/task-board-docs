@@ -5,11 +5,13 @@ nav_order: 4
 
 # Task Board Features
 
+Following are some of the key features  of this plugin.
+
 ### Task Formats
 
 This plugin will only detect and work with the checkbox items/tasks which are in a specific format. You can use the other formats to make the plugin ignore those tasks or subtasks.
 
-Checkout in Details here : [Task Formats](./Task_Formats.md)
+Checkout in Details here : [Task Formats](../Components/Task_Formats.md)
 
 ### Adding a Task
 

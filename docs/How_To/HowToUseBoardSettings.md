@@ -67,11 +67,11 @@ The first row in this tabular data show the information of the Task Board column
 
 **Eye Icon :** Use this button to hide your column from your board. If say, you dont want to see a specific column in the current board, but also do not want to delete that column. You can keep the board hidden, as long as you want.
 
-**Column Type :** At present there are total 6 types of columns. Learn more about each of these from here : [Types of Columns](../Features/Types_Of_Columns.md).
+**Column Type :** At present there are total 6 types of columns. Learn more about each of these from here : [Types of Columns](../Components/Types_Of_Columns.md).
 
 **Column Name :** This text input field will allow you to enter or change the name of the column.
 
-- You will notice there are further more fields, which are specific to the column type. So, read the [Types of Columns](../Features/Types_Of_Columns.md) to understand more about what value to enter based on your requirement.
+- You will notice there are further more fields, which are specific to the column type. So, read the [Types of Columns](../Components/Types_Of_Columns.md) to understand more about what value to enter based on your requirement.
 
 **Max number of Items :** Currently this feature is only available to a column of type `Completed`, to restrict from showing all your completed tasks. Its recommended not to show all your completed tasks on the board, if you have completed many tasks. Only show few tasks under this column, by entering the number here, how many tasks you want to see under this column, which will help you to render the board faster.
 

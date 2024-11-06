@@ -12,11 +12,11 @@ There are 2 ways at present to add a new task to the board.
 
 This is a simplest one, old fashioned method, how you normally add a task to any file.
 Simply create a supported checkbox Item and start writing your task after the checkbox pattern. On a new line you can add more sub-tasks or description for the task as required.
-To understand the supported format for adding a task see this : [Supported Task Fomat](Features/Task_Formats.md).
+To understand the supported format for adding a task see this : [Supported Task Fomat](../Components/Task_Formats.md).
 
 Also ensure that the file is allowed for scanning and you have not applied any [scanning filters](Features/Filters_for_Scanning.md) for files, folder or tags.
 
-Once you are done with adding all your content, just switch your focus from the current editor to the [Task Board View](../Features/Task_Board_Pane.md) and your task will be automatically added to the Task Board.
+Once you are done with adding all your content, just switch your focus from the current editor to the [Task Board View](../Components/Task_Board_Pane.md) and your task will be automatically added to the Task Board.
 
 ## Using Pop-Up Window
 

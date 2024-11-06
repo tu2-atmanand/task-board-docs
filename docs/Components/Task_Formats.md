@@ -1,5 +1,5 @@
 ---
-parent: Features
+parent: Components
 title: Task Formats
 ---
 
@@ -50,7 +50,7 @@ These are all the properties you want to apply to the task. At present there are
 - Tags.
 - Completion time-date.
 
-> Read more about Metadata here :[Task Metadata](./MetadataFormats.md)
+> Read more about Metadata here :[Task Metadata](../Components/MetadataFormats.md)
 
 **Control the Card View :** The metadata should be separated by a pipe symbol. But this is completely optional and give you an option to control how you want to see the cards inside your Task Board.
 

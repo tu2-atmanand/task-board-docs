@@ -1,5 +1,5 @@
 ---
-parent: Features
+parent: Components
 title: Metadata Formats
 ---
 

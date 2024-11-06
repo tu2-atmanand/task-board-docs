@@ -1,5 +1,5 @@
 ---
-parent: Features
+parent: Components
 title: Edit Task Window
 ---
 
@@ -21,7 +21,7 @@ This is a pop up window which helps you to edit your tasks or add more fields to
 - **Preview / Description Section** : This is a section where you can see two button to change the section in a Section tab.
 - The default section will be the **preview**, where you can see the preview of you task, exact the way it will look like in your markdown file in Reading Mode.
 - The second button is **Edit**, which will open a section with a Text Area box, in which you will see the content of the task, except the first line of the task, which is the title and other properties. Using this text area field, you can edit the sub-tasks, add more multi-level sub tasks or add simple text to the as a description for the main task.
-- Please note that, even if you add any line without indentation, it will be automatically get indented by one level according to the [task format](./Task_Formats.md).
+- Please note that, even if you add any line without indentation, it will be automatically get indented by one level according to the [task format](../Components/Task_Formats.md).
 
 ### Right Section
 

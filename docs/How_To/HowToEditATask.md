@@ -12,7 +12,7 @@ There are two ways to edit the old content of your task.
 
 This is the normal method, on how you use to edit the content of the task from the parent markdown file. You will have to open the markdown file, which contains the task and edit any property of the task you want.
 
-After you done editing, you can simply switch your focus from the editor to the [Task Board View](../Features/Task_Board_Pane.md) and your task will be instantly refreshed on the Task Board.
+After you done editing, you can simply switch your focus from the editor to the [Task Board View](../Components/Task_Board_Pane.md) and your task will be instantly refreshed on the Task Board.
 
 ## Using Edit Task Window
 
@@ -26,4 +26,4 @@ This features allows you to directly edit the cotent of the tasks from the board
 
 **Step 3 :** Remember to press save button after you have made the changes.
 
-> Understand all the features of this window from here : [Edit Task Window](EditTaskWindow.md)
+> Understand all the features of this window from here : [Edit Task Window](../Components/EditTaskWindow.md)

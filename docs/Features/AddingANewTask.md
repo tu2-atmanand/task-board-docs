@@ -11,9 +11,9 @@ There are two way to add a new task.
 
 ![Adding a new task](../../assets/AddingNewTaskFromFile.gif)
 
-This method is straight forward, you have to write your task inside the file, and add all the properties to the task like due, priority, etc. in the format you follow. Checkout : [metadata formats](./MetadataFormats.md).
+This method is straight forward, you have to write your task inside the file, and add all the properties to the task like due, priority, etc. in the format you follow. Checkout : [metadata formats](../Components/MetadataFormats.md).
 
-After adding the task, simply switch your focus from the file and you task will show up inside the board under specific column based on the [column criteria](./Types_Of_Columns.md).
+After adding the task, simply switch your focus from the file and you task will show up inside the board under specific column based on the [column criteria](../Components/Types_Of_Columns.md).
 
 ## Using Pop up Window
 

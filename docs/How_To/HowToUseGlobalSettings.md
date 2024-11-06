@@ -32,7 +32,7 @@ This is a toggle input field, which allows you to show or hide the Header sectio
 
 This is a toggle input field, which allows you to show or hide the Footer section of the Task Item Card inside the Task Board. If you have set this to false/disable, you wont able to see the Time, Due date and the Edit and Delete button.
 
-- In this case of hidden footer, double click on the Task Item Card to open the [Edit Task window](../Features/EditTaskWindow.md). From this window you will be able to delete the task.
+- In this case of hidden footer, double click on the Task Item Card to open the [Edit Task window](../Components/EditTaskWindow.md). From this window you will be able to delete the task.
 
 > You can use this and the previous setting option, if you are not making use of this fiels for a task and you want a distraction free, minimalistic experience to manage your tasks and keep them simple.
 

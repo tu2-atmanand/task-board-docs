@@ -15,7 +15,7 @@
 
 ![Task Board Thumbnail](https://github.com/tu2-atmanand/task-board-docs/assets/TaskBoardThumbnail.png)
 
-Understand the complete UI of Task Board from here : [Task Board Pane](./Features/Task_Board_Pane.md)
+Understand the complete UI of Task Board from here : [Task Board Pane](./Components/Task_Board_Pane.md)
 
 ## **How Does it work ?**
 

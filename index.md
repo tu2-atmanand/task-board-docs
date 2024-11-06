@@ -19,11 +19,11 @@ permalink: /
 
 ## What is Task Board?
 
-[**Task Board**](https://github.com/tu2-atmanand/Task-Board) is an Obsidian plugin to view and manage all your task in a much more efficient Kanban Board format. Easily manage your tasks throughout your vault.
+[**Task Board**](https://github.com/tu2-atmanand/Task-Board) is an [Obsidian](https://obsidian.md/) plugin to view and manage all your task in a much more efficient Kanban Board format. Easily manage your tasks throughout your vault.
 
 ![Task Board Thumbnail](./assets/TaskBoardThumbnail.png)
 
-Understand the complete UI of Task Board from here : [Task Board Pane](./docs/Features/Task_Board_Pane.md)
+Understand the complete UI of Task Board from here : [Task Board Pane](./docs/Components/Task_Board_Pane.md)
 
 ## **How Does it work ?**
 
@@ -37,10 +37,10 @@ Understand the complete UI of Task Board from here : [Task Board Pane](./docs/Fe
 
 **STEP 2 :** Learn how to start using the plugin, initial setup : [Getting Started](./docs/Getting_Started.md)
 
-**STEP 3 :** Go through various examples : [Examples](./docs/Examples/index.md)
+**STEP 3 :** Understand all the features to use the plugin efficiently : [Features](./docs/Features/index.md)
 
-**STEP 4 :** Understand all the features to use the plugin efficiently : [Features](./docs/Features/index.md)
+**STEP 4 :** Go through the how to section, to learn how to do a specific thing faster : [Examples](./docs/Examples/index.md)
 
-> For any queries try to find your answer here : [Frequently Asked Questions](./docs/FAQs/index.md)
+> For any queries try to find your answer here : [Task Board FAQs](./docs/How_To/index.md)
 
 <script> const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'dark') { jtd.setTheme('light'); toggleDarkMode.textContent = 'Preview dark color scheme'; } else { jtd.setTheme('dark'); toggleDarkMode.textContent = 'Return to the light side'; } }); </script>
