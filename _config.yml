@@ -47,7 +47,7 @@ exclude:
   - fixtures/
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/kanban.png"
+logo: "/assets/images/DocsWebsiteLogo.png"
 
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/assets/images/favicon.ico"
