@@ -1,7 +1,7 @@
 ---
 parent: How To
 title: Edit a Task
-nav_order: 3
+nav_order: 2
 ---
 
 # How to edit a task

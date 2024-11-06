@@ -2,7 +2,7 @@
 layout: default
 parent: How To
 title: Create new Board
-nav_order: 2
+nav_order: 3
 ---
 
 # How to create a new Board
