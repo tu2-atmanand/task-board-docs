@@ -20,11 +20,11 @@ Click on the Re-Scan Vault button which you will see inside the View Header from
 
 ![ReScanVaultModalOpen](../assets/ReScanVaultModalOpen.png)
 
-**NOTE** : You wont need to use this Re-Scan Vault feature often its only for fresh install or for special cases like troubleshooting or solving any other issue. Learn more here : [Re-Scan Vault Feature](./Feature/ReScan_Vault_Feature.md)
+**NOTE** : You wont need to use this Re-Scan Vault feature often its only for fresh install or for special cases like troubleshooting or solving any other issue. Learn more here : [Re-Scan Vault Feature](./Features/ReScan_Vault_Feature.md)
 
-All your tasks with the [accepted format](Features/Task_Formats.md) will going to get scanned from all your files and will be displayed on the board based on the specific [Column Criteria]().
+All your tasks with the [accepted format](Features/Task_Formats.md) will going to get scanned from all your files and will be displayed on the board based on the specific [Column Criteria](./Features/Types_Of_Columns.md).
 
-Afterwards, use the [Scanning Filters]() from the main settings to only scan specific files and ignore the other files.
+Afterwards, use the [Scanning Filters](./Features/Filters_for_Scanning.md) from the main settings to only scan specific files and ignore the other files.
 
 There are already two predefined board for your convenience as an example. Feel free to delete or edit the boards and create your own boards. Check out more informat on Board here : [Creating Boards](./How_To/HowToCreateNewBoard.md)
 

@@ -12,10 +12,10 @@ There are two ways you can install this plugin, either from the Official Obsidia
 **Step 1 :** Open the Obsidian application.
 
 **Step 2 :** Open the Settings Panel using the Gear Icon from the Side bar:
-![Open Settings Panel](./assets/OpenSettingsPanel.png)
+![Open Settings Panel](../assets/OpenSettingsPanel.png)
 
 **Step 3 :** Click on the Community Plugins Tab from the Right Sidebar.
-![alt text](./assets/CommunityBrowseButton.png)
+![alt text](../assets/CommunityBrowseButton.png)
 
 **Step 4 :** Click on the Browser button from the pane.
 

@@ -25,4 +25,4 @@ On the right side of this section there are two button :
 
 ## Active Board Section
 
-In this section you will be able to see all your columns of the board in order, the way you organized them in the Board Configuration. In side the Columns you will be able to see all your tasks as a [Task Item Card](Features/Task_Item_Card.md) as applicable. The tasks will be placed in the respective columns based on the [column criteria](Features/Types_Of_Columns.md).
+In this section you will be able to see all your columns of the board in order, the way you organized them in the Board Configuration. In side the Columns you will be able to see all your tasks as a [Task Item Card](./Task_Item_Card.md) as applicable. The tasks will be placed in the respective columns based on the [column criteria](./Types_Of_Columns.md).

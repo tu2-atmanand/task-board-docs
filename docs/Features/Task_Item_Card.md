@@ -7,6 +7,8 @@ title: Task Item Card
 
 These is the card which you see inside the column under any specific board.
 
+![Task Item Card](../../assets/TaskItemLegend.png)
+
 ## Header
 
 The Header section of this card will consists of the following three things :
