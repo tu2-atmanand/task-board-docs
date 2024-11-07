@@ -30,7 +30,8 @@ But this plugin only works for the first kind of checkbox or detects any line as
 
 So, if you want the plugin to not detect any of your task and consider the task as normal text, then you can use the other types of formats. This even works for sub-task. Any sub-tasks with the patter other than supported by this plugin, will be considered as a description content for the task and will be shown under the Description section and not as a sub-task.
 
-{: .note } Please note that, only the tasks without any indentation will be detected by this plugin. So if you say have something like below content inside your markdown file, the task wont be detected. Submit a [request](../Advanced/HowToCreateRequest.md) if you want to have this functionality.
+{: .note }
+> Please note that, only the tasks without any indentation will be detected by this plugin. So if you say have something like below content inside your markdown file, the task wont be detected. Submit a [request](../Advanced/HowToCreateRequest.md) if you want to have this functionality.
 
 ```md
 This is a simple line without any indentation or an paragraph.
