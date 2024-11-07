@@ -5,6 +5,9 @@ title: Join the plugin Development
 
 # How to join the plugin development
 
+{: .d-inline-block }
+Advanced {: .label .label-yellow }
+
 To contribute for development of this project on github, I have made few fixed repositories for now, which have their specific tasks.
 
 The complete workflow can be tracked from the Task Board GitHub Project.

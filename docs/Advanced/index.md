@@ -5,6 +5,10 @@ nav_order: 9
 
 # Advanced Topics
 
+Thank you so much for checking out Task Board !
+
+If you would like to contribute to this project in any ways, check out the following topics.
+
 ## How to Contribute for Language Translation
 
 Check-out here : [Contribution for Language Translation](./Contribution_For_Languages.md)

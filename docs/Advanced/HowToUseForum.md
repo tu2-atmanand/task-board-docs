@@ -1,3 +1,8 @@
+---
+parent: Advanced Topics
+title: Use the forum
+---
+
 # How to use the Forum
 
 This forum is basically the GitHub Discussion section of the Task Board repository. Any person using this plugin will be able to answer your query if the admin couldnt able to reach sooner.

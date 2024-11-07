@@ -5,19 +5,13 @@ title: Adding a New Task
 
 # Adding a New Task
 
-There are two way to add a new task.
+There are two ways to add a new task to the board. The first, normal method which you know is by directly writing inside the markdown file learn more here : [Adding new task from file](../How_To/HowToAddNewTask.md#from-file).
 
-## From File
+But this plugin gives you a special functionality for adding task with easy as explained below.
 
-![Adding a new task](../../assets/AddingNewTaskFromFile.gif)
+## Add Task Window
 
-This method is straight forward, you have to write your task inside the file, and add all the properties to the task like due, priority, etc. in the format you follow. Checkout : [metadata formats](../Components/MetadataFormats.md).
-
-After adding the task, simply switch your focus from the file and you task will show up inside the board under specific column based on the [column criteria](../Components/Types_Of_Columns.md).
-
-## Using Pop up Window
-
-This window gives you the power to add new task to a file with easy, because of various input element it provides and add the task content to the file following a global format.
+This window gives you the power to add new task to a file with easy. Since various plugins have their own way of adding properties/[metadata](../Components/MetadataFormats.md) to the task, this window helps you to add the task content by following a global format and formatting all your tasks to follow the same format as configured by you in the setting.
 
 The plugin provides a command to add new task to the currently opened markdown file as shown below :
 
@@ -25,4 +19,4 @@ The plugin provides a command to add new task to the currently opened markdown f
 
 > Assign a hotkey to this command to use this functionality faster.
 
-- Please note that before running the command (that is opening the window), place your cursor in the editor where you want to add the task.
+{: .note } Please note that before running the command, place your cursor in the editor where you want to add the task. For running the command its important that you are focusing inside an active editor.

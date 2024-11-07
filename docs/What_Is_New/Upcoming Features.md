@@ -13,3 +13,5 @@ title: Upcoming Features
 - **Adding colors to tags :** You will be able to assign different colors to a specific tags.
 
 ## Road Map
+
+You can see the complete project roadmap on GitHub : [Task Board Roadmap](https://github.com/users/tu2-atmanand/projects/2/views/1)

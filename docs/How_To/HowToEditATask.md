@@ -16,7 +16,7 @@ After you done editing, you can simply switch your focus from the editor to the 
 
 ## Using Edit Task Window
 
-This features allows you to directly edit the cotent of the tasks from the board. You dont have to open the parent markdown file of this task to edit it. The chnages will be reflected in the markdown file.
+This features allows you to directly edit the content of the tasks from the board. You don't have to open the parent markdown file of this task to edit it. The changes will be reflected in the markdown file.
 
 **Step 1 :** Click on the Edit Icon button to open the **Edit Task Window**.
 

@@ -1,3 +1,8 @@
+---
+parent: Advanced Topics
+title: Contribute to documentation
+---
+
 # How to Contribute to Task Board Documentation
 
 If you would like to improve this current documentation website content or would like to suggest any ideas, please go through the below content.
