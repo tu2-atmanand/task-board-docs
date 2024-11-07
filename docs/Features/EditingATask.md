@@ -1,6 +1,7 @@
 ---
 parent: Features
 title: Editing a Task
+nav_order: 2
 ---
 
 # Editing A Task

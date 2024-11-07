@@ -14,6 +14,7 @@ This will open the settings panel as shown below :
 
 ![BoardConfigureModal](../../assets/BoardConfigureModal.png)
 
+{: .note }
 **NOTE :** Remeber to press on the `Save` button after you have changed any value for the Board settings.
 
 ## Basic Settings
@@ -24,6 +25,7 @@ In this text input field you will be able to enter the Name of the Board or chan
 
 ### Show tags for namedTag type columns
 
+{: .note }
 > This settings only works for namedTag type of columns.
 
 Since, the column of type namedTag will show all the tasks which has the specific tag. Then it makes no sense to show the tag on the tasks, since its obvious that all the tasks under the specific column will have the same tag as that of the Column tag.
@@ -93,4 +95,5 @@ This button will delete the current board. After you click on this button, a pop
 
 This operation is not reversible. Take care while delete the board. But its also easy to create a new board, if you remeber the board structure. Dont worry.
 
-> Delete a board or changing any setting inside the board makes no changes to you tasks. You can only change the content of your tasks either from the Edit Task window or using the delete button inside the Task Item Card.
+{: .note }
+> Deleting a board or changing any setting inside the board makes no changes to you tasks. You can only change the content of your tasks either from the Edit Task window or using the delete button inside the Task Item Card.

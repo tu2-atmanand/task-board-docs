@@ -7,4 +7,4 @@ nav_order: 8
 
 > Questions will be added here, based on users queries.
 
-> If you haven't found your answer in this docs, ask question in the forum : [How to use Forum](../Advanced/HowToCreateRequest.md)
+{: .note } If you haven't found your answer in this docs, ask question in the forum : [How to use Forum](../Advanced/HowToCreateRequest.md)
