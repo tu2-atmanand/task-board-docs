@@ -22,6 +22,7 @@ This section will explain you how to create a new board inside the [Task Board V
 
 **Step 4 :** Now you can edit the properties of this board like Board Name, Board Filters and adding columns to this board.
 
+{: .note }
 > For a fresh new board, it will be empty by default, you have to add columns into it as per your choice. Go through this page to understand which types of column you need to add : [Adding New Columns](./HowToAddNewColumn.md)
 
 **Step 5 :** Once you are done with your changes, click on the `Save` button from the left side bar.
