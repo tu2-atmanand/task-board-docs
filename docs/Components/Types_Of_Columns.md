@@ -30,14 +30,19 @@ Using these above two values you are creating a range of dates. For example, if 
 
 Here is a table for you to understand how you can create a column to with a range to show the specific tasks you want:
 
-| From | To  | Range                                                                      |
-| ---- | --- | -------------------------------------------------------------------------- |
-| 0    | 0   | All the tasks which have today's date as due date.                         |
-| 1    | 1   | All the tasks which have tomorrow's date as due date.                      |
-| -1   | -1  | All the tasks which had yesterday's date as the due date. (overdue tasks)  |
-| 1    | 7   | All the tasks which are scheduled for next 7 days, starting from tomorrow. |
-| -1   |     | All the overdue tasks.                                                     |
-| 1    |     | All the tasks scheduled for future, starting from tomorrow.                |
+| From | To | Range                                                                      |
+|------|----|----------------------------------------------------------------------------|
+| 0    | 0  | All the tasks which have today's date as due date.                         |
+| 1    | 1  | All the tasks which have tomorrow's date as due date.                      |
+| -1   | -1 | All the tasks which had yesterday's date as the due date. (overdue tasks)  |
+| 1    | 7  | All the tasks which are scheduled for next 7 days, starting from tomorrow. |
+| -1   |    | All the overdue tasks.                                                     |
+| 1    |    | All the tasks scheduled for future, starting from tomorrow.                |
+
+{: .note }
+> Observe that, the **To** field for the last two column in above table has been kept empty. Empty field indicates and infinity value, which means, if you want to display all tasks starting from tomorrow going upto infinity in future, you can just leave the field empty or enter a zero, that will work as well.
+>
+> You might also find out that, while entering 0 in the field, it keeps the field empty, thats a normal behavior in obsidian and it will work as expected, as per the above column.
 
 ## Tagged
 

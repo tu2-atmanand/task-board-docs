@@ -24,6 +24,8 @@ On the right side of this section there are two button :
 
 - **Configure Board :** This button will open the [Configure Board Window](../How_To/HowToUseBoardSettings.md), to change the settings of the currently active board. You can also able to see the settings of other boards in the same window as well as a tab for [Global Settings](../How_To/HowToUseGlobalSettings.md).
 
+- **Refresh Board :** This button helps you to refresh the board with the latest data or to solve any UI anomaly you might see for few Task Items. In normal usage you might not to use this button. This button is very useful when the [Real-Time Scanning](../How_To/HowToUseGlobalSettings.md#real-time-scanning) option is **OFF** and you are doing the [manual scanning](../Features/Auto_Scanning_Files.md#manual-scanning).
+
 ## Active Board Section
 
 In this section you will be able to see all your columns of the board in order, the way you organized them in the Board Configuration. In side the Columns you will be able to see all your tasks as a [Task Item Card](./Task_Item_Card.md) as applicable. The tasks will be placed in the respective columns based on the [column criteria](./Types_Of_Columns.md).

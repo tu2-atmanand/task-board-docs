@@ -8,9 +8,7 @@ permalink: /
 
 # **Task Board**
 
-{: .d-inline-block }
-
-**"Document your progress while completing your tasks"** {: .mx-auto}
+**"Document your progress while completing your tasks"**
 
 [Get started now](#how-to-start-?){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 .mx-auto }
 [View it on GitHub](https://github.com/tu2-atmanand/Task-Board){: .btn .fs-5 .mb-4 .mb-md-0 .mx-auto }
@@ -50,7 +48,10 @@ Understand the complete UI of Task Board from here : [Task Board Pane](./docs/Co
 **STEP 4 :** To get quick answers, you can use the Examples section : [Examples](./docs/Examples/index.md)
 
 {: .new-title }
+> Important
+>
 > For any queries try to find your answer here : [Task Board FAQs](./docs/How_To/index.md)
+>
 > If you would like to contribute to this project or the docs, read this : [How to Contribute](./docs/Advanced/index.md).
 
 ## Motivation for the Project
@@ -63,7 +64,7 @@ While development I took inspirations from CardBoard and Kanban plugin as well a
 
 A great effort of work has been put into this idea to make it happen. I created the plugin for personal use, but I believed it will surely help other to make their work easier in managing tasks and handling project. If you have got benefitted with this plugin, consider donating for further improvement of this idea.
 
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/tu2-atmanand?label=Sponsor&logo=GitHub%20Sponsors&style=for-the-badge)](https://github.com/sponsors/tu2-atmanand) <a href="https://www.buymeacoffee.com/tu2_atmanand"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a book&emoji=📖&slug=tu2_atmanand&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a> {: .mx-auto }
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/tu2-atmanand?label=Sponsor&logo=GitHub%20Sponsors&style=for-the-badge)](https://github.com/sponsors/tu2-atmanand) <a href="https://www.buymeacoffee.com/tu2_atmanand"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a book&emoji=📖&slug=tu2_atmanand&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 ## License
 

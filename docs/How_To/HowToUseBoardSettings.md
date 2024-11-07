@@ -14,8 +14,10 @@ This will open the settings panel as shown below :
 
 ![BoardConfigureModal](../../assets/BoardConfigureModal.png)
 
-{: .note }
-**NOTE :** Remeber to press on the `Save` button after you have changed any value for the Board settings.
+{: .new-title }
+> Save Button
+>
+> Remember to press on the `Save` button after you have changed any value for the Board settings.
 
 ## Basic Settings
 
