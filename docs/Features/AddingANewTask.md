@@ -1,6 +1,7 @@
 ---
 parent: Features
-title: Adding a New Task
+title: Adding a new Task
+nav_order: 1
 ---
 
 # Adding a New Task
@@ -19,4 +20,5 @@ The plugin provides a command to add new task to the currently opened markdown f
 
 > Assign a hotkey to this command to use this functionality faster.
 
-{: .note } Please note that before running the command, place your cursor in the editor where you want to add the task. For running the command its important that you are focusing inside an active editor.
+{: .note }
+> Please note that before running the command, place your cursor in the editor where you want to add the task. For running the command its important that you are focusing inside an active editor.

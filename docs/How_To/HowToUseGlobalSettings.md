@@ -99,7 +99,7 @@ This toggle input fields helps you to enable or disable the [Real-Time Scanning 
 This option help you add due date automatically if you havent entered any value for the due input field inside the [Add/Edit Task Window](../Components/EditTaskWindow.md). This feature only works when you are adding a new task using the Window provided by this plugin.
 
 {: .note }
-When you will be editing a task and if the task do not have any due date set to it, this feature will auto-assign today's date as a due date to that task. So keep this in mind if you have enabled this feature. If you do not want this functionality, you can disable this.
+> When you will be editing a task and if the task do not have any due date set to it, this feature will auto-assign today's date as a due date to that task. So keep this in mind if you have enabled this feature. If you do not want this functionality, you can disable this.
 
 ### Auto-scan the vault on Obsidian start-up
 

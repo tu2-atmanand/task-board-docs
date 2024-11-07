@@ -1,6 +1,7 @@
 ---
 parent: Features
 title: Scanning Filters
+nav_order: 6
 ---
 
 # Filters for Scanning

@@ -1,6 +1,7 @@
 ---
 parent: Features
 title: Re-scan Vault
+nav_order: 5
 ---
 
 # Re-Scan Vault Feature

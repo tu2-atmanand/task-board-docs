@@ -1,6 +1,7 @@
 ---
 parent: Features
 title: Auto Scanning Files
+nav_order: 4
 ---
 
 # Auto Scanning

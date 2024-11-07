@@ -21,4 +21,5 @@ If you have created a fresh new board you board configuration will look like fol
 
 **Step 5 :** You new colmn will appear inside your board. you can choose to add more different types of columns as you need inside the board.
 
+{: .new-title }
 > Remember to click on the save button, to save your new changes.
