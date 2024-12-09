@@ -19,7 +19,7 @@ If you have created a fresh new board you board configuration will look like fol
 
 **Step 4 :** Click on `Submit` button once you have filled the required options.
 
-**Step 5 :** You new colmn will appear inside your board. you can choose to add more different types of columns as you need inside the board.
+**Step 5 :** You new column will appear inside your board. you can choose to add more different types of columns as you need inside the board.
 
 {: .new-title }
 > Save Button

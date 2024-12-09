@@ -26,6 +26,6 @@ All your tasks with the [accepted format](./Components/Task_Formats.md) will goi
 
 Afterwards, use the [Scanning Filters](./Features/Filters_for_Scanning.md) from the main settings to only scan specific files and ignore the other files.
 
-There are already two predefined board for your convenience as an example. Feel free to delete or edit the boards and create your own boards. Check out more informat on Board here : [Creating Boards](./How_To/HowToCreateNewBoard.md)
+There are already two predefined board for your convenience as an example. Feel free to delete or edit the boards and create your own boards. Check out more information on Board here : [Creating Boards](./How_To/HowToCreateNewBoard.md)
 
 **Enjoy the plugin !**

@@ -63,7 +63,7 @@ Intuitively, this column will show you all the tasks, which has not been provide
 
 ## Other Tags
 
-Now, after you have understood what are **Untagged** and **Tagged** column, there might be case, where you have given a tag to many tasks and you havent created a **Tagged** type of column for this tasks, then these tasks wont be shown on the board at all, since they also do not fall under the **Untagged** column type criteria. For all these tasks, you can create a **Other Tags** type of column, to show all this tasks under this column
+Now, after you have understood what are **Untagged** and **Tagged** column, there might be case, where you have given a tag to many tasks and you haven't created a **Tagged** type of column for this tasks, then these tasks wont be shown on the board at all, since they also do not fall under the **Untagged** column type criteria. For all these tasks, you can create a **Other Tags** type of column, to show all this tasks under this column
 
 ### Properties
 
@@ -78,7 +78,7 @@ This type of column will show you all the tasks, which has been marked as comple
 ### Properties
 
 - **Column Name :** The first property will be as usual the name of the column which you want to see on the column header.
-- **Max Items :** This is a number value you want to enter to set a limit to the number of task item cards you want to see under this column. This has been kept to limit the number of tasks rendered under this column, because over a time, you might complete lot of tasks, and if you havent deleted these tasks from you vault, then they will be getting appended under this column and will increase the load time of the board, hence setting a limit will help you to show only the latest completed tasks.
+- **Max Items :** This is a number value you want to enter to set a limit to the number of task item cards you want to see under this column. This has been kept to limit the number of tasks rendered under this column, because over a time, you might complete lot of tasks, and if you haven't deleted these tasks from you vault, then they will be getting appended under this column and will increase the load time of the board, hence setting a limit will help you to show only the latest completed tasks.
 
 # Upcoming New Column types
 

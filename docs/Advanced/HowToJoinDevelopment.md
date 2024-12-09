@@ -11,9 +11,9 @@ To contribute for development of this project on github, I have made few fixed r
 
 The complete workflow can be tracked from the [Task Board GitHub Project](https://github.com/users/tu2-atmanand/projects/2).
 
-You can go through which issue/feature has been worked on at present, which issues are ready to be implemented and which issues has not been assigned at present to anyone or havent been started yet.
+You can go through which issue/feature has been worked on at present, which issues are ready to be implemented and which issues has not been assigned at present to anyone or haven't been started yet.
 
-If you feel like, you can work on any issue which has not been assigned to any one. Then open the issue, go to the end and add a new comment by taggin the project admin and mention that you want to start working on this issue. Also ensure that, no one else has commented the same, else it will be same work being done by two people.
+If you feel like, you can work on any issue which has not been assigned to any one. Then open the issue, go to the end and add a new comment by tagging the project admin and mention that you want to start working on this issue. Also ensure that, no one else has commented the same, else it will be same work being done by two people.
 
 After mentioning this you can directly start working on the issue by [creating a fork]() of the project and then creating a new branch from the `pluginTesting` branch.
 
@@ -45,9 +45,9 @@ This branch is to be used, after every planned issue for the upcoming release/mi
 In this branch :
 
 - Will remove all the console statements.
-- All development code, delete unncesary comments.
+- All development code, delete unnecessary comments.
 - Write better comments.
-- If any strings has been chaged, translate those updated strings to other languages.
+- If any strings has been changed, translate those updated strings to other languages.
 
 ---
 
