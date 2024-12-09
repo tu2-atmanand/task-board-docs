@@ -36,7 +36,7 @@ By default the Task Description content will be hidden. You will see a light col
 
 The Description content is kept hidden by default is because, there can be a lot of content inside the description for the task, and keeping in visible will consume a lot of board area, which will defeat the methodology of a Kanban Board. Whenever you want to take a look at the content of the Description of any specific task, you can expand it and read the content or make use of the links from the content.
 
-Another thing is, the content will be compressed, that, is the indentaion of the content lines will be removed to save space. The idea here is to just show the content and not to worry about the formatting much, although all the other formatting will be applied like bold, italic, etc. The indentation is removed to again, show all the content in as much less area as posssible. You can look at the actual content by opening the [Edit Task Window](./EditTaskWindow.md) or by directly opening the markdown file.
+Another thing is, the content will be compressed, that, is the indentation of the content lines will be removed to save space. The idea here is to just show the content and not to worry about the formatting much, although all the other formatting will be applied like bold, italic, etc. The indentation is removed to again, show all the content in as much less area as possible. You can look at the actual content by opening the [Edit Task Window](./EditTaskWindow.md) or by directly opening the markdown file.
 
 ## Footer
 
@@ -46,4 +46,4 @@ The Footer section will show the following three task properties :
 
 **2. Task Due Date :** After the Task Duration, you will be able to see the Due date of the task separated from the Duration value by a Pipe symbol. The Due Date will be mention using a Calender Icon before its value.
 
-**3. Button Sectoin :** On the far right in this section, you will able to see two main button, first one is the `Edit Task` button, which will open the Edit Task Window and the second button is `Delete Task`, which will simply delete the task from the board as well as the content will also be removed from the parent markdown file.
+**3. Button Section :** On the far right in this section, you will able to see two main button, first one is the `Edit Task` button, which will open the Edit Task Window and the second button is `Delete Task`, which will simply delete the task from the board as well as the content will also be removed from the parent markdown file.

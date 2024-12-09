@@ -31,7 +31,7 @@ Checkout detailed information here : [Editing a task](./EditingATask.md)
 
 ![Marking Task as Complete](../../assets/MarkTaskComplete.gif)
 
-Marking a Task as complete from the board is real-time, as soon as you will mark or unmark the task, the changes will be instantly made in the parent markdown file.
+Marking a Task as complete from the board is real-time, as soon as you will mark or un-mark the task, the changes will be instantly made in the parent markdown file.
 
 Checkout detailed information here : [Marking a task complete](./MarkingTaskComplete.md)
 
@@ -48,7 +48,7 @@ A new type of filters are coming soon, called as Column Filters to filter out ta
 
 ### Multi-Language Support
 
-The plugin currently supports more than 20 languages and new languages are planned to being  added in subsequent relases. Although a proper care has been taken to translate the default english language to other languages, the exact content meaning cannot be guarenteed, since online services has been used to translation.
+The plugin currently supports more than 20 languages and new languages are planned to being  added in subsequent releases. Although a proper care has been taken to translate the default english language to other languages, the exact content meaning cannot be guaranteed, since online services has been used to translation.
 Your contribution for updating the current content in any language or adding a new language will be highly appreciated. It will be easy but a powerful step to make this plugin, accessible to many people. Read this doc to learn to contribute for Language Translation : [Contribute To Language Translation](../Advanced/Contribution_For_Languages.md).
 
 ### Re Scan Vault

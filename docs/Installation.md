@@ -33,7 +33,7 @@ There are two ways you can install this plugin, either from the Official Obsidia
 
 **Step 1 :** Open this link : [Task Board Release]()
 
-**Step 2 :** Downlod the `main.js`, `styles.css` and `data.json` file.
+**Step 2 :** Download the `main.js`, `styles.css` and `data.json` file.
 
 **Step 3 :** Open the vault in your system Explore/File Manager.
 

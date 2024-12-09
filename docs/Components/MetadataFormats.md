@@ -30,7 +30,7 @@ You can choose one of the following options in the Task Board setting to keep th
 | Dataview              | [due:: 2024-10-31] | Any                                      | [priority:: highest] * | #test | [completion:: 2021-10-31T21:52:22] |
 | Obsidian Native       | @due(2024-10-31)   | Any                                      | Any                    | #test | @completion(2021-10-29)            |
 
-- You also have the option to mix these formats with one another. For example, say you dont like to see the emojies for priority, you can use other format, and that will still work.
+- You also have the option to mix these formats with one another. For example, say you dent like to see the emojis for priority, you can use other format, and that will still work.
 - **Any** mean, for this field, you can use any type of format from that column, for the specific plugin/setting option you have selected.
 
 *Under Development

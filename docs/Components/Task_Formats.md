@@ -79,7 +79,7 @@ But if you haven't added the pipe symbol, then it will look like :
 The Description section and the sub-tasks combined are called the **task body**.
 
 - Always ensure  to have atleast one-level of indentation for any line to be considered as the part of the task body.
-- Also, there shouldnt be an empty line inside the task body, otherwise, the part after the empty line will be considered as a separate content even though it has an indentation. So, this criteria can be used to separate other content from the task content.
+- Also, there should not be an empty line inside the task body, otherwise, the part after the empty line will be considered as a separate content even though it has an indentation. So, this criteria can be used to separate other content from the task content.
 
 ### Description
 
@@ -87,7 +87,7 @@ The description is basically the further elaboration of the task or even the sub
 
 ### Sub Tasks
 
-To Create a subTasks for the main task, its is important that, there has to be atleast one Level indentation and there shouldnt be any empty lines between the task title and the sub-tasks.
+To Create a subTasks for the main task, its is important that, there has to be atleast one Level indentation and there should not be any empty lines between the task title and the sub-tasks.
 
 You can have any number of sub-tasks and with multi-indentation. For example:
 

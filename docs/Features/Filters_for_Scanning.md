@@ -29,15 +29,15 @@ This is a **dropdown** which allows you to set the status of the files filter or
 
 - **Only Scan This :** If you have entered few file names and you have set this status for this filter. Then the plugin will scan only this files and rest all of your files will be ignored. The plugin will keeps tracking this files for any changes and will detect if the tasks has been updated or a new tasks has been added. Either real-time or on periodic basis.
 
-- **Dont Scan This :** If you have selected this feature, then the plugin will not  going to scan the files. All the rest of the files from the vault will be scanned and tracked for changes. Use this feature, if there are some private files/tasks you dont want to see on the Task Board.
+- **Dont Scan This :** If you have selected this feature, then the plugin will not  going to scan the files. All the rest of the files from the vault will be scanned and tracked for changes. Use this feature, if there are some private files/tasks you don't want to see on the Task Board.
 
 - **Disable :** This option will help you to temporarily disable this specific filter. If for some reason, you also want the entered files to be get scanned or want to scan all other files other than the entered files. Then you can disable the filter, so the plugin can scan all the files from your vault.
 
-> Please note that, even if you have disabled this filter, dont forget to check the status of the below filter, since, the below filter will still going to get applied, if you havent set the status of the below Filters for Folder as not disabled.
+> Please note that, even if you have disabled this filter, don't forget to check the status of the below filter, since, the below filter will still going to get applied, if you haven't set the status of the below Filters for Folder as not disabled.
 
 ## Filters for Folder
 
-In the seccond row you will enter the folder names which you will be going to use for the filters.
+In the second row you will enter the folder names which you will be going to use for the filters.
 
 ### Folder Names
 
@@ -50,7 +50,7 @@ New Folder 1, New Folder 2
 
 If you are giving a folder name which is inside another folder, then, enter the path of the folder from your Vault location.
 
-For exaple, if you want to enter the specific folder name, say 'New folder' and this folder is inside another folder say 'Parent Folder'. Then enter the full path of this folder :
+For example, if you want to enter the specific folder name, say 'New folder' and this folder is inside another folder say 'Parent Folder'. Then enter the full path of this folder :
 
 ```
 Parent Folder/new folder
@@ -76,7 +76,7 @@ This filter can be used, when you only want to scan tasks which has certain tags
 
 ### Tag Names
 
-In this text input field you will enter the names of the tags along with the '#' symbol at the begining of the name/string and separate the multiple tags with comma.
+In this text input field you will enter the names of the tags along with the '#' symbol at the beginning of the name/string and separate the multiple tags with comma.
 
 For example you want to enter the tags 'Bug', 'docs/bug' and 'feature'. Then enter the names as shown below :
 
@@ -90,6 +90,6 @@ Similar to the above two files, this also works similar way.
 
 - **Only Scan This :** The plugin will only scan the tasks which contains the tags entered in the input field by you.
 
-- **Dont Scan This :** The plugin will not going to scan any task, which contains any one of the tag mentioned in the input field by you. All the other tasks will going to get scanned, if those tasks doesnt contain any tag mentioned by you in the input field.
+- **Dont Scan This :** The plugin will not going to scan any task, which contains any one of the tag mentioned in the input field by you. All the other tasks will going to get scanned, if those tasks doesn't contain any tag mentioned by you in the input field.
 
 - **Disable :** Keep this filter disabled. All tasks will going to get scanned.
