@@ -1,10 +1,10 @@
 ---
 parent: Features
-title: Re-scan Vault
+title: Scan Vault
 nav_order: 5
 ---
 
-# Re-Scan Vault Feature
+# Scan Vault Feature
 
 This feature helps you to scan your whole Vault files to extract the tasks. After installing the plugin you will be required to run this feature to extract all tasks only for the first time.
 
@@ -12,11 +12,11 @@ You dont have to run this feature after the initial setup, since all your tasks 
 
 But you can make use of this feature, if you have found some issue while extracting the tasks or few of your tasks has not been extracted properly.
 
-You can also use an option from the setting to run this feature at Obsidian startup. This settings option is been kept OFF by default, since in normal case, you wont be required to run the Re-Scan feature often. But if in your specific situation, if you are modifying your markdown files outside of Obsidian or when Obsidian is closed, you can turn on this setting option.
+You can also use an option from the setting to run this feature at Obsidian startup. This settings option is been kept OFF by default, since in normal case, you wont be required to run the Scan feature often. But if in your specific situation, if you are modifying your markdown files outside of Obsidian or when Obsidian is closed, you can turn on this setting option.
 
 Please note  that, if your Vault is very large in size and contains files with huge amount of data, then consider applying [Scan Filter](../Features/Filters_for_Scanning.md) to only scan specific files or restrict from scanning certain files, to save the scanning time.
 
-## Re-Scan Window
+## Scan Window
 
 ![ReScan Vault Window Open](../../assets/ReScanVaultModalOpen.png)
 

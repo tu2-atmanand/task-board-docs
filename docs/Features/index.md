@@ -53,4 +53,4 @@ Your contribution for updating the current content in any language or adding a n
 
 ### Re Scan Vault
 
-This is a Special feature which allows you to re-scan your whole vault to detect any undetected changes or when you update the [Scan Filters](./Filters_for_Scanning.md) settings from the Global Settings.
+This is a Special feature which allows you to Scan your whole vault to detect any undetected changes or when you update the [Scan Filters](./Filters_for_Scanning.md) settings from the Global Settings.
