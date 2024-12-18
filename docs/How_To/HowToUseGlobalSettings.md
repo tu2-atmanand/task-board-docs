@@ -107,9 +107,9 @@ This option help you add due date automatically if you havent entered any value 
 |---------------|---------------|
 | Toggle Button | OFF           |
 
-This option will help you to decide whether you want to scan all your files or filtered files every time when the Obsidian starts. The Vault-Scanning feature can be understood from here : [Vault-Scanning](../Features/ReScan_Vault_Feature.md).
+This option will help you to decide whether you want to scan all your files or filtered files every time when the Obsidian starts. The Vault-Scanning feature can be understood from here : [Vault-Scanning](../Features/Scan_Vault_Feature.md).
 
-This can be a beneficial feature for those who edit their files outside of Obsidian, so when Obsidian opens, Task Board is unaware that the tasks has been updated from various files, in this case you will be required to run the [Re-Scan Vault](../Features/ReScan_Vault_Feature.md) feature manually, so you can set this option to ON, to scan all the files automatically whenever Obsidian starts.
+This can be a beneficial feature for those who edit their files outside of Obsidian, so when Obsidian opens, Task Board is unaware that the tasks has been updated from various files, in this case you will be required to run the [Scan Vault](../Features/Scan_Vault_Feature.md) feature manually, so you can set this option to ON, to scan all the files automatically whenever Obsidian starts.
 
 {: .warning } Do not enable this feature if you vault is very big and contains lot of large files with lot of data. This feature will work the best if you have set the file and folder [Scanning Filters](../Features/Filters_for_Scanning.md).
 
