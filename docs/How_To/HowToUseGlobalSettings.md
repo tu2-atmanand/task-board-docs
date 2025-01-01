@@ -18,16 +18,6 @@ If you are using only one of this filter at a time and keeping the other two dis
 
 These are all the settings which deals with the UI part of the Task Board.
 
-### Plugin Language
-
-| Input Field | Default Value |
-|-------------|---------------|
-| Dropdown    | English       |
-
-This is a dropdown field where you can select the language for the plugin UI.
-
-Currently the plugin supports more than 20+ languages at present and new language are coming soon. Even though a lot of effort has been made to translate the content from English to other languages, but the exact translation of the meaning cannot be guaranteed. If you have found any issue with the content or misinformation. Please consider to contribute on updating the content. Also, you can add your own native langauge easliy to help others to use this plugin efficiently. Read this : [Contribute for Language Translation](../Advanced/Contribution_For_Languages.md)
-
 ### Show Header of the Task Item Card
 
 | Input Field   | Default Value |
@@ -81,6 +71,12 @@ If you have already added a custom tag, then it will look like below :
 ## Automation
 
 Following settings deals with the automation features supported by this plugin.
+
+### Edit button mode
+
+| Input Field | Default Value        |
+|-------------|----------------------|
+| Dropdown    | Use edit task window |
 
 ### Real-time scanning
 
