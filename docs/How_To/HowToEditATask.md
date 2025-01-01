@@ -12,7 +12,11 @@ There are two ways to edit the old content of your task.
 
 This is the normal method, on how you use to edit the content of the task from the parent markdown file. You will have to open the markdown file, which contains the task and edit any property of the task you want.
 
-A new setting provides you four options to open the parent markdown note.
+A [new setting](./HowToUseGlobalSettings.md#edit-button-mode) provides you four options to open the parent markdown note using the button itself and make it easy to edit the task.
+{: .d-inline-block }
+
+New (v1.2.0)
+{: .label .label-green }
 
 After you done editing, you can simply switch your focus from the editor to the [Task Board View](../Components/Task_Board_Pane.md) and your task will be instantly refreshed on the Task Board.
 

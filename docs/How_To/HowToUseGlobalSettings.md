@@ -8,6 +8,14 @@ nav_order: 6
 
 This settings will be applied on all boards and is a global settings for the plugin.
 
+## Open board on Obsidian startup
+
+| Input Field   | Default Value |
+|---------------|---------------|
+| Toggle Button | OFF            |
+
+This setting will help you to get your Task Board visible to you on Obsidian startup. When you open and close Obsidian, if you want Task Board to be the first thing visible inside the Obsidian, you can enable this feature.
+
 ## Filters for Scanning
 
 This section contains three different types of filters you can apply while your vault is getting scanned for tasks. The first two filters are for scanning files and all the files inside the folder. The third filter is to scan task which contains any one fo the tag you have mentioned in the input field.
@@ -74,9 +82,9 @@ Following settings deals with the automation features supported by this plugin.
 
 ### Edit button mode
 
-| Input Field | Default Value        |
-|-------------|----------------------|
-| Dropdown    | Use edit task window |
+| Input Field | Dropdown Options                                                                                                                          | Default Value                |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| Dropdown    | Use edit task window feature<br>Open note in new tab<br>Open note in right split<br>Open note in new window<br>Open note in hover preview | Use edit task window feature |
 
 ### Real-time scanning
 
@@ -137,9 +145,9 @@ This is a small section, where you will see, how your task will look like based 
 
 ### Compatible plugin
 
-| Input Field | Default Value        |
-|-------------|----------------------|
-| Dropdown    | Task Board (Default) |
+| Input Field | Dropdown Options                                              | Default Value |
+| ----------- | ------------------------------------------------------------- | ------------- |
+| Dropdown    | Default<br>Tasks plugin<br>Dataview plugin<br>Obsidian Native | Default       |
 
 This option will let you select, which pattern/format you follow for setting the metadata to your tasks, for example, if you are using Tasks plugin, then you may select this value for this setting, in which case, you will get emojis for the due and completion. But if you are using other plugin formats like [Dataview Plugin](obsidian://show-plugin?id=dataview), then the format will be a little different. Go through this page, to know how the different filed values look inside the markdown based on the value of this setting : [Metadata Formats](../Components/MetadataFormats.md).
 
