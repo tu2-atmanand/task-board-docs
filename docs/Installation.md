@@ -37,9 +37,9 @@ There are two ways you can install this plugin, either from the Official Obsidia
 
 `Open Obsidian settings` > `Community plugins` > `click on Browse button` > `search for Brat` > `Install and Enable`.
 
-**Step 3 :** Add **Task Board** plugin into the Brat beta plugin list. See below gif :
+**Step 2 :** Add **Task Board** plugin into the Brat beta plugin list. See below gif :
 
-![Installation using BRAT](./assets/InstallInBRAT.gif)
+![Installation using BRAT](../assets/InstallInBRAT.gif)
 
 `Open Obsidian settings` > `BRAT` > `Add Beta plugin button` > `Paste the below link` > `Click on Add Plugin`.
 
@@ -47,9 +47,9 @@ There are two ways you can install this plugin, either from the Official Obsidia
 https://github.com/tu2-atmanand/Task-Board
 ```
 
-**Step 4 :** Thats it! You will see a notification that the plugin has been successfully installed. You should able to see a ribbon icon to open **Task Board**.
+**Step 3 :** Thats it! You will see a notification that the plugin has been successfully installed. You should able to see a ribbon icon to open **Task Board**.
 
-**Step 5 :** Proceed to initialization step :[Opening **Task Board** for first time.](Getting_Started.md#step-1--opening-the-task-board)
+**Step 4 :** Proceed to initialization step :[Opening **Task Board** for first time.](Getting_Started.md#step-1--opening-the-task-board)
 
 ---
 
