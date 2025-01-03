@@ -40,7 +40,7 @@ To better understand Kanban methodology, I referred to this resource: [Kanban Me
 
 ## 2. GitHub Project Planning  
 
-GitHub Project Planning offers a more advanced and dynamic approach to task management. To understand this better, you can explore the [Task Board GitHub Project](https://github.com/users/tu2-atmanand/projects/2/views/1).  
+GitHub Project Planning offers a more advanced and dynamic approach to task management. This is actually the same interface you will see when you visit the [Task Board GitHub Project Planing Kanban Board](https://github.com/users/tu2-atmanand/projects/2/views/1).  
 
 ### Key Features That Inspired Me  
 
@@ -53,9 +53,9 @@ GitHub Project Planning offers a more advanced and dynamic approach to task mana
      - Edit every task property effortlessly with just a few clicks.  
      - Maintain separate input fields for the task title and task description.  
      - Add comments, which are automatically timestamped.  
-     - Track every change to the task, such as updates to tags or due dates.  
+     - Track every change to the task, such as updates to tags or due dates. This is the power of journalizing your work while you were working in that specific task.
 
-   - What’s even more exciting is the idea of integrating **Obsidian’s live editor** into these pop-ups. This would eliminate the need to switch between editor and preview modes, streamlining the workflow significantly.  
+   - What’s even more exciting is the idea of integrating **Obsidian’s live editor** into this window. This would eliminate the need to switch between editor and preview modes, streamlining the workflow significantly.  
 
 3. **Automation Through Workflows**  
    - GitHub Projects introduces workflows, which allow you to automate task management. For example:  

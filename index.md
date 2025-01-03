@@ -13,6 +13,12 @@ permalink: /
 [Get started now](#how-to-start){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 .mx-auto }
 [View it on GitHub](https://github.com/tu2-atmanand/Task-Board){: .btn .fs-5 .mb-4 .mb-md-0 .mx-auto }
 
+<!-- [![Task Board plugin - Introduction](http://i.ytimg.com/vi/ZizsPBuXW8g/hqdefault.jpg)](https://www.youtube.com/watch?v=ZizsPBuXW8g) -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZizsPBuXW8g?si=vH6_nRQO6da5kj23" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+{% include helpers/video.html url="<https://www.youtube.com/embed/fy7q0klb0yI>" width="560" height="315" %}
+
 ## Topics
 
 - [01 - Installation](./docs/Installation.md)
@@ -27,7 +33,7 @@ permalink: /
 
 [**Task Board**](https://github.com/tu2-atmanand/Task-Board) is a plugin for [Obsidian](https://obsidian.md/) to view and manage all your task in a much more efficient Kanban board format. Easily manage your tasks throughout your vault from a single place. And automate your task management workflow.
 
-![Task Board Thumbnail](./assets/TaskBoardThumbnail.png)
+![Task Board Thumbnail](./assets/TaskBoardThumbnail-2.png)
 
 Understand the complete UI of Task Board from here : [Task Board Pane](./docs/Components/Task_Board_Pane.md)
 
@@ -61,7 +67,7 @@ I always used the [Kanban Plugin](https://github.com/mgmeyers/obsidian-kanban) t
 
 While development I took inspirations from CardBoard and Kanban plugin as well as many feature ideas from [GitHub project planning KanBan board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view#about-the-board-layout). I hope I am able to give the best of all this three plugins into one, and will be improving this further.
 
-To understand the vision of this project future development roadmap : [Vision of Task Board](./docs/Vision.md).
+To understand the vision and future development roadmap of this project : [Vision of Task Board](./docs/Vision.md).
 
 ## Support
 
