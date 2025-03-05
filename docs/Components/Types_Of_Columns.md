@@ -23,26 +23,80 @@ This column will contain all the tasks which has a due date value. You can creat
 ### Properties
 
 - **Column Name :** The name of the column which you want to see on the Column header.
-- **From :** This should be a number, either negative, positive or zero. This basically will specify, a number which is mapped to a relative date. For example, 0 means its today's date, -1 means yesterday's date and 1 means tomorrow's date. So, its just a mapping of dates relative to today's date.
-- **To :** Similar to the **From** value, this value will specify the end date of the range you are creating.
 
-Using these above two values you are creating a range of dates. For example, if you want to create a **Dated** column, in which you want to see all the tasks which has a due date of today's and tomorrow's. Then the **From** value will be 0 and the **To** value will be 1, since 0 is today's date and 1 is tomorrow's date. So, you have created a range from today to tomorrow for the column.
+To filter tasks based on their due dates, you need to enter **two values** to set the date range:  
 
-Here is a table for you to understand how you can create a column to with a range to show the specific tasks you want:
+- ✅ **From** → The starting number of days from today of this range.
+- ✅ **To** → The ending number of days from today of this range.
 
-| From | To | Range                                                                      |
-|------|----|----------------------------------------------------------------------------|
-| 0    | 0  | All the tasks which have today's date as due date.                         |
-| 1    | 1  | All the tasks which have tomorrow's date as due date.                      |
-| -1   | -1 | All the tasks which had yesterday's date as the due date. (overdue tasks)  |
-| 1    | 7  | All the tasks which are scheduled for next 7 days, starting from tomorrow. |
-| -1   |    | All the overdue tasks.                                                     |
-| 1    |    | All the tasks scheduled for future, starting from tomorrow.                |
+Remember, this values of **From** or **To** are relative-dynamic dates. Which means, today is the reference point, which is set to 0. So if you want to go in future you have to keep adding one. And if you want to go in past, keep subtracting one.
+
+##### **Key Rule**
+
+- If a task's **due date falls within** the selected range of days, it will be displayed.
+- **No "infinity" concept** anymore. Instead, if you want to see **all future** or **all overdue** tasks, just enter a **large number** in the range.
+
+##### **How to Set Your Date Range**
+
+|**Goal**|**From**|**To**|**Explanation**|
+|---|---|---|---|
+|See **only today's** tasks|0|0|Tasks due **today** only.|
+|See **yesterday's** tasks|-1|-1|Tasks due **1 day ago**.|
+|See **tomorrow's** tasks|1|1|Tasks due **1 day ahead**.|
+|See **next 7 days**|1|7|Tasks due from **tomorrow to the next 7 days**.|
+|See **past 7 days** (overdue)|-7|-1|Tasks due **in the last 7 days but not today**.|
+|See **all future tasks**|1|300|Tasks due **from tomorrow up to 300 days ahead**.|
+|See **all overdue tasks**|-300|-1|Tasks due **in the last 300 days but not today**.|
+|See **all tasks (past & future)**|-300|300|Tasks from **past 300 days to the next 300 days**.|
+
+---
+
+##### **Examples**
+
+**Example 1: Filtering Today's Tasks**
+
+📌 **You enter:**
+
+- **From = 0**
+- **To = 0**
+
+✅ **Shows tasks due today only.**
+
+---
+
+**Example 2: Filtering Tasks Due in the Next 3 Days**
+
+📌 **You enter:**
+
+- **From = 1**
+- **To = 3**
+
+✅ **Shows tasks due tomorrow, day after tomorrow, and 3 days from now.**
+
+---
+
+**Example 3: Filtering All Overdue Tasks**
+
+📌 **You enter:**
+
+- **From = -300**
+- **To = -1**
+
+✅ **Shows tasks that were due in the past 300 days (excluding today).**
+
+---
+
+**Example 4: Filtering All Future Tasks**
+
+📌 **You enter:**
+
+- **From = 1**
+- **To = 300**
+
+✅ **Shows tasks that are due from tomorrow onwards, up to 300 days ahead.**
 
 {: .note }
-> Observe that, the **To** field for the last two column in above table has been kept empty. Empty field indicates and infinity value, which means, if you want to display all tasks starting from tomorrow going upto infinity in future, you can just leave the field empty or enter a zero, that will work as well.
->
-> You might also find out that, while entering 0 in the field, it keeps the field empty, thats a normal behavior in obsidian and it will work as expected, as per the above column.
+> Observe that, while entering 0 in the input field, it keeps the field empty, thats a normal behavior in obsidian and it will work as expected, simply type the zero.
 
 ## Tagged
 
