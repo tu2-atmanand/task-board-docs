@@ -46,6 +46,20 @@ This is a toggle input field, which allows you to show or hide the Footer sectio
 
 > You can use this and the previous setting option, if you are not making use of this fiels for a task and you want a distraction free, minimalistic experience to manage your tasks and keep them simple.
 
+### Show task without metadata
+{: .d-inline-block }
+
+New (v1.3.0)
+{: .label .label-green }
+
+| Input Field   | Default Value |
+|---------------|---------------|
+| Toggle Button | ON            |
+
+This setting will help you to see the tast title inside the Task Item card without any metadata(properties) to get a clean view of your tasks.
+
+You can use this setting along with above two settings to get 4 different looks for your board.
+
 ### Width of each Column
 
 | Input Field | Default Value |
@@ -115,7 +129,8 @@ This option will help you to decide whether you want to scan all your files or f
 
 This can be a beneficial feature for those who edit their files outside of Obsidian, so when Obsidian opens, Task Board is unaware that the tasks has been updated from various files, in this case you will be required to run the [Scan Vault](../Features/Scan_Vault_Feature.md) feature manually, so you can set this option to ON, to scan all the files automatically whenever Obsidian starts.
 
-{: .warning } Do not enable this feature if you vault is very big and contains lot of large files with lot of data. This feature will work the best if you have set the file and folder [Scanning Filters](../Features/Filters_for_Scanning.md).
+{: .warning } 
+>Do not enable this feature if you vault is very big and contains lot of large files with lot of data. This feature will work the best if you have set the file and folder [Scanning Filters](../Features/Filters_for_Scanning.md).
 
 ## Compatibility for other plugins
 
@@ -143,7 +158,7 @@ Daily notes is a core plugin, using which you create daily notes. Since the file
 
 This is a small section, where you will see, how your task will look like based on the configurations you have set, for example, if you change the values of the below options, you will see the format of you tasks will change accordingly. To see all the compatible formats this plugin supports, click here : [Metadata Formats](../Components/MetadataFormats.md).
 
-### Compatible plugin
+### Compatible plugins
 
 | Input Field | Dropdown Options                                              | Default Value |
 | ----------- | ------------------------------------------------------------- | ------------- |
@@ -159,7 +174,8 @@ This option will let you select, which pattern/format you follow for setting the
 
 This field, will help you to enter your specific pattern for the date you prefer to see inside all your markdown files. Keeping the format global helps all the plugins work properly and blend well with the core Obsidian.
 
-{: .warning } Remember to follow the same pattern which you are using for the Daily note files for the [Daily Notes plugin compatibility](#daily-notes-plugin-compatibility) setting work properly.
+{: .warning }
+> Remember to follow the same pattern which you are using for the Daily note files for the [Daily Notes plugin compatibility](#daily-notes-plugin-compatibility) setting work properly.
 
 ### Task completion date-time pattern
 
@@ -170,6 +186,10 @@ This field, will help you to enter your specific pattern for the date you prefer
 This setting option will help you to set, the format of the time-date value which you would like to see when you mark your tasks complete. This value will be shown inside the [Footer of the Task Item Card](../Components/Task_Item_Card.md#footer), when they are inside [Completed column](../Components/Types_Of_Columns.md#completed).
 
 ### First day of the week
+{: .d-inline-block }
+
+Not implemented
+{: .label .label-yellow }
 
 | Input Field | Default Value |
 |-------------|---------------|
@@ -178,12 +198,20 @@ This setting option will help you to set, the format of the time-date value whic
 This is an **optional** settings for now, which will be used in future for better compatibility with other plugins and for upcoming features in Task Board.
 
 ### Task Completion in local time
+{: .d-inline-block }
+
+Not implemented
+{: .label .label-yellow }
 
 | Input Field   | Default Value |
 |---------------|---------------|
 | Toggle Button | ON            |
 
 ### Show UTC offset for task completion
+{: .d-inline-block }
+
+Not implemented
+{: .label .label-yellow }
 
 | Input Field   | Default Value |
 |---------------|---------------|

@@ -12,6 +12,11 @@ The following image will help you to understand the nomenclature to read this do
 
 ![Task In File](../../assets/TaskInFileLegend.png)
 
+{: .note }
+> - Its not compulsory to put the metadata at the end, from `v1.3.0`, you are free to use any format you want and can place the properties where you want in the task title.
+> - Similarly, its not important to add all sub-tasks or description lines one after another, you are free to change the order.
+> - **Note :** Ensure that you do not add any empty lines inside your description.
+
 ## The Checkbox Pattern
 
 Obsidian supports three types of pattern to create a checkbox or in other words a task item as shown below  :
@@ -46,15 +51,20 @@ This is the main title of any task. Most of the people would like to have a simp
 
 These are all the properties you want to apply to the task. At present there are following properties you can apply to any task :
 
-- Due date.
-- Time duration.
-- Priority.
-- Tags.
-- Completion time-date.
+- [Status](./MetadataFormats.md#status)
+- [Due date](./MetadataFormats.md#due-date)
+- [Time duration](./MetadataFormats.md#time-duration)
+- [Priority](./MetadataFormats.md#priority)
+- [Tags](./MetadataFormats.md#tags)
+- [Completion time-date](./MetadataFormats.md#completion-time-date)
 
 > Read more about Metadata here :[Task Metadata](./MetadataFormats.md)
 
-**Control the Card View :** The metadata should be separated by a pipe symbol. But this is completely optional and give you an option to control how you want to see the cards inside your Task Board.
+**Control the Card View :** Using the following three settings, you can achieve various look for the Task item card. Ill show you top 3:
+- [Show header of the task item card](../How_To/HowToUseGlobalSettings.md#show-header-of-the-task-item-card)
+- [Show footer of the task item card](../How_To/HowToUseGlobalSettings.md#show-header-of-the-task-item-card)
+- [Show  of the task item card](../How_To/HowToUseGlobalSettings.md#show-header-of-the-task-item-card)
+
 
 For example, if you have the following task inside your file :
 

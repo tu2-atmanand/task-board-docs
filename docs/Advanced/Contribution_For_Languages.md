@@ -67,6 +67,7 @@ This plugin supports following languages. You can help us improve the current la
 
 {: .note }
 > ✅ : Means the language has been properly integrated.
+> 
 > 🚧 : Means the language is either haven't been integrated or is under development.
 
 ## How to Update existing Language content
