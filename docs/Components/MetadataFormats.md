@@ -4,11 +4,11 @@ title: Metadata Formats
 nav_order: 5
 ---
 
-# Metadata Format
+# Metadata
 
-Task Board supports different types of formats to add the metadata to your tasks.
+Metadata also known as task properties are the different properties you assign to your tasks for better management, filtering and giving more information to your tasks.
 
-**Metadata includes :**  
+**Task board supports following Metadata :**  
 
 - Status  
 - Due date  
@@ -21,7 +21,7 @@ More properties coming soon...
 
 ---
 
-### **Status**  
+## **Status**  
 {: .d-inline-block }
 
 New (v1.3.0)
@@ -40,7 +40,7 @@ A task with "In Progress" status means it is actively being worked on, while "Bl
 
 ---
 
-### **Due Date**  
+## **Due Date**  
 The **due date** specifies the deadline for completing a task. It helps in prioritizing tasks based on urgency.  
 
 ✅ How it works:  
@@ -53,7 +53,7 @@ If today is **March 5, 2025**, and a task has a due date of **March 10, 2025**, 
 
 ---
 
-### **Time Duration**  
+## **Time Duration**  
 The **time duration** represents the estimated or actual time needed to complete a task. This helps in better scheduling and workload management.  
 
 ✅ Possible uses:  
@@ -65,7 +65,7 @@ A task may have a **duration of 2 hours**, meaning it is expected to take around
 
 ---
 
-### **Priority**  
+## **Priority**  
 The **priority** level defines how important and urgent a task is. This helps in deciding which tasks should be completed first.  
 
 ✅ Priority Levels:  
@@ -78,7 +78,7 @@ A deadline-related task may have a **High priority**, while an optional research
 
 ---
 
-### **Tags**  
+## **Tags**  
 Tags are labels that help categorize and organize tasks. Multiple tags can be added to a task for better filtering and searching.  
 
 ✅ Uses of tags:  
@@ -90,7 +90,7 @@ A task with the tags **#work** and **#meeting** can be found when searching for 
 
 ---
 
-### **Completion Time-Date**  
+## **Completion Time-Date**  
 This field records the **exact date and time** when a task was completed. It helps in tracking productivity and reviewing past work.  
 
 ✅ Benefits:  
@@ -101,6 +101,10 @@ This field records the **exact date and time** when a task was completed. It hel
 A task marked as completed on **March 4, 2025, at 2:30 PM** means it was finished at that exact time.  
 
 ---
+
+# Metadata Format
+
+Task Board supports different types of formats to add the metadata to your tasks.
 
 ## Compatible Plugin Format
 
