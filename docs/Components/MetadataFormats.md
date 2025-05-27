@@ -110,13 +110,14 @@ Task Board supports different types of formats to add the metadata to your tasks
 
 You can choose one of the following options in the Task Board setting to keep the format of metadata globalized throughout your vault. You can see the supported format and the corresponding plugin option from below table :
 
-| Plugin/Setting option  | Due date            | Time duration                             | Priority              | Completion time-date                |
-| ---------------------- | ------------------- | ----------------------------------------- | --------------------- | ----------------------------------- |
-| Task Board (Default)   | 📅[2024-10-31]      | ⏰[21:10 - 23:10]                          | ⏫                     | ✅ 2021-10-31T21:52:22               |
-| Tasks                  | 📅 2024-10-31       | ⏰21:10 - 23:10                            | ⏫                     | ✅ 2021-10-29                        |
-| Day Planner            | Any                 | 09:00 - 10:00 (At the start of the task)  | Any                   | Any                                 |
-| Dataview               | [due:: 2024-10-31]  | Any                                       | [priority:: highest]  | [completion:: 2021-10-31T21:52:22]  |
-| Obsidian Native        | @due(2024-10-31)    | Any                                       | Any                   | @completion(2021-10-29)             |
+| Plugin/Setting option | Priority             | Time duration                            | Created date           | Start date           | Scheduled date           | Due date           | Completion time-date               |
+| --------------------- | -------------------- | ---------------------------------------- | ---------------------- | -------------------- | ------------------------ | ------------------ | ---------------------------------- |
+| Task Board (Default)  | ⏫                    | ⏰[21:10 - 23:10]                         | ➕2024-10-31            | 🛫2024-10-31         | ⏳2024-10-31              | 📅2024-10-31       | ✅2021-10-31T21:52:22               |
+| Tasks                 | ⏫                    | ⏰ 21:10 - 23:10                          | ➕ 2024-10-31           | 🛫 2024-10-31        | ⏳ 2024-10-31             | 📅 2024-10-31      | ✅ 2021-10-29                       |
+| Dataview              | [priority:: highest] | [time:: 21:10 - 23:10]                   | [created:: 2024-10-31] | [start:: 2024-10-31] | [scheduled:: 2024-10-31] | [due:: 2024-10-31] | [completion:: 2021-10-31T21:52:22] |
+| Obsidian Native       | Any                  | @time(21:10 - 23:10)                     | @created(2024-10-31)   | @start(2024-10-31)   | @scheduled(2024-10-31)   | @due(2024-10-31)   | @completion(2021-10-29)            |
+| Day Planner           | Any                  | 09:00 - 10:00 (At the start of the task) | Any                    | Any                  | Any                      | Any                | Any                                |
+
 
 - You also have the option to mix these formats with one another. For example, say you dent like to see the emojis for priority, you can use other format, and that will still work.
 - **Any** mean, for this field, you can use any type of format from that column, for the specific plugin/setting option you have selected.
