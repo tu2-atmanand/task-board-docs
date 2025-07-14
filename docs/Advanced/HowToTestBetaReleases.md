@@ -15,6 +15,7 @@ Follow the below steps to install a beta release for testing :
 ### Points to remember before installing
 
 - Use a dummy vault or sandbox vault (for temporary testing). Since new changes might contain some bugs, there is a possibility of data loss. Hence never install a beta version of any plugin inside your main vaults.
+- Uninstall any version of previous Task Board you have installed in this current vault. If this if this is your fresh new vault, then no worries.
 
 
 ### How to install beta version
