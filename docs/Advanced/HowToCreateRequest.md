@@ -28,8 +28,9 @@ Follow the below steps to create a request :
 - If you are reporting a bug, start the sentence with **bug-**.
 - If you are suggesting an improvement for UI or any feature, start the title with **enha-**.
 - If you are suggesting an optimization for the working of the code, start the title with **opti-**.
+- If you are submitting a language translation file, start the title with **lang-**
 
-**Step 4 :** Next, elaborate your request properly inside the `Add a Description` section. You can add images or links to any documents.
+**Step 4 :** Next, elaborate your request properly inside the `Add a Description` section. You can add images or links to any documents. Also you can directly drag and drop any file you wan to submit.
 
 **Step 5 : (Optional)** If you want you can assign an label from the righ side section.
 ![labelsForCreatingRequest](../../assets/labelsForCreatingRequest.png)
