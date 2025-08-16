@@ -81,7 +81,7 @@ For example, if you language is Czech, then find your language code from the abo
 
 **STEP 3** : Now whichever string you want to edit, find that string and simply edit it.
 
-**STEP 4** : If, the string you want to edit is not present inside the file, open the following link which has the corresponding english strings : https://github.com/tu2-atmanand/Task-Board/blob/main/src/utils/lang/locale/en.json
+**STEP 4** : If, the string you want to edit is not present inside the file, open the following link which has the corresponding english strings : [English translation strings](https://github.com/tu2-atmanand/Task-Board/blob/main/src/utils/lang/locale/en.json)
 
 **STEP 5** : Now find the string which you want to add, then copy its corresponding id.
 For example, if the string you want to edit is "Add sub task". Then you may see its corresponding id is "add-sub-task".
@@ -101,11 +101,11 @@ For example, if the string you want to edit is "Add sub task". Then you may see 
 **STEP 3** : Inside this folder create a new file with your language code using any text editor and the extension of this file should be `.json`.
 For example, if you language is Czech, then find your language code from the above table. In this example the code is 'cs', hence the file name will be `cs.json`.
 
-**STEP 4** : Open the following link and copy the whole content and paste it inside the new file which you have just created. : https://github.com/tu2-atmanand/Task-Board/blob/main/src/utils/lang/locale/en.json
+**STEP 4** : Open the following link and copy the whole content and paste it inside the new file which you have just created. : [English translation strings](https://github.com/tu2-atmanand/Task-Board/blob/main/src/utils/lang/locale/en.json)
 (You can find a button in the header of on left which will say 'Copy raw file')
 
 **STEP 5** : Now you can start replacing the english strings with your language strings.
-For example, if the string you want to edit is "Add sub task". Then you may see its corresponding id is "add-sub-task". So, you should not touch the id, and replace its corresponding string only. In this example, "Add sub task" will be replaced with "Přidejte dílčí úkol".
+For example, if the string you want to edit is "Add sub task". Then you may see its corresponding id is "add-sub-task". So, you should not touch the id, and replace its corresponding string only. In this example, *"Add sub task"* will be replaced with *"Přidejte dílčí úkol"*.
 
 **STEP 6** : Save this file and reload Obsidian using the command "Reload without saving" and your changes will be applied automatically.
 
