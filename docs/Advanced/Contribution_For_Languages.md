@@ -5,7 +5,7 @@ title: Contribute to Language Translation
 
 # Contribute to Language Translation
 
-This plugin supports following languages. You can help us improve the current language content or add more language by following this doc :
+This plugin supports below languages. You can help us improve the current language content or add more languages by following this doc.
 
 | Language code  | Language name         | Native name         | Status |
 | -------------- | --------------------- | ------------------- | :----: |
@@ -72,73 +72,43 @@ This plugin supports following languages. You can help us improve the current la
 
 ## How to Update existing Language content
 
-### Manually
+> This is a very straight forward method.
 
-- This is a very straight forward method.
+**STEP 1** : If you have already updated downloaded your language translation file using following setting, then move on to the next step : [Update language translations](../How_To/HowToUseGlobalSettings.md#update-language-translation)
 
-- Find the language file which you want to update.
-For example, if you language is Czech, then find your language code from this link. In this example the code is 'cs', hence the file name will be `cs.ts`.
+**STEP 2** : Go inside the plugin's language config folder using your system file explorer. Usually the config folder will be inside `.obsidian/plugin/task-board/locales`. Now open the file with your language code in any text editor.
+For example, if you language is Czech, then find your language code from the above table. In this example the code is 'cs', hence the file name will be `cs.json`.
 
-- Open this file and find the old string which you want to update.
+**STEP 3** : Now whichever string you want to edit, find that string and simply edit it.
 
-- Now, simply update the whole string with new content. You can either use online services, but will recommend translating it on your own for better understanding of the content for others.
+**STEP 4** : If, the string you want to edit is not present inside the file, open the following link which has the corresponding english strings : https://github.com/tu2-atmanand/Task-Board/blob/main/src/utils/lang/locale/en.json
 
-### Using Automation Script
+**STEP 5** : Now find the string which you want to add, then copy its corresponding id.
+For example, if the string you want to edit is "Add sub task". Then you may see its corresponding id is "add-sub-task".
 
-When you will change any one string from the main en.ts file. Run the script and give all the lines number as argument to the script, which will change the line in all the other language files.
+**STEP 6** : On the left of this id after the colon symbol (:), you can add your language suitable string.
+
+**STEP 7** : Save this file and reload Obsidian using the command "Reload without saving" and your changes will be applied automatically.
 
 ---
 
 ## How to add a new Language
 
-### Manually
+**STEP 1** : If you have received the message through bug report modal that the language translation file for the selected language is not present, then you will need to create a new file for the same.
 
-- Create a new file with the name of your language code and the extension will be '.ts'.
-For example, if you language is Czech, then find your language code from this link. In this example the code is 'cs', hence the file name will be `cs.ts`.
+**STEP 2** : Go inside the plugin's language config folder using your system file explorer. Usually the config folder will be inside `.obsidian/plugin/task-board/locales`. 
 
-- Now open the file you have just created and create the following structure first before adding your code (preferably use a better coding editor) :
+**STEP 3** : Inside this folder create a new file with your language code using any text editor and the extension of this file should be `.json`.
+For example, if you language is Czech, then find your language code from the above table. In this example the code is 'cs', hence the file name will be `cs.json`.
 
-```
-const cs = {
+**STEP 4** : Open the following link and copy the whole content and paste it inside the new file which you have just created. : https://github.com/tu2-atmanand/Task-Board/blob/main/src/utils/lang/locale/en.json
+(You can find a button in the header of on left which will say 'Copy raw file')
 
-};
+**STEP 5** : Now you can start replacing the english strings with your language strings.
+For example, if the string you want to edit is "Add sub task". Then you may see its corresponding id is "add-sub-task". So, you should not touch the id, and replace its corresponding string only. In this example, "Add sub task" will be replaced with "Přidejte dílčí úkol".
 
-export default cs;
-```
-
-> NOTE : For you the cs part will be different, it will be your Language code.
-
-- Open this file in another tab for your reference : en.ts
-
-- Now, simply replace the english line with your specific language line. You can use online translation tools to translate the language. But it will be preferred if you translate the lines in your own words for better understanding of the content.
-
-### Using Automation Script
-
-- Copy the en.ts into another temporary folder.
-
-- Now, create the new language file you want to add, this files name will be the language code and the extension will be '.ts'.
-For example, if you language is Czech, then find your language code from this link. In this example the code is 'cs', hence the file name will be `cs.ts`.
-
-- You can add multiple language files at once.
-
-- Now open the file you have just created and create the following structure first before adding your code (preferably use a better coding editor) :
-
-```
-const cs = {
-
-};
-
-export default cs;
-```
-
-> NOTE : For you the cs part will be different, it will be your Language code.
-
-- Now, run the script with the argument as 0. It will convert all the english lines with the new language if the language is available in the online service.
-
-- Please Cross check all the strings properly, if the translation of some string doesn't makes sense or haven't been translated properly, please translate them into your own words
-
-> NOTE : Also note that, if the language is not supported by the oline service, then all the english strings will be copied as it is into the new file. In this case, you will have to manually translate ALL the strings into your language.
+**STEP 6** : Save this file and reload Obsidian using the command "Reload without saving" and your changes will be applied automatically.
 
 ## How to Submit your file
 
-- After you have completed translation of all the strings properly, submit the file either using pull request to the Github project or directly send the file by creating a GitHub request  here : [How to Create an Request](./HowToCreateRequest.md).
+- After you have completed translation of all the strings properly, submit the file either using pull request to the Github project or directly send the file by creating a GitHub request here : [How to Create an Request](./HowToCreateRequest.md).
