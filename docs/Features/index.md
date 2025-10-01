@@ -39,6 +39,36 @@ Checkout detailed information here : [Marking a task complete](./MarkingTaskComp
 
 Directly delete unwanted task from the board using the delete Icon. The task will also be deleted from the parent markdown file.
 
+### Archive Tasks
+
+**Added in version 1.5.0**
+
+Archive your completed tasks instead of permanently deleting them. Choose between commenting out tasks in your files or moving them to a dedicated archive note to maintain a history of your work.
+
+Checkout detailed information here : [Archive Tasks](./Archive_Tasks.md)
+
+### Search Tasks
+
+**Added in version 1.6.0**
+
+Quickly find specific tasks on your board using the search functionality. Search through task content in real-time to locate the tasks you need.
+
+Checkout detailed information here : [Search Tasks](./Search_Tasks.md)
+
+### Plugin Integrations
+
+Task Board integrates seamlessly with several popular Obsidian plugins including QuickAdd, Tasks plugin, Reminder plugins, and Highlightr. These integrations enhance your workflow and provide powerful features.
+
+Checkout detailed information here : [Plugin Integrations](./Plugin_Integrations.md)
+
+### Mobile Support
+
+**Added in version 1.4.0**
+
+Task Board now works great on mobile devices with optimized UI/UX for phones and tablets. Manage your tasks on the go with touch-friendly controls and responsive layouts.
+
+Checkout detailed information here : [Mobile Support](./Mobile_Support.md)
+
 ### Applying Filters
 
 At present there are mainly two types of filters. The first one is [Filters for Scanning](./Filters_for_Scanning.md), which is a very powerful feature and give you the option to scan only specific folder, file to look out for tasks and also only scan tasks with certain tags on them.
