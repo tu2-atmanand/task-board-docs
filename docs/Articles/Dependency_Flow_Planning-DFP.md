@@ -8,7 +8,7 @@ nav_order: 1
 By Atmanand Gauns
 ***01/10/2025***
 
-![[Dependency Flow Planning.png]]
+![DFP Methodology Map view thumbnail](../../assets/Dependency_Flow_Planning.png)
 
 > This is a methodology for tasks management and planning which mainly leverages the modern graphical tools such as Canvas view to easily organize, update, map and visualize the tasks on your plate.
 
@@ -55,22 +55,23 @@ This visual mapping provides an at-a-glance overview of the entire project. Team
 
 Here's a step-by-step breakdown of how a team would use DFP:
 
-![[2.2.1 1.png]]
+![All tasks scattered on the canvas](../../assets/2.2.1.png)
+
 ### 1. Define the First Tasks
 
-![[2.2.2.png]]
+![Organizing the tasks in chronological order of execution](../../assets/2.2.2.png)
 
 Instead of starting with a grand project plan, the team identifies the very first, tangible actions that need to be taken. These are the foundational "child tasks." At this stage you are only concern about putting down the stages of tasks you will be required to complete in order to reach to the competition of the project. Moving forward these tangible tasks can be further broken down in order to assign them to different team members.
 
 ### Map the Next Stage 
 
-![[2.2.3.png]]
+![Adding first level of dependencies](../../assets/2.2.3.png)
 
 Once the tasks have been arranged, the team identifies the flow, which tasks will be dependent on which of the left tasks. In the analogy of family tree, the left-most tasks is the child task, followed on its right with the parent task and it further follows with the grand-parent-task, great-grand-parent, so on...
 
 ### Iterate and Build the Map 
 
-![[2.2.4.png]]
+![Continue adding dependency process to all the tasks](../../assets/2.2.4.png)
 
 This process is repeated iteratively. For each new stage, you identify its own parent task—the stage that comes after it—and connect them. This creates a branching, ever-expanding map that grows organically as the project progresses. 
 
@@ -80,7 +81,7 @@ As work is done, tasks are marked as complete. As we move along the branch, we c
 
 ### Identify Bottlenecks 
 
-![[2.2.6.png]]
+![Task-F has been blocked by Task-D](../../assets/2.2.6.png)
 
 The visual nature of the map makes it immediately obvious where work is stalled. If a group of tasks is complete, but their parent task hasn't been started, it's a clear signal that the team needs to move forward. Conversely, if a child task is not complete, its parent task will remain blocked and visibly so. In a big teams where two groups of teams have been formed, this visual board helps to identify which branch( first group) has finished it's working and now it is waiting for the other branch (second group) to complete their child task, so the parent task can be unlocked and both the groups can be merged again to continue with the upcoming task.
 
