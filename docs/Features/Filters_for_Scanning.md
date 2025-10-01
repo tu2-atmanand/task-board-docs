@@ -7,7 +7,10 @@ nav_order: 6
 # Filters for Scanning
 
 These are the filters you can use while your whole Vault is getting scanned. You can use this filters, to restrict the plugin from scanning certain files and folder and also tasks which has specific tags. Or you can also tell the plugin to only scan specific files and folders and tasks with a specific tag on them.
-There are three types of filters you can use, as explained below.
+
+**New in v1.6.0:** A better modal interface has been added to enter scanning filters with suggestions and improved UI/UX.
+
+There are four types of filters you can use, as explained below.
 
 ## Filters for Files
 
@@ -93,3 +96,39 @@ Similar to the above two files, this also works similar way.
 - **Dont Scan This :** The plugin will not going to scan any task, which contains any one of the tag mentioned in the input field by you. All the other tasks will going to get scanned, if those tasks doesn't contain any tag mentioned by you in the input field.
 
 - **Disable :** Keep this filter disabled. All tasks will going to get scanned.
+
+## Filters for Frontmatter
+
+**Added in version 1.6.6**
+
+This filter allows you to scan files based on their frontmatter properties, giving you more control over which files to include or exclude from scanning.
+
+### Frontmatter Properties
+
+In the text input field, you can enter frontmatter property names and values to filter files. For example, if you want to scan only files with a specific project tag or status in their frontmatter.
+
+### How It Works
+
+- Enter the frontmatter property name and value you want to filter by
+- Use the standard YAML frontmatter format
+- Multiple conditions can be specified
+
+### Filter Status
+
+Similar to the other filters:
+
+- **Only Scan This :** The plugin will only scan files that match the specified frontmatter properties.
+
+- **Dont Scan This :** The plugin will not scan any files that contain the specified frontmatter properties.
+
+- **Disable :** Keep this filter disabled to scan all files regardless of their frontmatter.
+
+### Example Use Cases
+
+- Scan only files with `status: active` in their frontmatter
+- Exclude archived files with `archived: true`
+- Filter by project name or category
+- Combine with other filters for precise control
+
+{: .note }
+> This feature works great with the Frontmatter Tags Inheritance feature (v1.6.0), where tasks automatically inherit tags from their note's frontmatter.
