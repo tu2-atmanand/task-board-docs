@@ -8,7 +8,7 @@ nav_order: 2
 By Atmanand Gauns
 ***01/10/2025***
 
-![[kanban-x-dfp.png]]
+![DFP X Kanban thumbnail](../../assets/kanban-x-dfp.png)
 
 In the dynamic world of project management, there is no single solution that fits every team or every project. While Kanban excels at visualizing workflow and managing task stages, it can sometimes lack the built-in dependency and sequential planning that complex projects demand. This is where Dependency Flow Planning (DFP) enters the picture, not as a competitor, but as a powerful, complementary tool.
 
