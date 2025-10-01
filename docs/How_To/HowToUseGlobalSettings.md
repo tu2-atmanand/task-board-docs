@@ -8,7 +8,7 @@ nav_order: 6
 
 This settings will be applied on all boards and is a global settings for the plugin.
 
-## Filters for Scanning
+### Filters for Scanning
 
 This section contains three different types of filters you can apply while your vault is getting scanned for tasks. The first two filters are for scanning files and all the files inside the folder. The third filter is to scan task which contains any one fo the tag you have mentioned in the input field.
 
@@ -29,7 +29,7 @@ This toggle input fields helps you to enable or disable the [Real-Time Scanning 
 ### Tasks cache file path
 
 
-## Open board on Obsidian startup
+### Open board on Obsidian startup
 
 | Input Field   | Default Value |
 |---------------|---------------|
