@@ -6,7 +6,7 @@ nav_order: 2
 
 # Types of Columns
 
-There are the following 6 types of columns you can create inside a board. Based on the properties of the columns, you will see the specific [tasks item card](./Task_Item_Card.md) in these columns under the Task Board.
+There are the following 9 types of columns you can create inside a board. Based on the properties of the columns, you will see the specific [tasks item card](./Task_Item_Card.md) in these columns under the Task Board.
 
 ## Undated
 
@@ -134,12 +134,32 @@ This type of column will show you all the tasks, which has been marked as comple
 - **Column Name :** The first property will be as usual the name of the column which you want to see on the column header.
 - **Max Items :** This is a number value you want to enter to set a limit to the number of task item cards you want to see under this column. This has been kept to limit the number of tasks rendered under this column, because over a time, you might complete lot of tasks, and if you haven't deleted these tasks from you vault, then they will be getting appended under this column and will increase the load time of the board, hence setting a limit will help you to show only the latest completed tasks.
 
-# Upcoming New Column types
+## Status
+
+This type of column was added in version 1.5.0 and allows you to filter tasks based on their task status. This is particularly useful if you use custom task statuses (similar to the [Tasks plugin](https://publish.obsidian.md/tasks/Getting+Started/Statuses/About+Statuses)) to track different states like "In Progress", "Waiting", "Blocked", etc.
+
+### Properties
+
+- **Column Name :** The name of the column which you want to see on the column header.
+- **Status :** The status value you want to filter tasks by. Tasks with this specific status will appear in this column.
 
 ## Priority
 
-Coming Soon...
+This type of column was added in version 1.5.0 and allows you to filter tasks based on their priority level. This helps you organize tasks by importance and focus on high-priority items.
 
-## Week Column
+### Properties
 
-Coming Soon...
+- **Column Name :** The name of the column which you want to see on the column header.
+- **Priority :** Select the priority level you want to filter by (e.g., High, Medium, Low). Tasks with this priority will appear in this column.
+
+## Path
+
+This type of column was added in version 1.6.0 and allows you to filter tasks from a specific file or note. This is extremely useful when you want to create a dedicated column for tasks from a particular project file or daily note.
+
+### Properties
+
+- **Column Name :** The name of the column which you want to see on the column header.
+- **File Path :** The path to the specific file from which you want to display tasks. Use the file suggester to easily select the file from your vault.
+
+{: .note }
+> The Path filtered column is perfect for project-specific boards where you want to see tasks from a single important file alongside other tasks.

@@ -1,9 +1,9 @@
 ---
 parent: Advanced Topics
-title: Create a Request
+title: How to test beta release
 ---
 
-## How to test beta releases
+## How to test beta release
 
 Beta version releases are the versions released for testing and ensuring the plugin will work as expected after the main release. Beta version usually will have the name/tag as minor release version followed by a 'beta' name, followed by a number. Eg.: `1.5.0-beta-2`.
 

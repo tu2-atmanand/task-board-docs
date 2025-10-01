@@ -4,7 +4,7 @@ title: Auto Scanning Files
 nav_order: 4
 ---
 
-# Auto Scanning
+# Auto Scanning Feature
 
 This feature helps you to detect the files you have modified and then scan them automatically to extract any new added task or the old task which you have edited.
 
