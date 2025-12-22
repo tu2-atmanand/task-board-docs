@@ -14,7 +14,7 @@ This feature can be used two way, which can be controlled using the settings opt
 
 This is an powerful feature of Task Board which helps you to get the latest information of your vault tasks inside the Board. The plugin uses optimized way to scan the modified files and show the edited task content on the board.
 
-Even though it says Real-Time, its not exactly real-time in the actual sense, because if you are editing any task, you focus will be on the file and when you will be changing your focus from the current edited to the [Task Board View](docs/Components/Task_Board_Pane.md), only that time you would be like to see your task date getting updated with the new changes. This same idea has been used to design this feature, wherein, after you move your focus from the edited file to any other tab or even out of the Obsidian application, you data will get refreshed in the Task Board View.
+Even though it says Real-Time, its not exactly real-time in the actual sense, because if you are editing any task inside your note, your focus will be in the editor and when you will be changing your focus from the current editor to the [Task Board View](docs/Components/Task_Board_Pane.md), only that time you would be like to see your task data getting updated with the new changes. This same idea has been used to design this feature, wherein, after you move your focus from the current editor to any other tab or even out of the Obsidian application, you data will get refreshed in the Task Board View.
 
 This is the default behavior of this plugin and its the best approach for scanning the changes in your vault and updating them on the board in real-time with the least amount of operations and consumption of energy.
 
