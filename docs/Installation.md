@@ -57,7 +57,7 @@ https://github.com/tu2-atmanand/Task-Board
 
 **Step 1 :** Open this link : [Task Board Release]()
 
-**Step 2 :** Download the `main.js`, `styles.css` and `data.json` file.
+**Step 2 :** Download the `main.js`, `styles.css` and `manifest.json` file.
 
 **Step 3 :** Open the vault in your system Explore/File Manager.
 
