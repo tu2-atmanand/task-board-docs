@@ -1,5 +1,5 @@
 ---
-parent: Components
+parent: UI Components
 title: Edit Task Window
 nav_order: 6
 ---

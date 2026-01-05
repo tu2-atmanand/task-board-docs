@@ -1,6 +1,7 @@
 ---
 parent: Advanced Topics
 title: Use the forum
+nav_order: 2
 ---
 
 # How to use the Forum

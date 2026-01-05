@@ -1,5 +1,5 @@
 ---
-parent: Components
+parent: UI Components
 title: Types of Columns
 nav_order: 2
 ---
