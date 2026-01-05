@@ -1,5 +1,5 @@
 ---
-parent: Components
+parent: UI Components
 title: Task Item Card
 nav_order: 3
 ---

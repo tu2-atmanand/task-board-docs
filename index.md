@@ -10,7 +10,7 @@ permalink: /
 
 **"Document your progress while completing your tasks"**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZizsPBuXW8g?si=KgFTkt-TfgxprCdV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=47oadLEUQuuzUuRV&amp;list=PLqEPxsDi1dtepfcaUO9r1BTGZN6IuhvvH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 [Get started now](#how-to-start){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 .mx-auto }
 [View it on GitHub](https://github.com/tu2-atmanand/Task-Board){: .btn .fs-5 .mb-4 .mb-md-0 .mx-auto }

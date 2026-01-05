@@ -1,5 +1,5 @@
 ---
-parent: Components
+parent: UI Components
 title: Task Formats
 nav_order: 4
 ---

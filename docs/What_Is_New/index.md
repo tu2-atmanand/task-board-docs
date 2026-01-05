@@ -7,16 +7,6 @@ nav_order: 11
 
 Stay up to date with the latest features, improvements, and fixes in Task Board!
 
-## Latest Release: v1.6.11
-
-The latest version includes:
-- Move cursor to focus inside search input field after clicking search icon
-- Auto-hide board progress bar on small screens
-- Don't show keyboard when opening AddOrEditTaskModal on mobile
-- Multiple bug fixes and UI improvements
-
-[View Full Changelog →](./ChangeLog.md)
-
 ## Recent Major Features
 
 ### v1.6.0 - Performance & New Features 🎉
@@ -46,11 +36,11 @@ The latest version includes:
 
 ## Want to Know More?
 
-- [View Complete Changelog](./ChangeLog.md)
 - [Upcoming Features](./Upcoming%20Features.md)
+- [View Complete Changelog](./ChangeLog.md)
 
 ## Stay Connected
 
 - [Report Issues](https://github.com/tu2-atmanand/Task-Board/issues)
 - [Join Community Discussion](https://forum.obsidian.md/invites/WDTPqhvJUD)
-- [Watch Video Tutorials](https://youtu.be/ZizsPBuXW8g)
+- [Watch latest version release videos on YouTube](https://youtube.com/playlist?list=PLqEPxsDi1dtepfcaUO9r1BTGZN6IuhvvH&si=0aePzTy5kpjh2Ut5). And subscribe to get latest updates.

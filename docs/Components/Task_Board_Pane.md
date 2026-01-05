@@ -1,5 +1,5 @@
 ---
-parent: Components
+parent: UI Components
 title: Task Board Pane
 nav_order: 1
 ---
