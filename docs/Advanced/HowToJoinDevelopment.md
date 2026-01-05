@@ -1,6 +1,7 @@
 ---
 parent: Advanced Topics
 title: Join the plugin Development
+nav_order: 5
 ---
 
 # How to join the plugin development

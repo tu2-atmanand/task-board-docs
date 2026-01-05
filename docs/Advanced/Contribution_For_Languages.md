@@ -1,6 +1,7 @@
 ---
 parent: Advanced Topics
 title: Contribute to Language Translation
+nav_order: 4
 ---
 
 # Contribute to Language Translation

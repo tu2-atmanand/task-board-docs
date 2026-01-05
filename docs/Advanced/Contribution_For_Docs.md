@@ -1,6 +1,7 @@
 ---
 parent: Advanced Topics
 title: Contribute to documentation
+nav_order: 3
 ---
 
 # How to Contribute to Task Board Documentation

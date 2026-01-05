@@ -1,5 +1,5 @@
 ---
-parent: Components
+parent: UI Components
 title: Metadata Formats
 nav_order: 5
 ---

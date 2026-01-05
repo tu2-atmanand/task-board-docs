@@ -1,6 +1,7 @@
 ---
 parent: Advanced Topics
-title: How to test beta release
+title: Test beta releases
+nav_order: 3
 ---
 
 ## How to test beta release
