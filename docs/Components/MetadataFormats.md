@@ -10,33 +10,54 @@ Metadata also known as task properties are the different properties you assign t
 
 **Task board supports following Metadata :**  
 
+- ID
 - Status  
-- Due date  
-- Time duration  
 - Priority  
 - Tags  
-- Completion time-date  
+- Start time and End time
+- Reminder
+- Start date-time
+- Scheduled date-time
+- Due date-time
+- Completion date-time
+- Cancelled date-time
+- Depends on
 
 More properties coming soon...  
 
 ---
 
+## **ID**  
+{: .d-inline-block }
+(v1.7.0)
+{: .label .label-green }
+
+IDs are very important part of any data-object you want to store efficiently. Hence, Task Board has adopted the mechanism to assign a unique incremental numeric ID to each task, so its very easy to refer as well as precisely find them inside huge note content. Similarly, IDs can be assigned to task-note in its frontmatter for easier fetching the task from the cache.
+
+Its highly recommended to make use of this feature to assign IDs to your task. Please enable the "Auto add unique ID" setting, so this plugin can automatically assign IDs to your tasks.
+
+IDs are very important for the following features to work properly : 
+- Map view.
+- Manual sorting in columns.
+
+---
+
 ## **Status**  
 {: .d-inline-block }
-
-New (v1.3.0)
+(v1.3.0)
 {: .label .label-green }
 
 The **status** of a task indicates its current state. It helps in tracking progress and managing workload efficiently.  
 
-✅ Possible statuses:  
-- **Pending** → Task is yet to be started.  
-- **In Progress** → Task is currently being worked on.  
-- **Completed** → Task has been finished.  
-- **Blocked** → Task cannot be completed due to some issue.  
+✅ Examples :  
+- **TODO [ ]** → Task is yet to be started.
+- **Ready to start [<]** → Independent tasks which can be started anytime.
+- **In Progress [/]** → Task is currently being worked on.
+- **In Review [?]** → Tasks which has been completed, but yet to be tested (useful in development projects workflow).
+- **Completed [x] or [X]** → Task has been finished.  
+- **Cancelled [-]** → Tasks which are no longer important and will not be worked on.
 
-**Example:**  
-A task with "In Progress" status means it is actively being worked on, while "Blocked" means something is preventing it from completion.  
+These are only few examples which will be available for you in the fresh install of this plugin. Later you can configure as many statuses as you want along with creating a status cycles to build a strong tasks/projects management workflow.
 
 ---
 
@@ -119,5 +140,5 @@ You can choose one of the following options in the Task Board setting to keep th
 | Day Planner           | Any                  | 09:00 - 10:00 (At the start of the task) | Any                    | Any                  | Any                      | Any                | Any                                |
 
 
-- You also have the option to mix these formats with one another. For example, say you dent like to see the emojis for priority, you can use other format, and that will still work.
+- You also have the option to mix these formats with one another. For example, say you dont like to see the emojis for priority, you can use other format, and that will still work and Task Board will still scan them. But, if you are using the edit task modal of this plugin to edit the task, then the content will be sanitized to follow only one kind of format throughout, based on the format you have selected in the settings.
 - **Any** mean, for this field, you can use any type of format from that column, for the specific plugin/setting option you have selected.
