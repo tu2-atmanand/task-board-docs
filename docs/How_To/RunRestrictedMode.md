@@ -1,7 +1,7 @@
 ---
 parent: How To
 title: Use restricted mode
-nav_order: 6
+nav_order: 7
 ---
 
 # How to use in restricted mode
