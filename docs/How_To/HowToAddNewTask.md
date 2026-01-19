@@ -1,6 +1,6 @@
 ---
 parent: How To
-title: How to add new Task
+title: Add a new Task
 nav_order: 1
 ---
 

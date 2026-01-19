@@ -1,6 +1,6 @@
 ---
 parent: How To
-title: Use in restricted mode
+title: Use restricted mode
 nav_order: 6
 ---
 

@@ -1,6 +1,6 @@
 ---
 parent: How To
-title: Create new Board
+title: Create a new Board
 nav_order: 3
 ---
 
