@@ -19,14 +19,14 @@ This plugin supports below languages. You can help us improve the current langua
 | `bg`           | Bulgarian             | български език      |   🚧   |
 | `bn`           | Bengali               | বাংলা               |   🚧   |
 | `ca`           | Catalan               | català              |   🚧   |
-| `cs`           | Czech                 | čeština             |   ✅    |
-| `da`           | Danish                | Dansk               |   ✅    |
+| `cs`           | Czech                 | čeština             |   🤖    |
+| `da`           | Danish                | Dansk               |   🤖    |
 | `de`           | German                | Deutsch             |   ✅    |
 | `dv`           | Dhivehi               | ދިވެހި              |   🚧   |
 | `el`           | Greek                 | Ελληνικά            |   🚧   |
 | `en-GB`        | English (GB)          | English (GB)        |   🚧   |
 | `eo`           | Esperanto             | Esperanto           |   🚧   |
-| `es`           | Spanish               | Español             |   ✅    |
+| `es`           | Spanish               | Español             |   🤖    |
 | `fa`           | Persian               | فارسی               |   🚧   |
 | `fi-fi`        | Finnish               | suomi               |   🚧   |
 | `fr`           | French                | français            |   ✅    |
@@ -34,42 +34,44 @@ This plugin supports below languages. You can help us improve the current langua
 | `he`           | Hebrew                | עברית 🇮🇱          |   🚧   |
 | `hi`           | Hindi                 | हिन्दी              |   ✅    |
 | `hu`           | Hungarian             | Magyar nyelv        |   🚧   |
-| `id`           | Indonesian            | Bahasa Indonesia    |   ✅    |
-| `it`           | Italian               | Italiano            |   ✅    |
-| `ja`           | Japanese              | 日本語                 |   ✅    |
-| `ko`           | Korean                | 한국어                 |   ✅    |
+| `id`           | Indonesian            | Bahasa Indonesia    |   🤖    |
+| `it`           | Italian               | Italiano            |   🤖    |
+| `ja`           | Japanese              | 日本語                 |   🤖    |
+| `ko`           | Korean                | 한국어                 |   🤖    |
 | `lv`           | Latvian               | Latviešu valoda     |   🚧   |
 | `ml`           | Malayalam             | മലയാളം              |   🚧   |
 | `ms`           | Malay                 | Bahasa Melayu       |   🚧   |
 | `ne`           | Nepali                | नेपाली              |   🚧   |
-| `nl`           | Dutch                 | Nederlands          |   ✅    |
-| `no`           | Norwegian             | Norsk               |   ✅    |
+| `nl`           | Dutch                 | Nederlands          |   🤖    |
+| `no`           | Norwegian             | Norsk               |   🤖    |
 | `oc`           | Occitan               | Occitan             |   🚧   |
-| `pl`           | Polish                | język polski        |   ✅    |
-| `pt`           | Portuguese            | Português           |   ✅    |
-| `pt-BR`        | Brazilian Portuguese  | Portugues do Brasil |   ✅    |
-| `ro`           | Romanian              | Română              |   ✅    |
+| `pl`           | Polish                | język polski        |   🤖    |
+| `pt`           | Portuguese            | Português           |   🤖    |
+| `pt-BR`        | Brazilian Portuguese  | Portugues do Brasil |   🤖    |
+| `ro`           | Romanian              | Română              |   🤖    |
 | `ru`           | Russian               | Русский             |   ✅    |
 | `sa`           | Sanskrit              | संस्कृतम्           |   🚧   |
 | `sr`           | Serbian               | српски језик        |   🚧   |
 | `se`           | Swedish               | Svenska             |   🚧   |
 | `sk`           | Slovak                | Slovenčina          |   🚧   |
-| `sq`           | Albanian              | Shqip               |   ✅    |
+| `sq`           | Albanian              | Shqip               |   🤖    |
 | `ta`           | Tamil                 | தமிழ்               |   🚧   |
 | `te`           | Telugu                | తెలుగు              |   🚧   |
 | `th`           | Thai                  | ไทย                 |   🚧   |
 | `tl`           | Filipino (Tagalog)    | Tagalog             |   🚧   |
-| `tr`           | Turkish               | Türkçe              |   ✅    |
-| `uk`           | Ukrainian             | Українська          |   ✅    |
+| `tr`           | Turkish               | Türkçe              |   🤖    |
+| `uk`           | Ukrainian             | Українська          |   🤖    |
 | `ur`           | Urdu                  | اردو                |   🚧   |
 | `vi`           | Vietnamese            | Tiếng Việt          |   🚧   |
-| `zh`           | Chinese (Simplified)  | 简体中文                |   ✅    |
+| `zh`           | Chinese (Simplified)  | 简体中文                |   🤖    |
 | `zh-TW`        | Chinese (Traditional) | 繁體中文                |   ✅    |
 
 {: .note }
-> ✅ : Means the language has been properly integrated.
+> ✅ : Means the language has been properly integrated and human reviewed.
 > 
-> 🚧 : Means the language is either haven't been integrated or is under development.
+> 🚧 : Means the language is either haven't been integrated, or its machine generated or is under development.
+>
+> 🤖 : Means the language is machine generated and haven't been human reviewed yet.
 
 ## How to Update existing Language content
 
