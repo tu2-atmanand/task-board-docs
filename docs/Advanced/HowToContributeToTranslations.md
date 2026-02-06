@@ -8,6 +8,11 @@ nav_order: 4
 
 This plugin supports below languages. You can help us improve the current language content or add more languages by following this doc.
 
+Task Board has a unique functionality wherein, users can directly update the interface strings from the translation file and reload obsidian to see the changes right away. Read more here : [How to update existing language](#how-to-update-existing-language-content).
+
+
+## Supported Languages Status
+
 | Language code  | Language name         | Native name         | Status |
 | -------------- | --------------------- | ------------------- | :----: |
 | `en` (default) | English               | English             |   ✅    |
@@ -68,19 +73,26 @@ This plugin supports below languages. You can help us improve the current langua
 
 {: .note }
 > ✅ : Means the language has been properly integrated and human reviewed.
-> 
-> 🚧 : Means the language is either haven't been integrated, or its machine generated or is under development.
 >
 > 🤖 : Means the language is machine generated and haven't been human reviewed yet.
+> 
+> 🚧 : Means the language is either haven't been integrated, or is under development.
+
+
+{: .new-title }
+> NOTE
+>
+> This table might not always show the latest status about the translation languages and even the ✅ marked languages might be missing some translations when new version are released.
+
 
 ## How to Update existing Language content
 
 > This is a very straight forward method.
 
-**STEP 1** : If you have already updated downloaded your language translation file using following setting, then move on to the next step : [Update language translations](../How_To/HowToUseGlobalSettings.md#update-language-translation)
+**STEP 1** : If you have already downloaded your language translation file using following setting, then move on to the next step : [Update language translations](../How_To/HowToUseGlobalSettings.md#update-language-translation)
 
-**STEP 2** : Go inside the plugin's language config folder using your system file explorer. Usually the config folder will be inside `.obsidian/plugin/task-board/locales`. Now open the file with your language code in any text editor.
-For example, if you language is Czech, then find your language code from the above table. In this example the code is 'cs', hence the file name will be `cs.json`.
+**STEP 2** : Go inside the plugin's language config folder using your system file explorer. Usually the config folder will be inside `.obsidian/plugin/task-board/locales`. This `.obsidian` hidden folder will be present inside your vault folder (you might need to enable some option in your system file explorer to see this folder). Now open the file with your language code in any text editor.
+For example, if you language is Czech, then find your language code from the above table. In this example the code is '**cs**', hence the file name will be `cs.json`.
 
 **STEP 3** : Now whichever string you want to edit, find that string and simply edit it.
 
@@ -89,9 +101,11 @@ For example, if you language is Czech, then find your language code from the abo
 **STEP 5** : Now find the string which you want to add, then copy its corresponding id.
 For example, if the string you want to edit is "Add sub task". Then you may see its corresponding id is "add-sub-task".
 
-**STEP 6** : On the left of this id after the colon symbol (:), you can add your language suitable string.
+**STEP 6** : Pase this id in your language file. On the right of this id after the colon symbol (:), you can add your language suitable string.
 
 **STEP 7** : Save this file and reload Obsidian using the command "Reload without saving" and your changes will be applied automatically.
+
+After you have completed with all the required changes, you may submit this file to contribute to the development of this plugin.
 
 ---
 
