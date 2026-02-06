@@ -6,7 +6,11 @@ nav_order: 2
 
 # How to use the Forum
 
-This forum is basically the GitHub Discussion section of the Task Board repository. Any person using this plugin will be able to answer your query if the admin couldn't able to reach sooner.
+This forum is basically the GitHub Discussion section of the Task Board GitHub repository.
+
+This forum will be the right place to ask anything about this plugin, share your ideas for feature or improvement of the plugin, share and showcase what you have build using this plugin and what workflows you have adopted and how this plugin is helping you in managing your small to big projects or general checklists.
+
+If you have asked a question, any Task Board user will be able to answer your query if the admin couldn't able to reach sooner.
 
 ## How to ask a question
 

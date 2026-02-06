@@ -84,7 +84,7 @@ This is a toggle input field, which allows you to show or hide the Footer sectio
 
 - In this case of hidden footer, double click on the Task Item Card to open the [Edit Task window](../Components/EditTaskWindow.md). From this window you will be able to delete the task.
 
-> You can use this and the previous setting option, if you are not making use of this fiels for a task and you want a distraction free, minimalistic experience to manage your tasks and keep them simple.
+> You can use this and the previous setting option, if you are not making use of this files for a task and you want a distraction free, minimalistic experience to manage your tasks and keep them simple.
 
 ### Show task without metadata
 {: .d-inline-block }
@@ -96,7 +96,7 @@ New (v1.3.0)
 |---------------|---------------|
 | Toggle Button | ON            |
 
-This setting will help you to see the tast title inside the Task Item card without any metadata(properties) to get a clean view of your tasks.
+This setting will help you to see the task title inside the Task Item card without any metadata(properties) to get a clean view of your tasks.
 
 You can use this setting along with above two settings to get 4 different looks for your board.
 

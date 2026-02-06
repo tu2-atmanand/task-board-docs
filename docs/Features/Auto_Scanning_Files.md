@@ -1,16 +1,16 @@
 ---
 parent: Features
-title: Auto Scanning Files
+title: Scanning Modes
 nav_order: 4
 ---
 
-# Auto Scanning Feature
+# Scanning Modes
 
 This feature helps you to detect the files you have modified and then scan them automatically to extract any new added task or the old task which you have edited.
 
 This feature can be used two way, which can be controlled using the settings option : [Real-time scanning](../How_To/HowToUseGlobalSettings.md#real-time-scanning).
 
-## Real Time Scanning
+## Real Time Mode
 
 This is an powerful feature of Task Board which helps you to get the latest information of your vault tasks inside the Board. The plugin uses optimized way to scan the modified files and show the edited task content on the board.
 
@@ -24,7 +24,14 @@ A demo can be seen in the below GIF image :
 
 But in-case, if you like to keep everything manual and have control over the scanning part. You can use the below method.
 
-## Manual Scanning
+
+## Balanced Mode
+
+
+
+
+
+## Manual Mode
 
 If you like to scan the updated file manually and only refresh the board when you want. Then you can turn OFF the [Real-time scanning](../How_To/HowToUseGlobalSettings.md#real-time-scanning) settings option.
 

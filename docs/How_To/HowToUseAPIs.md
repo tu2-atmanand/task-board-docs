@@ -30,7 +30,12 @@ const taskContent = await taskBoardApi.addNewTask(false);
 
 ## API Methods
 
-### `addNewTask(isTaskNote: boolean, filePath?: string): Promise<string>`
+In the current version of Task Board, following functions are available in the Task Board API to use : 
+
+- `addNewTask()`
+- ...
+
+### First API : `addNewTask(isTaskNote: boolean, filePath?: string): Promise<string>`
 
 Opens a modal dialog to create a new task. The user can configure the task properties, and the method returns the formatted task content when saved.
 
@@ -53,6 +58,31 @@ Returns a `Promise<string>` that resolves to:
 - **Formatted task content** (non-empty string): The task was successfully created and saved. The string contains the properly formatted task content ready to be written to a file.
 - **Empty string** (`""`): The user cancelled the task creation without saving. No task was created.
 - **Error message** (string starting with "Error"): An error occurred during task creation. The string contains details about what went wrong.
+
+When a task is successfully created, the returned string contains the formatted task content. The format depends on whether it's a Task Note or inline task:
+
+**Inline Task Format**
+
+Inline task is a checklist item add as a single line in the note.
+```
+- [x] Buy groceries @today #personal
+```
+
+**Task Note Format**
+
+The task note is created as a markdown file with YAML frontmatter containing task metadata:
+```markdown
+---
+title: Buy groceries
+status: TODO
+priority: Medium
+tags:
+  - personal
+dueDate: 2025-01-20
+---
+
+Task description and content goes here.
+```
 
 #### Examples
 
@@ -137,30 +167,7 @@ async function createTaskFromCommand() {
 }
 ```
 
-## Task Content Format
-
-When a task is successfully created, the returned string contains the formatted task content. The format depends on whether it's a Task Note or inline task:
-
-### Inline Task Format
-```
-- [x] Buy groceries @today #personal
-```
-
-### Task Note Format
-The task note is created as a markdown file with YAML frontmatter containing task metadata:
-
-```markdown
 ---
-title: Buy groceries
-status: TODO
-priority: Medium
-tags:
-  - personal
-dueDate: 2025-01-20
----
-
-Task description and content goes here.
-```
 
 ## Plugin Compatibility
 

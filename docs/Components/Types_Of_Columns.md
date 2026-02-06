@@ -16,6 +16,8 @@ This column will contain only the tasks which do not have due date set to them.
 
 - **Column Name :** To create this column you only need to enter the name of the column, which will be visible on the column bar. If you want to see all the tasks, which are not been scheduled yet, then you can create this column and schedule them easily.
 
+---
+
 ## Dated
 
 This column will contain all the tasks which has a due date value. You can create a combination of **Dated** type of column, but first we need to understand the properties we have to enter to create a **Dated** column as explained below.
@@ -49,7 +51,6 @@ Remember, this values of **From** or **To** are relative-dynamic dates. Which me
 |See **all overdue tasks**|-300|-1|Tasks due **in the last 300 days but not today**.|
 |See **all tasks (past & future)**|-300|300|Tasks from **past 300 days to the next 300 days**.|
 
----
 
 ##### **Examples**
 
@@ -62,7 +63,6 @@ Remember, this values of **From** or **To** are relative-dynamic dates. Which me
 
 ✅ **Shows tasks due today only.**
 
----
 
 **Example 2: Filtering Tasks Due in the Next 3 Days**
 
@@ -73,7 +73,6 @@ Remember, this values of **From** or **To** are relative-dynamic dates. Which me
 
 ✅ **Shows tasks due tomorrow, day after tomorrow, and 3 days from now.**
 
----
 
 **Example 3: Filtering All Overdue Tasks**
 
@@ -84,7 +83,6 @@ Remember, this values of **From** or **To** are relative-dynamic dates. Which me
 
 ✅ **Shows tasks that were due in the past 300 days (excluding today).**
 
----
 
 **Example 4: Filtering All Future Tasks**
 
@@ -98,6 +96,8 @@ Remember, this values of **From** or **To** are relative-dynamic dates. Which me
 {: .note }
 > Observe that, while entering 0 in the input field, it keeps the field empty, thats a normal behavior in obsidian and it will work as expected, simply type the zero.
 
+---
+
 ## Tagged
 
 Also known as `namedTagged`. This column will contain all the tasks which has been tagged with the specific tag name you have added in the property of this column.
@@ -107,6 +107,8 @@ Also known as `namedTagged`. This column will contain all the tasks which has be
 - **Column Name :** The first property will be as usual the name of the column which you want to see on the column header.
 - **Tag Name :** This is the name of the tag, which you will going to give for multiple tasks in your vault. For example, if you are giving a tag as `#bug` to many tasks, and you want to see all this tasks under one column, then this is the type of column for you. You will have to enter the value `bug` for this input field.
 
+---
+
 ## Untagged
 
 Intuitively, this column will show you all the tasks, which has not been provided by any tag. If you would like to see all the un-tagged tasks, so that you can assign them tags later, which will be much easier from the [Edit Task Window](./EditTaskWindow.md), then you can create this column.
@@ -114,6 +116,8 @@ Intuitively, this column will show you all the tasks, which has not been provide
 ### Properties
 
 - **Column Name :** The only property for this type of column is the name of the column.
+
+---
 
 ## Other Tags
 
@@ -123,16 +127,7 @@ Now, after you have understood what are **Untagged** and **Tagged** column, ther
 
 - **Column Name :** The only property for this type of column is the name of the column.
 
-## Completed
-
-This type of column will show you all the tasks, which has been marked as completed. So, you will notice that, all the task item card under this column will have a different fields inside their Footer. Since you have marked the task as complete, you will see the time-date value when you marked this task as complete as can be seen from the below image.
-
-![CompletedtaskUnderCompletedColumn](../../assets/CompletedtaskUnderCompletedColumn.png)
-
-### Properties
-
-- **Column Name :** The first property will be as usual the name of the column which you want to see on the column header.
-- **Max Items :** This is a number value you want to enter to set a limit to the number of task item cards you want to see under this column. This has been kept to limit the number of tasks rendered under this column, because over a time, you might complete lot of tasks, and if you haven't deleted these tasks from you vault, then they will be getting appended under this column and will increase the load time of the board, hence setting a limit will help you to show only the latest completed tasks.
+---
 
 ## Status
 
@@ -143,6 +138,8 @@ This type of column was added in version 1.5.0 and allows you to filter tasks ba
 - **Column Name :** The name of the column which you want to see on the column header.
 - **Status :** The status value you want to filter tasks by. Tasks with this specific status will appear in this column.
 
+---
+
 ## Priority
 
 This type of column was added in version 1.5.0 and allows you to filter tasks based on their priority level. This helps you organize tasks by importance and focus on high-priority items.
@@ -152,7 +149,9 @@ This type of column was added in version 1.5.0 and allows you to filter tasks ba
 - **Column Name :** The name of the column which you want to see on the column header.
 - **Priority :** Select the priority level you want to filter by (e.g., High, Medium, Low). Tasks with this priority will appear in this column.
 
-## Path
+---
+
+## Path filtered
 
 This type of column was added in version 1.6.0 and allows you to filter tasks from a specific file or note. This is extremely useful when you want to create a dedicated column for tasks from a particular project file or daily note.
 
@@ -163,3 +162,17 @@ This type of column was added in version 1.6.0 and allows you to filter tasks fr
 
 {: .note }
 > The Path filtered column is perfect for project-specific boards where you want to see tasks from a single important file alongside other tasks.
+
+
+---
+
+## Completed
+
+This type of column will show you all the tasks, which has been marked as completed. So, you will notice that, all the task item card under this column will have a different fields inside their Footer. Since you have marked the task as complete, you will see the time-date value when you marked this task as complete as can be seen from the below image.
+
+![Completed tasks inside Completed Column](../../assets/CompletedtaskUnderCompletedColumn.png)
+
+### Properties
+
+- **Column Name :** The first property will be as usual the name of the column which you want to see on the column header.
+- **Max Items :** This is a number value you want to enter to set a limit to the number of task item cards you want to see under this column. This has been kept to limit the number of tasks rendered under this column, because over a time, you might complete lot of tasks, and if you haven't deleted these tasks from you vault, then they will be getting appended under this column and will increase the load time of the board, hence setting a limit will help you to show only the latest completed tasks.
