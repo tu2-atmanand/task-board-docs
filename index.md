@@ -35,35 +35,35 @@ Watch the above complete YouTube playlist to see demo of all the features releas
 
 ## How Does it work
 
-- This plugin scans tasks from all markdown files from your whole vault and show them on a Kanban type board.
-- You can also apply [scan filters](./docs/Features/Filters_for_Scanning.md) to exclude certain files or to only scan certain files to look for tasks.
+- This plugin scans tasks from all markdown files across your entire vault and shows them in a Kanban type board.
+- [Scan filters](./docs/Features/Filters_for_Scanning.md) can be applied to scan only specific files or to exclude specific files.
 - You can edit the task directly from the **Task Board**, without opening the Markdown file.
-- Add task to currently opened files using a pop-up window.
+- Add tasks to currently opened files using a pop-up window.
 
 ## How to start
 
-**STEP 1 :** First install the plugin : [Installation](./docs/Installation.md)
+**STEP 1:** Install the plugin: [Installation](./docs/Installation.md)
 
-**STEP 2 :** Learn how to start using the plugin : [Getting Started](./docs/Getting_Started.md)
+**STEP 2:** Learn about the basics: [Getting Started](./docs/Getting_Started.md)
 
-**STEP 3 :** Understand all the [Features](./docs/Features/index.md) this plugin provides and go through the [Components](./docs/Components/index.md) of the plugin UI.
+**STEP 3:** Explore the [Features](./docs/Features/index.md) of the plugin as well as [UI Components](./docs/Components/index.md).
 
-**STEP 4 :** To get quick answers, you can use the Examples section : [Examples](./docs/Examples/index.md)
+**STEP 4:** Explore [Examples](./docs/Examples/index.md) for ideas and quick answers.
 
 {: .new-title }
 > Important
 >
-> For any queries try to find your answer here : [Task Board FAQs](./docs/How_To/index.md)
+> Questions? Start here: [Task Board FAQs](./docs/How_To/index.md)
 >
-> If you would like to contribute to this project or the docs, read this : [How to Contribute](./docs/Advanced/index.md).
+> If you would like to contribute to this project or the docs, start here: [How to Contribute](./docs/Advanced/index.md)
 
 ## Motivation and Vision
 
-I always used the [Kanban Plugin](https://github.com/mgmeyers/obsidian-kanban) to manage my tasks. And it use to work nice for me with all the amazing features. But as soon as I came across the [CardBoard plugin](obsidian://show-plugin?id=card-board) everything changed. The idea of adding tasks anywhere in your vault and managing them from a single board amazed me. I immediately switched to the CardBoard plugin after I used it for a while. But after using it for few days, i realized there are few important features this plugin is lacking and hence I went to first contribute to the main project, but I wasn't familiar with the elm files, hence decided to start my own plugin.
+Previously, I always used the [Kanban Plugin](https://github.com/mgmeyers/obsidian-kanban) to manage my tasks. It had many amazing features and worked nicely for me, but as soon as I came across the [CardBoard plugin](obsidian://show-plugin?id=card-board) everything changed. The idea of being able to manage from one spot tasks from anywhere in my vault amazed me. After experimenting with the CardBoard plugin for a while, I quickly switched. However, after I used it for few days, I realized there were some important features it was lacking. I had some challenges with contributing to their main project, so I instead decided to start my own plugin.
 
-While development I took inspirations from CardBoard and Kanban plugin as well as many feature ideas from [GitHub project planning KanBan board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view#about-the-board-layout). I hope I am able to give the best of all this three plugins into one, and will be improving this further.
+While in development, I took inspiration from the CardBoard and Kanban plugins, as well as many feature ideas from [GitHub project planning KanBan board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view#about-the-board-layout). It is my hope that I am able to give the best of all three plugins in one place, as well as take improvements even further.
 
-To understand the vision and future development roadmap of this project : [Vision of Task Board](./docs/Vision.md).
+If you would like to understand **Task Board**'s vision and future development roadmap, check here: [Vision of Task Board](./docs/Vision.md).
 
 ## Support
 
