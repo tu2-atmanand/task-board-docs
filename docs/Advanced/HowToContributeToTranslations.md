@@ -71,7 +71,8 @@ Task Board has a unique functionality wherein, users can directly update the int
 | `zh`           | Chinese (Simplified)  | 简体中文                |   🤖    |
 | `zh-TW`        | Chinese (Traditional) | 繁體中文                |   ✅    |
 
-{: .note }
+{: .new-title }
+> LEGENDS
 > ✅ : Means the language has been properly integrated and human reviewed.
 >
 > 🤖 : Means the language is machine generated and haven't been human reviewed yet.
