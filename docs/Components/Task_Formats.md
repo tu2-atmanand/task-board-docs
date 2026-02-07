@@ -6,7 +6,7 @@ nav_order: 4
 
 # Task Formats
 
-This plugin supports all kinds of checklist item formats, that is any formatted line which Obsidian renders as a checkbox element will be considered as a inline-task. Whether it may start with characters like '- [ ] ', '* [ ]', '+ [ ]' or even numbers like '1.[ ]', '1)[ ]', etc. These checklist item can even be indented using multi-level indentation.
+This plugin supports all kinds of checklist item formats. That is any formatted line which Obsidian renders as a checkbox element will be considered as a inline-task. Whether it may start with characters like '- [ ] ', '* [ ]', '+ [ ]' or even numbers like '1.[ ]', '1)[ ]', etc. These checklist item can even be indented using multi-level indentation.
 
 {: .note }
 > - Its not compulsory to put the metadata at the end, from `v1.3.0`, you are free to use any format you want and can place the properties where you want in the task title.
@@ -35,6 +35,9 @@ The only limitation right now is, all checklist items inside a codeblock will be
 > This is a code block
 > - [ ] This is a single line task.
 >   - [ ] This is not a sub-task to the above task but its an individual task and will be scanned by Task Board as a separate task item.
+>   This is a simple indented line and not the description of the above task.
+```
+
 
 ## Task Title
 

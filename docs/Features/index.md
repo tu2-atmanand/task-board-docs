@@ -9,7 +9,7 @@ Following are some of the key features  of this plugin.
 
 ### Task Formats
 
-This plugin will only detect and work with the checkbox items/tasks which are in a specific format. You can use the other formats to make the plugin ignore those tasks or subtasks.
+This plugin supports all kinds of checklist item formats. That is any formatted line which Obsidian renders as a checkbox element will be considered as a inline-task. Whether it may start with characters like ‘- [ ] ‘, ‘* [ ]’, ‘+ [ ]’ or even numbers like ‘1.[ ]’, ‘1)[ ]’, etc. These checklist item can even be indented using multi-level indentation, can be inside a codeblock or can have sub-tasks and description.
 
 Checkout in Details here : [Task Formats](../Components/Task_Formats.md)
 
