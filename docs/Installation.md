@@ -12,6 +12,8 @@ There are three options for installing **Task Board**:
 
 ## Method 1: Obsidian Community Plugin Marketplace
 
+This is the recommended method to get the officially released version from Obsidian community marketplace.
+
 **Step 1:** Open Obsidian.
 
 **Step 2:** Open the Settings Panel using the Gear Icon from the Side bar:
@@ -31,6 +33,8 @@ There are three options for installing **Task Board**:
 ---
 
 ## Method 2: Installing Using [BRAT plugin](https://github.com/TfTHacker/obsidian42-brat)
+
+This is a special and more advanced method to install plugins. Because it helps to select the version of the plugin you would like to install. This is specially a very useful method incase you would like to rollback the plugin version to an older one.
 
 **Step 1:** Install the [**BRAT plugin**](obsidian://show-plugin?id=obsidian42-brat) the same way you would install any other community plugin:
 
