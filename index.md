@@ -10,7 +10,7 @@ permalink: /
 
 **"Document your progress while completing your tasks"**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=47oadLEUQuuzUuRV&amp;list=PLqEPxsDi1dtepfcaUO9r1BTGZN6IuhvvH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![Task Board Thumbnail](./assets/TaskBoardThumbnail-3.jpg)
 
 [Get started now](#how-to-start){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 .mx-auto }
 [View it on GitHub](https://github.com/tu2-atmanand/Task-Board){: .btn .fs-5 .mb-4 .mb-md-0 .mx-auto }
@@ -29,9 +29,9 @@ permalink: /
 
 [**Task Board**](https://github.com/tu2-atmanand/Task-Board) is a plugin for [Obsidian](https://obsidian.md/) to view and manage all your task in a much more efficient Kanban board format. Easily manage your tasks throughout your vault from a single place. And automate your task management workflow.
 
-![Task Board Thumbnail](./assets/TaskBoardThumbnail-2.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=47oadLEUQuuzUuRV&amp;list=PLqEPxsDi1dtepfcaUO9r1BTGZN6IuhvvH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Understand the complete UI of Task Board from here : [Task Board Pane](./docs/Components/Task_Board_Pane.md)
+Watch the above complete YouTube playlist to see demo of all the features released in every version.
 
 ## How Does it work
 

@@ -6,10 +6,21 @@ nav_order: 3
 
 ## How to test beta release
 
-Beta version releases are the versions released for testing and ensuring the plugin will work as expected after the main release. Beta version usually will have the name/tag as minor release version followed by a 'beta' name, followed by a number. Eg.: `1.5.0-beta-2`.
+Beta releases are the versions released for testing and ensuring the plugin will work as expected after the main release. Beta version usually will have the name/tag as minor release version followed by a 'beta' name, followed by a number. Eg.: `1.5.0-beta-2`.
 
-Whenever a new beta version has been released, you will able to get a notification for the same either in the releases tab or in the Announcement section of the discussion.
+Whenever a new beta version has been released, you will get a notification for the same either through mail if you are watching this repository or in the Announcement section of the discussion.
 
+There are two ways to test a beta version. (First one is easy way) : 
+
+### Download a test vault and start testing
+
+- In every release you will find a zip file attached which you can easily download, unzip and open inside Obsidian.
+- For example, here is a test vault attached for the release of the beta version `1.8.0-beta-4` : https://github.com/tu2-atmanand/Task-Board/releases/tag/1.8.0-beta-4.
+- Now, you can start testing the various new features released in this version.
+- If you found any issue or bug, see if its again reproducible inside the same test vault, if yes, then zip back this test vault and [create a new issue](https://github.com/tu2-atmanand/Task-Board/issues/new) or email it to sanketgauns8@gmail.com and attach this zip file. And explain what the issue is and how to reproduce it.
+
+
+### Create your own test vaul
 
 Follow the below steps to install a beta release for testing : 
 

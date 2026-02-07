@@ -9,8 +9,10 @@ nav_order: 9
 Task Board integrates seamlessly with several popular Obsidian plugins to enhance your task management workflow. These integrations allow you to leverage the features of multiple plugins together.
 
 ## QuickAdd Plugin Integration
+{: .d-inline-block }
 
-**Added in version 1.5.0**
+1.5.0
+{: .label .label-blue }
 
 Task Board now integrates with the [QuickAdd plugin](https://github.com/chhoumann/quickadd) to provide powerful task creation capabilities.
 
@@ -35,7 +37,11 @@ Task Board now integrates with the [QuickAdd plugin](https://github.com/chhouman
 
 Task Board maintains strong compatibility with the [Tasks plugin](https://github.com/obsidian-tasks-group/obsidian-tasks):
 
-### Task Status Support (v1.3.0)
+### Task Status Support
+{: .d-inline-block }
+
+1.3.0
+{: .label .label-blue }
 
 - Use custom task statuses similar to the Tasks plugin
 - Support for different checkbox states with emojis
@@ -69,8 +75,10 @@ Task Board integrates with reminder plugins to help you never miss a deadline:
 - Other compatible reminder plugins that use standard notification formats
 
 ## Highlightr Plugin Integration
+{: .d-inline-block }
 
-**Added in version 1.4.0**
+1.4.0
+{: .label .label-blue }
 
 Style your tasks with highlighting:
 
@@ -82,8 +90,10 @@ Style your tasks with highlighting:
 > Make sure the Highlightr plugin is enabled for this feature to work properly.
 
 ## Frontmatter Tags Inheritance
+{: .d-inline-block }
 
-**Added in version 1.6.0**
+1.6.0
+{: .label .label-blue }
 
 Also known as **Virtual Tags**, this feature allows:
 
@@ -103,14 +113,15 @@ tags: [project, urgent]
 All tasks in that note will inherit these tags and can be filtered accordingly in your board.
 
 ## Task Board API
+{: .d-inline-block }
 
-**Added in version 1.5.0**
+1.5.0
+{: .label .label-blue }
 
-A public API for developers to integrate with Task Board:
+Task Board now exposes few APIs for other plugins or scripts to use directly:
 
 - Programmatically open the Add or Edit Task modal
 - Extend Task Board functionality in your own plugins
 - Build custom workflows around task management
 
-{: .note }
-> API documentation is available for developers who want to build integrations with Task Board.
+Read more here : [Task Board APIs](../How_To/HowToUseAPIs.md).

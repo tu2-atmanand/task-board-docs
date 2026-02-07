@@ -57,8 +57,20 @@ Read complete changelog from here : [Task Board v1.6.x](./v1.6.x.md).
 
 ---
 
-## Version 1.7.0 ~ 1.7.
+## Version 1.7.0 ~ 1.7.1
 
-Read complete changelog from here : [Task Board v1.6.x](./v1.6.x.md).
+Read complete changelog from here : [Task Board v1.7.x](./v1.7.x.md).
+
+---
+
+## Version 1.8.0 ~ 1.8.7
+
+Read complete changelog from here : [Task Board v1.8.x](./v1.8.x.md).
+
+---
+
+## Version 1.9.0 ~
+
+Read complete changelog from here : [Task Board v1.9.x](./v1.9.x.md).
 
 ---

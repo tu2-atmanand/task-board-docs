@@ -4,7 +4,7 @@ title: Editing a Task
 nav_order: 2
 ---
 
-# Editing A Task
+# Editing existing task
 
 There are two ways to edit the old content of your task.
 
