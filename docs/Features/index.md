@@ -5,82 +5,87 @@ nav_order: 4
 
 # Task Board Features
 
-Following are some of the key features  of this plugin.
+Below are some of the Plugin's key features.
 
 ### Task Formats
 
-This plugin will only detect and work with the checkbox items/tasks which are in a specific format. You can use the other formats to make the plugin ignore those tasks or subtasks.
+This plugin is intentionally designed to only detect and work with the checkbox items/tasks that are in a specific format. This allows you the freedom to use the other formats in other ways so that the plugin can ignore them entirely.
 
-Checkout in Details here : [Task Formats](../Components/Task_Formats.md)
+More details here: [Task Formats](../Components/Task_Formats.md)
 
 ### Adding a Task
 
-There are two way you can add a task to the Task Board. First is the usual old method of directly writing down the task inside the markdown file. The second method is using a **Add New Task** Window to add different properties to the task using input elements to make the adding properties easy and ensuring the format comes properly.
+There are two primary ways you can add a task to the Task Board. 
 
-Checkout detailed information here : [Adding new Task](./AddingANewTask.md)
+First is the usual old method of directly writing down the task inside the markdown file. 
+
+The second method is using the **Add New Task** window to add different properties to the task. It uses input elements to make the adding properties easier and ensures the format comes out properly.
+
+More detailed information here: [Adding new Task](./AddingANewTask.md)
 
 ### Editing a Task
 
 ![Editing a Task from Board](../../assets/EditTaskWindow.gif)
 
-Edit task directly from the Edit Task Window. You can add different properties to the task, add more subTask, add or edit description to the task. And the changes will be return to the parent markdown file exactly the way you see it in the preview.
+Tasks can be edited directly from the **Edit Task** window. You can add different properties to the task, add more sub tasks, as well as add or edit the description of the task. Changes will be return to the parent markdown file exactly the way you see it in the preview.
 
-Checkout detailed information here : [Editing a task](./EditingATask.md)
+More detailed information here: [Editing a task](./EditingATask.md)
 
 ### Marking as Complete
 
 ![Marking Task as Complete](../../assets/MarkTaskComplete.gif)
 
-Marking a Task as complete from the board is real-time, as soon as you will mark or un-mark the task, the changes will be instantly made in the parent markdown file.
+Any tasks marked from the board as complete/incomplete will appear in real-time in the source/parent markdown file.
 
-Checkout detailed information here : [Marking a task complete](./MarkingTaskComplete.md)
+More detailed information here: [Marking a task complete](./MarkingTaskComplete.md)
 
 ### Deleting a Task
 
-Directly delete unwanted task from the board using the delete Icon. The task will also be deleted from the parent markdown file.
+Tasks can be deleted directly from the board via the **Delete** icon. This will also delete the item from the parent markdown file.
 
 ### Archive Tasks
 
-**Added in version 1.5.0**
+Tasks can be archived instead of deleting, if you prefer. This can be done by moving the items to a dedicated **Archive** note or by commenting them out of the original note. The choice is yours.
 
-Archive your completed tasks instead of permanently deleting them. Choose between commenting out tasks in your files or moving them to a dedicated archive note to maintain a history of your work.
-
-Checkout detailed information here : [Archive Tasks](./Archive_Tasks.md)
+More detailed information here: [Archive Tasks](./Archive_Tasks.md)
 
 ### Search Tasks
 
-**Added in version 1.6.0**
+Search and filter for specific tasks via the **Search** functionality. Filtering is done in real-time and will return back to normal once you delete the contents of the search field.
 
-Quickly find specific tasks on your board using the search functionality. Search through task content in real-time to locate the tasks you need.
-
-Checkout detailed information here : [Search Tasks](./Search_Tasks.md)
+More detailed information here: [Search Tasks](./Search_Tasks.md)
 
 ### Plugin Integrations
 
-Task Board integrates seamlessly with several popular Obsidian plugins including QuickAdd, Tasks plugin, Reminder plugins, and Highlightr. These integrations enhance your workflow and provide powerful features.
+**Task Board** is intended to seamlessly integrate with several popular Obsidian plugins including:
+- QuickAdd
+- Tasks
+- Reminder
+- Highlightr
 
-Checkout detailed information here : [Plugin Integrations](./Plugin_Integrations.md)
+This allows users the opportunity to integrate some of their powerful features into their personal workflow. 
+
+More detailed information here: [Plugin Integrations](./Plugin_Integrations.md)
 
 ### Mobile Support
 
-**Added in version 1.4.0**
+Task Board is designed to work well on mobile devices. The UI/UX has been optimized with phones and tablets in mind. Manage your tasks on the go with touch-friendly controls and responsive layouts.
 
-Task Board now works great on mobile devices with optimized UI/UX for phones and tablets. Manage your tasks on the go with touch-friendly controls and responsive layouts.
-
-Checkout detailed information here : [Mobile Support](./Mobile_Support.md)
+More detailed information here: [Mobile Support](./Mobile_Support.md)
 
 ### Applying Filters
 
-At present there are mainly two types of filters. The first one is [Filters for Scanning](./Filters_for_Scanning.md), which is a very powerful feature and give you the option to scan only specific folder, file to look out for tasks and also only scan tasks with certain tags on them.
-The second type of filters, are [Board Filters](../How_To/HowToUseBoardSettings.md#Board%20Filters) which allows you to only show the tasks with certain tags in them. You can use this filters to search for few related tasks.
-
-A new type of filters are coming soon, called as Column Filters to filter out tasks under any column.
+**Task Board** offers several filtering functionalities:
+- **[Global Filters for Scanning](./Filters_for_Scanning.md):** Scan globally to include or exclude specific files, folders, and tags.
+- **[Board Filters](../How_To/HowToUseBoardSettings.md#Board%20Filters):** **Board Filters** allow for on-board filtering to further locally refine which tasks appear on your board.
+- **Column Filters** will be an upcoming feature.
 
 ### Multi-Language Support
 
-The plugin currently supports more than 20 languages and new languages are planned to being  added in subsequent releases. Although a proper care has been taken to translate the default english language to other languages, the exact content meaning cannot be guaranteed, since online services has been used to translation.
-Your contribution for updating the current content in any language or adding a new language will be highly appreciated. It will be easy but a powerful step to make this plugin, accessible to many people. Read this doc to learn to contribute for Language Translation : [Contribute To Language Translation](../Advanced/Contribution_For_Languages.md).
+The plugin is currently configured to support more than 20 languages with the intention of more languages in future releases.
 
-### Re Scan Vault
+> Note: Proper care has been taken to translate the default English language into other languages, online tools have mostly been used for translation, therefore precise translations isn't guaranteed.If you notice any errors in translation, your help would be greatly appreciated. More details on how to contribute to language translations here: [Contribute To Language Translation](../Advanced/HowToContributeToTranslations.md).
 
-This is a Special feature which allows you to Scan your whole vault to detect any undetected changes or when you update the [Scan Filters](./Filters_for_Scanning.md) settings from the Global Settings.
+### Re-Scan Vault
+
+This is a special feature to manually scan your vault to detect any undetected changes. This is particularly useful when first initializing or when you update the global [Scan Filters](./Filters_for_Scanning.md). 
