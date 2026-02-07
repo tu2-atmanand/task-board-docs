@@ -6,11 +6,7 @@ nav_order: 4
 
 # Task Formats
 
-This plugin only works for a specific type of tasks, which are in a particular format.
-
-The following image will help you to understand the nomenclature to read this documentation efficiently and understand the parts of a Task.
-
-![Task In File](../../assets/TaskInFileLegend.png)
+This plugin supports all kinds of checklist item formats, that is any formatted line which Obsidian renders as a checkbox element will be considered as a inline-task. Whether it may start with characters like '- [ ] ', '* [ ]', '+ [ ]' or even numbers like '1.[ ]', '1)[ ]', etc. These checklist item can even be indented using multi-level indentation.
 
 {: .note }
 > - Its not compulsory to put the metadata at the end, from `v1.3.0`, you are free to use any format you want and can place the properties where you want in the task title.
@@ -19,33 +15,30 @@ The following image will help you to understand the nomenclature to read this do
 
 ## The Checkbox Pattern
 
-Obsidian supports three types of pattern to create a checkbox or in other words a task item as shown below  :
+All kinds of checkbox formats which are supported by Obsidian will be supported by Task Board. For example,
 
 ```md
 - [ ] 
 + [ ] 
 * [ ] 
+1. [ ]
+1) [ ]
 ```
 
-But this plugin only works for the first kind of checkbox or detects any line as task, if it starts with the following patter :
+As well as indented tasks with any level of indentation will be scanned by Task Board. It can be inside a codeblock also.
 
+### Limitation
+
+The only limitation right now is, all checklist items inside a codeblock will be considered as a single line tasks. That is, tasks inside codeblocks cannot have sub-tasks and description to them. Here is an example : 
 ```md
-- [ ] 
-```
-
-So, if you want the plugin to not detect any of your task and consider the task as normal text, then you can use the other types of formats. This even works for sub-task. Any sub-tasks with the patter other than supported by this plugin, will be considered as a description content for the task and will be shown under the Description section and not as a sub-task.
-
-{: .note }
-> Please note that, only the tasks without any indentation will be detected by this plugin. So if you say have something like below content inside your markdown file, the task wont be detected. Submit a [request](../Advanced/HowToCreateRequest.md) if you want to have this functionality.
-
-```md
-This is a simple line without any indentation or an paragraph.
-    - [ ] This is a task as a part of this paragraph, with an one-level indentation.
-```
+> ![NOTE] A Code Block
+> This is a code block
+> - [ ] This is a single line task.
+>   - [ ] This is not a sub-task to the above task but its an individual task and will be scanned by Task Board as a separate task item.
 
 ## Task Title
 
-This is the main title of any task. Most of the people would like to have a simple one liner task. It is advisable that while creating any task, give a short one line title to your task. If you want to explain what this task is about, you can add/elaborate it inside the **Description**.
+This is the main title of any task. Most of the users would like to have a simple one liner task. It is advisable that while creating any task, give a short one line title to your task. If you want to explain what this task is about, you can add/elaborate it inside the **Description**.
 
 ## Task Metadata
 
