@@ -94,6 +94,8 @@ The **priority** level defines how important and urgent a task is. This helps in
 - **Medium** → Important but not urgent tasks.  
 - **Low** → Tasks that can be done later.  
 
+> Note: Priority can also be manually keyed into metadata as `[priority:: 0]` with `0` denoting "no priority," `1` denoting "highest priority," and `5` denoting "lowest priority"
+
 **Example:**  
 A deadline-related task may have a **High priority**, while an optional research task may have a **Low priority**.  
 
@@ -133,7 +135,7 @@ You can choose one of the following options in the Task Board setting to keep th
 
 | Plugin/Setting option | Priority             | Time duration                            | Created date           | Start date           | Scheduled date           | Due date           | Completion time-date               |
 | --------------------- | -------------------- | ---------------------------------------- | ---------------------- | -------------------- | ------------------------ | ------------------ | ---------------------------------- |
-| Task Board (Default)  | ⏫                    | ⏰[21:10 - 23:10]                         | ➕2024-10-31            | 🛫2024-10-31         | ⏳2024-10-31              | 📅2024-10-31       | ✅2021-10-31T21:52:22               |
+| Task Board (Default)  | ⏫ or [priority:: 0-5]                   | ⏰[21:10 - 23:10]                         | ➕2024-10-31            | 🛫2024-10-31         | ⏳2024-10-31              | 📅2024-10-31       | ✅2021-10-31T21:52:22               |
 | Tasks                 | ⏫                    | ⏰ 21:10 - 23:10                          | ➕ 2024-10-31           | 🛫 2024-10-31        | ⏳ 2024-10-31             | 📅 2024-10-31      | ✅ 2021-10-29                       |
 | Dataview              | [priority:: highest] | [time:: 21:10 - 23:10]                   | [created:: 2024-10-31] | [start:: 2024-10-31] | [scheduled:: 2024-10-31] | [due:: 2024-10-31] | [completion:: 2021-10-31T21:52:22] |
 | Obsidian Native       | Any                  | @time(21:10 - 23:10)                     | @created(2024-10-31)   | @start(2024-10-31)   | @scheduled(2024-10-31)   | @due(2024-10-31)   | @completion(2021-10-29)            |
