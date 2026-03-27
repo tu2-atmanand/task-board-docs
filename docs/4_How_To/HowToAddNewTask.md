@@ -4,11 +4,14 @@ title: Add a new Task
 nav_order: 1
 ---
 
-# Add A New Task
+# Adding a New Task
 
-There are two ways at present to add a new task to the board.
+There are a couple ways to add tasks to a board:
+- Manually typing it within a markdown file: [Adding new task from file](../How_To/HowToAddNewTask.md#from-file)
+- Via [**Task Editor**](../4_Features/) (accessed via the button on the top right of the board itself or via Obsidian's Command Palette `Default: CTRL+P`)
 
-## From File
+
+## Manual method
 
 ![Adding a new task](../../assets/AddingNewTaskFromFile.gif)
 
@@ -21,16 +24,12 @@ Also ensure that the file is allowed for scanning and you have not applied any [
 
 Once you are done with adding all your content, just switch your focus from the current editor to the [Task Board View](../Components/Task_Board_Pane.md) and your task will be automatically added to the Task Board.
 
-## Using Pop-Up Window
+## Using Task Editor
 
-You can open the Add New Task pop-up window by searching for the `Task Board : Add New Task in Current File` command from the Command Palette.
 
-It will be recommended that you add a shortcut to this command, so you can directly add a new task to the current file you are editing.
-
-Ensure that, to run this command, or to open this pop-up window, you are suppose to be inside a markdown file editor. Inside the file place your cursor, where you want to add a new task, and the new task will appear at that line.
 
 ## Using Column Buttons
 
 Upcoming Feature...
 
-(You will be able to add a task to a specific allowable column using a button and selecting a file to which you want to add the task to from the pop-up window.)
+> You will be able to add a task to a specific allowed column using a button. This will automatically apply the required properties to the task so that it can appear within that column/board.

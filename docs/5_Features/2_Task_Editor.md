@@ -1,21 +1,26 @@
 ---
 parent: Features
-title: Adding a new Task
-nav_order: 1
+title: Task Editor
+nav_order: 2
 ---
 
-# Adding a New Task
+## Task Editor
 
-There are a couple ways to add tasks to a board:
-- Manually typing it within a markdown file: [Adding new task from file](../How_To/HowToAddNewTask.md#from-file)
-- Via **Task Board**'s **Add Task Window** (accessed via the button on the top right of the board itself or via Obsidian's Command Palette `Default: CTRL+P`)
+This custom view gives the user the ability to add new tasks to a file or files in various ways as well as assists with managing properties/[metadata](../Components/MetadataFormats.md) for tasks in a way that is compatible with your other plugins, as well as how you have it configured in the plugin's global settings. The window also provides a live preview as you type.
 
+To understand the complete UI of this view, read the following wiki : [Task Editor UI](../5_Components/3_TaskEditor.md).
+
+You can open the Task Editor modal by using either of the following two commands from the Obsidian's command palette : 
+1. `Task Board : Add New Task in Current File` : Using this command you can add a task to the specific place where you have placed your cursor.
 {: .note }
+
 > Please note that before running the command, place your cursor in the editor where you want to add the task. For running the command its important that you are focusing inside an active editor.
 
-## Add Task Window
+2. 
 
-This window gives the user the ability to add new tasks to a file or files in various ways as well as assists with managing properties/[metadata](../Components/MetadataFormats.md) for tasks in a way that is compatible with your other plugins, as well as how you have it configured in the plugin's global settings. The window also provides a live preview as you type.
+It will be recommended that you add a shortcut to this command, so you can directly add a new task to the current file you are editing.
+
+Ensure that, to run this command, or to open this pop-up window, you are suppose to be inside a markdown file editor. Inside the file place your cursor, where you want to add a new task, and the new task will appear at that line.
 
 ### Ways to Add a Task
 

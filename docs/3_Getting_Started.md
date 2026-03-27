@@ -17,18 +17,23 @@ After proper installation, **Task Board** can be opened by clicking the new icon
 - Using the command `Open Task Board` from the Command Palette.
 - Assigning a shortcut for the command from the **Hotkey** tab in Obsidian's general settings.
 
+Once you open the Task Board tab for the first time you will notice there are already few predefined boards present for your convenience. Feel free to delete or edit the boards and [create your own boards](./4_How_To/HowToCreateNewBoard.md).
+
+For now these boards will be empty because this plugin havent scanned any of your task yet. Move to step 2...
+
 ## **Step 2:** Scan tasks for the first time
 
-Click on the **Scan Vault Modal** button. It is located inside the "View Header" in the top-right corner. This will open a window that can manually scan all of the files in your vault for tasks.
+Click on the **Vault Scanner Modal** button. It is located inside the "View Header" in the top-right corner. This will open a window that can automatically scan all of the files in your vault for tasks.
+
+{: .note }
+> Before running the scanner, you might like to use the "Filters for scanning" feature, which will allow you to skip certain files from being scanned, if you dont want this plugin to scan your those files. BTW, dont worry this plugin is also completely offline like Obsidian.
+> 
+> You won't need to use this "[Vault Scanner Feature](./5_Features/Scan_Vault_Feature.md)" feature often. It is only for fresh install or for special cases like troubleshooting or solving any other issue.
 
 ![ReScanVaultModalOpen](../assets/ReScanVaultModalOpen.png)
 
-**NOTE:** You won't need to use this "Scan Vault" feature often. It is only for fresh install or for special cases like troubleshooting or solving any other issue. Learn more here: [Scan Vault Feature](./Features/Scan_Vault_Feature.md)
-
 All tasks with the [accepted format](./Components/Task_Formats.md) will be scanned and will be displayed on the board based on the specific [Column Criteria](./Components/Types_Of_Columns.md).
 
-Afterwards, use the [Scanning Filters](./Features/Filters_for_Scanning.md) from the main settings to only scan specific files and ignore other files.
-
-There are already two predefined board for your convenience as an example. Feel free to delete or edit the boards and create your own boards. Check out more information on Board here: [Creating Boards](./How_To/HowToCreateNewBoard.md)
+Now you are free to explore the various features of this plugin. Will recommend to start by exploring some of the quick guides we have created in the following section : [How to do anything](./4_How_To/index.md).
 
 **Enjoy the plugin !**

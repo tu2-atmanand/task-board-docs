@@ -1,12 +1,14 @@
 ---
 parent: UI Components
 title: Task Editor
-nav_order: 2
+nav_order: 3
 ---
 
 # Task Editor
 
-This is a pop up window which helps you to edit your tasks or add more fields to your task easily without opening the markdown file.
+This is a custom view by this plugin which can be opened inside a modal or as a tab or inside a pop-out window as well.
+
+This task editor helps you to edit your tasks or add more properties to your task easily without opening the markdown file.
 
 ![Task Editor](../../assets/EditTaskWindow.gif)
 
