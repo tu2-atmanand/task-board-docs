@@ -6,29 +6,27 @@ nav_order: 2
 
 # Editing existing task
 
-There are two ways to edit the old content of your task.
+There are two ways to edit the old content of your task:
+- Edit the item within the markdown file itself: [Edit Task from File](../How_To/HowToEditATask.md#from-the-markdown-file).
+- Via the [Edit Task Window](../Components/EditTaskWindow.md) (This can be done from your board, even without opening the source markdown file)
 
-The obvious method is directly editing from the markdown file, explained in detail here : [Edit Task from File](../How_To/HowToEditATask.md#from-the-markdown-file).
+## About the Edit Task Window
 
-But using the [Edit Task Window](../Components/EditTaskWindow.md), you can easily edit the task without opening the parent markdown file.
+This feature exists to allow you to directly edit the content and properties of a task, directly from your board, without the need of opening the parent markdown file. All changes made within the window will be reflected in the markdown file.
+
+This window also contains a **Live Embedded Editor** for a real-time preview of edits made.
 
 ## How to use the window
 
-This features allows you to directly edit the content of the tasks from the board. You don't have to open the parent markdown file of this task to edit it. The changes will be reflected in the markdown file.
-
-**Enhanced in v1.5.0:** The Edit Task Window now includes a **Live Embedded Editor** for real-time editing with preview.
-
-**Step 1 :** Click on the Edit Icon button to open the **Edit Task Window**. The button is visible when you hover over the task card (v1.1.0).
+**Step 1:** Find the task you would like to edit and click the **Edit Task** button/icon. This will open the **Edit Task Window**.
 
 ![Editing Task Panel](../../assets/EditTaskWindow.gif)
 
-**Step 2 :** Now Edit any field you want from the specific input field. You can also add values to the empty fields, add description or add more sub-tasks.
+**Step 2:** Edit any field you would like from the appropriate input field. You can also add values to the empty fields, add descriptions, add more sub-tasks, etc.
 
-**Step 3 :** Remember to press save button after you have made the changes.
+**Step 3:** **Select the "Save" button to save changes made**. _(If not, the user will be given the opportunity to discard changes or go back and save)_
 
-**New in v1.3.0:** A confirmation popup will appear if you accidentally try to close the modal without saving your changes.
-
-> Understand all the features of this window from here : [Edit Task Window](../Components/EditTaskWindow.md)
+> To learn more about the **Edit Task Window**, including detailed explanations of each field, check here: [Edit Task Window](../Components/EditTaskWindow.md)
 
 ## Live Editing Features (v1.5.0)
 
