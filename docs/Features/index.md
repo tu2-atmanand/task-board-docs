@@ -23,7 +23,7 @@ Checkout detailed information here : [Adding new Task](./AddingANewTask.md)
 
 ![Editing a Task from Board](../../assets/EditTaskWindow.gif)
 
-Edit task directly from the Edit Task Window. You can add different properties to the task, add more subTask, add or edit description to the task. And the changes will be return to the parent markdown file exactly the way you see it in the preview.
+Edit task directly from the Task Editor. You can add different properties to the task, add more subTask, add or edit description to the task. And the changes will be return to the parent markdown file exactly the way you see it in the preview.
 
 Checkout detailed information here : [Editing a task](./EditingATask.md)
 

@@ -6,7 +6,6 @@ nav_order: 11
 
 # Kanban Swimlanes
 {: .d-inline-block }
-
 v1.10.0
 {: .label .label-purple }
 

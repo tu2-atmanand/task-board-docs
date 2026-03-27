@@ -10,27 +10,27 @@ Beta releases are the versions released for testing and ensuring the plugin will
 
 Whenever a new beta version has been released, you will get a notification for the same either through mail if you are watching this repository or in the Announcement section of the discussion.
 
-There are two ways to test a beta version. (First one is easy way) : 
+{: .note }
+> Points to remember while installing a beta versions : 
+> - Use a dummy vault or sandbox vault. Since new changes might contain some bugs, there is a possibility of data loss. Hence never install a beta version of any plugin inside your main vaults.
+> - Uninstall any version of previous Task Board you have installed in the vault you are doing the testing. If this is your fresh new vault, then no worries.
+> - Preferably use the first method from below to do the testing, to avoid wasting time in creating a dummy vault, etc.
 
-### Download a test vault and start testing
+There are two methods to test a beta version : 
 
-- In every release you will find a zip file attached which you can easily download, unzip and open inside Obsidian.
-- For example, here is a test vault attached for the release of the beta version `1.8.0-beta-4` : https://github.com/tu2-atmanand/Task-Board/releases/tag/1.8.0-beta-4.
-- Now, you can start testing the various new features released in this version.
-- If you found any issue or bug, see if its again reproducible inside the same test vault, if yes, then zip back this test vault and [create a new issue](https://github.com/tu2-atmanand/Task-Board/issues/new) or email it to sanketgauns8@gmail.com and attach this zip file. And explain what the issue is and how to reproduce it.
+1. Download a pre-configured test vault. (This is a easy method)
+2. Install the beta version using BRAT plugin.
 
+### First Method : Download a test vault
 
-### Create your own test vaul
-
-Follow the below steps to install a beta release for testing : 
-
-### Points to remember before installing
-
-- Use a dummy vault or sandbox vault (for temporary testing). Since new changes might contain some bugs, there is a possibility of data loss. Hence never install a beta version of any plugin inside your main vaults.
-- Uninstall any version of previous Task Board you have installed in this current vault. If this if this is your fresh new vault, then no worries.
+- In every beta release you will find a zip file attached in the release notes. Which you can easily download, unzip and open inside Obsidian.
+- For example, open the following link to see a zip file attached at the end for the release notes of the beta version `1.8.0-beta-4` : https://github.com/tu2-atmanand/Task-Board/releases/tag/1.8.0-beta-4.
+- Simply download this zip file, then extract the folder from the zip file, then open that folder inside Obsidian. Now you can easily start testing this beta version.
+- If you found any issue or bug, if its a small bug you can simply report the bug here : [create a new issue](https://github.com/tu2-atmanand/Task-Board/issues/new).
+- But, if the developer wants more information to troubleshoot the issue, try to reproduce the issue inside this same test vault you are using. If you are able to reproduce the issue, simply zip this test vault folder back and send this zip to developer. Either in the same issue ticket or email it to [sanketgauns8@gmail.com](mainto:sanketgauns8@gmail.com).
 
 
-### How to install beta version
+### Second Method : Install the beta version using BRAT plugin.
 
 **Step 1 :** Open the Dummy vault inside Obsidian.
 

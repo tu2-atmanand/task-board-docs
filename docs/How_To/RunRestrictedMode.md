@@ -10,7 +10,7 @@ This page will explain you on how you can run this plugin in restricted mode. Yo
 
 Restricted mode means, you will be using this plugin only for viewing/partially managing your tasks. That is, this plugin can do both monitoring and editing your tasks. But you can only use it for monitoring your tasks and for editing them you have various other options to quicly edit them, but it will be through the Obsidian editor, as usual.
 
-Currently, the default way of editing your tasks is through the [Edit Task Window](../Components/EditTaskWindow.md). But you also have following other options using the [Edit button mode setting](./HowToUseGlobalSettings.md#edit-button-mode) as explained below :
+Currently, the default way of editing your tasks is through the [Task Editor](../Components/EditTaskWindow.md). But you also have following other options using the [Edit button mode setting](./HowToUseGlobalSettings.md#edit-button-mode) as explained below :
 
 - **Open note in new tab :** If you use this option, then on clicking the edit button will open the note of your tasks in a new tab.
 - **Open note in right split :** This option will help you to open the note in the right side of your current obsidian view.
@@ -18,4 +18,4 @@ Currently, the default way of editing your tasks is through the [Edit Task Windo
 
 So, instead of choosing the default option for this setting you are free to use any one of these setting and edit your tasks manually to ensure your data is safe and intact.
 
-You can use the Edit Task window feature, by first testig it on your dummy tasks and after you feel that this plugin is not going to brake your tasks, you can make it as your default editing option.
+You can use the Task Editor feature, by first testig it on your dummy tasks and after you feel that this plugin is not going to brake your tasks, you can make it as your default editing option.

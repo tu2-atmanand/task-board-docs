@@ -6,7 +6,6 @@ nav_order: 10
 
 # Mobile Support
 {: .d-inline-block }
-
 v1.4.0
 {: .label .label-blue }
 

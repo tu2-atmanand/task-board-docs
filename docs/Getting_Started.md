@@ -22,7 +22,7 @@ Click on the **Scan Vault window** button which you will see inside the View Hea
 
 **NOTE** : You wont need to use this Scan Vault feature often its only for fresh install or for special cases like troubleshooting or solving any other issue. Learn more here : [Scan Vault Feature](./Features/Scan_Vault_Feature.md)
 
-All your tasks with the [accepted format](./Components/Task_Formats.md) will going to get scanned from all your files and will be displayed on the board based on the specific [Column Criteria](./Components/Types_Of_Columns.md).
+All your tasks with the [accepted format](./Components/Task_Formats.md) will going to get scanned from all your files and will be displayed on the board based on the specific [Column Criteria](./Features/Types_Of_Columns.md).
 
 Afterwards, use the [Scanning Filters](./Features/Filters_for_Scanning.md) from the main settings to only scan specific files and ignore the other files.
 

@@ -82,7 +82,7 @@ This is a toggle input field, which allows you to show or hide the Header sectio
 
 This is a toggle input field, which allows you to show or hide the Footer section of the Task Item Card inside the Task Board. If you have set this to false/disable, you wont able to see the Time, Due date and the Edit and Delete button.
 
-- In this case of hidden footer, double click on the Task Item Card to open the [Edit Task window](../Components/EditTaskWindow.md). From this window you will be able to delete the task.
+- In this case of hidden footer, double click on the Task Item Card to open the [Task Editor](../Components/EditTaskWindow.md). From this window you will be able to delete the task.
 
 > You can use this and the previous setting option, if you are not making use of this files for a task and you want a distraction free, minimalistic experience to manage your tasks and keep them simple.
 
@@ -138,7 +138,7 @@ Following settings deals with the automation features supported by this plugin.
 
 | Input Field | Dropdown Options                                                                                                                          | Default Value                |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| Dropdown    | Use edit task window feature<br>Open note in new tab<br>Open note in right split<br>Open note in new window<br>Open note in hover preview | Use edit task window feature |
+| Dropdown    | Use Task Editor feature<br>Open note in new tab<br>Open note in right split<br>Open note in new window<br>Open note in hover preview | Use Task Editor feature |
 
 ### Auto add due date to tasks
 
@@ -146,7 +146,7 @@ Following settings deals with the automation features supported by this plugin.
 |---------------|---------------|
 | Toggle Button | ON            |
 
-This option help you add due date automatically if you havent entered any value for the due input field inside the [Add/Edit Task Window](../Components/EditTaskWindow.md). This feature only works when you are adding a new task using the Window provided by this plugin.
+This option help you add due date automatically if you havent entered any value for the due input field inside the [Add/Task Editor](../Components/EditTaskWindow.md). This feature only works when you are adding a new task using the Window provided by this plugin.
 
 {: .note }
 > When you will be editing a task and if the task do not have any due date set to it, this feature will auto-assign today's date as a due date to that task. So keep this in mind if you have enabled this feature. If you do not want this functionality, you can disable this.
@@ -169,13 +169,13 @@ Task Board supports compatibility options, so that it can work with other plugin
 |---------------|---------------|
 | Toggle Button | ON            |
 
-Daily notes is a core plugin, using which you create daily notes. Since the files you create have a name like a date, for example if your today's file is `2024-11-1.md`, then you can use this feature for considering all the tasks under this file which do not have a due date set to them in their metadata to schedule for today itself. That is inside the [Task Item Card](../Components/Task_Item_Card.md) you will see that the tasks under the daily note file, will be given the due date as per the name of that file, even if you haven't provided or forgot to provide a due date for it. This is very helpful since, its obvious that, if you have added any task under today daily file, then that file has been due for today. If you do not like this functionality, you can disable this feature, in which case you will be required to set the due date yourself, either from the Edit Task Window or manually, using plugins like [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin).
+Daily notes is a core plugin, using which you create daily notes. Since the files you create have a name like a date, for example if your today's file is `2024-11-1.md`, then you can use this feature for considering all the tasks under this file which do not have a due date set to them in their metadata to schedule for today itself. That is inside the [Task Item Card](../Components/Task_Item_Card.md) you will see that the tasks under the daily note file, will be given the due date as per the name of that file, even if you haven't provided or forgot to provide a due date for it. This is very helpful since, its obvious that, if you have added any task under today daily file, then that file has been due for today. If you do not like this functionality, you can disable this feature, in which case you will be required to set the due date yourself, either from the Task Editor or manually, using plugins like [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin).
 
 ## Due and completion date formats
 
 ### Preview Section
 
-This is a small section, where you will see, how your task will look like based on the configurations you have set, for example, if you change the values of the below options, you will see the format of you tasks will change accordingly. To see all the compatible formats this plugin supports, click here : [Metadata Formats](../Components/MetadataFormats.md).
+This is a small section, where you will see, how your task will look like based on the configurations you have set, for example, if you change the values of the below options, you will see the format of you tasks will change accordingly. To see all the compatible formats this plugin supports, click here : [Metadata Formats](../Features/MetadataFormats.md).
 
 ### Compatible plugins
 
@@ -183,7 +183,7 @@ This is a small section, where you will see, how your task will look like based 
 | ----------- | ------------------------------------------------------------- | ------------- |
 | Dropdown    | Default<br>Tasks plugin<br>Dataview plugin<br>Obsidian Native | Default       |
 
-This option will let you select, which pattern/format you follow for setting the metadata to your tasks, for example, if you are using Tasks plugin, then you may select this value for this setting, in which case, you will get emojis for the due and completion. But if you are using other plugin formats like [Dataview Plugin](obsidian://show-plugin?id=dataview), then the format will be a little different. Go through this page, to know how the different filed values look inside the markdown based on the value of this setting : [Metadata Formats](../Components/MetadataFormats.md).
+This option will let you select, which pattern/format you follow for setting the metadata to your tasks, for example, if you are using Tasks plugin, then you may select this value for this setting, in which case, you will get emojis for the due and completion. But if you are using other plugin formats like [Dataview Plugin](obsidian://show-plugin?id=dataview), then the format will be a little different. Go through this page, to know how the different filed values look inside the markdown based on the value of this setting : [Metadata Formats](../Features/MetadataFormats.md).
 
 ### Due date format
 
@@ -202,7 +202,7 @@ This field, will help you to enter your specific pattern for the date you prefer
 |-------------|------------------|
 | Text Input  | yyyy-MM-DD/HH:mm |
 
-This setting option will help you to set, the format of the time-date value which you would like to see when you mark your tasks complete. This value will be shown inside the [Footer of the Task Item Card](../Components/Task_Item_Card.md#footer), when they are inside [Completed column](../Components/Types_Of_Columns.md#completed).
+This setting option will help you to set, the format of the time-date value which you would like to see when you mark your tasks complete. This value will be shown inside the [Footer of the Task Item Card](../Components/Task_Item_Card.md#footer), when they are inside [Completed column](../Features/Types_Of_Columns.md#completed).
 
 ### First day of the week
 {: .d-inline-block }

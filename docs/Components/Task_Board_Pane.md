@@ -1,14 +1,14 @@
 ---
 parent: UI Components
-title: Task Board Pane
+title: Task Board Tab
 nav_order: 1
 ---
 
 # Task Board Pane
 
-This is the complete View which you will see when you will open Task Board in a new tab or in a new window.
+This is the complete view which you will see when you will open Task Board in a new tab or in a new window of Obsidian.
 
-The View consists of various sections as can be seen in the below image :
+The UI consists of various sections as can be seen in the below image :
 
 ![Task Board UI Legend](../../assets//TaskBoardUIBreakLegend.png)
 
@@ -30,7 +30,10 @@ On the right side of the header, you will find several important buttons:
 
 - **More Options Button**: Access additional options and settings for the Task Board view.
 
-### Board Progress Bar (Added in v1.6.0)
+### Board Progress Bar
+{: .d-inline-block }
+v1.6.0
+{: .label .label-blue }
 
 The header also displays a progress bar showing task completion statistics:
 - Total number of tasks in the board

@@ -111,7 +111,7 @@ Also known as `namedTagged`. This column will contain all the tasks which has be
 
 ## Untagged
 
-Intuitively, this column will show you all the tasks, which has not been provided by any tag. If you would like to see all the un-tagged tasks, so that you can assign them tags later, which will be much easier from the [Edit Task Window](./EditTaskWindow.md), then you can create this column.
+Intuitively, this column will show you all the tasks, which has not been provided by any tag. If you would like to see all the un-tagged tasks, so that you can assign them tags later, which will be much easier from the [Task Editor](./EditTaskWindow.md), then you can create this column.
 
 ### Properties
 

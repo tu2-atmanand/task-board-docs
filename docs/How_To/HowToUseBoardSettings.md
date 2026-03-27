@@ -98,4 +98,4 @@ This button will delete the current board. After you click on this button, a pop
 This operation is not reversible. Take care while delete the board. But its also easy to create a new board, if you remeber the board structure. Dont worry.
 
 {: .note }
-> Deleting a board or changing any setting inside the board makes no changes to you tasks. You can only change the content of your tasks either from the Edit Task window or using the delete button inside the Task Item Card.
+> Deleting a board or changing any setting inside the board makes no changes to you tasks. You can only change the content of your tasks either from the Task Editor or using the delete button inside the Task Item Card.

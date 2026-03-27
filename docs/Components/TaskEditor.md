@@ -1,14 +1,14 @@
 ---
 parent: UI Components
-title: Edit Task Window
-nav_order: 6
+title: Task Editor
+nav_order: 2
 ---
 
-# Edit Task Window
+# Task Editor
 
 This is a pop up window which helps you to edit your tasks or add more fields to your task easily without opening the markdown file.
 
-![Edit Task Window](../../assets/EditTaskWindow.gif)
+![Task Editor](../../assets/EditTaskWindow.gif)
 
 ## Sections of the Window
 

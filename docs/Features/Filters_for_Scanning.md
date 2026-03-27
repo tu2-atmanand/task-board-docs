@@ -1,14 +1,12 @@
 ---
 parent: Features
-title: Scanning Filters
+title: Filters for Scanning
 nav_order: 6
 ---
 
 # Filters for Scanning
 
-These are the filters you can use while your whole Vault is getting scanned. You can use this filters, to restrict the plugin from scanning certain files and folder and also tasks which has specific tags. Or you can also tell the plugin to only scan specific files and folders and tasks with a specific tag on them.
-
-**New in v1.6.0:** A better modal interface has been added to enter scanning filters with suggestions and improved UI/UX.
+You can use this filters, to restrict the plugin from scanning certain files and folder and also tasks which has specific tags. Or you can also tell the plugin to only scan specific files and folders and tasks with a specific tag on them.
 
 There are four types of filters you can use, as explained below.
 
