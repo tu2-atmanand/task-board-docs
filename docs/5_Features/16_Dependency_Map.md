@@ -1,10 +1,10 @@
 ---
 parent: Features
-title: Advanced Board Filters
-nav_order: 13
+title: Dependency Map
+nav_order: 16
 ---
 
-# Advanced Board Filters
+# Dependency Map
 {: .d-inline-block }
 v1.8.0
 {: .label .label-purple }

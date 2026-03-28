@@ -14,13 +14,15 @@ This section contains three different types of filters you can apply while your 
 
 If you are using only one of this filter at a time and keeping the other two disabled, then its very simple to understand, but if you are using combinations of all the filters, then a proper understanding is required to understand how to use them or how it works. To understand all this things and also how to enter the values. please read this section carefully : [Filters for Scanning](../Features/Filters_for_Scanning.md)
 
-### Real-time scanning
+### Scanning modes
 
-| Input Field   | Default Value |
-|---------------|---------------|
-| Toggle Button | ON            |
 
-This toggle input fields helps you to enable or disable the [Real-Time Scanning Feature](../Features/Auto_Scanning_Files.md#real-time-scanning). Go through the page to understand the feature properly. By default this is been kept ON, because, its the most efficient way to make use of this plugin.
+| Input Field | Dropdown Options                                                                                                                     | Default Value           |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- |
+| Dropdown    | Balanced<br>Real-time<br>Manual | Balanced |
+
+
+This setting helps you to select what type of scanning mode you would like this plugin to use for scanning your latest changes in your note. Using the first two options, you get the power of [automatic scanning feature](../5_Features/11_Auto_Scanning_Files.md).
 
 ### Default note for adding new tasks
 

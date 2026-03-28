@@ -1,7 +1,7 @@
 ---
 parent: Features
 title: Advanced Column Filters
-nav_order: 14
+nav_order: 7
 ---
 
 # Advanced Column Filters

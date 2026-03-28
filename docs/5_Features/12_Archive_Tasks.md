@@ -1,7 +1,7 @@
 ---
 parent: Features
 title: Archive Tasks
-nav_order: 8
+nav_order: 12
 ---
 
 # Archive Tasks
@@ -21,7 +21,7 @@ When you archive a task using the comment-out method:
 
 **Example:**
 ```markdown
-<!-- - [x] Completed task that is now archived -->
+%%  - [x] Completed task that is now archived %%
 ```
 
 ### 2. Move to Archive Note

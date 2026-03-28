@@ -5,13 +5,13 @@ nav_order: 3
 
 # Getting Started
 
-## **Step 1:** Opening the Task Board
-
-After proper installation, **Task Board** can be opened by clicking the new icon on the ribbon bar:
-
 ![RibbonIcon](../assets/HowToSetupTaskBoard.gif)
 
-*Note: in the gif above, you can also see the manual vault scanning for the next step.*
+*Note: in the gif above, you can see both the below steps demonstrated.*
+
+## **Step 1:** Opening the Task Board
+
+After proper installation, **Task Board** can be opened by clicking the new icon on the ribbon bar.
 
 **Task Board** can also be opened by:
 - Using the command `Open Task Board` from the Command Palette.

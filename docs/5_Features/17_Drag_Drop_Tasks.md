@@ -1,7 +1,7 @@
 ---
 parent: Features
 title: Drag & Drop tasks
-nav_order: 14
+nav_order: 17
 ---
 
 # Drag & Drop task cards

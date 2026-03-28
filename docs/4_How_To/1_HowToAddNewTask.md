@@ -8,8 +8,9 @@ nav_order: 1
 
 There are a couple ways to add tasks to a board:
 - Manually typing it within a markdown file: [Adding new task from file](../How_To/HowToAddNewTask.md#from-file)
-- Via [**Task Editor**](../4_Features/) (accessed via the button on the top right of the board itself or via Obsidian's Command Palette `Default: CTRL+P`)
+- Via [**Task Editor**](../4_Features/) (accessed via the "➕" button on the top right of the board itself or via Obsidian's Command Palette.
 
+Below sections will explain each of the method in detail...
 
 ## Manual method
 
@@ -26,7 +27,13 @@ Once you are done with adding all your content, just switch your focus from the 
 
 ## Using Task Editor
 
+This plugin provides a custom special component which helps to add a task efficiently. This component has the following features : 
 
+- Add task properties easily using custom input fields.
+- Add task to a pre-defined note or using Quick Add plugin integration, basically add it wherever you want.
+- Pre-populate specific properties. (coming soon...).
+
+To learn more about this component, read the following wiki : [Task Editor](../5_Features/2_Task_Editor.md).
 
 ## Using Column Buttons
 

@@ -1,7 +1,7 @@
 ---
 parent: Features
 title: Search Tasks
-nav_order: 7
+nav_order: 8
 ---
 
 # Search Tasks
@@ -13,7 +13,6 @@ The Search Tasks feature was introduced in version 1.6.0 and allows you to quick
 1. **Access Search**: Look for the search icon in the Task Board header.
 2. **Enter Search Query**: Click on the search icon to open the search bar, then type your search query.
 3. **View Results**: Tasks matching your search query will be highlighted or filtered on the board.
-4. **Focus on Input**: The cursor automatically focuses inside the search input field after clicking the search icon for quick access.
 
 ## Search Behavior
 
@@ -29,7 +28,3 @@ The Search Tasks feature was introduced in version 1.6.0 and allows you to quick
 - Use specific keywords from your task titles or descriptions
 - Search is case-insensitive for easier matching
 - The search works across all columns in the current board
-
-## Auto-hide Progress Bar
-
-In version 1.6.11, an enhancement was added to automatically hide the board progress bar on small screens or when the screen is resized. This provides a cleaner look when using the search feature on mobile devices or smaller displays.

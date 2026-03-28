@@ -12,7 +12,7 @@ There are basically two things happening when you click on the main checkbox of 
 
 ## Task Card moves
 
-Once you click on the main checkbox of the of any task, it will be first move from its original column to the the column of type **Completed**.
+Once you click on the main checkbox of any task, it will be first move from its original column to the the **Completed** type column, if its present inside your board. This is because, the task no longer satisfy the criteria for it be shown under its original column, hence it will be now shown inside the completed type column.
 
 ## Updating Markdown file
 

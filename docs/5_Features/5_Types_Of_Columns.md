@@ -1,7 +1,7 @@
 ---
 parent: UI Components
 title: Types of Columns
-nav_order: 2
+nav_order: 5
 ---
 
 # Types of Columns
