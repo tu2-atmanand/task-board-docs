@@ -11,7 +11,7 @@ v1.8.0
 
 Also known as **Map View**, the Dependency Map feature provides a visual canvas-based representation of your tasks and their dependencies. It allows you to see the flow of work, identify bottlenecks, and manage complex sequential projects with a visual approach.
 
-{: .warning } Attention
+{: .warning }
 > Few months ago, in one [GitHub ticket discussion](https://github.com/tu2-atmanand/Task-Board/issues/561), a serious issue has been found related to this feature.
 > Basically, right now this feature store its map view data inside a `localStorage`. This is a very bad architecture to store such kind of important data. Hence will recommend to not make use of this for your important projects. The only issue you might encounter is the cards positions and sizes might revert back to default if something wrong happens to the `localStorage`, other than this there is no problem with this feature.
 >
