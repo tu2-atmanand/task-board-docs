@@ -8,6 +8,8 @@ nav_order: 3
 
 This although being a simple feature, it does a real-time changes to the parent markdown file.
 
+![Marking Task as Complete](../../assets/MarkTaskComplete.gif)
+
 There are basically two things happening when you click on the main checkbox of any [Task Item Card](../Components/Task_Item_Card.md).
 
 ## Task Card moves

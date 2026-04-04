@@ -166,6 +166,15 @@ This type of column was added in version 1.6.0 and allows you to filter tasks fr
 
 ---
 
+## All Pending Tasks
+
+This a special type of column, specially introduced after the requests of users to show all the pending tasks inside the column and then user can apply the [Advanced Column Filter](../5_Features/7_Advanced_Column_Filter.md) to create a custom filtered view. 
+
+There are few cases which are not possible through the already existing column types above, for such cases, we have this column type to filter the tasks based on the Advanced Column Filters, based on users choice.
+
+
+---
+
 ## Completed
 
 This type of column will show you all the tasks, which has been marked as completed. So, you will notice that, all the task item card under this column will have a different fields inside their Footer. Since you have marked the task as complete, you will see the time-date value when you marked this task as complete as can be seen from the below image.

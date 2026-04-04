@@ -16,11 +16,17 @@ This feature can be used in three different modes, which can be controlled using
 1.9.0
 {: .label .label-blue }
 
+This is an powerful feature of Task Board which helps you to get the latest information of your vault tasks inside the Board. The plugin uses optimized way to scan the modified files and show the edited task content on the board.
+
 This is the default set by this plugin. It is designed very efficiently to scan all your latest changes automatically as well as instantly. 
 
 In this mode, when you will make any changes to your notes, it will be registered in the plugin. But it wont be scanned instantly, to allow you to keep editing the file and avoid unnecessary constant scanning. Once you have completed all your changes and when you will going to switch your focus from that edited file to any other tab or window, only then this plugin will going to scan that registered file. 
 
 This way, the plugin kind of waits for you to finish with your changes and efficiently scan the file only once.
+
+A demo can be seen in the below GIF :
+
+![Editing a task from file](../../assets/AddingNewTaskFromFile.gif)
 
 
 ## Real Time Mode
@@ -28,17 +34,11 @@ This way, the plugin kind of waits for you to finish with your changes and effic
 1.9.0
 {: .label .label-blue }
 
-This is an powerful feature of Task Board which helps you to get the latest information of your vault tasks inside the Board. The plugin uses optimized way to scan the modified files and show the edited task content on the board.
+This is a new mode introduced to allow users to have a true real-time scanning feature of their edited content. As the name says, when you will make any changes to the task content in your notes, the content will be instantly scanned and will be updated on the board. But, there will be a delay of 1 second, which is not that significant. This delay is due to the Obsidian API, which this plugin is using to detect any file changes.
 
-Even though it says Real-Time, its not exactly real-time in the actual sense, because if you are editing any task inside your note, your focus will be in the editor and when you will be changing your focus from the current editor to the [Task Board View](docs/Components/Task_Board_Pane.md), only that time you would be like to see your task data getting updated with the new changes. This same idea has been used to design this feature, wherein, after you move your focus from the current editor to any other tab or even out of the Obsidian application, you data will get refreshed in the Task Board View.
+Usually, for most of the time, this mode will not be required. And it will be recommended to use it either unless very important. There are no significant downsides of using this mode, but we recommend not to unnecessarily waste your system resources in constantly scanning the files which are being edited. Because, for a single user, their focus will be only on the note editor and they will be focusing on the Task Board view, once they are finished making their changes. For this, the "Balanced" mode is sufficient.
 
-This is the default behavior of this plugin and its the best approach for scanning the changes in your vault and updating them on the board in real-time with the least amount of operations and consumption of energy.
-
-A demo can be seen in the below GIF image :
-
-![Editing a task from file](../../assets/AddingNewTaskFromFile.gif)
-
-But in-case, if you like to keep everything manual and have control over the scanning part. You can use the below method.
+The best use-case of this mode will be in a live shared environment. Where 2 or more users are editing the notes simultaneously and its synced live. In this case, the plugin can scan the changes instantly and the Task Board view, will act like a live dashboard of your tasks.
 
 ## Manual Mode
 

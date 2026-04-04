@@ -97,8 +97,6 @@ Similar to the above two files, this also works similar way.
 
 ## Filters for Frontmatter
 
-**Added in version 1.6.6**
-
 This filter allows you to scan files based on their frontmatter properties, giving you more control over which files to include or exclude from scanning.
 
 ### Frontmatter Properties

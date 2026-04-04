@@ -6,9 +6,9 @@ nav_order: 4
 
 # Task Editor
 
-This custom component gives user the ability to add new task or edit an existing task in various ways as well as assists with managing properties/[metadata](../Components/MetadataFormats.md) for tasks in a way that is compatible with your other plugins, as well as how you have it configured in the plugin's global settings.
+This custom component gives user the ability to add new task or edit an existing task in various ways as well as assists with managing [[2_Task_Properties|properties/metadata]] for tasks in a way that is compatible with your other plugins, as well as how you have it configured in the plugin's global settings.
 
-To understand the complete UI of this component, read the following wiki : [Task Editor UI](../6_Components/3_TaskEditor.md).
+To understand the complete UI of this component, read the following wiki : [[3_TaskEditor|Task Editor UI]].
 
 
 ## Ways to Add a Task
@@ -28,7 +28,7 @@ Command : `Task Board : Add new task`
 
 Command : `Task Board : Add new task-note`
 
-Or you can make use of the `Add new task` button ![Add new task button](../../assets/add_new_task_icon.png) present at the top right corner inside the board.
+Or you can make use of the `Add new task` button ![[add_new_task_icon.png|Add new task button]] present at the top right corner inside the board.
 
 ### 3. **Add to Any File**
 
@@ -94,4 +94,4 @@ Task properties can also be added at the cursor position instead of only being a
 v1.6.0
 {: .label .label-blue }
 
-Task Board now includes a [safeguard feature](./Safe_Guard.md) that performs proper content matching before updating your files. A [Content Compare modal](../6_Components/5_Content_Compare_Modal.md) shows you the changes before they are applied, ensuring you never lose content accidentally.
+Task Board now includes a [safeguard feature](./Safe_Guard.md) that performs proper content matching before updating your files. A [[5_Content_Compare_Modal|Content Compare modal]] shows you the changes before they are applied, ensuring you never lose content accidentally.

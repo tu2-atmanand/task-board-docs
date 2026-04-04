@@ -7,4 +7,4 @@ nav_order: 6
 
 This section will explain you the various windows, popover, modals and tabs available in this plugin.
 
-Read about each of the custom UI and their section to understand the terminology used in this documentation and to easily navigate the docs when the specific element is referred.
+Read about each of the custom UI and their section to understand the terminology used in this documentation and to easily navigate within the docs when the specific element is referred.

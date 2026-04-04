@@ -1,12 +1,12 @@
 ---
 parent: Advanced Topics
 title: Use the forum
-nav_order: 2
+nav_order: 1
 ---
 
 # How to use the Forum
 
-This forum is basically the GitHub Discussion section of the Task Board GitHub repository.
+This forum is basically the GitHub Discussion section of the Task Board's GitHub repository.
 
 This forum will be the right place to ask anything about this plugin, share your ideas for feature or improvement of the plugin, share and showcase what you have build using this plugin and what workflows you have adopted and how this plugin is helping you in managing your small to big projects or general checklists.
 

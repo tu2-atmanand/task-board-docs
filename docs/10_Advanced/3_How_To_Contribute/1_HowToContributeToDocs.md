@@ -1,5 +1,5 @@
 ---
-parent: Advanced Topics
+parent: How to Contribute
 title: Contribute to documentation
 nav_order: 3
 ---

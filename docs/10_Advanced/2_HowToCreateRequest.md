@@ -1,7 +1,7 @@
 ---
 parent: Advanced Topics
 title: Create a Request
-nav_order: 1
+nav_order: 2
 ---
 
 ## How to Create a Request

@@ -1,5 +1,5 @@
 ---
-parent: Advanced Topics
+parent: How to Contribute
 title: Test beta releases
 nav_order: 3
 ---

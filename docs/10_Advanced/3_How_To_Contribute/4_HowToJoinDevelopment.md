@@ -1,5 +1,5 @@
 ---
-parent: Advanced Topics
+parent: How to Contribute
 title: Join the plugin Development
 nav_order: 5
 ---
