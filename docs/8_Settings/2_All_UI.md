@@ -4,68 +4,67 @@ title: All UI
 nav_order: 2
 ---
 
-# All UI settings
+# All UI Settings
 
-### Show Header of the Task Item Card
+The All UI tab controls the visual appearance and layout of the Task Board interface and task cards.
 
-| Input Field   | Default Value |
-|---------------|---------------|
-| Toggle Button | ON            |
+## Task card style
 
-This is a toggle input field, which allows you to show or hide the Header section of the Task Item Card inside the Task Board. If you have set this to false/disable, you wont able to see the priority and tags or the task.
 
-### Show Footer of the Task Item Card
-
-| Input Field   | Default Value |
-|---------------|---------------|
-| Toggle Button | ON            |
-
-This is a toggle input field, which allows you to show or hide the Footer section of the Task Item Card inside the Task Board. If you have set this to false/disable, you wont able to see the Time, Due date and the Edit and Delete button.
-
-- In this case of hidden footer, double click on the Task Item Card to open the [Task Editor](../Components/EditTaskWindow.md). From this window you will be able to delete the task.
-
-> You can use this and the previous setting option, if you are not making use of this files for a task and you want a distraction free, minimalistic experience to manage your tasks and keep them simple.
-
-### Show task without metadata
+## Clean task title for inline-tasks
 {: .d-inline-block }
-
-New (v1.3.0)
+v1.3.0
 {: .label .label-green }
 
-| Input Field   | Default Value |
-|---------------|---------------|
-| Toggle Button | ON            |
+| Input Field | Default |
+|---|---|
+| Toggle | ON |
 
-This setting will help you to see the task title inside the Task Item card without any metadata(properties) to get a clean view of your tasks.
+When enabled, task titles display without any embedded metadata/properties in the task card body for a cleaner appearance. This pairs well with the header and footer toggles to create different visual styles for your board.
 
-You can use this setting along with above two settings to get 4 different looks for your board.
+## Width of Task Card
 
-### Width of each Column
+| Input Field | Default |
+|---|---|
+| Text Input | 300px |
 
-| Input Field | Default Value |
-|-------------|---------------|
-| Text Input  | 273px         |
+Set the width of individual task cards in pixels. In Map View, card widths are individually adjustable. Enter values with the "px" suffix (e.g., "350px").
 
-Using this field, you can able to control the width of each column. If you like to have wider Task Item Cards, use a bigger value inside the input field in pixels. You can try using different values to match your need. Remember to enter a 'px' and the end after the value.
+## Show Column Scroll Bar
 
-### Show Column Scroll Bar
+| Input Field | Default |
+|---|---|
+| Toggle | OFF |
 
-| Input Field   | Default Value |
-|---------------|---------------|
-| Toggle Button | OFF           |
+When enabled, scrollbars appear on columns that exceed the viewport height. Enabling this uses a small amount of column width for the scrollbar.
 
-If you like to see the scrollbar for each column, to know, how length your specific column is or to keep reminding yourself how many tasks it contains, you can enable this feature. But Enabling it, will take a small amount of width from every column, to which a scroll bar is applicable.
+## Tag Color Indicator Type
+
+| Input Field | Options | Default |
+|---|---|---|
+| Dropdown | **Tag Text** - Color applied to tag text<br>**Tag Background** - Color applied behind tag<br>**Card Background** - Color applied to entire card background | Tag Text |
+
+Choose how custom tag colors are displayed. When using "Tag Text", opacity is automatically reduced to 0.2 for better text readability.
 
 ## Tag Colors
 
-This section will allow you to assign your unique custom colors to the specific tags you want. This feature is very helpful if you have multiple tags assigned to a single task. It help to visually see the task item card appealing.
+Assign custom colors to specific tags for visual organization. Tags with custom colors display with your chosen color across the board.
 
-If you have already added a custom tag, then it will look like below :
-![CustomTagColor](../../assets/CustomTagColor.png)
+### Adding Custom Tag Colors
 
-- **Preview :** On the left most there will be the preview of how your tag will look like in the [header of the task item card](../Components/Task_Item_Card.md#header).
-- **Tag Name :** Next you will see the name of the tag. As of now, once you add the tag, its not editable, but soon, it will be editable.
-- **Custom Tag Color :** Next there will be an input field, in which you can enter the value of the color in RGBA Hex format.
-- **Delete Button :** Lastly there will be a delete button, using which you can delete that specific color, so that tag will take the default color/theme from your current Obsidian theme.
+1. Click **"Add tag color"** button
+2. Enter the tag name (e.g., `#important`)
+3. Use the color palette to select a color
+4. Set the opacity value (0 to 1, e.g., 0.4)
+5. Confirm to save
 
-**Add tag color :** Below all the custom colors, you will see the button to add more new custom colors for your other tags. You can add as many tag-colors as you want. Once you press the button, you will be asked to enter the name of the tag, then the to enter the color, there will be first a color palette for you to choose the color easily. And thirdly there will be an input field, for you to enter the opacity of the color since the color pallette do not supports the opacity option. Enter the value for the opacity from 0 to 1, in fractions, like 0.4, etc.
+### Managing Tag Colors
+
+For each custom tag color you see:
+- **Preview**: Visual sample of how the tag appears in task card headers
+- **Tag Name**: The tag being customized (not editable once created)
+- **Color Value**: Hex color code in RGBA format
+- **Delete Button**: Remove the custom color to revert to theme default
+
+{: .note }
+> Custom tag colors help visually organize tasks, especially when multiple tags are assigned to a single task.

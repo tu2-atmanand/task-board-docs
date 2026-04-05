@@ -4,64 +4,109 @@ title: General
 nav_order: 1
 ---
 
-# General settings
+# General Settings
 
-### Filters for Scanning
+The General tab contains miscellaneous settings that control core plugin behavior and scanning functionality. These are global settings applied to the entire plugin.
 
-This section contains three different types of filters you can apply while your vault is getting scanned for tasks. The first two filters are for scanning files and all the files inside the folder. The third filter is to scan task which contains any one fo the tag you have mentioned in the input field.
+## Filters for Scanning
 
-If you are using only one of this filter at a time and keeping the other two disabled, then its very simple to understand, but if you are using combinations of all the filters, then a proper understanding is required to understand how to use them or how it works. To understand all this things and also how to enter the values. please read this section carefully : [Filters for Scanning](../Features/Filters_for_Scanning.md)
+This section allows you to apply multiple types of filters to control which files and tasks are scanned from your vault:
 
-### Scanning modes
+- **Frontmatter Filters**: Filter tasks by frontmatter tags (scan only files with specific frontmatter)
+- **File Filters**: Include or exclude specific files from scanning
+- **Folder Filters**: Include or exclude entire folders from scanning
+- **Tag Filters**: Include or exclude tasks with specific tags
+
+You can use one filter independently or combine multiple filters together. For detailed information on how filters work together, see: [Filters for Scanning](../6_Features/10_Filters_for_Scanning.md)
+
+{: .note }
+> After making significant changes to scan filters, use the "Scan Vault" feature to re-scan your vault with the new filters applied.
+
+## Scanning Mode
+
+| Input Field | Options | Default |
+|---|---|---|
+| Dropdown | **Balanced** - Scans modified files when you finish editing and switch tabs/windows<br>**Real-Time** - Live updates with ~1 second delay (slight performance impact)<br>**Manual** - Requires manual refresh via button | Balanced |
+
+Select how frequently Task Board scans your vault for changes. The Balanced and Real-Time modes provide [automatic scanning](../6_Features/11_Auto_Scanning_Files.md) capabilities.
+
+## Auto Add Unique ID
+
+| Input Field | Default |
+|---|---|
+| Toggle | OFF |
+
+When enabled, the plugin automatically assigns incremental numeric IDs to tasks as you interact with them. This is especially useful for:
+- **Map View Feature** - Tasks require unique IDs to appear on the dependency map canvas
+- **Future Features** - Manual sorting and task pinning in upcoming versions
+
+## Default Note for Adding New Tasks
+
+| Input Field | Default |
+|---|---|
+| File Picker | (Select a file) |
+
+Specify the default markdown file where new tasks created via the "Add New Task" modal will be saved.
+
+## Tasks Cache File Path
+
+| Input Field | Default |
+|---|---|
+| File Path Input | `.obsidian/plugins/task-board/tasks.json` |
+
+This setting allows you to customize where the plugin stores its tasks cache file. The cache improves performance by storing task metadata and retrieve it faster from a single location. Its easy to rebuild this case, incase it gets corrupted using the [vault scanner feature](/docs/6_Features/9_Vault_Scanner.md).
 
 
-| Input Field | Dropdown Options                                                                                                                     | Default Value           |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- |
-| Dropdown    | Balanced<br>Real-time<br>Manual | Balanced |
+## Open Board on Obsidian Startup
+
+| Input Field | Default |
+|---|---|
+| Toggle | OFF |
+
+When enabled, Task Board opens automatically when you launch Obsidian. The last viewed board will be brought to focus.
+
+## Show Modified Files Message on Startup
+
+| Input Field | Default |
+|---|---|
+| Toggle | ON |
+
+When enabled, the plugin displays a notice showing which files were modified during the previous session when Obsidian starts.
 
 
-This setting helps you to select what type of scanning mode you would like this plugin to use for scanning your latest changes in your note. Using the first two options, you get the power of [automatic scanning feature](../5_Features/11_Auto_Scanning_Files.md).
+## Update language translations
 
-### Default note for adding new tasks
+| Input Field | Default |
+|---|---|
+| Dropdown | (Based on Obsidian language) |
 
-### File for archived tasks
+Select the language for the Task Board plugin UI. To contribute translations or improve existing ones, see: [How to Contribute to Translations](../10_Advanced/3_How_To_Contribute/2_HowToContributeToTranslations.md)
 
-### Tasks cache file path
-
-
-### Open board on Obsidian startup
-
-| Input Field   | Default Value |
-|---------------|---------------|
-| Toggle Button | OFF            |
-
-This setting will help you to get your Task Board visible to you on Obsidian startup. When you open and close Obsidian, if you want Task Board to be the first thing visible inside the Obsidian, you can enable this feature.
-
-### Auto-scan the vault on Obsidian start-up
-
-| Input Field   | Default Value |
-|---------------|---------------|
-| Toggle Button | OFF           |
-
-This option will help you to decide whether you want to scan all your files or filtered files every time when the Obsidian starts. The Vault-Scanning feature can be understood from here : [Vault-Scanning](../Features/Scan_Vault_Feature.md).
-
-This can be a beneficial feature for those who edit their files outside of Obsidian, so when Obsidian opens, Task Board is unaware that the tasks has been updated from various files, in this case you will be required to run the [Scan Vault](../Features/Scan_Vault_Feature.md) feature manually, so you can set this option to ON, to scan all the files automatically whenever Obsidian starts.
-
-{: .warning } 
->Do not enable this feature if you vault is very big and contains lot of large files with lot of data. This feature will work the best if you have set the file and folder [Scanning Filters](../Features/Filters_for_Scanning.md).
+## Import/Export configurations
 
 
-### Update language translation
+## Export logs
 
-| Input Field   | Default Value |
-|---------------|---------------|
-| Click Button | NA           |
 
-You may see this is a simple click button. This button simply downloads the latest language translation file for your selected language in Obsidian general setting and place it inside the plugin's config folder. Even you can edit this file to make instant changes. Read this : [Update language translation strings](../Advanced/Contribution_For_Languages.md#how-to-update-existing-language-content)
+## Safe Guard Feature
 
-> Note : Obsidian reload is required after downloading the new updates. You can use the "Reload without saving command".
+| Input Field | Default |
+|---|---|
+| Toggle | ON |
+
+When enabled, the Safe Guard feature provides additional protections to prevent accidental data loss. See [Safe Guard](../6_Features/14_Safe_Guard.md) for more details.
+
+
+## Experimental Features
+
+| Input Field | Default |
+|---|---|
+| Toggle | OFF |
+
+Enables access to experimental/beta features if there are any released in the present version. These features are still under development and may have limitations/bugs/issues. The description will list all the features which are present as experimental features.
+
 
 
 ## Donation Section
 
-This section contains button-links to my various sponsorship sites. If you have like this plugin and would like to support the further development of this idea and to improve it, consider supporting my work by sponsoring this project using any site you want.
+This section contains links to support the plugin development through various sponsorship platforms. If you find Task Board valuable, please consider supporting the project!

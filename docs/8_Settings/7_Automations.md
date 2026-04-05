@@ -4,41 +4,94 @@ title: Automations
 nav_order: 7
 ---
 
-# Automations settings
+# Automations Settings
 
-### Edit button mode
+The Automations tab contains settings to automate task management workflows, reducing manual work and improving efficiency.
 
-| Input Field | Dropdown Options                                                                                                                          | Default Value                |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| Dropdown    | Use Task Editor feature<br>Open note in new tab<br>Open note in right split<br>Open note in new window<br>Open note in hover preview | Use Task Editor feature |
+## Edit Button Mode
 
-### Auto add due date to tasks
+| Input Field | Options | Default |
+|---|---|---|
+| Dropdown | **Task Editor (Modal)** - Opens task in floating dialog<br>**Task Editor (Tab)** - Opens task in a new tab<br>**Task Editor (Window)** - Opens task in external window<br>**Open note in new tab** - Opens source file in new tab<br>**Open note in right split** - Opens source file in right panel<br>**Open note in new window** - Opens source file in new OS window<br>**Open note in hover-preview** - Shows file in hover preview | Task Editor (Modal) |
 
-| Input Field   | Default Value |
-|---------------|---------------|
-| Toggle Button | ON            |
+Control what happens when you click the Edit button on a task card. Choose between:
+- Editing within the plugin's Task Editor (recommended for quick edits)
+- Opening the source markdown file in various Obsidian locations
+- Viewing in hover preview
 
-This option help you add due date automatically if you havent entered any value for the due input field inside the [Add/Task Editor](../Components/EditTaskWindow.md). This feature only works when you are adding a new task using the Window provided by this plugin.
+## Double click card action
+
+
+## Restrict task completion to child-tasks and sub-tasks
+
+
+## Auto add selected universal date
+
+| Input Field | Default |
+|---|---|
+| Toggle | OFF |
+
+When enabled, the current universal date (selected in General settings) is automatically assigned to new tasks created via the "Add New Task" modal.
+
+## Auto Add Created Date
+
+| Input Field | Default |
+|---|---|
+| Toggle | ON |
+
+When enabled, today's date is automatically added as the created date when you create a new task through the "Add New Task" modal.
 
 {: .note }
-> When you will be editing a task and if the task do not have any due date set to it, this feature will auto-assign today's date as a due date to that task. So keep this in mind if you have enabled this feature. If you do not want this functionality, you can disable this.
+> This only applies to tasks created via the Task Board plugin. Tasks added directly to markdown files won't get created dates unless you add them manually.
 
-## Compatibility for other plugins
 
-Task Board supports compatibility options, so that it can work with other plugins seamlessly. This helps the developer and the users, so that we don't re-build the wheel, instead use what is already existing, which also gives lot of freedom to the users to use Obsidian efficiently.
+## Auto Add Completed Date
 
-### Day planner plugin compatibility
+| Input Field | Default |
+|---|---|
+| Toggle | OFF |
 
-| Input Field   | Default Value |
-|---------------|---------------|
-| Toggle Button | OFF           |
+When enabled, the current date-time is automatically added to the completion date property when you mark a task as complete.
 
-[Day Planner plugin](obsidian://show-plugin?id=obsidian-day-planner) is an amazing plugin because of its timeline feature and calender feature. You can easily make changes from the this plugin and the changes will be reflected back to the Task Board. Also, once you set time to your plugins, it will be shown inside the timeline. Enable or disable this feature if you have installed the plugin.
 
-### Daily Notes plugin compatibility
+## Auto Add Cancelled Date
 
-| Input Field   | Default Value |
-|---------------|---------------|
-| Toggle Button | ON            |
+| Input Field | Default |
+|---|---|
+| Toggle | OFF |
 
-Daily notes is a core plugin, using which you create daily notes. Since the files you create have a name like a date, for example if your today's file is `2024-11-1.md`, then you can use this feature for considering all the tasks under this file which do not have a due date set to them in their metadata to schedule for today itself. That is inside the [Task Item Card](../Components/Task_Item_Card.md) you will see that the tasks under the daily note file, will be given the due date as per the name of that file, even if you haven't provided or forgot to provide a due date for it. This is very helpful since, its obvious that, if you have added any task under today daily file, then that file has been due for today. If you do not like this functionality, you can disable this feature, in which case you will be required to set the due date yourself, either from the Task Editor or manually, using plugins like [Tasks](obsidian://show-plugin?id=obsidian-tasks-plugin).
+When enabled, the current date-time is automatically added to the cancelled date property when you mark a task as cancelled.
+
+## Daily notes plugins compatibility
+
+
+
+## Day Planner Plugin Compatibility
+
+| Input Field | Default |
+|---|---|
+| Toggle | OFF |
+
+{: .warning }
+> [Day Planner plugin](obsidian://show-plugin?id=obsidian-day-planner) integration has a known issue. Consider using alternatives.
+
+When enabled (if Day Planner is installed):
+- Task times display according to Day Planner format in markdown
+- Changes in Day Planner reflect in Task Board
+- Timeline integration becomes available
+
+## Quick Add Plugin Compatibility
+
+| Input Field | Default |
+|---|---|
+| Toggle | OFF |
+
+When enabled, allows integration with [QuickAdd plugin](obsidian://show-plugin?id=quickadd) for creating tasks through QuickAdd workflows.
+
+See: [QuickAdd Plugin Integration](../6_Features/15_Plugin_Integrations/3_QuickAdd_Plugin.md)
+
+
+## Push notification compatibility
+
+
+
