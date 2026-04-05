@@ -1,0 +1,71 @@
+---
+parent: Plugin Settings
+title: All UI
+nav_order: 2
+---
+
+# All UI settings
+
+### Show Header of the Task Item Card
+
+| Input Field   | Default Value |
+|---------------|---------------|
+| Toggle Button | ON            |
+
+This is a toggle input field, which allows you to show or hide the Header section of the Task Item Card inside the Task Board. If you have set this to false/disable, you wont able to see the priority and tags or the task.
+
+### Show Footer of the Task Item Card
+
+| Input Field   | Default Value |
+|---------------|---------------|
+| Toggle Button | ON            |
+
+This is a toggle input field, which allows you to show or hide the Footer section of the Task Item Card inside the Task Board. If you have set this to false/disable, you wont able to see the Time, Due date and the Edit and Delete button.
+
+- In this case of hidden footer, double click on the Task Item Card to open the [Task Editor](../Components/EditTaskWindow.md). From this window you will be able to delete the task.
+
+> You can use this and the previous setting option, if you are not making use of this files for a task and you want a distraction free, minimalistic experience to manage your tasks and keep them simple.
+
+### Show task without metadata
+{: .d-inline-block }
+
+New (v1.3.0)
+{: .label .label-green }
+
+| Input Field   | Default Value |
+|---------------|---------------|
+| Toggle Button | ON            |
+
+This setting will help you to see the task title inside the Task Item card without any metadata(properties) to get a clean view of your tasks.
+
+You can use this setting along with above two settings to get 4 different looks for your board.
+
+### Width of each Column
+
+| Input Field | Default Value |
+|-------------|---------------|
+| Text Input  | 273px         |
+
+Using this field, you can able to control the width of each column. If you like to have wider Task Item Cards, use a bigger value inside the input field in pixels. You can try using different values to match your need. Remember to enter a 'px' and the end after the value.
+
+### Show Column Scroll Bar
+
+| Input Field   | Default Value |
+|---------------|---------------|
+| Toggle Button | OFF           |
+
+If you like to see the scrollbar for each column, to know, how length your specific column is or to keep reminding yourself how many tasks it contains, you can enable this feature. But Enabling it, will take a small amount of width from every column, to which a scroll bar is applicable.
+
+## Tag Colors
+
+This section will allow you to assign your unique custom colors to the specific tags you want. This feature is very helpful if you have multiple tags assigned to a single task. It help to visually see the task item card appealing.
+
+If you have already added a custom tag, then it will look like below :
+![CustomTagColor](../../assets/CustomTagColor.png)
+
+- **Preview :** On the left most there will be the preview of how your tag will look like in the [header of the task item card](../Components/Task_Item_Card.md#header).
+- **Tag Name :** Next you will see the name of the tag. As of now, once you add the tag, its not editable, but soon, it will be editable.
+- **Custom Tag Color :** Next there will be an input field, in which you can enter the value of the color in RGBA Hex format.
+- **Delete Button :** Lastly there will be a delete button, using which you can delete that specific color, so that tag will take the default color/theme from your current Obsidian theme.
+
+**Add tag color :** Below all the custom colors, you will see the button to add more new custom colors for your other tags. You can add as many tag-colors as you want. Once you press the button, you will be asked to enter the name of the tag, then the to enter the color, there will be first a color palette for you to choose the color easily. And thirdly there will be an input field, for you to enter the opacity of the color since the color pallette do not supports the opacity option. Enter the value for the opacity from 0 to 1, in fractions, like 0.4, etc.

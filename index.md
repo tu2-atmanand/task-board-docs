@@ -46,16 +46,20 @@ Watch the above complete YouTube playlist to see demo of all the features releas
 
 **STEP 2:** Learn about the basics: [Getting Started](./docs/Getting_Started.md)
 
-**STEP 3:** Explore the [Features](./docs/Features/index.md) of the plugin as well as [UI Components](./docs/Components/index.md).
+**STEP 3:** Explore the [Features](./docs/Features/index.md) of the plugin as well as [UI Components](./docs/Components/index.md)
 
-**STEP 4:** Explore [Examples](./docs/Examples/index.md) for ideas and quick answers.
+**STEP 4:** Want to learn how to do a specific thing quickly? Use this wiki : [How to...](./docs/4_How_To/0_index.md)
 
 {: .new-title }
-> Important
+> Questions?
 >
-> Questions? Start here: [Task Board FAQs](./docs/How_To/index.md)
->
-> If you would like to contribute to this project or the docs, start here: [How to Contribute](./docs/Advanced/index.md)
+>  Start here: [Task Board FAQs](./docs/How_To/index.md)
+
+{: .new-title }
+> Want to contribute
+> 
+> If you would like to contribute to this project in any way, start here: [How to Contribute](./docs/Advanced/index.md)
+
 
 ## Motivation and Vision
 
@@ -63,7 +67,7 @@ Previously, I always used the [Kanban Plugin](https://github.com/mgmeyers/obsidi
 
 While in development, I took inspiration from the CardBoard and Kanban plugins, as well as many feature ideas from [GitHub project planning KanBan board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view#about-the-board-layout). I hope that I am able to give the best of all these three tools in one place. And planning to keep enhancing this plugin.
 
-If you would like to understand **Task Board**'s vision and future development roadmap, check here: [Vision of Task Board](./docs/Vision.md).
+If you would like to understand **Task Board**'s vision and future development roadmap, check here: [Vision of Task Board](./docs/2_Vision.md).
 
 ## Support
 
