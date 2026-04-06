@@ -68,16 +68,22 @@ def validate_internal_links(workspace_root):
                                 continue
                             
                             # Resolve the path based on its format
-                            if link_path_only.startswith('docs/'):
+                            # Convert link path to use forward slashes for consistency
+                            link_path_normalized = link_path_only.replace('\\', '/')
+                            
+                            if link_path_normalized.startswith('docs/'):
                                 # Absolute path from workspace root: docs/folder/file.md
-                                resolved_path = os.path.join(workspace_root, link_path_only)
-                            elif link_path_only.startswith('/docs/'):
+                                resolved_path = os.path.join(workspace_root, link_path_normalized.replace('/', os.sep))
+                            elif link_path_normalized.startswith('/docs/'):
                                 # Absolute path with leading slash: /docs/folder/file.md
-                                resolved_path = os.path.join(workspace_root, link_path_only.lstrip('/'))
+                                resolved_path = os.path.join(workspace_root, link_path_normalized.lstrip('/').replace('/', os.sep))
+                            elif link_path_normalized.startswith('/assets/'):
+                                # Absolute path to assets: /assets/image.png
+                                resolved_path = os.path.join(workspace_root, link_path_normalized.lstrip('/').replace('/', os.sep))
                             else:
                                 # Relative path from current file: ../folder/file.md or ./file.md
                                 current_dir = os.path.dirname(file_path)
-                                resolved_path = os.path.join(current_dir, link_path_only)
+                                resolved_path = os.path.join(current_dir, link_path_normalized.replace('/', os.sep))
                             
                             # Normalize the path (handles .. and . and removes duplicate separators)
                             resolved_path = os.path.normpath(resolved_path)
@@ -106,12 +112,16 @@ def validate_internal_links(workspace_root):
         for item in broken_links:
             # Format for VS Code: file:line (clickable format)
             rel_file = os.path.relpath(item['file_path'], workspace_root)
+            # Convert to forward slashes for consistency
+            rel_file = rel_file.replace('\\', '/')
             vscode_link = f"{rel_file}:{item['line']}"
+            
+            resolved_display = os.path.relpath(item['resolved'], workspace_root).replace('\\', '/')
             
             print(f"{vscode_link}")
             print(f"   Link text:    [{item['link_text']}]")
             print(f"   Link path:    {item['link']}")
-            print(f"   Expected at:  {os.path.relpath(item['resolved'], workspace_root)}")
+            print(f"   Expected at:  {resolved_display}")
             print()
         
         print(f"{'='*80}\n")
