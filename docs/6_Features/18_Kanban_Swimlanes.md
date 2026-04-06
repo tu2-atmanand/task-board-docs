@@ -15,7 +15,7 @@ This structure enhances workflow clarity, helps teams manage workloads, prioriti
 
 Below is an image, which shows how you may group tasks which are assigned to specific member in your team.
 
-![kanban swimlanes example](../../assets/kanbanSwimlanesExample.png)
+![kanban swimlanes example](..//assets/kanbanSwimlanesExample.png)
 
 
 ## Why this feature is unique?

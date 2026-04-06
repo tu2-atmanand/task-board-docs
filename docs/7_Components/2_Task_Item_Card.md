@@ -8,7 +8,7 @@ nav_order: 2
 
 These is the card which you see inside the column under any specific board.
 
-![Task Item Card](../../assets/TaskItemLegend.png)
+![Task Item Card](..//assets/TaskItemLegend.png)
 
 ## Header
 

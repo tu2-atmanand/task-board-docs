@@ -23,7 +23,7 @@ All your tasks scanned from your vault are stored at a single place called Task 
 
 Lets take an example, say you have applied a filter shown in the following image : 
 
-![Board filter UI with few criteria applied](../../assets/BoardFiltersExample.png)
+![Board filter UI with few criteria applied](..//assets/BoardFiltersExample.png)
 
 In this filter you can see, there are two groups : 
 - **First Group** : All the tasks which have a scheduled date between 01-04-2026 to 30-04-2026. That is all the tasks scheduled for the month of April 2026. This is because, both the criteria in this group are configured in "**AND**" logic, hence both has to be true, hence this kind of creates a rage of dates, which is the month of April 2026.

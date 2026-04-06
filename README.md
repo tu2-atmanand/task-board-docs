@@ -8,4 +8,4 @@ The official **Task Board** Obsidian plugin can be found here: [Task Board](http
 
 ## How to Contribute
 
-If you would like to help update any content from the website or have any suggestions, please check out: [How to contribute to documentation](./docs/Advanced/HowToContributeToDocs.md)
+If you would like to help update any content from the website or have any suggestions, please check out: [How to contribute to documentation](/docs/Advanced/HowToContributeToDocs.md)

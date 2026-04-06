@@ -17,7 +17,7 @@ Follow the below steps to create a request :
 **Step 1 :** Head on to this website : [Task Board Docs Requests](https://github.com/tu2-atmanand/task-board-docs/issues).
 
 **Step 2 :** You will see a green button called `New issue`, click on this button.
-![New Issue Button](../../assets/NewIssueButton.png)
+![New Issue Button](..//assets/NewIssueButton.png)
 
 **Step 3 :** Now for adding a title, write a short sentence, summarizing your message.
 

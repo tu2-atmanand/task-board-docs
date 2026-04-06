@@ -10,7 +10,7 @@ This is the complete view which you will see when you will open Task Board in a 
 
 The UI consists of various sections as can be seen in the below image :
 
-![Task Board UI Legend](../../assets//TaskBoardUIBreakLegend.png)
+![Task Board UI Legend](..//assets//TaskBoardUIBreakLegend.png)
 
 ## View Header Section
 

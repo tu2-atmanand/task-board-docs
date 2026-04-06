@@ -25,6 +25,6 @@ For example, lets say you have a Time Based Workflow kanban view. In this view, 
 
 Now, lets say, in this column you only want to see the tasks with priority higher than 3 OR the tag on the task should be `#urgent`. In this case, you can apply a filter like the one shown in the below image : 
 
-![Column filter UI with few filter criteria applied](../../assets/ColumnFilterExample.png)
+![Column filter UI with few filter criteria applied](..//assets/ColumnFilterExample.png)
 
 To understand how the criteria, groups and the overall filter menu works, see the [example explained in the Advanced Board Filter wiki](./6_Advanced_Board_Filter.md#how-does-it-work).

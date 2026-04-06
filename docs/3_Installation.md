@@ -17,10 +17,10 @@ This is the recommended method to get the officially released version from Obsid
 **Step 1:** Open Obsidian.
 
 **Step 2:** Open the Settings Panel using the Gear Icon from the Side bar:
-![Open Settings Panel](../assets/OpenSettingsPanel.png)
+![Open Settings Panel](/assets/OpenSettingsPanel.png)
 
 **Step 3:** In the sidebar on the left, select the **"Community Plugins"** tab, and then click **"Browse"** on the right:
-![alt text](../assets/CommunityBrowseButton.png)
+![alt text](/assets/CommunityBrowseButton.png)
 
 **Step 4:** Search for `Task Board` in the search bar. The correct one is created by `Atmanand Gauns`.
 
@@ -42,7 +42,7 @@ This is a special and more advanced method to install plugins. Because it helps 
 
 **Step 2:** Add the **Task Board** plugin into the BRAT beta plugin list:
 
-![Installation using BRAT](../assets/InstallInBRAT.gif)
+![Installation using BRAT](/assets/InstallInBRAT.gif)
 
 `Open Obsidian settings` > `BRAT` > `Add Beta plugin button` > `Paste the below link` > `Click on Add Plugin`.
 

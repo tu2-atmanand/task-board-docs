@@ -35,27 +35,27 @@ There are two methods to test a beta version :
 **Step 1 :** Open the Dummy vault inside Obsidian.
 
 **Step 2 :** Open the Settings Panel using the Gear Icon from the Side bar:
-![Open Settings Panel](../../assets/OpenSettingsPanel.png)
+![Open Settings Panel](..//assets/OpenSettingsPanel.png)
 
 **Step 3 :** Click on the Community Plugins Tab from the Right Sidebar.
-![alt text](../../assets/CommunityBrowseButton.png)
+![alt text](..//assets/CommunityBrowseButton.png)
 
 **Step 4 :** Click on the Browser button from the pane.
 
 **Step 5 :** Search for `BRAT` in the search bar.
 
 **Step 6 :** Click on the plugin by `TFTHacker`.
-![BRAT plugin](../../assets/BRAT_Plugin_Install.png)
+![BRAT plugin](..//assets/BRAT_Plugin_Install.png)
 
 **Step 7 :** Click on **Install**.
 
 **Step 8 :** After installing you will see a **Enable** button, click on it.
 
 **Step 9 :** Navigate to the setting of BRAT plugin and open the tab as shown in below image :
-![BRAT Plugin Settings](../../assets/BRAT_plugin_settings.png)
+![BRAT Plugin Settings](..//assets/BRAT_plugin_settings.png)
 
 **Step 10 :** Click on the **Add beta plugin** button. You will see a new modal as below : 
-![BRAT_Add_New_Plugin](../../assets/BRAT_Add_New_Plugin.png)
+![BRAT_Add_New_Plugin](..//assets/BRAT_Add_New_Plugin.png)
 
 **Step 11 :** In the first input field enter the following url : `https://github.com/tu2-atmanand/Task-Board`. And then click anywhere else on the modal. You will get a green highlighting for the input field, indicating its a correct url.
 

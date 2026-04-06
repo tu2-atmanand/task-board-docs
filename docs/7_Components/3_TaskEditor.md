@@ -10,7 +10,7 @@ This is a custom component provided by this plugin which can be opened inside a 
 
 This task editor helps you to edit your tasks or add more properties to your task easily without opening the markdown file.
 
-![Task Editor](../../assets/EditTaskWindow.gif)
+![Task Editor](..//assets/EditTaskWindow.gif)
 
 ## Sections of the Window
 

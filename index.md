@@ -10,20 +10,10 @@ permalink: /
 
 **"Document your progress while completing your tasks"**
 
-![Task Board Thumbnail](./assets/TaskBoardThumbnail-3.jpg)
+![Task Board Thumbnail](/assets/TaskBoardThumbnail-3.jpg)
 
 [Get started now](#how-to-start){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 .mx-auto }
 [View it on GitHub](https://github.com/tu2-atmanand/Task-Board){: .btn .fs-5 .mb-4 .mb-md-0 .mx-auto }
-
-## Topics
-
-- [01 - Installation](./docs/Installation.md)
-- [02 - Getting Started](./docs/Getting_Started.md)
-- [03 - Features](./docs/Features/index.md)
-- [04 - Components](./docs/Components/index.md)
-- [05 - Examples](./docs/Examples/index.md)
-- [06 - How to do Anything](./docs/How_To/index.md)
-- [07 - FAQs](./docs/FAQs/index.md)
 
 ## **What is Task Board**
 
@@ -36,29 +26,29 @@ Watch the above complete YouTube playlist to see demo of all the features releas
 ## How Does it work
 
 - This plugin scans tasks from all markdown files across your entire vault and shows them in a Kanban type board.
-- [Scan filters](./docs/Features/Filters_for_Scanning.md) can be applied to scan only specific files or to exclude specific files.
+- [Scan filters](/docs/Features/Filters_for_Scanning.md) can be applied to scan only specific files or to exclude specific files.
 - You can edit the task directly from the **Task Board**, without opening the Markdown file.
 - Add tasks to currently opened files using a pop-up window.
 
 ## How to start
 
-**STEP 1:** Install the plugin: [Installation](./docs/Installation.md)
+**STEP 1:** Install the plugin: [Installation](/docs/Installation.md)
 
-**STEP 2:** Learn about the basics: [Getting Started](./docs/Getting_Started.md)
+**STEP 2:** Learn about the basics: [Getting Started](/docs/Getting_Started.md)
 
-**STEP 3:** Explore the [Features](./docs/Features/index.md) of the plugin as well as [UI Components](./docs/Components/index.md)
+**STEP 3:** Explore the [Features](/docs/Features/index.md) of the plugin as well as [UI Components](/docs/Components/index.md)
 
-**STEP 4:** Want to learn how to do a specific thing quickly? Use this wiki : [How to...](./docs/4_How_To/0_index.md)
+**STEP 4:** Want to learn how to do a specific thing quickly? Use this wiki : [How to...](/docs/4_How_To/0_index.md)
 
 {: .new-title }
 > Questions?
 >
->  Start here: [Task Board FAQs](./docs/How_To/index.md)
+>  Start here: [Task Board FAQs](/docs/How_To/index.md)
 
 {: .new-title }
 > Want to contribute
 > 
-> If you would like to contribute to this project in any way, start here: [How to Contribute](./docs/Advanced/index.md)
+> If you would like to contribute to this project in any way, start here: [How to Contribute](/docs/Advanced/index.md)
 
 
 ## Motivation and Vision
@@ -67,7 +57,7 @@ Previously, I always used the [Kanban Plugin](https://github.com/mgmeyers/obsidi
 
 While in development, I took inspiration from the CardBoard and Kanban plugins, as well as many feature ideas from [GitHub project planning KanBan board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/customizing-views-in-your-project/changing-the-layout-of-a-view#about-the-board-layout). I hope that I am able to give the best of all these three tools in one place. And planning to keep enhancing this plugin.
 
-If you would like to understand **Task Board**'s vision and future development roadmap, check here: [Vision of Task Board](./docs/2_Vision.md).
+If you would like to understand **Task Board**'s vision and future development roadmap, check here: [Vision of Task Board](/docs/2_Vision.md).
 
 ## Support
 

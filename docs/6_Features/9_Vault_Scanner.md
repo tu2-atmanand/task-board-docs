@@ -14,4 +14,4 @@ You dont have to run this feature after the initial setup, since all your tasks 
 
 But you can make use of this feature, if you have found some issue while extracting the tasks or few of your tasks has not been extracted properly.
 
-Please note  that, if your vault is very large in size and contains files with huge amount of data, then consider applying [Filters for scanning](../5_Features/10_Filters_for_Scanning.md) to only scan specific files or restrict this plugin from scanning certain files, to save the scanning time and also to improve the performance.
+Please note  that, if your vault is very large in size and contains files with huge amount of data, then consider applying [Filters for scanning](./docs/6_Features/10_Filters_for_Scanning.md) to only scan specific files or restrict this plugin from scanning certain files, to save the scanning time and also to improve the performance.

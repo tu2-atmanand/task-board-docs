@@ -51,7 +51,7 @@ nav_order: NUMBER
   ```
 - **Labels/Badges**: `{: .d-inline-block }` + `{: .label .label-purple }` for version badges
 - **Links**: Use relative paths (e.g., `../6_Features/1_Task_Formats.md`) without `.md` extension in links: `[Link Text](../folder/1_File)`
-- **Images**: Reference from `/assets/images/` with relative paths (e.g., `../assets/TaskBoardThumbnail-3.jpg`)
+- **Images**: Reference from `/assets/images/`.
 
 ## Documentation Workflow
 
@@ -60,11 +60,11 @@ nav_order: NUMBER
 2. Create file with correct numbering: `docs/SECTION/NN_FileName.md`
 3. Always include frontmatter with `parent` (section title) and `nav_order`
 4. Use relative paths for cross-document links (remove `.md`: `../Other_Section/3_Page` not `../Other_Section/3_Page.md`)
-5. Store images in `/assets/images/`, reference with: `../assets/ImageName.png`
+5. Store images in `/assets/images/`, reference with: `/assets/ImageName.png`
 
 ### Content Patterns
 - **Feature docs**: Include Overview, Why-it-matters, How-to-use, Best-practices, and "Learn more" links
-- **Getting-Started**: Step-by-step guides with screenshots/GIFs (stored as `../assets/FileName.gif`)
+- **Getting-Started**: Step-by-step guides with screenshots/GIFs (stored as `/assets/FileName.gif`)
 - **How-To guides**: Concise action-oriented steps (see `5_How_To/1_HowToAddNewTask.md`)
 - **Cross-references**: Link to related Features, How-To guides, and Components
 - **Version badges**: Add above headings for newly released features: `v1.8.0 {: .label .label-purple }`

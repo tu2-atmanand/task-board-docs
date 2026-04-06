@@ -8,7 +8,7 @@ nav_order: 11
 
 This feature helps you to detect the files you have modified and then scan them automatically to extract any newly added tasks or the existing tasks which you have edited.
 
-This feature can be used in three different modes, which can be controlled using the settings option : [Scanning mode](../4_How_To/6_HowToUseGlobalSettings.md#scanning-modes).
+This feature can be used in three different modes, which can be controlled using the settings option : [Scanning mode](./docs/5_How_To/6_HowToUseGlobalSettings.md#scanning-modes).
 
 
 ## Balanced Mode
@@ -26,7 +26,7 @@ This way, the plugin kind of waits for you to finish with your changes and effic
 
 A demo can be seen in the below GIF :
 
-![Editing a task from file](../../assets/AddingNewTaskFromFile.gif)
+![Editing a task from file](..//assets/AddingNewTaskFromFile.gif)
 
 
 ## Real Time Mode

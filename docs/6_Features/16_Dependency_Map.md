@@ -106,7 +106,7 @@ To add a task to the Map View you have basically three options. The first two op
 
 #### Option A: Using the Edit Task Modal
 
-1. Open the [task editor](../5_Features/4_Task_Editor.md) for any task.
+1. Open the [task editor](./docs/6_Features/4_Task_Editor.md) for any task.
 2. Look for the **"Show on Map"** button.
 3. Click the button
 4. The system will automatically:

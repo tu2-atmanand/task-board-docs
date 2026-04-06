@@ -8,9 +8,9 @@ nav_order: 3
 
 This although being a simple feature, it does a real-time changes to the parent markdown file.
 
-![Marking Task as Complete](../../assets/MarkTaskComplete.gif)
+![Marking Task as Complete](..//assets/MarkTaskComplete.gif)
 
-There are basically two things happening when you click on the main checkbox of any [Task Item Card](../Components/Task_Item_Card.md) : 
+There are basically two things happening when you click on the main checkbox of any [Task Item Card](./docs/7_Components/Task_Item_Card.md) : 
 
 1. The next status is calculated
 2. Task content is updated in your source note
@@ -31,6 +31,6 @@ Then the plugin will find the source note for this task, whether its a inline-ta
 ## 3. Task Card moves
 
 Finally, Task Board verifies that the task has been properly updated in the source note and it also scans the updated note to confirm the same and finally updates the board view to indicate that the operation was confirmed. Till the above two steps are happening in the background you will also notice an indicator shown in the footer of the task card. As shown in the below image : 
-![Refreshing-status-in-card-footer-example](../../assets/Refreshing-status-in-card-footer-example.png)
+![Refreshing-status-in-card-footer-example](..//assets/Refreshing-status-in-card-footer-example.png)
  
 After the board refreshes, the card might move to a different column, may be say "Completed" type column, based on the [column criteria](../6_Features/5_Types_Of_Columns.md). This is because, the task no longer satisfy the criteria for it to be shown under its original column, hence it will be now shown inside the completed type column (or any other column based on the criteria).
