@@ -55,7 +55,7 @@ This is the main title of any task. Most of the users would like to have a simpl
 
 These are all the properties you want to apply to the task. At present there are few main properties supported by Task Board and new properties will be added in the future.
 
-> Read the following wiki understand all the task properties and their formats in detail :[Task Metadata](./MetadataFormats.md)
+> Read the following wiki understand all the task properties and their formats in detail :[Task Metadata](/docs/6_Features/3_MetadataFormats.md)
 
 
 ### Task Body
@@ -94,4 +94,4 @@ You can have any number of sub-tasks and with multi-level-indentation. For examp
 
 This is a new idea which got popularized through the TaskNotes plugin. Read this docs from TaskNotes to learn more : [The Note-Per-Task Approach](https://tasknotes.dev/core-concepts/). Throughout this wiki, will refer these kinds of tasks as "`task-notes`".
 
-Task Board also adheres to the same concepts and provides various features to manage your task-notes. Also refer the following wiki to learn more about the integration of Task Board with TaskNotes plugin : [TaskNotes plugin integration](./docs/6_Features/15_Plugin_Integrations/8_TaskNotes_Plugin_Integration.md).
+Task Board also adheres to the same concepts and provides various features to manage your task-notes. Also refer the following wiki to learn more about the integration of Task Board with TaskNotes plugin : [TaskNotes plugin integration](/docs/6_Features/15_Plugin_Integrations/8_TaskNotes_Plugin_Integration.md).

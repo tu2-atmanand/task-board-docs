@@ -28,12 +28,12 @@ Click on the **Vault Scanner Modal** button. It is located inside the "View Head
 {: .note }
 > Before running the scanner, you might like to use the "Filters for scanning" feature, which will allow you to skip certain files from being scanned, if you dont want this plugin to scan your those files. BTW, dont worry this plugin is also completely offline like Obsidian.
 > 
-> You won't need to use this "[Vault Scanner Feature](/docs/6_Features/Scan_Vault_Feature.md)" feature often. It is only for fresh install or for special cases like troubleshooting or solving any other issue.
+> You won't need to use this "[Vault Scanner Feature](/docs/6_Features/9_Vault_Scanner.md)" feature often. It is only for fresh install or for special cases like troubleshooting or solving any other issue.
 
 ![ReScanVaultModalOpen](/assets/ReScanVaultModalOpen.png)
 
-All tasks with the [accepted format](/docs/7_Components/Task_Formats.md) will be scanned and will be displayed on the board based on the specific [Column Criteria](/docs/7_Components/Types_Of_Columns.md).
+All tasks with the [accepted format](/docs/6_Features/1_Task_Formats.md) will be scanned and will be displayed on the board based on the specific [Column Criteria](/docs/6_Features/5_Types_Of_Columns.md).
 
-Now you are free to explore the various features of this plugin. Will recommend to start by exploring some of the quick guides we have created in the following section : [How to do anything](/docs/5_How_To/index.md).
+Now you are free to explore the various features of this plugin. Will recommend to start by exploring some of the quick guides we have created in the following section : [How to do anything](/docs/5_How_To/0_index.md).
 
 **Enjoy the plugin !**

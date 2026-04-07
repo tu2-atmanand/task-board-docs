@@ -17,10 +17,10 @@ This is the recommended method to get the officially released version from Obsid
 **Step 1:** Open Obsidian.
 
 **Step 2:** Open the Settings Panel using the Gear Icon from the Side bar:
-![Open Settings Panel](/assets/OpenSettingsPanel.png)
+![Settings button](/assets/OpenSettingsPanel.png)
 
 **Step 3:** In the sidebar on the left, select the **"Community Plugins"** tab, and then click **"Browse"** on the right:
-![alt text](/assets/CommunityBrowseButton.png)
+![Community plugins browse button](/assets/CommunityBrowseButton.png)
 
 **Step 4:** Search for `Task Board` in the search bar. The correct one is created by `Atmanand Gauns`.
 
@@ -28,7 +28,7 @@ This is the recommended method to get the officially released version from Obsid
 
 **Step 6:** After installation, you will see an **"Enable"** button. Click it.
 
-**Step 7:** The plugin is now enabled. For ideas on how to get started, check here: [Getting Started.](Getting_Started.md)
+**Step 7:** The plugin is now enabled. For ideas on how to get started, check here: [Getting Started.](/docs/4_Getting_Started.md)
 
 ---
 
@@ -52,7 +52,7 @@ https://github.com/tu2-atmanand/Task-Board
 
 **Step 3:** You should now see a notification that the plugin has been successfully installed. You should able to see a ribbon icon to open **Task Board**.
 
-**Step 4:** Proceed to initialization step :[Opening **Task Board** for first time.](Getting_Started.md#step-1--opening-the-task-board)
+**Step 4:** Proceed to initialization step :[Opening **Task Board** for first time](/docs/4_Getting_Started.md).
 
 ---
 
@@ -82,4 +82,4 @@ https://github.com/tu2-atmanand/Task-Board
 
 **Step 12:** Enable this plugin.
 
-**Step 13:** The plugin has been Enabled. Move to the next step on how to start using the plugin here: [Getting Started.](Getting_Started.md)
+**Step 13:** The plugin has been Enabled. Move to the next step on how to start using the plugin here: [Getting Started.](/docs/4_Getting_Started.md)

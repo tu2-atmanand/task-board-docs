@@ -30,10 +30,10 @@ What you are basically doing here is creating a new dummy test vault :
 1. In Obsidian open the command pallete : `CTRL` + p / `CMD` + p.
 2. Now find the run the following command : `Open another vault`.
 3. Now you should see the following screen, then click on the **Create** button : 
-![Open another vault screen](..//assets/OpenAnotherVaultScreen.png)
-4. Now enter any name for your vault and specify where you want to create the vault. This vault will basically going to be a simple folder on your computer. Keep a note where your vault folder exists on your computer.
-5. Now, try to reproduce the same issue you are facing in your earlier vault. 
-6. Install the Task Board plugin -> Create few dummy files -> Create few dummy tasks -> And configure the settings same as your earlier vault.
+![Open another vault screen](/assets/OpenAnotherVaultScreen.png)
+1. Now enter any name for your vault and specify where you want to create the vault. This vault will basically going to be a simple folder on your computer. Keep a note where your vault folder exists on your computer.
+2. Now, try to reproduce the same issue you are facing in your earlier vault. 
+3. Install the Task Board plugin -> Create few dummy files -> Create few dummy tasks -> And configure the settings same as your earlier vault.
 
 {: .note }
 > Now, if you are able to reproduce the issue in this test vault, that means, its a bug inside Task Board.

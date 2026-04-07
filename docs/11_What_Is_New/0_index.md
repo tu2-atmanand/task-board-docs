@@ -36,8 +36,8 @@ Stay up to date with the latest features, improvements, and fixes in Task Board!
 
 ## Want to Know More?
 
-- [Upcoming Features](./Upcoming%20Features.md)
-- [View Complete Changelog](./ChangeLog.md)
+- [Upcoming Features](/docs/11_What_Is_New/1_Upcoming_Features.md)
+- [View Complete Changelog](/docs/11_What_Is_New/2_Change_Log.md)
 
 ## Stay Connected
 

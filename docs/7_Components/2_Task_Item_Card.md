@@ -8,7 +8,7 @@ nav_order: 2
 
 These is the card which you see inside the column under any specific board.
 
-![Task Item Card](..//assets/TaskItemLegend.png)
+![Task Item Card](/assets/TaskItemLegend.png)
 
 ## Header
 
@@ -44,7 +44,7 @@ By default the Task Description content will be hidden. You will see a light col
 
 The Description content is kept hidden by default is because, there can be a lot of content inside the description for the task, and keeping in visible will consume a lot of board area, which will defeat the methodology of a Kanban Board. Whenever you want to take a look at the content of the Description of any specific task, you can expand it and read the content or make use of the links from the content.
 
-Another thing is, the content will be compressed, that, is the indentation of the content lines will be removed to save space. The idea here is to just show the content and not to worry about the formatting much, although all the other formatting will be applied like bold, italic, etc. The indentation is removed to again, show all the content in as much less area as possible. You can look at the actual content by opening the [Task Editor](./EditTaskWindow.md) or by directly opening the markdown file.
+Another thing is, the content will be compressed, that, is the indentation of the content lines will be removed to save space. The idea here is to just show the content and not to worry about the formatting much, although all the other formatting will be applied like bold, italic, etc. The indentation is removed to again, show all the content in as much less area as possible. You can look at the actual content by opening the [Task Editor](/docs/6_Features/4_Task_Editor.md) or by directly opening the markdown file.
 
 **New in v1.6.0:** You can customize whether to show or hide the description section by default in the settings. When hidden, you can still expand it when needed.
 

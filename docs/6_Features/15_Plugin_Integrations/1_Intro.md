@@ -18,7 +18,7 @@ Read more here : [Tasks plugin integration](./2_Tasks_Plugin.md).
 
 ## [QuickAdd plugin](https://github.com/chhoumann/quickadd)
 
-QuickAdd plugin's integration boost the productivity of Task Board plugin. Since, through QuickAdd plugin, you can easily add content to any note at any specific place you want. Easily create such "choices" inside QuickAdd plugin, then easily use these "choices" inside the [Task Editor](../4_Task_Editor.md) so your new tasks can go to the specific note. You also have the option to [set a default QuickAdd "choice" in the setting](.././docs/5_How_To/6_HowToUseGlobalSettings.md).
+QuickAdd plugin's integration boost the productivity of Task Board plugin. Since, through QuickAdd plugin, you can easily add content to any note at any specific place you want. Easily create such "choices" inside QuickAdd plugin, then easily use these "choices" inside the [Task Editor](/docs/7_Components/3_TaskEditor.md#left-section) so your new tasks can go to the specific note. You also have the option to [set a default QuickAdd "choice" in the setting](/docs/8_Settings/7_Automations.md#quick-add-plugin-compatibility).
 
 Read more here : [QuickAdd plugin integration](./3_QuickAdd_Plugin.md).
 

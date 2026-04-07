@@ -106,7 +106,7 @@ To add a task to the Map View you have basically three options. The first two op
 
 #### Option A: Using the Edit Task Modal
 
-1. Open the [task editor](./docs/6_Features/4_Task_Editor.md) for any task.
+1. Open the [task editor](/docs/6_Features/4_Task_Editor.md) for any task.
 2. Look for the **"Show on Map"** button.
 3. Click the button
 4. The system will automatically:
@@ -157,8 +157,8 @@ Once tasks are on the Map View, you can:
 
 ## Link to Related Topics
 
-- [Article on Dependency Flow Planning Methodology](../12_Articles/Dependency_Flow_Planning-DFP.md)
-- [Article on Dependency Flow Planning Methodology (DFP) X Kanban Methodology](../12_Articles/DFP_and_Kanban_Methodology.md)
+- [Article on Dependency Flow Planning Methodology](/docs/12_Articles/1_Dependency_Flow_Planning-DFP.md)
+- [Article on Dependency Flow Planning Methodology (DFP) X Kanban Methodology](/docs/12_Articles/2_DFP_and_Kanban_Methodology.md)
 
 ## Future Enhancements
 

@@ -90,7 +90,7 @@ Task Board has a unique functionality wherein, users can directly update the int
 
 > This is a very straight forward method.
 
-**STEP 1** : If you have already downloaded your language translation file using following setting, then move on to the next step : [Update language translations](/docs/5_How_To/HowToUseGlobalSettings.md#update-language-translation)
+**STEP 1** : If you have already downloaded your language translation file using following setting, then move on to the next step : [Update language translations](/docs/8_Settings/1_General.md#update-language-translations)
 
 **STEP 2** : Go inside the plugin's language config folder using your system file explorer. Usually the config folder will be inside `.obsidian/plugin/task-board/locales`. This `.obsidian` hidden folder will be present inside your vault folder (you might need to enable some option in your system file explorer to see this folder). Now open the file with your language code in any text editor.
 For example, if you language is Czech, then find your language code from the above table. In this example the code is '**cs**', hence the file name will be `cs.json`.
@@ -129,4 +129,4 @@ For example, if the string you want to edit is "Add sub task". Then you may see 
 
 ## How to Submit your file
 
-- After you have completed translation of all the strings properly, submit the file either using pull request to the Github project or directly send the file by creating a GitHub request here : [How to Create an Request](./HowToCreateRequest.md).
+- After you have completed translation of all the strings properly, submit the file either using pull request to the Github project or directly send the file by creating a GitHub request here : [How to Create an Request](/docs/10_Advanced/2_HowToCreateRequest.md).

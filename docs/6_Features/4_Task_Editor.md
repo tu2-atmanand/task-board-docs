@@ -94,4 +94,4 @@ Task properties can also be added at the cursor position instead of only being a
 v1.6.0
 {: .label .label-blue }
 
-Task Board now includes a [safeguard feature](./Safe_Guard.md) that performs proper content matching before updating your files. A [[5_Content_Compare_Modal|Content Compare modal]] shows you the changes before they are applied, ensuring you never lose content accidentally.
+Task Board now includes a [safeguard feature](/docs/6_Features/14_Safe_Guard.md) that performs proper content matching before updating your files. A [[5_Content_Compare_Modal|Content Compare modal]] shows you the changes before they are applied, ensuring you never lose content accidentally.

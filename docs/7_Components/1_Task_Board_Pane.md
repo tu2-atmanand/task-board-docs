@@ -10,7 +10,7 @@ This is the complete view which you will see when you will open Task Board in a 
 
 The UI consists of various sections as can be seen in the below image :
 
-![Task Board UI Legend](..//assets//TaskBoardUIBreakLegend.png)
+![Task Board UI Legend](/assets//TaskBoardUIBreakLegend.png)
 
 ## View Header Section
 
@@ -24,7 +24,7 @@ On the right side of the header, you will find several important buttons:
 
 - **View Switcher** (Added in v1.6.0): A dropdown menu that allows you to switch between different view modes or board layouts.
 
-- **Scan Vault Button**: Opens the [Scan Vault Window](../Features/Scan_Vault_Feature.md) to rescan your vault for tasks. A new command (v1.3.0) also provides quick access to this feature.
+- **Scan Vault Button**: Opens the [Vault scanner modal](/docs/6_Features/9_Vault_Scanner.md) to re-scan your vault for tasks. A new command (v1.3.0) also provides quick access to this feature.
 
 - **Add Task Button**: Opens the Add New Task modal to create a new task. You can add tasks to the active file or choose a specific file using the file suggester (enhanced in v1.5.0).
 
@@ -49,13 +49,13 @@ In this section you will able to see the Tab buttons with the name of the board 
 
 On the right side of this section there are two button :
 
-- **Configure Board :** This button will open the [Configure Board Window](../How_To/HowToUseBoardSettings.md), to change the settings of the currently active board. You can also able to see the settings of other boards in the same window as well as a tab for [Global Settings](../How_To/HowToUseGlobalSettings.md).
+- **Configure Board :** This button will open the [Board config modal](/docs/7_Components/8_Board_Config_Modal.md), to change the settings of the currently active board.
 
-- **Refresh Board :** This button helps you to refresh the board with the latest data or to solve any UI anomaly you might see for few Task Items. In normal usage you might not to use this button. This button is very useful when the [Real-Time Scanning](../How_To/HowToUseGlobalSettings.md#real-time-scanning) option is **OFF** and you are doing the [manual scanning](../Features/Auto_Scanning_Files.md#manual-scanning).
+- **Refresh Board :** This button helps you to refresh the board with the latest data or to solve any UI anomaly you might see for few Task Items. In normal usage you might not to use this button. This button is very useful when the [Real-Time Scanning](/docs/6_Features/11_Auto_Scanning_Files.md#real-time-mode) option is **OFF** and you are doing the [manual scanning](/docs/6_Features/11_Auto_Scanning_Files.md#manual-mode).
 
 ## Active Board Section
 
-In this section you will be able to see all your columns of the board in order, the way you organized them in the Board Configuration. In side the Columns you will be able to see all your tasks as a [Task Item Card](./Task_Item_Card.md) as applicable. The tasks will be placed in the respective columns based on the [column criteria](./Types_Of_Columns.md).
+In this section you will be able to see all your columns of the board in order, the way you organized them in the Board Configuration, basically the Kanban view. Inside these Columns you will be able to see all your tasks as a [Task Item Card](/docs/7_Components/2_Task_Item_Card.md). The tasks will be placed in the respective columns based on the [column criteria](/docs/6_Features/5_Types_Of_Columns.md).
 
 ### Column Features
 

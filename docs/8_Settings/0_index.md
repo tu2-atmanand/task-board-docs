@@ -7,7 +7,7 @@ nav_order: 8
 
 Task Board plugin's settings are organized into tabs under the plugin's setting. Each tab controls a different part of plugin behavior.
 
-Please note that these are the global settings which will be applied to the whole plugin. But, you also have some more settings which are board or view specific, which you can find inside the [Board config modal](../5_How_To/5_HowToUseBoardSettings.md).
+Please note that these are the global settings which will be applied to the whole plugin. But, you also have some more settings which are board or view specific, which you can find inside the [Board config modal](/docs/5_How_To/6_HowToUseBoardSettings.md).
 
 Please find below all the setting tabs : 
 

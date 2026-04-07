@@ -46,7 +46,7 @@ Watch the above complete YouTube playlist to see demo of all the features releas
 >  Start here: [Task Board FAQs](/docs/How_To/index.md)
 
 {: .new-title }
-> Want to contribute
+> Want to contribute?
 > 
 > If you would like to contribute to this project in any way, start here: [How to Contribute](/docs/Advanced/index.md)
 

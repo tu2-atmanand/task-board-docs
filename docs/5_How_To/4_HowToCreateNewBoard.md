@@ -6,24 +6,24 @@ nav_order: 4
 
 # How to create a new Board
 
-This section will explain you how to create a new board inside the [Task Board View](./docs/7_Components/Task_Board_Pane.md#active-board-section) and what are the benefits of creating multiple boards to track your tasks efficiently.
+This section will explain you how to create a new board inside the [Task Board View](/docs/7_Components/1_Task_Board_Pane.md) and what are the benefits of creating multiple boards to track your tasks efficiently.
 
 ## Creating a New Board
 
 **Step 1 :** Click on the `Configure Board Button` from the top right corner inside the Task Board View as shown below :
 
-![Board Configure button](..//assets/BoardConfigButton.png)
+![Board Configure button](/assets/BoardConfigButton.png)
 
 **Step 2 :** Now you will see the `Add Board` button at the bottom from the left sidebar in the current opened window. Click on this button.
 
 **Step 3 :** This will add a new board with the name `Board #`, where `#` will be the number of your board in the list. Click on this new board from the left sidebar as shown below :
 
-![NewBoardAdded](..//assets/NewBoardAdded.png)
+![NewBoardAdded](/assets/NewBoardAdded.png)
 
 **Step 4 :** Now you can edit the properties of this board like Board Name, Board Filters and adding columns to this board.
 
 {: .note }
-> For a fresh new board, it will be empty by default, you have to add columns into it as per your choice. Go through this page to understand which types of column you need to add : [Adding New Columns](./HowToAddNewColumn.md)
+> For a fresh new board, it will be empty by default, you have to add columns into it as per your choice. Go through this page to understand which types of column you need to add : [Adding New Columns](/docs/5_How_To/5_HowToAddNewColumn.md)
 
 **Step 5 :** Once you are done with your changes, click on the `Save` button from the left side bar.
 

@@ -6,7 +6,7 @@ nav_order: 5
 
 # Types of Columns
 
-There are the following 9 types of columns you can create inside a board. Based on the properties of the columns, you will see the specific [tasks item card](./Task_Item_Card.md) in these columns under the Task Board.
+There are the following 9 types of columns you can create inside a board. Based on the properties of the columns, you will see the specific [tasks item cards](/docs/7_Components/2_Task_Item_Card.md) in these columns under the Task Board.
 
 ## Undated
 
@@ -111,7 +111,7 @@ Also known as `namedTagged`. This column will contain all the tasks which has be
 
 ## Untagged
 
-Intuitively, this column will show you all the tasks, which has not been provided by any tag. If you would like to see all the un-tagged tasks, so that you can assign them tags later, which will be much easier from the [Task Editor](./EditTaskWindow.md), then you can create this column.
+Intuitively, this column will show you all the tasks, which has not been provided by any tag. If you would like to see all the un-tagged tasks, so that you can assign them tags later, which will be much easier from the [Task Editor](/docs/6_Features/4_Task_Editor.md), then you can create this column.
 
 ### Properties
 
@@ -168,7 +168,7 @@ This type of column was added in version 1.6.0 and allows you to filter tasks fr
 
 ## All Pending Tasks
 
-This a special type of column, specially introduced after the requests of users to show all the pending tasks inside the column and then user can apply the [Advanced Column Filter](./docs/6_Features/7_Advanced_Column_Filter.md) to create a custom filtered view. 
+This a special type of column, specially introduced after the requests of users to show all the pending tasks inside the column and then user can apply the [Advanced Column Filter](/docs/6_Features/7_Advanced_Column_Filter.md) to create a custom filtered view. 
 
 There are few cases which are not possible through the already existing column types above, for such cases, we have this column type to filter the tasks based on the Advanced Column Filters, based on users choice.
 
@@ -179,7 +179,7 @@ There are few cases which are not possible through the already existing column t
 
 This type of column will show you all the tasks, which has been marked as completed. So, you will notice that, all the task item card under this column will have a different fields inside their Footer. Since you have marked the task as complete, you will see the time-date value when you marked this task as complete as can be seen from the below image.
 
-![Completed tasks inside Completed Column](..//assets/CompletedtaskUnderCompletedColumn.png)
+![Completed tasks inside Completed Column](/assets/CompletedtaskUnderCompletedColumn.png)
 
 ### Properties
 

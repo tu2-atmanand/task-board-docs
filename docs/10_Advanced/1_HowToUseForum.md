@@ -19,7 +19,7 @@ If you have asked a question, any Task Board user will be able to answer your qu
 **Step 2 :** Click on the green button `New discussion`, which you will see in the top right corner.
 
 **Step 3 :** You will see the following screen :
-![QnA_DiscussionSection](..//assets/QnA_DiscussionSection.png)
+![QnA_DiscussionSection](/assets/QnA_DiscussionSection.png)
 
 **Step 4 :** Add your question in the first field : **Add a title**. Try to keep the question short and one liner. You can explain/elaborate your question further inside the body section.
 

@@ -9,9 +9,9 @@ nav_order: 7
 v1.8.0
 {: .label .label-purple }
 
-Similar to the [Advanced Board Filter](./6_Advanced_Board_Filter.md), this plugin also provide the same power to add a filter to your columns. This advanced double filtering power helps you to create a customized filtered views to create any kinds of workflows.
+Similar to the [Advanced Board Filter](/docs/6_Features/6_Advanced_Board_Filter.md), this plugin also provide the same power to add a filter to your columns. This advanced double filtering power helps you to create a customized filtered views to create any kinds of workflows.
 
-Since this is a same Advanced Filter from Board filter, the UI remains the same. Please refer the following wiki to understand the complete UI : [Advanced Filter Menu](../6_Components/6_Advanced_Filter_Menu.md).
+Since this is a same Advanced Filter from Board filter, the UI remains the same. Please refer the following wiki to understand the complete UI : [Advanced Filter Menu](/docs/7_Components/6_Advanced_Filter_Menu.md).
 
 
 Although we have different [types of columns](./5_Types_Of_Columns.md) to organize/segregate tasks within the board, but on top of that you can add these column filter to further customize your view. This, filter feature, will be specially useful for the [All Pending Tasks type of column](./5_Types_Of_Columns.md#all-pending-tasks).
@@ -25,6 +25,6 @@ For example, lets say you have a Time Based Workflow kanban view. In this view, 
 
 Now, lets say, in this column you only want to see the tasks with priority higher than 3 OR the tag on the task should be `#urgent`. In this case, you can apply a filter like the one shown in the below image : 
 
-![Column filter UI with few filter criteria applied](..//assets/ColumnFilterExample.png)
+![Column filter UI with few filter criteria applied](/assets/ColumnFilterExample.png)
 
-To understand how the criteria, groups and the overall filter menu works, see the [example explained in the Advanced Board Filter wiki](./6_Advanced_Board_Filter.md#how-does-it-work).
+To understand how the criteria, groups and the overall filter menu works, see the [example explained in the Advanced Board Filter wiki](/docs/6_Features/6_Advanced_Board_Filter.md#how-does-it-work).

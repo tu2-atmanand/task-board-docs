@@ -6,7 +6,7 @@ nav_order: 4
 
 # Vault Scanner Modal
 
-![ReScan Vault Window Open](..//assets/ReScanVaultModalOpen.png)
+![ReScan Vault Window Open](/assets/ReScanVaultModalOpen.png)
 
 In this modal you can see a terminal like section. Once this window is opened to scan all the files you need to click on the **Run** button. After you click on the run button the plugin will start scanning all the files from your vault to detect any tasks are present in them.
 
