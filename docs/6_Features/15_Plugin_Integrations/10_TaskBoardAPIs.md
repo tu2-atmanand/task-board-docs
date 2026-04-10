@@ -1,7 +1,7 @@
 ---
 parent: Plugin Integrations
 title: Task Board APIs
-nav_order: 9
+nav_order: 10
 ---
 
 # Task Board APIs

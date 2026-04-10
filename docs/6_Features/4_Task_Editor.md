@@ -36,16 +36,17 @@ After you have opened the Task Editor, you also have the option to use the file 
 
 ### 4. **QuickAdd Integration**
 
-Select from different QuickAdd choices to add tasks using templates or macros. Using QuickAdd plugin, the combinations are endless on how you want to add the task and where you want to add.
+Select from different QuickAdd's choices to add tasks in any note you want, at any specific position and also in the specific format. Using QuickAdd plugin, the combinations are endless on how you want to add the task and where you want to add.
 
-< Gif showing how to add a task >
+You can learn more about how to integrate QuickAdd inside task in the following wiki : [QuickAdd plugin integration](/docs/6_Features/15_Plugin_Integrations/3_QuickAdd_Plugin.md).
 
-> _Note: A hotkey can be assigned to all these commands functionality in the "Hotkey" section found in Obsidian's general settingns._
+{: .note }
+> _A hotkey can be assigned to all thee above commands functionality in the "Hotkey" section found in Obsidian's general settings._
 
 
 ## Ways to Edit a Task
 
-This component will be specially useful when you want to edit a particular task but don't want to open the source file. You can make use of this component to quickly edit a specific property of the task.
+This component will be specially useful when you want to edit a particular property of the task but don't want to open the source file. You can make use of this component to quickly edit a specific property of the task, its sub-tasks, description, as well as its title itself.
 
 There are two ways to open this component to edit an existing task : 
 
@@ -71,18 +72,12 @@ The Task Editor now provides:
 
 ### Task properties you can add
 
-You can add the following properties to the task :
-- Task title, sub-task and description inside the editor.
-- Status (v1.3.0)
-- Start and End time.
-- Created date, Due date, scheduled date, start date (v1.5.0)
-- Priority level
-- Tags (with tag suggester in v1.5.0)
-- Reminder (v1.4.0)
-- Child tasks (Dependencies or blocked-by tasks) (v1.8.0)
+Custom input fields based on the property. Task board supports various [task properties](/docs/6_Features/2_Task_Properties.md) by default. Each of them are of different kinds, such at date, date-time, only time, numerical, text, etc.
+
+To assist you in entering the values for the specific tasks, this component will provide special input fields, some with even suggestion to make the process easier and quicker.
 
 
-### Task Property Insertion
+### Property insertion position
 {: .d-inline-block }
 v1.6.0
 {: .label .label-blue }
@@ -94,4 +89,4 @@ Task properties can also be added at the cursor position instead of only being a
 v1.6.0
 {: .label .label-blue }
 
-Task Board now includes a [safeguard feature](/docs/6_Features/14_Safe_Guard.md) that performs proper content matching before updating your files. A [[5_Content_Compare_Modal|Content Compare modal]] shows you the changes before they are applied, ensuring you never lose content accidentally.
+Task Board now includes a [safeguard feature](/docs/6_Features/14_Safe_Guard.md) that performs proper content matching before updating your files. A [Content Compare modal](/docs/7_Components/5_Content_Compare_Modal.md) shows you the changes before they are applied, ensuring you never lose content accidentally.

@@ -10,6 +10,18 @@ The Formats tab controls date formats, time formats, and timezone handling throu
 
 ## Universal date
 
+| Input Field | Options | Default |
+|---|---|---|
+| Dropdown | Start date<br>Scheduled date<br>Due date | Due date |
+
+This plugin supports multiple kinds of date with their unique significance which satisfies various requirements for your tasks management. For example, created date, start date, scheduled date, etc.
+
+But, there are mainly three dates which you will mostly going to use while day to day working with your tasks. These are Start date, Scheduled date and Due date. In Task Board, there are various functionalities, where it needs a date on your tasks for those functionalities to work and through this setting you are instructing this plugin to use this specific date when Task Board will try to apply that functionality.
+
+For example, if you have enabled the [daily notes plugin compatibility feature](/docs/6_Features/15_Plugin_Integrations/9_Daily_Notes_Plugin.md), then the name of the daily note (which will be mostly a date value), will be assigned as the scheduled date to all the inline-tasks within that specific daily note.
+
+ Hence, its necessary that you select the date which is most significant for you as the universal date in this plugin.
+
 
 ## Date Format
 
