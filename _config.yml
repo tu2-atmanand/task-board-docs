@@ -1,7 +1,7 @@
-version: 0.1.1
+version: 1.10.0
 title: Task Board Documentation
 name: Task Board Documentation
-description: This is an detailed documentation for the Task Board plugin of Obsidian.
+description: This is a detailed documentation for the Task Board plugin of Obsidian.
 url: https://tu2-atmanand.github.io
 repository: tu2-atmanand/task-board-docs
 github_username: tu2-atmanand
@@ -58,7 +58,7 @@ search_enabled: true
 search:
   # Split pages into sections that can be searched individually
   # Supports 1 - 6, default: 2
-  heading_level: 2
+  heading_level: 4
   # Maximum amount of previews per search result
   # Default: 3
   previews: 2
@@ -90,7 +90,7 @@ aux_links:
     - "https://github.com/tu2-atmanand/Task-Board"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 # Enable or disable the side/mobile menu globally
 # Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
@@ -115,7 +115,7 @@ enable_copy_code_button: true
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: 'Copyright &copy; 2024-2025 Atmanand Gauns. Distributed by an <a href="https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt">MIT license.</a> <a href="https://pages.github.com/">This site is powered by GitHub pages.</a>'
+footer_content: 'Copyright &copy; 2025-2026 Atmanand Gauns. Distributed by an <a href="https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt">MIT license.</a> <a href="https://pages.github.com/">This site is powered by GitHub pages.</a>'
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter

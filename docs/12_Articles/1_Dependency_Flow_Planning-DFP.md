@@ -10,7 +10,28 @@ By Atmanand Gauns
 
 ![DFP Methodology Map view thumbnail](/assets/Dependency_Flow_Planning.png)
 
-> This is a methodology for tasks management and planning which mainly leverages the modern graphical tools such as Canvas view to easily organize, update, map and visualize the tasks on your plate.
+## Summary
+
+**Dependency Flow Planning (DFP)** is a bottom-up methodology for project management that redefines how we approach complex projects. Developed during the implementation of the Map View feature in Task Board, DFP combines the best practices from Agile, Kanban, and traditional project management with its own unique twist.
+
+#### Key Characteristics:
+
+- **Bottom-Up Approach**: Emphasizes child-to-parent task flows rather than top-down decomposition
+- **Strict Dependencies**: Maintains clear sequential logic and task dependencies
+- **Digital Canvas Planning**: Leverages visual mapping to organize and plan workflow
+- **Sequential Logic**: Guarantees logical sequence in project execution
+- **Scalability**: Works effectively for small to large projects without a steep learning curve
+- **Team-Friendly**: Enhances communication and coordination in team environments
+
+#### Advantages:
+
+1. **Bottleneck Identification**: Easily spot hurdles and workflow bottlenecks
+2. **Live Tracking**: Monitor project workflow in real-time, especially in large teams
+3. **Easy Organization**: Visual interface makes workflow mapping intuitive
+4. **Efficiency**: Combines proven methodologies to maximize project efficiency
+5. **Flexibility**: Works with various project types and team structures
+
+## Literature
 
 In the world of project management, methodologies have long sought to tame complexity and bring order to chaos. From the strict hierarchies of the Work Breakdown Structure (WBS) to the fluid, continuous flow of Kanban, each approach offers a different lens through which to view and manage work. Dependency Flow Planning (DFP) draws upon the core strengths of these established systems, specifically the visual nature of mind maps and Kanban boards, and the rigorous dependency management of Gantt charts and Critical Path Method (CPM).
 
@@ -96,3 +117,12 @@ The visual nature of the map makes it immediately obvious where work is stalled.
 
 
 In conclusion, Dependency Flow Planning (DFP) is more than just a new tool; it's a new mindset for project management. By shifting the focus from top-down planning to a bottom-up, sequential flow of work, it provides a simple, powerful, and intuitive way for teams to navigate complexity and achieve their goals, one step at a time.
+
+## Further reading
+
+This article explains DFP methodology in short. For a comprehensive understanding of this methodology and its concepts of the Dependency Flow Planning methodology, we recommend:
+
+- **Research Paper**: Published in the Journal of Dalian University of Technology - [Read on JDUT](https://jdut.net/volume-32-issue-10-page-2/)
+- **Preprint**: Available on Zenodo - [View Preprint](https://doi.org/10.5281/zenodo.17264606)
+- **Community Discussion**: Join discussions on the [Obsidian Forum](https://forum.obsidian.md/t/dependency-flow-planning-dfp-methodology-a-research/108048?u=tu2_atmanand)
+- **Video Tutorial**: Watch the [YouTube demonstration](https://youtu.be/mWfbDTO5pyw) of DFP methodology and Map View feature

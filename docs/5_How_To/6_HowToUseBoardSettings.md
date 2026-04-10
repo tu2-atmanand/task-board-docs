@@ -4,7 +4,7 @@ title: Use Board Settings
 nav_order: 6
 ---
 
-# How to use the Board Specific Settings
+# How to use the Board specific settings
 
 You can open the Board Specific Settings from the **Board configure button** on the top right corner in the Task Board View as can be seen in the below image.
 
@@ -16,11 +16,6 @@ This will open the settings panel as shown below :
 
 Learn more about all the UI elements of this modal from here : [Board config modal](/docs/7_Components/8_Board_Config_Modal.md).
 
-{: .new-title }
-> Save Button
->
-> Remember to press on the `Save` button after you have changed any value for the Board settings.
-
 ## Basic Settings
 
 ### Board name
@@ -29,21 +24,26 @@ In this text input field you will be able to enter the Name of the Board or chan
 
 ### Board description
 
+This will be a textarea input box where you can add description about this board. This setting will help to provide more information for this board. This description will be also visible inside the [switch board panel](/docs/7_Components/9_Switch_Board_Panel.md).
 
 ### Show tags in task card header
 
 {: .note }
 > This settings only works for [Tagged type of columns](/docs/6_Features/5_Types_Of_Columns.md#tagged).
 
-Since, the column of type namedTag will show all the tasks which has the specific tag. Then it makes no sense to show the tag on the tasks, since its obvious that all the tasks under the specific column will have the same tag as that of the Column tag.
-Hence you can decide to hide this tag from all the Task Items under this column.
+Since, the column of type "Tagged" will show all the tasks which has the specific tag in them. Then it makes no sense to show that specific tag inside the [task item card header](/docs/7_Components/2_Task_Item_Card.md#header) when the cards will be rendered inside those columns. Because, its obvious that all the tasks under the specific "Tagged" type column will going to have that tag anyways.
+Hence you can decide to hide this tag, from all the Task Items under this column.
 
 For multi-tag Task Item, other tags will be show, only the specific tag will be hidden.
 
 
 ### Auto hide empty columns
 
+Enable this setting if you dont like to see any empty columns inside your boards. The column will be present under the board configurations, but it will be hidden when there are no tasks to show in that column. This setting will help you to have a clean kanban view.
+
 ## Configure swimlanes
+
+If you like to have swimlanes for the kanban view, you can click on the **Configure** button in this setting which will open the [swimlane config modal](/docs/7_Components/10_Swimlane_Config_Modal.md). Then proceed to configure all the required settings in that modal.
 
 ## Columns
 
@@ -71,17 +71,26 @@ The first row in this tabular data show the information of the Task Board column
 
 ### Add Column Button
 
-This button allows you to add more column to this board. Once you press on this button, a pop will appear as shown below :
+This button allows you to add more column to this board. Once you press on this button, the add new column modal should open as shown in the below image :
 
 ![Add Column PopUp](/assets/AddColumnModal.png)
 
-This pop-up will ask you to select the type of the new column and the name of this new column, which are the most important fields. Dont worry, you can change the name of the column later at any time. But the type of the Column will be fixed. If you want to change the type, you will have to create a new Column and delete the previous one.
+Read more about this here : [How to add a new column](/docs/5_How_To/5_HowToAddNewColumn.md).
 
-## Delete This Board Button
+### Delete This Board Button
 
 This button will delete the current board. After you click on this button, a pop up will appear to ask you for Confirmation.
 
-This operation is not reversible. Take care while delete the board. But its also easy to create a new board, if you remember the board structure. Don't worry!
+This operation is only reversible till you click on the save button, after that the changes will be saved. Take care while delete the board. But its also easy to create a new board, if you remember the board structure. Don't worry!
 
 {: .note }
 > Deleting a board or changing any setting inside the board makes no changes to you tasks. You can only change the content of your tasks either from the Task Editor or using the delete button inside the Task Item Card.
+
+## Save Button
+
+{: .new-title }
+> Save Button
+>
+> Remember to press on the `Save` button after you have changed any value for the Board settings.
+
+This button has been specially added so you can make as many changes as you like, but if you have made any mistakes, you can simply close the modal, so your mistakes are ignored.

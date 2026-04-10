@@ -6,9 +6,9 @@ nav_order: 4
 
 # Task Editor
 
-This custom component gives user the ability to add new task or edit an existing task in various ways as well as assists with managing [[2_Task_Properties|properties/metadata]] for tasks in a way that is compatible with your other plugins, as well as how you have it configured in the plugin's global settings.
+This custom component gives user the ability to add new task or edit an existing task in various ways as well as assists with managing [properties/metadata](/docs/6_Features/2_Task_Properties.md) for tasks in a way that is compatible with your other plugins, as well as how you have it configured in the plugin's global settings.
 
-To understand the complete UI of this component, read the following wiki : [[3_TaskEditor|Task Editor UI]].
+To understand the complete UI of this component, read the following wiki : [Task Editor UI](/docs/7_Components/3_TaskEditor.md).
 
 
 ## Ways to Add a Task
@@ -43,7 +43,7 @@ Select from different QuickAdd choices to add tasks using templates or macros. U
 > _Note: A hotkey can be assigned to all these commands functionality in the "Hotkey" section found in Obsidian's general settingns._
 
 
-## Ways to Add a Task
+## Ways to Edit a Task
 
 This component will be specially useful when you want to edit a particular task but don't want to open the source file. You can make use of this component to quickly edit a specific property of the task.
 

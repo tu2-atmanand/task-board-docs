@@ -26,9 +26,9 @@ Watch the above complete YouTube playlist to see demo of all the features releas
 ## How Does it work
 
 - This plugin scans tasks from all markdown files across your entire vault and shows them in a Kanban type board.
-- [Scan filters](/docs/Features/Filters_for_Scanning.md) can be applied to scan only specific files or to exclude specific files.
-- You can edit the task directly from the **Task Board**, without opening the Markdown file.
-- Add tasks to currently opened files using a pop-up window.
+- [Filters for scanning](/docs/Features/Filters_for_Scanning.md) can be applied to scan only specific files or to exclude specific files.
+- You can edit the task directly from the [Task Editor](/docs/6_Features/4_Task_Editor.md), without opening the Markdown file.
+- Add tasks to active note at the cursor location, to a predefined note or to a specific note.
 
 ## How to start
 
@@ -41,12 +41,12 @@ Watch the above complete YouTube playlist to see demo of all the features releas
 **STEP 4:** Want to learn how to do a specific thing quickly? Use this wiki : [How to...](/docs/4_How_To/0_index.md)
 
 {: .new-title }
-> Questions?
+> Questions ?
 >
 >  Start here: [Task Board FAQs](/docs/How_To/index.md)
 
 {: .new-title }
-> Want to contribute?
+> Want to contribute ?
 > 
 > If you would like to contribute to this project in any way, start here: [How to Contribute](/docs/Advanced/index.md)
 

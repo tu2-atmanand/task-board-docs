@@ -20,7 +20,7 @@ Also known as **Map View**, the Dependency Map feature provides a visual canvas-
 
 ## Overview
 
-This powerful visualization tool is designed to work seamlessly with the **Dependency Flow Planning (DFP) Methodology**, a revolutionary approach to project management that emphasizes child-to-parent task flows and strict dependencies.
+This powerful visualization tool is based on the [**Dependency Flow Planning (DFP) Methodology**](/docs/12_Articles/1_Dependency_Flow_Planning-DFP.md), a revolutionary approach to project management that emphasizes child-to-parent task flows and strict dependencies. Specially useful for sequential projects.
 
 With the Map View, you can:
 - Visualize task dependencies as a flowchart on a digital canvas
@@ -48,41 +48,11 @@ This canvas-based approach is particularly effective for:
 - Team collaboration and communication
 - Live tracking and monitoring of project progress
 
-## Dependency Flow Planning (DFP) Methodology
-
-### What is DFP?
-
-**Dependency Flow Planning (DFP)** is a bottom-up methodology for project management that redefines how we approach complex projects. Developed during the implementation of the Map View feature in Task Board, DFP combines the best practices from Agile, Kanban, and traditional project management with its own unique twist.
-
-### Key Characteristics of DFP:
-
-- **Bottom-Up Approach**: Emphasizes child-to-parent task flows rather than top-down decomposition
-- **Strict Dependencies**: Maintains clear sequential logic and task dependencies
-- **Digital Canvas Planning**: Leverages visual mapping to organize and plan workflow
-- **Sequential Logic**: Guarantees logical sequence in project execution
-- **Scalability**: Works effectively for small to large projects without a steep learning curve
-- **Team-Friendly**: Enhances communication and coordination in team environments
-
-### DFP Advantages:
-
-1. **Bottleneck Identification**: Easily spot hurdles and workflow bottlenecks
-2. **Live Tracking**: Monitor project workflow in real-time, especially in large teams
-3. **Easy Organization**: Visual interface makes workflow mapping intuitive
-4. **Efficiency**: Combines proven methodologies to maximize project efficiency
-5. **Flexibility**: Works with various project types and team structures
-
-### Learning More about DFP:
-
-For a comprehensive understanding of the Dependency Flow Planning methodology, we recommend:
-
-- **Research Paper**: Published in the Journal of Dalian University of Technology - [Read on JDUT](https://jdut.net/volume-32-issue-10-page-2/)
-- **Preprint**: Available on Zenodo - [View Preprint](https://doi.org/10.5281/zenodo.17264606)
-- **Community Discussion**: Join discussions on the [Obsidian Forum](https://forum.obsidian.md/t/dependency-flow-planning-dfp-methodology-a-research/108048?u=tu2_atmanand)
-- **Video Tutorial**: Watch the [YouTube demonstration](https://youtu.be/mWfbDTO5pyw) of DFP methodology and Map View feature
 
 ## How to Use the Map View Feature
 
-### Step 1: Enable Auto ID Assignment (Recommended)
+### Step 1: Enable Auto ID Assignment
+> This is optional but **highly recommended**.
 
 For the best experience, enable automatic ID assignment:
 
@@ -128,7 +98,7 @@ To add a task to the Map View you have basically three options. The first two op
 2. Navigate to the Map View
 3. The task will automatically appear on the canvas
 
-### Step 4: Interact with the Canvas
+### Step 3: Interact with the Canvas
 
 Once tasks are on the Map View, you can:
 - **Drag Tasks**: Move task nodes to organize your workflow
@@ -136,14 +106,6 @@ Once tasks are on the Map View, you can:
 - **Zoom & Pan**: Navigate the canvas to see your entire project
 - **Edit Tasks**: Click on nodes to edit task details
 - **Manage Layout**: Arrange tasks to reflect your project flow
-
-## Requirements for Map View
-
-- **Experimental Features Enabled**: This feature must be enabled in settings
-- **Task IDs**: Tasks must have an ID property to appear on the map
-  - Format: `🆔 4` or other ID formats
-  - Auto-assignment is recommended for ease of use
-- **Task Properties**: Tasks should have proper metadata (title, description, status, etc.)
 
 
 ## Best Practices
@@ -154,11 +116,6 @@ Once tasks are on the Map View, you can:
 4. **Leverage Dependencies**: Use task dependencies to show relationships
 5. **Regular Reviews**: Periodically review your map to ensure it reflects your current project state
 6. **Team Collaboration**: Share your map view with team members for better communication
-
-## Link to Related Topics
-
-- [Article on Dependency Flow Planning Methodology](/docs/12_Articles/1_Dependency_Flow_Planning-DFP.md)
-- [Article on Dependency Flow Planning Methodology (DFP) X Kanban Methodology](/docs/12_Articles/2_DFP_and_Kanban_Methodology.md)
 
 ## Future Enhancements
 
@@ -172,10 +129,7 @@ The Map View feature is under active development. Future versions may include:
 
 Stay tuned for updates and improvements!
 
-## Resources & Further Reading
+## Link to Related Topics
 
-- **Official Research Paper**: https://jdut.net/volume-32-issue-10-page-2/
-- **Preprint**: https://doi.org/10.5281/zenodo.17264606
-- **Video Tutorial**: https://youtu.be/mWfbDTO5pyw
-- **Community Discussions**: https://forum.obsidian.md/t/dependency-flow-planning-dfp-methodology-a-research/108048
-
+- [Article on Dependency Flow Planning Methodology](/docs/12_Articles/1_Dependency_Flow_Planning-DFP.md)
+- [Article on Dependency Flow Planning Methodology (DFP) X Kanban Methodology](/docs/12_Articles/2_DFP_and_Kanban_Methodology.md)

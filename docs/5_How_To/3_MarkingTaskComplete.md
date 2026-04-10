@@ -6,11 +6,11 @@ nav_order: 3
 
 # Marking Task Complete
 
-This although being a simple feature, it does a real-time changes to the parent markdown file.
+This, although being a simple feature, it does a real-time changes to the source note.
 
 ![Marking Task as Complete](/assets/MarkTaskComplete.gif)
 
-There are basically two things happening when you click on the main checkbox of any [Task Item Card](/docs/7_Components/2_Task_Item_Card.md) : 
+There are basically three things happening when you click on the main checkbox of any [Task Item Card](/docs/7_Components/2_Task_Item_Card.md) : 
 
 1. The next status is calculated
 2. Task content is updated in your source note

@@ -8,22 +8,25 @@ nav_order: 2
 
 **Task Metadata** also known as task properties are the different properties you assign to your tasks for better management, filtering and giving more information to your tasks.
 
-**Task board supports following Metadata :**  
+**Task board supports following Metadata by default :**  
 
 - ID
 - Status  
 - Priority  
 - Tags  
-- Start time and End time
-- Start date-time
-- Scheduled date-time
-- Due date-time
+- Time duration
+- Created date
+- Start date
+- Scheduled date
+- Due date
 - Reminder
 - Completion date-time
 - Cancelled date-time
 - Depends on
 
 More properties coming soon...  
+
+Below section will explain each of the default supported properties by Task Board. To understand how they will appear inside your notes when you add these properties to your inline-tasks please refer the following wiki : [Task properties format for inline-tasks](/docs/6_Features/3_MetadataFormats.md).
 
 ---
 
@@ -61,31 +64,6 @@ These are only few examples which will be available for you in the fresh install
 
 ---
 
-## **Due Date**  
-The **due date** specifies the deadline for completing a task. It helps in prioritizing tasks based on urgency.  
-
-✅ How it works:  
-- Tasks **due today** will be highlighted for immediate action.  
-- Overdue tasks (past due dates) will be marked accordingly.  
-- Future due dates help in planning upcoming work.  
-
-**Example:**  
-If today is **March 5, 2025**, and a task has a due date of **March 10, 2025**, then it is due in 5 days.  
-
----
-
-## **Time Duration**  
-The **time duration** represents the estimated or actual time needed to complete a task. This helps in better scheduling and workload management.  
-
-✅ Possible uses:  
-- Helps in estimating how long a task might take.  
-- Can be used to compare estimated vs. actual time spent on a task.  
-
-**Example:**  
-A task may have a **duration of 2 hours**, meaning it is expected to take around 2 hours to complete.  
-
----
-
 ## **Priority**  
 The **priority** level defines how important and urgent a task is. This helps in deciding which tasks should be completed first.  
 
@@ -113,7 +91,46 @@ A task with the tags **#work** and **#meeting** can be found when searching for 
 
 ---
 
-## **Completion Time-Date**  
+## **Time Duration**  
+The **time duration** represents the estimated or actual time needed to complete a task. This helps in better scheduling and workload management.  
+
+✅ Possible uses:  
+- Helps in estimating how long a task might take.  
+- Can be used to compare estimated vs. actual time spent on a task.  
+
+**Example:**  
+A task may have a **duration of 2 hours**, meaning it is expected to take around 2 hours to complete.  
+
+---
+
+## **Created Date**
+
+
+---
+
+## **Start Date**
+
+
+---
+
+## **Scheduled Date**
+
+---
+
+## **Due Date**  
+The **due date** specifies the deadline for completing a task. It helps in prioritizing tasks based on urgency.  
+
+✅ How it works:  
+- Tasks **due today** will be highlighted for immediate action.  
+- Overdue tasks (past due dates) will be marked accordingly.  
+- Future due dates help in planning upcoming work.  
+
+**Example:**  
+If today is **March 5, 2025**, and a task has a due date of **March 10, 2025**, then it is due in 5 days.  
+
+---
+
+## **Completion Date-time**  
 This field records the **exact date and time** when a task was completed. It helps in tracking productivity and reviewing past work.  
 
 ✅ Benefits:  
@@ -122,3 +139,21 @@ This field records the **exact date and time** when a task was completed. It hel
 
 **Example:**  
 A task marked as completed on **March 4, 2025, at 2:30 PM** means it was finished at that exact time.  
+
+---
+
+## **Cancelled Date-time**
+
+---
+
+## **Depends on**
+
+
+---
+
+{: .new-title }
+> Announcement
+> 
+> In future, you will be able to add your custom properties to your tasks. Following is the ticket for this feature : [tu2-atmanand/task-board#688](https://github.com/tu2-atmanand/Task-Board/issues/688).
+>
+> As well as, using this new feature, you should be able to decide whether you want date value or date-time value to each of your date related task properties.
