@@ -4,18 +4,20 @@ title: General
 nav_order: 1
 ---
 
-# General Settings
+# General Tab
 
 The General tab contains miscellaneous settings that control core plugin behavior and scanning functionality. These are global settings applied to the entire plugin.
 
 ## Filters for Scanning
 
-This section allows you to apply multiple types of filters to control which files and tasks are scanned from your vault:
+This setting allows you to apply multiple types of filters to control which files and tasks are scanned from your vault. These filters will restrict Task Board from even reading the notes, if say, for example, you have added the notes in the below "File filters" and have set the polarity to "Dont scan this".
 
+We have four types of filters :
+
+- **Tag Filters**: Include or exclude tasks with specific tags
 - **Frontmatter Filters**: Filter tasks by frontmatter tags (scan only files with specific frontmatter)
 - **File Filters**: Include or exclude specific files from scanning
 - **Folder Filters**: Include or exclude entire folders from scanning
-- **Tag Filters**: Include or exclude tasks with specific tags
 
 You can use one filter independently or combine multiple filters together. For detailed information on how filters work together, see: [Filters for Scanning](../6_Features/10_Filters_for_Scanning.md)
 
@@ -40,13 +42,6 @@ When enabled, the plugin automatically assigns incremental numeric IDs to tasks 
 - **Map View Feature** - Tasks require unique IDs to appear on the dependency map canvas
 - **Future Features** - Manual sorting and task pinning in upcoming versions
 
-## Default Note for Adding New Tasks
-
-| Input Field | Default |
-|---|---|
-| File Picker | (Select a file) |
-
-Specify the default markdown file where new tasks created via the "Add New Task" modal will be saved.
 
 ## Tasks Cache File Path
 

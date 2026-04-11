@@ -4,7 +4,7 @@ title: Inline Tasks
 nav_order: 4
 ---
 
-# Inline Tasks Settings
+# Inline Tasks Tab
 
 The Inline Tasks tab contains settings specific to how Task Board handles inline-style tasks (tasks embedded directly in markdown lines).
 
@@ -29,8 +29,17 @@ Select which task metadata format you follow in your markdown files. Different p
 
 Choose the format that matches your current task management setup. To see complete format specifications, see: [Metadata Formats](../6_Features/3_MetadataFormats.md)
 
-## Default note for adding new tasks
+## Default Note for Adding New Tasks
+
+| Input Field | Default |
+|---|---|
+| File Picker | (Select a file) |
+
+Specify the default markdown file where new tasks created via the "Add New Task" modal will be saved.
 
 ## File for archived tasks
 
-## Inherit frontmatter tags for inline-tasks
+## Inherit frontmatter tags (read-only)
+
+## Hide specific properties in inline-tasks
+

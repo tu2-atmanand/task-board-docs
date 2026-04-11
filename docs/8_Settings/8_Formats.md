@@ -4,7 +4,7 @@ title: Formats
 nav_order: 8
 ---
 
-# Formats Settings
+# Formats Tab
 
 The Formats tab controls date formats, time formats, and timezone handling throughout Task Board. Consistent formatting ensures compatibility with other plugins.
 
@@ -70,27 +70,3 @@ Future feature
 | Dropdown | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | Monday |
 
 This setting is reserved for future features and upcoming plugin integrations. Currently not actively used.
-
-## Task Completion in Local Time
-
-{: .d-inline-block }
-Future feature
-{: .label .label-yellow }
-
-| Input Field | Default |
-|---|---|
-| Toggle | ON |
-
-This setting is reserved for future implementation. When enabled in a future version, task completion timestamps will use your local timezone.
-
-## Show UTC Offset for Task Completion
-
-{: .d-inline-block }
-Future feature
-{: .label .label-yellow }
-
-| Input Field | Default |
-|---|---|
-| Toggle | OFF |
-
-This setting is reserved for future implementation. When enabled, task completion timestamps will include UTC offset information (e.g., +05:30).

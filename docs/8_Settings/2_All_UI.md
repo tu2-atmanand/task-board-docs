@@ -4,7 +4,7 @@ title: All UI
 nav_order: 2
 ---
 
-# All UI Settings
+# All UI Tab
 
 The All UI tab controls the visual appearance and layout of the Task Board interface and task cards.
 

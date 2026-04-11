@@ -1,7 +1,8 @@
 ---
 parent: UI Components
-title: Board Config Modal
-nav_order: 4
+title: Switch board panel
+nav_order: 9
 ---
 
-# Board Config Modal
+# Switch board panel
+

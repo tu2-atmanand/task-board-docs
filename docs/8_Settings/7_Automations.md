@@ -4,11 +4,11 @@ title: Automations
 nav_order: 7
 ---
 
-# Automations Settings
+# Automations Tab
 
 The Automations tab contains settings to automate task management workflows, reducing manual work and improving efficiency.
 
-## Edit Button Mode
+## Edit button action
 
 | Input Field | Options | Default |
 |---|---|---|
@@ -62,7 +62,7 @@ When enabled, the current date-time is automatically added to the completion dat
 
 When enabled, the current date-time is automatically added to the cancelled date property when you mark a task as cancelled.
 
-## Daily notes plugins compatibility
+## Daily notes plugin compatibility
 
 
 
@@ -80,7 +80,7 @@ When enabled (if Day Planner is installed):
 - Changes in Day Planner reflect in Task Board
 - Timeline integration becomes available
 
-## Quick Add Plugin Compatibility
+## QuickAdd Plugin Compatibility
 
 | Input Field | Default |
 |---|---|

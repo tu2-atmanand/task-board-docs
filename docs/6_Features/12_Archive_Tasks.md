@@ -6,25 +6,37 @@ nav_order: 12
 
 # Archive Tasks
 
-The Archive Tasks feature was introduced in version 1.5.0 and provides you with options to manage completed tasks without permanently deleting them. This is especially useful for maintaining a history of your work.
+The Archive Tasks feature provides you with options to manage completed tasks without permanently deleting them. This is especially useful for maintaining a history of your work.
 
-## Archive Options
+## How to Archive Tasks
 
-Task Board offers two methods to archive your completed tasks:
+1. **Configure Archive Settings**: Go to the Task Board settings and
+   1. **For inline-tasks :** Under the [Inline tasks setting tab](/docs/8_Settings/4_Inline_tasks.md#file-for-archived-tasks), select the path of the note where your archived tasks should be moved.
+   2. **For task-notes :** Under the [Task notes setting tab], configure the path of the folder where all your archived task-notes should be moved.
+2. **While deleting :** When you will try to delete a task using either the delete button on the [task item card](/docs/7_Components/2_Task_Item_Card.md) or through the right-click menu, you will see a third button called **Archive instead**.
+3. **Through right-click menu :** You will also find an option inside the [task card menu](/docs/6_Features/22_Task_Card_Menu.md) to archive the specific task.
+
+
+## For inline-tasks
+
+Task Board offers two methods to archive your inline-tasks:
 
 ### 1. Comment Out Tasks
 
-When you archive a task using the comment-out method:
-- The entire task content is converted to a comment in your markdown file
-- The task becomes invisible in the Task Board but remains in your file
-- You can easily restore the task by uncommenting it in your markdown file
+This will only happen if you have set the value of the "[File for archived tasks](/docs/8_Settings/4_Inline_tasks.md#file-for-archived-tasks)" setting as empty.
 
+When you will archive the task, it will be simply commented out inside the same note, like this : 
 **Example:**
 ```markdown
 %%  - [x] Completed task that is now archived %%
 ```
 
+This will help you to hide this task in Obsidian's live editor and reading mode. But when you will switch to the source mode, you will still able to see the content there. It will be just simply kept hidden to your eyes.
+
+
 ### 2. Move to Archive Note
+
+This will be possible when you have set a correct path to a archived inline-tasks note inside the "[File for archived tasks](/docs/8_Settings/4_Inline_tasks.md#file-for-archived-tasks)" setting.
 
 With this method:
 - Completed tasks are moved from their original location to a dedicated archive note
@@ -32,11 +44,8 @@ With this method:
 - Tasks maintain their format and all properties when moved
 - Keeps your active task files clean while preserving task history
 
-## How to Archive Tasks
+## For task-notes
 
-1. **Configure Archive Settings**: Go to the Task Board settings and choose your preferred archive method
-2. **Select Archive Location** (for Move to Archive Note method): Specify which note should be used as your archive
-3. **Archive a Task**: When you delete a completed task from the board, it will be archived according to your settings
 
 ## Benefits of Archiving
 
@@ -44,12 +53,20 @@ With this method:
 - **Clean Workspace**: Remove completed tasks from active view without losing them
 - **Easy Restoration**: Restore archived tasks if needed
 - **Project Documentation**: Maintain a complete history of what was accomplished
+- **Optimize Performance :** Archived task files are note scanned by Task Board, which boosts its performance during vault scanning.
 
 {: .note }
 > Archiving is particularly useful for project management, allowing you to review completed work without cluttering your current task boards.
 
-## Tips
+## Best Practices
 
 - Set up a dedicated "Archive" folder in your vault for archived tasks
 - Use date-based archive notes (e.g., "Archive-2025-01.md") to organize by time period
 - Review your archive periodically to clean up or restore tasks
+
+{: .note }
+> Another best practices to follow inside Obsidian is to have atomic notes. So, archiving all the inline-tasks inside a same note will make it very huge over time and it might be even difficult to manage and read for the user. Also, its performance will be degraded. 
+> 
+> To solve this issue, we have a new feature on roadmap to have a "Archived inline-tasks folder" instead of a single file and then all your inline-tasks will go to a specific note inside this folder with the note's name as the month-year name.
+>
+> Follow the development status of this feature here : [tu2-atmanand/task-board#702](https://github.com/tu2-atmanand/Task-Board/issues/702).

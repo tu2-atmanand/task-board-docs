@@ -65,18 +65,18 @@ You can choose one of the following options in the [Task Board setting](/docs/8_
 
 
 
-### Task Body
+## Task Body
 
 The Description section and the sub-tasks combined are called the **task body**.
 
 - Always ensure  to have atleast one-level of indentation for any line to be considered as the part of the task body.
 - Also, there should not be any empty line inside the task body, otherwise, the part after the empty line will be considered as a separate content even though it has an indentation. So, this criteria can be used to separate other content from the task content.
 
-#### Description
+### Description
 
 The description is basically the further elaboration of the task or even the sub tasks. You can explain as much as you want inside description, add images or attach documents. The description must be created by adding atleast one level indentation compared to the task title.
 
-#### Sub Tasks
+### Sub Tasks
 
 To Create a subTasks for the main task, its is important that, there has to be atleast one Level indentation and there should not be any empty lines between the task title and the sub-tasks.
 
