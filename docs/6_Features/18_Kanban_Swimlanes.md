@@ -29,7 +29,7 @@ All these features might not make sense, just reading this wiki. So will highly 
 
 <iframe width="560" height="315" src="https://youtu.be/51g70FU_wlE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-> YouTube video link : [Task Board v1.10.0 release | Kanban Swimlanes feature](https://youtu.be/51g70FU_wlE?t=199)
+> YouTube video link : [Task Board v1.10.0 release - Kanban Swimlanes feature](https://youtu.be/51g70FU_wlE?t=199)
 
 ---
 

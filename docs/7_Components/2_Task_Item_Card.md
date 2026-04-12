@@ -10,7 +10,22 @@ These is the card which you see inside the column under any specific board.
 
 ![Task Item Card](/assets/TaskItemLegend.png)
 
-## Header
+## Card styles
+
+Using the "Task card style" setting you can configure the look of this component. As of version `1.10.0`, you have two different card styles, as shown in the below image : 
+
+
+## Selectively hide properties
+
+You will find a button called "Show/hide properties" in the board header as shown in the below image : 
+
+![Show/hide properties button](/assets/ShowHidePropertiesButton.png)
+
+This button will open a menu through which you shall able to show or hide specific properties or sections of this task item card component. This gives you a great functionality, to configure the look of this task item card component as you like. You can have a simple cleaner look or show all sections/properties within the card.
+
+## Sections
+
+### Header
 
 The Header section of this card will consists of the following things :
 
@@ -24,21 +39,17 @@ The Header section of this card will consists of the following things :
 
 **5. Card Drag Icon :** Use this to drag and drop the task between columns.
 
-## Task Title
+### Task Title
 
 This is the main content of the task, the short summary. You can give any type of formatting as normally you give in markdown format.
 
-## Sub Tasks
+### Sub Tasks
 
 This section will show you all your sub-task of the main task. They will be arranged in vertical position, one below the other, as you have placed them in the markdown file, same order will be preserved. These sub-tasks will have their own checkboxes to change their status and they will be indented from the main task.
 
 This section will also show multi-level indented sub-tasks as well in the same order, as they appear in the markdown file. The indented length will be changed based on the layout.
 
-**New in v1.5.0:** Completed sub-tasks now display with strike-out styling for better visual distinction.
-
-**New in v1.6.0:** You can customize whether to show or hide sub-tasks by default. When hidden, a progress bar shows the completion status of sub-tasks.
-
-## Task Description
+### Task Description
 
 By default the Task Description content will be hidden. You will see a light colored text `Show Description`. This is actually a clickable text, and once you click on this text, the Description Section will expand.
 
@@ -46,29 +57,16 @@ The Description content is kept hidden by default is because, there can be a lot
 
 Another thing is, the content will be compressed, that, is the indentation of the content lines will be removed to save space. The idea here is to just show the content and not to worry about the formatting much, although all the other formatting will be applied like bold, italic, etc. The indentation is removed to again, show all the content in as much less area as possible. You can look at the actual content by opening the [Task Editor](/docs/6_Features/4_Task_Editor.md) or by directly opening the markdown file.
 
-**New in v1.6.0:** You can customize whether to show or hide the description section by default in the settings. When hidden, you can still expand it when needed.
+### Child tasks
 
-## Footer
 
-The Footer section will show the following task properties :
 
-**1. Task Start and End Time (Duration) :** There will be a clock icon followed by the start and end time of the task will be shown. From this you will be able to find out the duration of the task.
+### Footer
 
-**2. Task Due Date :** After the Task Duration, you will be able to see the Due date of the task separated from the Duration value by a Pipe symbol. The Due Date will be mention using a Calender Icon before its value.
 
-**New Task Date Properties (Added in v1.5.0):**
-- **Scheduled Date:** When the task is scheduled to start
-- **Start Date:** When you began working on the task
-- **Created Date:** When the task was created
-- **Cancelled Date:** If the task was cancelled
 
-**3. Reminder:** (Added in v1.4.0) If you've set a reminder for the task, it will be displayed here. Works with compatible reminder plugins.
 
-**4. Recurring Indicator:** (Added in v1.5.0) Shows if a task is set to recur using Tasks plugin syntax.
 
-**5. Button Section :** On the far right in this section, you will able to see two main button:
-- **Edit Task** button: Opens the Task Editor with live embedded editor (enhanced in v1.5.0)
-- **Delete Task** button: Deletes the task from the board and can optionally archive it (v1.5.0)
 
 ## Additional Features
 

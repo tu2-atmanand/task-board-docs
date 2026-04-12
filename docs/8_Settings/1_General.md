@@ -49,7 +49,9 @@ When enabled, the plugin automatically assigns incremental numeric IDs to tasks 
 |---|---|
 | File Path Input | `.obsidian/plugins/task-board/tasks.json` |
 
-This setting allows you to customize where the plugin stores its tasks cache file. The cache improves performance by storing task metadata and retrieve it faster from a single location. Its easy to rebuild this case, incase it gets corrupted using the [vault scanner feature](/docs/6_Features/9_Vault_Scanner.md).
+This setting allows you to customize where the plugin stores its tasks cache file. The cache improves performance by storing task metadata and retrieve it faster from a single location. Its easy to rebuild this cache, incase it gets corrupted using the [vault scanner feature](/docs/6_Features/9_Vault_Scanner.md).
+
+Using this setting you can store the cache within your vault, incase if you want to sync it across devices. This will show real-time changes on the board when its opened on two devices at the same time and if the cache file is synching in real-time.
 
 
 ## Open Board on Obsidian Startup
@@ -66,21 +68,40 @@ When enabled, Task Board opens automatically when you launch Obsidian. The last 
 |---|---|
 | Toggle | ON |
 
-When enabled, the plugin displays a notice showing which files were modified during the previous session when Obsidian starts.
+When enabled, the plugin displays a notice showing which files were modified when the Obsidian was closed and in its absence if other external applications or services have updated any vault files.
+
+If you want Task Board to scan the modified files automatically without showing you the message every time you start Obsidian. You can disable this setting.
 
 
 ## Update language translations
 
 | Input Field | Default |
 |---|---|
-| Dropdown | (Based on Obsidian language) |
+| 1 Button | NA |
 
-Select the language for the Task Board plugin UI. To contribute translations or improve existing ones, see: [How to Contribute to Translations](../10_Advanced/3_How_To_Contribute/2_HowToContributeToTranslations.md)
+This settings contains a single button, called **Update**. Task Board supports some of the languages which are supported by Obsidian. The default language of this plugin will be english when you going to install it. If your Obsidian language is other than english, simply click on this update button and the latest language translations for your language will be downloaded from GitHub. Following are the languages supported by Task Board : [Languages translation status](/docs/10_Advanced/3_How_To_Contribute/2_HowToContributeToTranslations.md#supported-languages-status).
+
+To contribute translations or improve existing ones, see: [How to Contribute to Translations](../10_Advanced/3_How_To_Contribute/2_HowToContributeToTranslations.md)
 
 ## Import/Export configurations
 
+| Input Field | Default |
+|---|---|
+| 2 Buttons | NA |
+
+In this setting you will find two buttons : 
+- **Export :** Using this button you can export the current Task Board plugin's configurations, incase you want to take a backup. Very useful, when you are trying to debug any issue within the plugin(like uninstall and install the plugin) and want to keep the current configs same, so you can import them again later. Also, useful, if you want to share your configurations with others, like sharing to the developer while reporting a bug.
+- **Import :** Using this button you can import any previously exported Task Board configurations.
+
+When you will click on the button a file selector will open to let you choose where you want to export the configuration file. And incase if importing, which file you want to import.
 
 ## Export logs
+
+| Input Field | Default |
+|---|---|
+| 1 Button | NA |
+
+Using this setting you can easily export the logs captured within this plugin. For more information on how this plugin captures logs, please refer the following wiki : [Bug reporter](/docs/6_Features/20_Bug_Reporter.md).
 
 
 ## Safe Guard Feature
@@ -89,7 +110,7 @@ Select the language for the Task Board plugin UI. To contribute translations or 
 |---|---|
 | Toggle | ON |
 
-When enabled, the Safe Guard feature provides additional protections to prevent accidental data loss. See [Safe Guard](../6_Features/14_Safe_Guard.md) for more details.
+When enabled, the Safe Guard feature provides additional protections to prevent accidental data loss. See [Safe Guard feature](../6_Features/14_Safe_Guard.md) for more details.
 
 
 ## Experimental Features
@@ -98,8 +119,7 @@ When enabled, the Safe Guard feature provides additional protections to prevent 
 |---|---|
 | Toggle | OFF |
 
-Enables access to experimental/beta features if there are any released in the present version. These features are still under development and may have limitations/bugs/issues. The description will list all the features which are present as experimental features.
-
+Enables access to experimental/beta features if there are any released in the present version. These features are still under development and may have limitations/bugs/issues. The description of this setting will list all the features which are present as experimental features in your current Task Board version.
 
 
 ## Donation Section

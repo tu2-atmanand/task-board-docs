@@ -21,9 +21,20 @@ Control what happens when you click the Edit button on a task card. Choose betwe
 
 ## Double click card action
 
+| Input Field | Options | Default |
+|---|---|---|
+| Dropdown | None<br>Task editor (window)<br>Open note in new tab<br>Open note in right split<br>Open note in new window<br>Open note in hover-preview | None |
+
+Using this setting you can configure the action you want to have when you double click on the [task item card](/docs/7_Components/2_Task_Item_Card.md).
+
 
 ## Restrict task completion to child-tasks and sub-tasks
 
+| Input Field | Default |
+|---|---|
+| Toggle | OFF |
+
+This is a nice feature which helps you to restrict from marking any task as complete until its sub-tasks and child-tasks has been marked as completed.
 
 ## Auto add selected universal date
 
@@ -64,6 +75,13 @@ When enabled, the current date-time is automatically added to the cancelled date
 
 ## Daily notes plugin compatibility
 
+| Input Field | Default |
+|---|---|
+| Toggle | OFF |
+
+When enabled, the name of your daily note, which must be a proper date value, will be virtually applied as the [universal date](/docs/8_Settings/8_Formats.md#universal-date) to the task.
+
+See : [Daily notes plugin integration](/docs/6_Features/15_Plugin_Integrations/9_Daily_Notes_Plugin.md).
 
 
 ## Day Planner Plugin Compatibility
@@ -72,13 +90,14 @@ When enabled, the current date-time is automatically added to the cancelled date
 |---|---|
 | Toggle | OFF |
 
-{: .warning }
-> [Day Planner plugin](obsidian://show-plugin?id=obsidian-day-planner) integration has a known issue. Consider using alternatives.
+This setting will only allow you to enable itself, if the Day planner plugin is installed and enabled.
 
-When enabled (if Day Planner is installed):
+When enabled:
 - Task times display according to Day Planner format in markdown
 - Changes in Day Planner reflect in Task Board
 - Timeline integration becomes available
+
+See : [Day planner plugin integration](/docs/6_Features/15_Plugin_Integrations/4_Day_Planner_Plugin.md).
 
 ## QuickAdd Plugin Compatibility
 
@@ -86,12 +105,17 @@ When enabled (if Day Planner is installed):
 |---|---|
 | Toggle | OFF |
 
-When enabled, allows integration with [QuickAdd plugin](obsidian://show-plugin?id=quickadd) for creating tasks through QuickAdd workflows.
+When enabled, allows integration with QuickAdd plugin for creating tasks through QuickAdd workflows.
 
 See: [QuickAdd Plugin Integration](../6_Features/15_Plugin_Integrations/3_QuickAdd_Plugin.md)
 
 
 ## Push notification compatibility
 
+| Input Field | Options | Default |
+|---|---|---|
+| Dropdown | None<br>Reminder plugin<br>Obsi app | None |
 
+Using this setting you can decide the format of the reminder property to use, to maintain a good integration with the other plugins/services you are using to get push notification functionality.
 
+See : [Push notification services integration](/docs/6_Features/15_Plugin_Integrations/6_Notification_Services_Integration.md).

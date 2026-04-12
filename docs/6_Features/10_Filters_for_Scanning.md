@@ -10,6 +10,11 @@ You can use this filters, to restrict the plugin from scanning certain files and
 
 There are four types of filters you can use, as explained below.
 
+{: .new-title }
+> [Custom statuses](/docs/8_Settings/3_Properties.md#custom-statuses)
+>
+> Besides the below four Filters for scanning, there is additionally one more feature, which acts like "Filters for scanning" (especially for inline-tasks). Read more about it here : [Custom statuses](/docs/8_Settings/3_Properties.md#custom-statuses).
+
 ## Filters for Tags
 
 This filter can be used, when you only want to scan tasks which has certain tags on them. Or you don't want certain tasks to be get scanned, when they contain certain tags.

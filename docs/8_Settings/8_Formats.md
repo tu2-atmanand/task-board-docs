@@ -59,8 +59,19 @@ Specify the format for date-time values (date + time). This format applies to:
 {: .warning }
 > Do not confuse with date-only format. Use 'HH' for 24-hour format or 'hh' for 12-hour format.
 
-## First Day of the Week
 
+## Default start time
+
+| Input Field | Default |
+|---|---|
+| Text | Empty |
+
+Whenever you dont provide a duration property or if you are using just the date value for all your date related properties, then this will be considered as the start-time for the task for that specific day.
+
+For example, if you have a scheduled date as 2026-04-10. And in this setting you have set the default start time as 9 am. Then the execution of this task will be considered as `2026-04-10T09:00:00`. This is useful when you set a reminder to the task or used during sorting within columns, etc.
+
+
+## First Day of the Week
 {: .d-inline-block }
 Future feature
 {: .label .label-yellow }
