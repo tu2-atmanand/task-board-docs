@@ -59,11 +59,6 @@ In this section you will be able to see all your columns of the board in order, 
 
 ### Column Features
 
-**Column Header** (Enhanced in v1.6.0):
-- Displays the column name
-- Shows task count for each column
-- Allows drag-and-drop to reorder columns
-
 **Auto-hide Empty Columns** (Added in v1.5.0): Columns with no tasks can be automatically hidden based on your settings, providing a cleaner board view.
 
 **Performance Optimizations** (v1.2.0 and later): Significant UI rendering optimizations have been implemented to improve board performance, especially for boards with many tasks.

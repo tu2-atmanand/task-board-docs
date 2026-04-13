@@ -59,13 +59,11 @@ Another thing is, the content will be compressed, that, is the indentation of th
 
 ### Child tasks
 
-
+Under this section you will see the child tasks rendered in a list as per their order defined in the [depends-on property](/docs/6_Features/2_Task_Properties.md#depends-on).
 
 ### Footer
 
-
-
-
+Depending on the card style you have chosen, all the rest of the task properties will be shown under this section either as a capsules (in case of Tasks plugin emoji style) or as a Bases plugin like key-value pair style list.
 
 
 ## Additional Features
