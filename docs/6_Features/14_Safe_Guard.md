@@ -12,6 +12,8 @@ The **Safe Guard** feature is a critical data protection mechanism in Task Board
 
 This feature acts as a safety checkpoint when you attempt to save changes to a task, ensuring that you don't inadvertently overwrite important modifications that may have been made to your tasks outside of Task Board (by another plugin, manual editor edits, or sync operations).
 
+To understand the complete UI of this Safe Guard feature and to also understand it better using an example, see the following wiki : [Content compare modal](/docs/7_Components/5_Content_Compare_Modal.md).
+
 ## Why This Matters
 
 When you edit a task in Task Board, the plugin stores the task content in its internal cache. However, your vault file is a living document that can be modified in various ways:
@@ -111,10 +113,8 @@ To re-enable Safe Guard:
 
 1. **Keep Safe Guard Enabled**: Leave this feature on as a safety net, especially if you use multiple plugins or edit tasks manually
 
-2. **Scan Files Regularly**: If you make manual edits to tasks, scan the file using Task Board's file scanner to keep the cache in sync
+2. **Review Differences**: When Safe Guard appears, carefully read the highlighted differences to make an informed choice
 
-3. **Review Differences**: When Safe Guard appears, carefully read the highlighted differences to make an informed choice
+3. **Check Debug Info**: If you're unsure about a mismatch, review the debug information before making a decision
 
-4. **Check Debug Info**: If you're unsure about a mismatch, review the debug information before making a decision
-
-5. **Report Unexpected Patterns**: If Safe Guard appears frequently for the same file without obvious reasons, consider reporting it to help improve the plugin
+4. **Report Unexpected Patterns**: If Safe Guard appears frequently for the same file without obvious reasons, consider reporting it to help improve the plugin
