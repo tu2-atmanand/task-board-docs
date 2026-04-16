@@ -11,9 +11,9 @@ You can use this filters, to restrict the plugin from scanning certain files and
 There are four types of filters you can use, as explained below.
 
 {: .new-title }
-> [Custom statuses](/docs/8_Settings/3_Properties.md#custom-statuses)
+> [Custom statuses](/docs/Settings/Properties.md#custom-statuses)
 >
-> Besides the below four Filters for scanning, there is additionally one more feature, which acts like "Filters for scanning" (especially for inline-tasks). Read more about it here : [Custom statuses](/docs/8_Settings/3_Properties.md#custom-statuses).
+> Besides the below four Filters for scanning, there is additionally one more feature, which acts like "Filters for scanning" (especially for inline-tasks). Read more about it here : [Custom statuses](/docs/Settings/Properties.md#custom-statuses).
 
 ## Filters for Tags
 
@@ -50,9 +50,9 @@ This setting tells Task Board what do you want to do with the entered tags, or h
 
 
 {: .warning}
-> I am planning to remove this filter from the "Filters for scanning" setting, so we can only have the below three file-level filtering. And, then using the [advanced view filters](/docs/6_Features/6_Advanced_Board_Filter.md), you can anyways filter the tasks which you dont want to see on your boards.
+> I am planning to remove this filter from the "Filters for scanning" setting, so we can only have the below three file-level filtering. And, then using the [advanced view filters](/docs/Features/Advanced_Board_Filter.md), you can anyways filter the tasks which you dont want to see on your boards.
 >
-> But, if you think this is a wrong decision and you do use this specific filter, kindly [create a request](/docs/10_Advanced/2_HowToCreateRequest.md) to inform the developer.
+> But, if you think this is a wrong decision and you do use this specific filter, kindly [create a request](/docs/Advanced/How_To_Create_Request.md) to inform the developer.
 
 
 ## Filters for Frontmatter

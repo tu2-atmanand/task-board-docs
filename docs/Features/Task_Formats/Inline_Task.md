@@ -48,7 +48,7 @@ These are all the properties you want to apply to the task. At present there are
 
 Also know as the **task properties**. Task Board supports different types of formats to add the metadata to your inline-tasks.
 
-You can choose one of the following options in the [Task Board setting](/docs/8_Settings/4_Inline_tasks.md#supported-plugin-formats) to keep the format of metadata globalized throughout your vault. You can see the supported plugin options and their corresponding formats from the below table :
+You can choose one of the following options in the [Task Board setting](/docs/Settings/Inline_tasks.md#supported-plugin-formats) to keep the format of metadata globalized throughout your vault. You can see the supported plugin options and their corresponding formats from the below table :
 
 
 | Plugin/Setting option    | ID         | Priority                         | Time duration                             | Created date            | Start date            | Scheduled date            | Due date            | Reminder                      | Completion date                    | Cancelled date                    | Depends on              |

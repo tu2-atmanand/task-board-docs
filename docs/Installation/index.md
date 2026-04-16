@@ -28,7 +28,7 @@ This is the recommended method to get the officially released version from Obsid
 
 **Step 6:** After installation, you will see an **"Enable"** button. Click it.
 
-**Step 7:** The plugin is now enabled. For ideas on how to get started, check here: [Getting Started.](/docs/4_Getting_Started.md)
+**Step 7:** The plugin is now enabled. For ideas on how to get started, check here: [Getting Started.](/docs/Getting_Started/index.md)
 
 ---
 
@@ -52,34 +52,36 @@ https://github.com/tu2-atmanand/Task-Board
 
 **Step 3:** You should now see a notification that the plugin has been successfully installed. You should able to see a ribbon icon to open **Task Board**.
 
-**Step 4:** Proceed to initialization step :[Opening **Task Board** for first time](/docs/4_Getting_Started.md).
+**Step 4:** Proceed to initialization step :[Opening **Task Board** for first time](/docs/Getting_Started/index.md).
 
 ---
 
 ## Method 3: Installation from the Github Source Files
 
-**Step 1:** Open this link : [Task Board Release]()
+**Step 1:** Open this link : [Task Board Release](https://github.com/tu2-atmanand/Task-Board/releases).
 
-**Step 2:** Download the `main.js`, `styles.css` and `manifest.json` file.
+**Step 2:** Find the latest version which you want to install.
 
-**Step 3:** Open the vault in your system Explore/File Manager.
+**Step 3:** Download the `main.js`, `styles.css` and `manifest.json` file.
 
-**Step 4:** You should see an hidden folder `.Obsidian` in your Vault folder, open the folder. If you cant see the folder turn on Hidden files visibility option from your system File manager.
+**Step 4:** Open the vault in your system Explore/File Manager.
 
-**Step 5:** Now you should see a folder `plugins` inside the hidden folder, open this folder.
+**Step 5:** You should see an hidden folder `.Obsidian` in your Vault folder, open the folder. If you cant see the folder turn on Hidden files visibility option from your system File manager.
 
-**Step 6:** Now create a new folder here, called as `task-board`.
+**Step 6:** Now you should see a folder `plugins` inside the hidden folder, open this folder.
 
-**Step 7:** Open this newly created `task-board` folder.
+**Step 7:** Now create a new folder here, called as `task-board`.
 
-**Step 8:** Paste all the three downloaded files inside this folder.
+**Step 8:** Open this newly created `task-board` folder.
 
-**Step 9:** Now Close and open your Obsidian application.
+**Step 9:** Paste all the three downloaded files inside this folder.
 
-**Step 10:** Open the Settings pane and then open the Community Plugins tab.
+**Step 10:** Now Close and open your Obsidian application.
 
-**Step 11:** You should be able to see the `Task Board` plugin here.
+**Step 11:** Open the Settings pane and then open the Community Plugins tab.
 
-**Step 12:** Enable this plugin.
+**Step 12:** You should be able to see the `Task Board` plugin here.
 
-**Step 13:** The plugin has been Enabled. Move to the next step on how to start using the plugin here: [Getting Started.](/docs/4_Getting_Started.md)
+**Step 13:** Enable this plugin.
+
+**Step 14:** The plugin has been Enabled. Move to the next step on how to start using the plugin here: [Getting Started.](/docs/Getting_Started/index.md)

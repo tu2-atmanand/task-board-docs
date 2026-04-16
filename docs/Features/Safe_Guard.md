@@ -12,7 +12,7 @@ The **Safe Guard** feature is a critical data protection mechanism in Task Board
 
 This feature acts as a safety checkpoint when you attempt to save changes to a task, ensuring that you don't inadvertently overwrite important modifications that may have been made to your tasks outside of Task Board (by another plugin, manual editor edits, or sync operations).
 
-To understand the complete UI of this Safe Guard feature and to also understand it better using an example, see the following wiki : [Content compare modal](/docs/7_Components/5_Content_Compare_Modal.md).
+To understand the complete UI of this Safe Guard feature and to also understand it better using an example, see the following wiki : [Content compare modal](/docs/Components/Content_Compare_Modal.md).
 
 ## Why This Matters
 

@@ -78,7 +78,7 @@ If you click "Show Error", a detailed modal opens showing:
 - Instructions for reporting the bug
 - Two options: Email or GitHub
 
-Learn more about the UI of this modal in the following wiki : [Bug reporter modal](/docs/7_Components/7_Bug_Reporter_Modal.md).
+Learn more about the UI of this modal in the following wiki : [Bug reporter modal](/docs/Components/Bug_Reporter_Modal.md).
 
 ## Reporting a Bug
 
@@ -162,8 +162,8 @@ But will recommend to instead export your logs in the method explained in the ne
 
 To export your bug logs for sharing:
 
-1. Go to **Task Board Settings** → [General settings tab](/docs/8_Settings/1_General.md)
-2. Find [Export Logs setting](/docs/8_Settings/1_General.md#export-logs) and click on the **Export** button for this setting.
+1. Go to **Task Board Settings** → [General settings tab](/docs/Settings/General.md)
+2. Find [Export Logs setting](/docs/Settings/General.md#export-logs) and click on the **Export** button for this setting.
 3. Choose a location to save the file:
    - **Desktop** - File picker opens to select folder
    - **Web** - Browser's default download folder
@@ -274,11 +274,3 @@ To see notifications for the same bug again:
 4. **Screenshots help** - If you can capture the UI state when the error occurred
 5. **Check GitHub first** - Your bug may already be reported; search before creating a duplicate
 6. **Review for privacy** - Always scan the report for personal information before sending
-
-## Learn More
-
-- [Safe Guard](../6_Features/14_Safe_Guard.md) - Another safety feature to prevent data loss
-- [Settings](../8_Settings/0_index.md) - Configure plugin behavior
-- [GitHub Issues](https://github.com/tu2-atmanand/Task-Board/issues) - View known bugs and feature requests
-- [Plugin Integrations](../6_Features/15_Plugin_Integrations/0_index.md) - Handle conflicts with other plugins
-

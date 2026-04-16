@@ -1,7 +1,7 @@
 ---
 parent: Plugin Integrations
 title: QuickAdd plugin
-nav_order: 3
+nav_order: 5
 ---
 
 ## QuickAdd Plugin Integration

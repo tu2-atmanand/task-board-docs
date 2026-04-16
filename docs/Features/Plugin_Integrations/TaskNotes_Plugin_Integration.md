@@ -1,7 +1,7 @@
 ---
 parent: Plugin Integrations
 title: TaskNotes plugin
-nav_order: 8
+nav_order: 4
 ---
 
 ## TaskNotes Plugin Integration

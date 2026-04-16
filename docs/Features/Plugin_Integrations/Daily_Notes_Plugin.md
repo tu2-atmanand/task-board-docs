@@ -1,7 +1,7 @@
 ---
 parent: Plugin Integrations
 title: Daily notes plugin
-nav_order: 9
+nav_order: 2
 ---
 
 # Daily Notes Plugin Integration
@@ -10,9 +10,9 @@ Daily notes is a core plugin of Obsidian. Its main functionality is to help you 
 
 For example, if you have set the format as 'yyyy-MM-dd', then your daily note will be created with the name `2026-04-10.md`. And also you can set the place where your daily notes should be created and the template you want to have for these notes.
 
-Task Board provides a special functionality known as "Automatically assign inherit the notes name as the date value for the [universal date you have set](/docs/8_Settings/7_Automations.md#daily-notes-plugins-compatibility)".
+Task Board provides a special functionality known as "Automatically assign inherit the notes name as the date value for the [universal date you have set](/docs/Settings/Automations.md#daily-notes-plugin-compatibility)".
 
-Lets understand this with an example, lets say you have [set the universal date](/docs/8_Settings/8_Formats.md#universal-date) as scheduled date. And you have your today daily note with the name "2026-04-10.md" with the following content : 
+Lets understand this with an example, lets say you have [set the universal date](/docs/Settings/Formats.md#universal-date) as scheduled date. And you have your today daily note with the name "2026-04-10.md" with the following content : 
 ```md
 - [ ] Bye grocery and dont forget cereals.
 - [ ] This task is scheduled for today, even though it doesnt have scheduled date on it.

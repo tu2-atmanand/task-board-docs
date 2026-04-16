@@ -14,7 +14,7 @@ This will open the settings panel as shown below :
 
 ![BoardConfigureModal](/assets/BoardConfigureModal.png)
 
-Learn more about all the UI elements of this modal from here : [Board config modal](/docs/7_Components/8_Board_Config_Modal.md).
+Learn more about all the UI elements of this modal from here : [Board config modal](/docs/Components/Board_Config_Modal.md).
 
 ## Basic Settings
 
@@ -24,14 +24,14 @@ In this text input field you will be able to enter the Name of the Board or chan
 
 ### Board description
 
-This will be a textarea input box where you can add description about this board. This setting will help to provide more information for this board. This description will be also visible inside the [switch board panel](/docs/7_Components/9_Switch_Board_Panel.md).
+This will be a textarea input box where you can add description about this board. This setting will help to provide more information for this board. This description will be also visible inside the [switch board panel](/docs/Components/Switch_Board_Panel.md).
 
 ### Show tags in task card header
 
 {: .note }
-> This settings only works for [Tagged type of columns](/docs/6_Features/5_Types_Of_Columns.md#tagged).
+> This settings only works for [Tagged type of columns](/docs/Features/Type_of_Columns/Tagged.md).
 
-Since, the column of type "Tagged" will show all the tasks which has the specific tag in them. Then it makes no sense to show that specific tag inside the [task item card header](/docs/7_Components/2_Task_Item_Card.md#header) when the cards will be rendered inside those columns. Because, its obvious that all the tasks under the specific "Tagged" type column will going to have that tag anyways.
+Since, the column of type "Tagged" will show all the tasks which has the specific tag in them. Then it makes no sense to show that specific tag inside the [task item card header](/docs/Components/Task_Item_Card.md#header) when the cards will be rendered inside those columns. Because, its obvious that all the tasks under the specific "Tagged" type column will going to have that tag anyways.
 Hence you can decide to hide this tag, from all the Task Items under this column.
 
 For multi-tag Task Item, other tags will be show, only the specific tag will be hidden.
@@ -43,7 +43,7 @@ Enable this setting if you dont like to see any empty columns inside your boards
 
 ## Configure swimlanes
 
-If you like to have swimlanes for the kanban view, you can click on the **Configure** button in this setting which will open the [swimlane config modal](/docs/7_Components/10_Swimlane_Config_Modal.md). Then proceed to configure all the required settings in that modal.
+If you like to have swimlanes for the kanban view, you can click on the **Configure** button in this setting which will open the [swimlane config modal](/docs/Components/Swimlane_Config_Modal.md). Then proceed to configure all the required settings in that modal.
 
 ## Columns
 
@@ -53,11 +53,11 @@ The first row in this tabular data show the information of the Task Board column
 
 ### Properties of the Column
 
-**Handler Button :** This button helps you to drag and drop the row, to arrange the postion of the Column inside the Task Board. If you want to change the position of the column, say from the first position to the third. Then you will have to drag the row inside this Tabular data to the third position. After saving your column will be moved to the third position from the first.
+**Handler Button :** This button helps you to drag and drop the row, to arrange the position of the Column inside the Task Board. If you want to change the position of the column, say from the first position to the third. Then you will have to drag the row inside this Tabular data to the third position. After saving your column will be moved to the third position from the first.
 
 **Eye Icon :** Use this button to hide your column from your board. If say, you dont want to see a specific column in the current board, but also do not want to delete that column. You can keep the board hidden, as long as you want.
 
-**Column Type :** At present the plugin supports 6 different types of columns. Learn more about each of them and how to enter the values to create these columns from here : [Types of Columns](/docs/6_Features/5_Types_Of_Columns.md).
+**Column Type :** At present the plugin supports 6 different types of columns. Learn more about each of them and how to enter the values to create these columns from here : [Types of Columns](/docs/Features/Type_of_Columns/Overview.md).
 
 **Column Name :** This text input field will allow you to enter or change the name of the column. You can enter a custom name, which you would like to see on the Column bar.
 
@@ -75,7 +75,7 @@ This button allows you to add more column to this board. Once you press on this 
 
 ![Add Column PopUp](/assets/AddColumnModal.png)
 
-Read more about this here : [How to add a new column](/docs/5_How_To/5_HowToAddNewColumn.md).
+Read more about this here : [How to add a new column](/docs/How_To/Add_New_Column.md).
 
 ### Delete This Board Button
 

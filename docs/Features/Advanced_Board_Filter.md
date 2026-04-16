@@ -11,7 +11,7 @@ v1.8.0
 
 As this plugin always encourage to have a single board for your every project, it is important that this plugin should provide the required features to filter the specific tasks related to that project. A board can be also used as a customized filtered view as per the user's requirement. To allow user to a filter to each and every property possible, this Advanced Filter was introduced.
 
-To understand the complete UI of this component, please read the following wiki : [Advanced Filter Menu](/docs/7_Components/6_Advanced_Filter_Menu.md).
+To understand the complete UI of this component, please read the following wiki : [Advanced Filter Menu](/docs/Components/Advanced_Filter_Menu.md).
 
 This filter menu has various options to add filter to each and every property/metadata possible. It works with three boolean logic operators : **OR**, **AND**, **NOT**.
 

@@ -6,7 +6,7 @@ nav_order: 5
 
 # Content Compare Modal
 
-This is a part of the [safe guard feature](/docs/6_Features/14_Safe_Guard.md). This modal will open when the safe guard feature has found a mismatch in the content between what is present inside the note vs what Task Board cached previously. First a notice will be shown that a mismatch has been detected, like this : 
+This is a part of the [safe guard feature](/docs/Features/Safe_Guard.md). This modal will open when the safe guard feature has found a mismatch in the content between what is present inside the note vs what Task Board cached previously. First a notice will be shown that a mismatch has been detected, like this : 
 
 ![Safe Guard notice message](/assets/SafeGuardNotice.png)
 
@@ -16,7 +16,7 @@ When you will click on the "Show conflicts" button the Content compare modal wil
 
 As you can see from this example shown in the above image, we have the task content on the left, which is the current content in your note right now. 
 
-When you were editing the task from the Task Board's [Task Editor](/docs/6_Features/4_Task_Editor.md), the note's content was updated by some unknown entity at that exact moment. 
+When you were editing the task from the Task Board's [Task Editor](/docs/Features/Task_Editor.md), the note's content was updated by some unknown entity at that exact moment. 
 
 That is, we have three versions of your task content right now...
 

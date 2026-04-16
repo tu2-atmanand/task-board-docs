@@ -8,16 +8,16 @@ nav_order: 3
 
 Also know as **note-per-task**. This is a new idea which got popularized through the TaskNotes plugin. Read this docs from TaskNotes plugin docs to learn more : [The Note-Per-Task Approach](https://tasknotes.dev/core-concepts/). Throughout this wiki, will refer this kind of task as "`task-note`".
 
-Task Board also adheres to the same concepts and provides various features to manage your task-notes. Also refer the following wiki to learn more about the integration of Task Board with TaskNotes plugin : [TaskNotes plugin integration](/docs/6_Features/15_Plugin_Integrations/8_TaskNotes_Plugin_Integration.md).
+Task Board also adheres to the same concepts and provides various features to manage your task-notes. Also refer the following wiki to learn more about the integration of Task Board with TaskNotes plugin : [TaskNotes plugin integration](/docs/Features/Plugin_Integrations/TaskNotes_Plugin_Integration.md).
 
 
 ## How does it work
 
-Since a single note can be now imagined as a task. The simplest way to convert any note into a task is by using an tag identifier. You define this tag inside the ["Task note identifier tag" setting](/docs/8_Settings/5_Task_notes.md#task-note-identifier-tag).
+Since a single note can be now imagined as a task. The simplest way to convert any note into a task is by using an tag identifier. You define this tag inside the ["Task note identifier tag" setting](/docs/Settings/Task_notes.md#task-note-identifier-tag).
 
-Once you have configured the tag, through which you are instructing Task Board to consider the note as task. Now, as soon as you edit the note or if you scan your whole vault, all the notes with that specific tag will be rendered as [task item card](/docs/7_Components/2_Task_Item_Card.md) on the Task Board view.
+Once you have configured the tag, through which you are instructing Task Board to consider the note as task. Now, as soon as you edit the note or if you scan your whole vault, all the notes with that specific tag will be rendered as [task item card](/docs/Components/Task_Item_Card.md) on the Task Board view.
 
-Based on the frontmatter properties, the tasks will be placed in the respective columns, as per the [columns criteria](/docs/6_Features/5_Type_of_Columns/1_overview.md). But for this to work, make sure you frontmatter property names are properly mapped inside the ["Frontmatter formatting" setting](/docs/8_Settings/5_Task_notes.md#frontmatter-formatting).
+Based on the frontmatter properties, the tasks will be placed in the respective columns, as per the [columns criteria](/docs/Features/Type_of_Columns/Overview.md). But for this to work, make sure you frontmatter property names are properly mapped inside the ["Frontmatter formatting" setting](/docs/Settings/Task_notes.md#frontmatter-formatting).
 
 ## Core concept
 
@@ -90,9 +90,9 @@ The idea is...
 3. Now you will try to organize this task in other columns, which will automatically apply properties on to the inline-task.
 4. The moment you feel, this task will going to grow into something called as a **work item**, this is when you will convert this simple inline-task into a task-note.
 
-> You are also free to create a task-note directly inside Task Board using the various options we have in the following wiki : [Add a new task](/docs/5_How_To/1_HowToAddNewTask.md).
+> You are also free to create a task-note directly inside Task Board using the various options we have in the following wiki : [Add a new task](/docs/How_To/Add_New_Task.md).
 
 {: .note }
 > This feature is under development. You can read more about this feature and track its development in the following GitHub ticket : [tu2-atmanand/task-board#33](https://github.com/tu2-atmanand/Task-Board/issues/33).
 >
-> BTW... This is the [vision of Task Board plugin](/docs/2_Vision.md).
+> BTW... This is the [vision of Task Board plugin](/docs/Vision/index.md).

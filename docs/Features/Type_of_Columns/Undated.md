@@ -17,4 +17,4 @@ To create this column you only need to enter the name of the column, which will 
 
 ### **Date type**
 
-The type of the date, similar to the [universal date](/docs/8_Settings/8_Formats.md#universal-date). When you will create fresh new column, the date which you have set inside the universal date setting will be applied here, which you can easily change. This specific date property which you going to select here, should **NOT** be present on the task, for that task to appear inside this column.
+The type of the date, similar to the [universal date](/docs/Settings/Formats.md#universal-date). When you will create fresh new column, the date which you have set inside the universal date setting will be applied here, which you can easily change. This specific date property which you going to select here, should **NOT** be present on the task, for that task to appear inside this column.

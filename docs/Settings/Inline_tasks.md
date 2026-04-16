@@ -27,7 +27,7 @@ Select which task metadata format you follow in your markdown files. Different p
 - **Dataview Plugin**: Uses Dataview-compatible metadata syntax
 - **Obsidian Native**: Standard Obsidian checkbox format
 
-Choose the format that matches your current task management setup. To see complete format specifications, see: [Metadata Formats](/docs/6_Features/1_Task_Formats/2_Inline_Task.md#task-metadata)
+Choose the format that matches your current task management setup. To see complete format specifications, see: [Metadata Formats](/docs/Features/Task_Formats/Inline_Task.md#task-metadata)
 
 ## Default Note for Adding New Tasks
 
@@ -35,7 +35,7 @@ Choose the format that matches your current task management setup. To see comple
 |---|---|
 | File Picker text box | `Meta/Task_Board/New_Tasks.md` |
 
-Specify the default markdown file where new inline-tasks created via the [task editor](/docs/6_Features/4_Task_Editor.md) will be saved.
+Specify the default markdown file where new inline-tasks created via the [task editor](/docs/Features/Task_Editor.md) will be saved.
 
 {: .note }
 > In few recent discussions, we have realized a problem with having a single note to save all your newly created tasks. Over time, this single file can become wildly massive in size and can be difficult to manage.
@@ -51,7 +51,7 @@ Specify the default markdown file where new inline-tasks created via the [task e
 
 Specify the default markdown file where all your archived inline-tasks should be moved to.
 
-Please refer the following wiki to learn more about this feature : [Archive tasks](/docs/6_Features/12_Archive_Tasks.md).
+Please refer the following wiki to learn more about this feature : [Archive tasks](/docs/Features/Archive_Tasks.md).
 
 
 ## Inherit frontmatter tags (read-only)
@@ -62,7 +62,7 @@ Please refer the following wiki to learn more about this feature : [Archive task
 
 This feature allows you to virtually inherit the tags from the frontmatter of the note and virtually apply them on the inline-tasks present within that note.
 
-Read more about this feature and its benefits here : [Frontmatter tags inheritance](/docs/6_Features/19_Frontmatter_Tags_Inheritance.md).
+Read more about this feature and its benefits here : [Frontmatter tags inheritance](/docs/Features/Frontmatter_Tags_Inheritance.md).
 
 ## Hide specific properties in inline-tasks
 

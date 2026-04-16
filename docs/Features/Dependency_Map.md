@@ -20,7 +20,7 @@ Also known as **Map View**, the Dependency Map feature provides a visual canvas-
 
 ## Overview
 
-This powerful visualization tool is based on the [**Dependency Flow Planning (DFP) Methodology**](/docs/12_Articles/1_Dependency_Flow_Planning-DFP.md), a revolutionary approach to project management that emphasizes child-to-parent task flows and strict dependencies. Specially useful for sequential projects.
+This powerful visualization tool is based on the [**Dependency Flow Planning (DFP) Methodology**](/docs/Articles/Dependency_Flow_Planning-DFP.md), a revolutionary approach to project management that emphasizes child-to-parent task flows and strict dependencies. Specially useful for sequential projects.
 
 With the Map View, you can:
 - Visualize task dependencies as a flowchart on a digital canvas
@@ -76,7 +76,7 @@ To add a task to the Map View you have basically three options. The first two op
 
 #### Option A: Using the Edit Task Modal
 
-1. Open the [task editor](/docs/6_Features/4_Task_Editor.md) for any task.
+1. Open the [task editor](/docs/Features/Task_Editor.md) for any task.
 2. Look for the **"Show on Map"** button.
 3. Click the button
 4. The system will automatically:
@@ -131,5 +131,5 @@ Stay tuned for updates and improvements!
 
 ## Link to Related Topics
 
-- [Article on Dependency Flow Planning Methodology](/docs/12_Articles/1_Dependency_Flow_Planning-DFP.md)
-- [Article on Dependency Flow Planning Methodology (DFP) X Kanban Methodology](/docs/12_Articles/2_DFP_and_Kanban_Methodology.md)
+- [Article on Dependency Flow Planning Methodology](/docs/Articles/Dependency_Flow_Planning-DFP.md)
+- [Article on Dependency Flow Planning Methodology (DFP) X Kanban Methodology](/docs/Articles/DFP_and_Kanban_Methodology.md)

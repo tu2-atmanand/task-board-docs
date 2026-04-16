@@ -6,7 +6,7 @@ nav_order: 6
 
 # Map View Tab
 
-The Map View tab contains settings specific to the [Map view feature](../6_Features/16_Dependency_Map.md).
+The Map View tab contains settings specific to the [Map view feature](/docs/Features/Dependency_Map.md).
 
 ## Render only visible nodes
 
@@ -51,7 +51,7 @@ This setting will help you to decide whether you want to go from left-to-right(H
 
 **Vertical :** The bottom side of a child-task will be connected to the top side of a parent-task.
 
-If you like to have a reverse order, please [request this feature](/docs/10_Advanced/2_HowToCreateRequest.md) to the developer.
+If you like to have a reverse order, please [request this feature](/docs/Advanced/How_To_Create_Request.md) to the developer.
 
 
 ## Link arrow direction

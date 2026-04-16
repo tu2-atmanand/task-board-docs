@@ -14,7 +14,7 @@ The All UI tab controls the visual appearance and layout of the Task Board inter
 |---|---|---|
 | Dropdown | Tasks plugin emoji<br>Bases card style | Tasks plugin emoji |
 
-Using this setting you can change the look of the [Task item card](/docs/7_Components/2_Task_Item_Card.md).
+Using this setting you can change the look of the [Task item card](/docs/Components/Task_Item_Card.md).
 
 
 ## Clean task title for inline-tasks
@@ -26,7 +26,7 @@ v1.3.0
 |---|---|
 | Toggle | ON |
 
-When enabled, task title is rendered without any embedded metadata/properties in the [task card title](/docs/7_Components/2_Task_Item_Card.md#task-title) for a cleaner appearance. This has been specially provided since we already have the [selective property hiding feature](/docs/7_Components/2_Task_Item_Card.md#selectively-hide-properties). So, incase if you want to see your properties separately inside the task card, you can enable this feature.
+When enabled, task title is rendered without any embedded metadata/properties in the [task card title](/docs/Components/Task_Item_Card.md#task-title) for a cleaner appearance. This has been specially provided since we already have the [selective property hiding feature](/docs/Components/Task_Item_Card.md#selectively-hide-properties). So, incase if you want to see your properties separately inside the task card, you can enable this feature.
 
 {: .new-title }
 > Pro Tip
@@ -41,7 +41,7 @@ When enabled, task title is rendered without any embedded metadata/properties in
 
 Set the width of individual task cards in pixels. Enter values with the "px" suffix (e.g., "350px").
 
-In [Map View](/docs/6_Features/16_Dependency_Map.md), card widths are individually adjustable.
+In [Map View](/docs/Features/Dependency_Map.md), card widths are individually adjustable.
 
 ## Show Column Scroll Bar
 

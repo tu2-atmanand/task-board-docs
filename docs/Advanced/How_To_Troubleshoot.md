@@ -8,7 +8,7 @@ nav_order: 4
 
 This wiki will explain you how you can use various steps to troubleshoot the issue you are facing in this plugin faster and report it to the developer for prompt solution.
 
-After you encounter any issue/bug in this plugin, the [[20_Bug_Reporter|Bug Reporter]] should be able to capture the issue and present a report for your further analysis. If the solution is already mentioned in the report kindly implement it. Otherwise please report the issue to the developer by following the steps mentioned in the same [Bug Report Modal](/docs/6_Features/20_Bug_Reporter.md).
+After you encounter any issue/bug in this plugin, the [[20_Bug_Reporter|Bug Reporter]] should be able to capture the issue and present a report for your further analysis. If the solution is already mentioned in the report kindly implement it. Otherwise please report the issue to the developer by following the steps mentioned in the same [Bug Report Modal](/docs/Features/Bug_Reporter.md).
 
 But, if say for some scenarios the Bug Reporter couldn't able to capture the issue. In this case you can try any of the below methods to do more analysis on this issue. The second method is more preferred.
 
@@ -16,8 +16,8 @@ But, if say for some scenarios the Bug Reporter couldn't able to capture the iss
 ## Find the bug
 
 Close and open the Obsidian application and try to see if you are able to reproduce the issue again. If the issue happened again : 
-   1. [Export logs](/docs/10_Advanced/4_HowToExportLogs.md) and see if there are any logs mentioned in the exported log file which might be related to this issue. Keep this log file with you, so you can submit it to the developer.
-   2. If there are no logs generated in the log file, you might find something in the [Developer Tool Window](/docs/10_Advanced/5_HowToUseDeveloperToolsWindow.md).
+   1. [Export logs](/docs/Advanced/How_To_Export_Logs.md) and see if there are any logs mentioned in the exported log file which might be related to this issue. Keep this log file with you, so you can submit it to the developer.
+   2. If there are no logs generated in the log file, you might find something in the [Developer Tool Window](/docs/Advanced/How_To_Use_Developer_Tools.md).
 
 
 
@@ -34,7 +34,7 @@ What you are basically doing here is creating a new dummy test vault :
 4. Now enter any name for your vault and specify where you want to create the vault. This vault will basically going to be a simple folder on your computer. Keep a note where your vault folder exists on your computer.
 5. Now, try to reproduce the same issue you are facing in your earlier vault. 
 6. Install the Task Board plugin -> Create few dummy files -> Create few dummy tasks -> And configure the settings same as your earlier vault.
-7. Once you are able to reproduce the issue in this test vault, find the vault folder in your computer. The folder will be of same name as your vault name. Zip this folder and send this folder to either on the [GitHub issue ticket](../10_Advanced/2_HowToCreateRequest.md) you have created or email it to [sanketgauns8@gmail.com](mailto:sanketgauns8@gmail.com)
+7. Once you are able to reproduce the issue in this test vault, find the vault folder in your computer. The folder will be of same name as your vault name. Zip this folder and send this folder to either on the [GitHub issue ticket](/docs/Advanced/How_To_Create_Request.md) you have created or email it to [sanketgauns8@gmail.com](mailto:sanketgauns8@gmail.com)
 
 {: .note }
 > If you are able to reproduce the issue in this test vault, that means, its a bug inside Task Board.

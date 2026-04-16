@@ -1,7 +1,7 @@
 ---
 parent: Plugin Integrations
 title: Day Planner plugin
-nav_order: 4
+nav_order: 6
 ---
 
 # Day Planner plugin integration

@@ -28,5 +28,5 @@ See the live status of the project development : [Task Board Development status]
 ## Vote for Features
 
 Have an idea for a new feature? Submit it on GitHub and help prioritize development:
-- [Submit Feature Request](../10_Advanced/2_HowToCreateRequest.md)
+- [Submit Feature Request](/docs/Advanced/How_To_Create_Request.md)
 - [View already opened Feature Requests](https://github.com/tu2-atmanand/Task-Board/issues?q=is%3Aissue+is%3Aopen)

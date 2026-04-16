@@ -11,7 +11,7 @@ v1.10.0
 
 ## Overview
 
-The **Task Card Menu** is a context menu that appears when you right-click on a [task card](/docs/7_Components/2_Task_Item_Card.md) in your board. On smartphones and tables, you can open this menu by long-pressing on the task card.
+The **Task Card Menu** is a context menu that appears when you right-click on a [task card](/docs/Components/Task_Item_Card.md) in your board. On smartphones and tables, you can open this menu by long-pressing on the task card.
 
 It provides quick access to common task operations without leaving the Kanban view, including editing properties, opening related files, and managing the task's associated note.
 
@@ -54,7 +54,7 @@ Quick access to modify core task properties without opening the full task editor
 
 Click any priority to instantly apply it to the task.
 
-**What happens**: Task's priority property updates, and it may move to a different column if [priority-based columns](../6_Features/5_Type_of_Columns/0_index.md) are configured.
+**What happens**: Task's priority property updates, and it may move to a different column if [priority-based columns](/docs/Features/Type_of_Columns/Priority.md) are configured.
 
 ### Start Date
 
@@ -92,7 +92,7 @@ This is the primary deadline field, visible in most task displays. Sets urgency 
 - Time selection (hours and minutes)
 - Clear button to remove reminder
 
-When the reminder time arrives, Obsidian will notify you (if [reminders are enabled](../8_Settings/0_index.md)).
+When the reminder time arrives, Obsidian will notify you (if [reminders are enabled](/docs/Settings/Automations.md#push-notification-compatibility)).
 
 ---
 
@@ -117,7 +117,7 @@ Operations related to the task itself.
 
 **Action**: Open the full task editing modal
 
-Opens the [Task Editor](../6_Features/4_Task_Editor.md) modal where you can:
+Opens the [Task Editor](/docs/Features/Task_Editor.md) modal where you can:
 - Edit task title and properties
 - Add descriptions and notes
 - Modify all fields comprehensively
@@ -196,7 +196,7 @@ Extended file operations that Obsidian provides:
 - Quick access from Obsidian's sidebar bookmarks
 
 **Scan Tasks from This File**
-- Re-runs [Vault Scanner](../6_Features/9_Vault_Scanner.md) on this specific file
+- Re-runs [Vault Scanner](/docs/Features/Vault_Scanner.md) on this specific file
 - Useful when:
   - You manually edited the file and want to resync
   - The board seems out of sync
@@ -306,12 +306,12 @@ Date fields (Start Date, Scheduled Date, Due Date) all use the same date picker 
 All operations in this menu update only the specific task property being edited. You can:
 - Edit task properties without affecting other markdown in the file
 - Use this menu alongside manual markdown editing
-- Remain safe knowing [Safe Guard](../6_Features/14_Safe_Guard.md) protects you
+- Remain safe knowing [Safe Guard](/docs/Features/Safe_Guard.md) protects you
 
 ## Performance Tips
 
 - **Right-click only once** - The menu appears at click location; don't need to right-click multiple times
-- **Use dragging for reorganization** - For moving tasks between columns, use [Drag & Drop](../6_Features/17_Drag_Drop_Tasks.md) instead
+- **Use dragging for reorganization** - For moving tasks between columns, use [Drag & Drop](/docs/Features/Drag_Drop_Tasks.md) instead
 - **Batch updates** - Update multiple properties quickly through the menu rather than opening full editor each time
 - **Note operations for bulk changes** - Move, rename, or delete notes affect all tasks in that file at once
 

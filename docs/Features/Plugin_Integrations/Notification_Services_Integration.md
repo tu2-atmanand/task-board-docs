@@ -1,7 +1,7 @@
 ---
 parent: Plugin Integrations
 title: Notification Services
-nav_order: 6
+nav_order: 8
 ---
 
 ## Notification Services Integration

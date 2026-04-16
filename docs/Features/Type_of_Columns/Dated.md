@@ -26,11 +26,11 @@ The ending number of days from today of this range.
 > Remember, this values of **From** or **To** are relative-dynamic dates. Which means, today is the reference point, which is set to 0. So if you want to go in future you have to keep adding one. And if you want to go in past, keep subtracting one.
 
 ### **Date type**
-The type of the date, similar to the [universal date](/docs/8_Settings/8_Formats.md#universal-date). When you will create fresh new column, the date which you have set inside the universal date setting will be applied here, which you can easily change. This specific date property which you going to select here, should be present on the task for it to appear inside this column.
+The type of the date, similar to the [universal date](/docs/Settings/Formats.md#universal-date). When you will create fresh new column, the date which you have set inside the universal date setting will be applied here, which you can easily change. This specific date property which you going to select here, should be present on the task for it to appear inside this column.
 
 ### **Work limit**
 
-This is a part of the modern Kanban methodology which helps you to limit the amount of tasks you should do parallely. For example, if your current column is filtering all the tasks which you have scheduled to do for today, and you have set the work limit for this column as 3. Then, if there are 4 or more [task item cards](/docs/7_Components/2_Task_Item_Card.md), in this column, the column will show a small warning sign to help you manage your workload efficiently.
+This is a part of the modern Kanban methodology which helps you to limit the amount of tasks you should do parallely. For example, if your current column is filtering all the tasks which you have scheduled to do for today, and you have set the work limit for this column as 3. Then, if there are 4 or more [task item cards](/docs/Components/Task_Item_Card.md), in this column, the column will show a small warning sign to help you manage your workload efficiently.
 
 
 ## **Key Rule**

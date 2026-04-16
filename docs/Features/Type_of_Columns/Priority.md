@@ -22,4 +22,4 @@ Select the priority level you want to filter by (e.g., High, Medium, Low). Tasks
 
 ### **Work limit**
 
-This is a part of the modern Kanban methodology which helps you to limit the amount of tasks you should do parallely. For example, if your current column is filtering all the tasks which you have scheduled to do for today, and you have set the work limit for this column as 3. Then, if there are 4 or more [task item cards](/docs/7_Components/2_Task_Item_Card.md), in this column, the column will show a small warning sign to help you manage your workload efficiently.
+This is a part of the modern Kanban methodology which helps you to limit the amount of tasks you should do parallely. For example, if your current column is filtering all the tasks which you have scheduled to do for today, and you have set the work limit for this column as 3. Then, if there are 4 or more [task item cards](/docs/Components/Task_Item_Card.md), in this column, the column will show a small warning sign to help you manage your workload efficiently.

@@ -53,7 +53,6 @@ When you drag a task card, you get clear visual indicators:
 When you drag a task near the edges of your board:
 - **Horizontal edges** - The board automatically scrolls left/right, so you can reach distant columns
 - **Vertical edges** (swimlanes only) - The board automatically scrolls up/down between swimlanes
-- **Scroll speed** - Adjustable via [Settings](../8_Settings/0_index.md) under `Drag Auto-Scroll Edge Percent`
 
 This makes it easy to move tasks to columns that aren't currently visible.
 
@@ -160,7 +159,7 @@ Certain columns **do not allow dropping** tasks:
 
 ## Drag & Drop with Swimlanes
 
-If your board uses [swimlanes](../6_Features/18_Kanban_Swimlanes.md), drag & drop becomes even more powerful:
+If your board uses [swimlanes](/docs/Features/Kanban_Swimlanes.md), drag & drop becomes even more powerful:
 
 **Within-Column Swimlane Change**
 - Drag a task to a different swimlane row in the same column
@@ -262,12 +261,10 @@ The distance from the edge that triggers auto-scroll is configurable:
 **Task properties not updating**
 - Confirm your changes were saved by closing and reopening Task Board
 - Check the task's markdown to verify the change was written
-- Use [Vault Scanner](../6_Features/9_Vault_Scanner.md) to resync if unsure
+- Use [Vault Scanner](/docs/Features/Vault_Scanner.md) to resync if unsure
 
 ## Learn More
 
-- [Kanban Swimlanes](../6_Features/18_Kanban_Swimlanes.md) - Organize by swimlane while drag & dropping
-- [Task Formats](../6_Features/1_Task_Formats/0_index.md) - Understand task structure
-- [Column Types](../6_Features/5_Type_of_Columns/0_index.md) - Learn about each column configuration
-- [Settings](../8_Settings/0_index.md) - Configure drag & drop behavior
-
+- [Kanban Swimlanes](/docs/Features/Kanban_Swimlanes.md) - Organize by swimlane while drag & dropping
+- [Task Formats](/docs/Features/Task_Formats/Overview.md) - Understand task structure
+- [Column Types](/docs/Features/Type_of_Columns/Overview.md) - Learn about each column configuration

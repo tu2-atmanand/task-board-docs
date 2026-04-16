@@ -18,7 +18,7 @@ If you have created a fresh new board, its configuration will look something lik
 
 ![Add Column PopUp](/assets/AddColumnModal.png)
 
-**Step 3 :** This pop-up will ask you to select the type of the new column and the name of this new column. You can add any name you like. If you don't know about the column types, learn more about them from here and add the columns according to your board : [Types of Columns](/docs/6_Features/5_Types_Of_Columns.md).
+**Step 3 :** This pop-up will ask you to select the type of the new column and the name of this new column. You can add any name you like. If you don't know about the column types, learn more about them from here and add the columns according to your board : [Types of Columns](/docs/Features/Type_of_Columns/Overview.md).
 
 **Step 4 :** Click on **Submit** button once you have filled the required details.
 

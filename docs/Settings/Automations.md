@@ -25,7 +25,7 @@ Control what happens when you click the Edit button on a task card. Choose betwe
 |---|---|---|
 | Dropdown | None<br>Task editor (window)<br>Open note in new tab<br>Open note in right split<br>Open note in new window<br>Open note in hover-preview | None |
 
-Using this setting you can configure the action you want to have when you double click on the [task item card](/docs/7_Components/2_Task_Item_Card.md).
+Using this setting you can configure the action you want to have when you double click on the [task item card](/docs/Components/Task_Item_Card.md).
 
 
 ## Restrict task completion to child-tasks and sub-tasks
@@ -79,9 +79,9 @@ When enabled, the current date-time is automatically added to the cancelled date
 |---|---|
 | Toggle | OFF |
 
-When enabled, the name of your daily note, which must be a proper date value, will be virtually applied as the [universal date](/docs/8_Settings/8_Formats.md#universal-date) to the task.
+When enabled, the name of your daily note, which must be a proper date value, will be virtually applied as the [universal date](./Formats.md#universal-date) to the task.
 
-See : [Daily notes plugin integration](/docs/6_Features/15_Plugin_Integrations/9_Daily_Notes_Plugin.md).
+See : [Daily notes plugin integration](/docs/Features/Plugin_Integrations/Daily_Notes_Plugin.md).
 
 
 ## Day Planner Plugin Compatibility
@@ -97,7 +97,7 @@ When enabled:
 - Changes in Day Planner reflect in Task Board
 - Timeline integration becomes available
 
-See : [Day planner plugin integration](/docs/6_Features/15_Plugin_Integrations/4_Day_Planner_Plugin.md).
+See : [Day planner plugin integration](/docs/Features/Plugin_Integrations/Day_Planner_Plugin.md).
 
 ## QuickAdd Plugin Compatibility
 
@@ -107,7 +107,7 @@ See : [Day planner plugin integration](/docs/6_Features/15_Plugin_Integrations/4
 
 When enabled, allows integration with QuickAdd plugin for creating tasks through QuickAdd workflows.
 
-See: [QuickAdd Plugin Integration](../6_Features/15_Plugin_Integrations/3_QuickAdd_Plugin.md)
+See: [QuickAdd Plugin Integration](/docs/Features/Plugin_Integrations/QuickAdd_Plugin.md)
 
 
 ## Push notification compatibility
@@ -118,4 +118,4 @@ See: [QuickAdd Plugin Integration](../6_Features/15_Plugin_Integrations/3_QuickA
 
 Using this setting you can decide the format of the reminder property to use, to maintain a good integration with the other plugins/services you are using to get push notification functionality.
 
-See : [Push notification services integration](/docs/6_Features/15_Plugin_Integrations/6_Notification_Services_Integration.md).
+See : [Push notification services integration](/docs/Features/Plugin_Integrations/Notification_Services_Integration.md).

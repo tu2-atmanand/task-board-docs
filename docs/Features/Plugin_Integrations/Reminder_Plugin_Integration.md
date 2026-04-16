@@ -1,7 +1,7 @@
 ---
 parent: Plugin Integrations
 title: Reminder plugin
-nav_order: 5
+nav_order: 7
 ---
 
 # Reminder Plugin Integration
@@ -12,7 +12,7 @@ nav_order: 5
 Link to the plugin : [Reminder plugin](https://github.com/uphy/obsidian-reminder).
 
 {: .note }
-> This plugin only works on desktop. For smartphone system level notification, check out the following wiki : [Notification services](/docs/6_Features/15_Plugin_Integrations/6_Notification_Services_Integration.md)
+> This plugin only works on desktop. For smartphone system level notification, check out the following wiki : [Notification services](./Notification_Services_Integration.md)
 
 Task Board integrates with reminder plugin to help you never miss a deadline. Reminder plugin, helps you to get a system level notifications, as long as the Obsidian is opened in your desktop, it may not need to be active all the time.
 
@@ -42,7 +42,7 @@ When you omit the time, reminder will be notified at default the default start t
 
 **Step 3 :** For this setting, select the **Reminder plugin** from the options.
 
-Now, when you will open the [Task Editor](/docs/6_Features/4_Task_Editor.md), you should see a new input fields under the [properties section](/docs/7_Components/3_TaskEditor.md#right-section) to also add a reminder. And when you will add a reminder value, it will be added as per the above format, the former one.
+Now, when you will open the [Task Editor](/docs/Features/Task_Editor.md), you should see a new input fields under the [properties section](/docs/Components/Task_Editor.md#right-section) to also add a reminder. And when you will add a reminder value, it will be added as per the above format, the former one.
 
 
 {: .new-title }
@@ -50,4 +50,4 @@ Now, when you will open the [Task Editor](/docs/6_Features/4_Task_Editor.md), yo
 > 
 > We have a new feature on roadmap, using this feature, the Desktop system-level notifications will be supported out of the box in Task Board : [tu2-atmanand/task-board#761](https://github.com/tu2-atmanand/Task-Board/issues/761).
 >
-> After this feature, you will only need to care about which [notification service](/docs/6_Features/15_Plugin_Integrations/6_Notification_Services_Integration.md) to chose, to have mobile push notification functionality.
+> After this feature, you will only need to care about which [notification service](/docs/Features/Plugin_Integrations/Notification_Services_Integration.md) to chose, to have mobile push notification functionality.

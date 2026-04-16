@@ -6,9 +6,9 @@ nav_order: 4
 
 # Task Editor
 
-This custom component gives user the ability to add new task or edit an existing task in various ways as well as assists with managing [properties/metadata](/docs/6_Features/2_Task_Properties.md) for tasks in a way that is compatible with your other plugins, as well as how you have it configured in the plugin's global settings.
+This custom component gives user the ability to add new task or edit an existing task in various ways as well as assists with managing [properties/metadata](/docs/Features/Task_Properties.md) for tasks in a way that is compatible with your other plugins, as well as how you have it configured in the plugin's global settings.
 
-To understand the complete UI of this component, read the following wiki : [Task Editor UI](/docs/7_Components/3_TaskEditor.md).
+To understand the complete UI of this component, read the following wiki : [Task Editor UI](/docs/Components/Task_Editor.md).
 
 
 ## Ways to Add a Task
@@ -38,7 +38,7 @@ After you have opened the Task Editor, you also have the option to use the file 
 
 Select from different QuickAdd's choices to add tasks in any note you want, at any specific position and also in the specific format. Using QuickAdd plugin, the combinations are endless on how you want to add the task and where you want to add.
 
-You can learn more about how to integrate QuickAdd inside task in the following wiki : [QuickAdd plugin integration](/docs/6_Features/15_Plugin_Integrations/3_QuickAdd_Plugin.md).
+You can learn more about how to integrate QuickAdd inside task in the following wiki : [QuickAdd plugin integration](/docs/Features/Plugin_Integrations/QuickAdd_Plugin.md).
 
 {: .note }
 > _A hotkey can be assigned to all thee above commands functionality in the "Hotkey" section found in Obsidian's general settings._
@@ -72,7 +72,7 @@ The Task Editor now provides:
 
 ### Task properties you can add
 
-Custom input fields based on the property. Task board supports various [task properties](/docs/6_Features/2_Task_Properties.md) by default. Each of them are of different kinds, such at date, date-time, only time, numerical, text, etc.
+Custom input fields based on the property. Task board supports various [task properties](/docs/Features/Task_Properties.md) by default. Each of them are of different kinds, such at date, date-time, only time, numerical, text, etc.
 
 To assist you in entering the values for the specific tasks, this component will provide special input fields, some with even suggestion to make the process easier and quicker.
 
@@ -89,4 +89,4 @@ Task properties can also be added at the cursor position instead of only being a
 v1.6.0
 {: .label .label-blue }
 
-Task Board now includes a [safeguard feature](/docs/6_Features/14_Safe_Guard.md) that performs proper content matching before updating your files. A [Content Compare modal](/docs/7_Components/5_Content_Compare_Modal.md) shows you the changes before they are applied, ensuring you never lose content accidentally.
+Task Board now includes a [safeguard feature](/docs/Features/Safe_Guard.md) that performs proper content matching before updating your files. A [Content Compare modal](/docs/Components/Content_Compare_Modal.md) shows you the changes before they are applied, ensuring you never lose content accidentally.

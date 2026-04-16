@@ -59,7 +59,7 @@ While Task Board works great on mobile, keep these points in mind:
 - **Task Cards**: Tap on a task card to view details or edit
 
 {: .note }
-> Mobile support continues to improve with each release. Check the [changelog](/docs/11_What_Is_New/2_Change_Log.md) for the latest mobile-specific improvements.
+> Mobile support continues to improve with each release. Check the [changelog](/docs/What_Is_New/Change_Log.md) for the latest mobile-specific improvements.
 
 ## Future Mobile Enhancements
 

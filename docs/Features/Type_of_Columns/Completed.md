@@ -6,7 +6,9 @@ nav_order: 11
 
 # Completed
 
-This type of column will show you all the tasks, which has been marked as completed. So, you will notice that, all the task item card under this column will have a different fields inside their Footer. Since you have marked the task as complete, you will see the time-date value when you marked this task as complete as can be seen from the below image.
+This type of column will show you all the tasks, which has been marked as completed. Please note that, the status of the task can be anything which you have configured inside the [Custom statuses settings](/docs/Settings/Properties.md#custom-statuses), but the type of the status should be of type "Completed".
+
+So, you will notice that, all the task item card under this column will have a different fields inside their Footer. Since you have marked the task as complete, you will see the time-date value when you marked this task as complete as can be seen from the below image.
 
 ![Completed tasks inside Completed Column](/assets/CompletedtaskUnderCompletedColumn.png)
 

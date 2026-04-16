@@ -8,7 +8,7 @@ nav_order: 11
 
 This feature helps you to detect the files you have modified and then scan them automatically to extract any newly added tasks or the existing tasks which you have edited.
 
-This feature can be used in three different modes, which can be controlled using the following setting : [Scanning mode](/docs/8_Settings/1_General.md#scanning-mode).
+This feature can be used in three different modes, which can be controlled using the following setting : [Scanning mode](/docs/Settings/General.md#scanning-mode).
 
 
 ## Balanced Mode

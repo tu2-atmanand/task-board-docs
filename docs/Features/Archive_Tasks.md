@@ -11,10 +11,10 @@ The Archive Tasks feature provides you with options to manage completed tasks wi
 ## How to Archive Tasks
 
 1. **Configure Archive Settings**: Go to the Task Board settings and
-   1. **For inline-tasks :** Under the [Inline tasks setting tab](/docs/8_Settings/4_Inline_tasks.md#file-for-archived-tasks), select the path of the note where your archived tasks should be moved.
+   1. **For inline-tasks :** Under the [Inline tasks setting tab](/docs/Settings/Inline_tasks.md#file-for-archived-tasks), select the path of the note where your archived tasks should be moved.
    2. **For task-notes :** Under the [Task notes setting tab], configure the path of the folder where all your archived task-notes should be moved.
-2. **While deleting :** When you will try to delete a task using either the delete button on the [task item card](/docs/7_Components/2_Task_Item_Card.md) or through the right-click menu, you will see a third button called **Archive instead**.
-3. **Through right-click menu :** You will also find an option inside the [task card menu](/docs/6_Features/22_Task_Card_Menu.md) to archive the specific task.
+2. **While deleting :** When you will try to delete a task using either the delete button on the [task item card](/docs/Components/Task_Item_Card.md) or through the right-click menu, you will see a third button called **Archive instead**.
+3. **Through right-click menu :** You will also find an option inside the [task card menu](/docs/Features/Task_Card_Menu.md) to archive the specific task.
 
 
 ## For inline-tasks
@@ -23,7 +23,7 @@ Task Board offers two methods to archive your inline-tasks:
 
 ### 1. Comment Out Tasks
 
-This will only happen if you have set the value of the "[File for archived tasks](/docs/8_Settings/4_Inline_tasks.md#file-for-archived-tasks)" setting as empty.
+This will only happen if you have set the value of the "[File for archived tasks](/docs/Settings/Inline_tasks.md#file-for-archived-tasks)" setting as empty.
 
 When you will archive the task, it will be simply commented out inside the same note, like this : 
 **Example:**
@@ -36,7 +36,7 @@ This will help you to hide this task in Obsidian's live editor and reading mode.
 
 ### 2. Move to Archive Note
 
-This will be possible when you have set a correct path to a archived inline-tasks note inside the "[File for archived tasks](/docs/8_Settings/4_Inline_tasks.md#file-for-archived-tasks)" setting.
+This will be possible when you have set a correct path to a archived inline-tasks note inside the "[File for archived tasks](/docs/Settings/Inline_tasks.md#file-for-archived-tasks)" setting.
 
 With this method:
 - Completed tasks are moved from their original location to a dedicated archive note

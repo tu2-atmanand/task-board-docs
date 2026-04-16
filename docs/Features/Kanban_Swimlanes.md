@@ -48,7 +48,7 @@ Read this GitHub ticket to learn more : [tu2-atmanand/task-board](https://github
 
 There are few cases when you would like to see a particular column from your swimlane configuration to be rendered as a normal column just besides the Swimlane layout.
 
-One such situation is when you have configured your swimlane using the "Tag" property on a "Tag Based Workflow" board. So, you might have already guessed that, in such a board, you will have the [Untagged](/docs/6_Features/5_Type_of_Columns/5_Untagged.md) type of column. And as you know, this type of column will only going to show all the tasks which do not have any kind of tag on them. In such cases, the tasks under this column will only appear as a part of the "Aggregator swimlane" and all the other swimlanes for this column will be empty.
+One such situation is when you have configured your swimlane using the "Tag" property on a "Tag Based Workflow" board. So, you might have already guessed that, in such a board, you will have the [Untagged](/docs/Features/Type_of_Columns/Untagged.md) type of column. And as you know, this type of column will only going to show all the tasks which do not have any kind of tag on them. In such cases, the tasks under this column will only appear as a part of the "Aggregator swimlane" and all the other swimlanes for this column will be empty.
 
 To solve such problems, you can simply exclude this column out of the swimlane layout and have yourself a inbox like UI, to easily see which tasks do not have even a single tag on them and drag and drop these tasks in the respective swimlane to organize them easily using your own tags.
 

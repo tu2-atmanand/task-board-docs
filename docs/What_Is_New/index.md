@@ -36,11 +36,11 @@ Stay up to date with the latest features, improvements, and fixes in Task Board!
 
 ## Want to Know More?
 
-- [Upcoming Features](/docs/11_What_Is_New/1_Upcoming_Features.md)
-- [View Complete Changelog](/docs/11_What_Is_New/2_Change_Log.md)
+- [View Complete Changelog](./Change_Log.md)
+- [Upcoming Features](./Upcoming_Features.md)
 
 ## Stay Connected
 
-- [Report Issues](https://github.com/tu2-atmanand/Task-Board/issues)
+- [Report Issues](/docs/Advanced/How_To_Create_Request.md)
 - [Join Community Discussion](https://forum.obsidian.md/invites/WDTPqhvJUD)
 - [Watch latest version release videos on YouTube](https://youtube.com/playlist?list=PLqEPxsDi1dtepfcaUO9r1BTGZN6IuhvvH&si=0aePzTy5kpjh2Ut5). And subscribe to get latest updates.

@@ -19,7 +19,7 @@ We have four types of filters :
 - **File Filters**: Include or exclude specific files from scanning
 - **Folder Filters**: Include or exclude entire folders from scanning
 
-You can use one filter independently or combine multiple filters together. For detailed information on how filters work together, see: [Filters for Scanning](../6_Features/10_Filters_for_Scanning.md)
+You can use one filter independently or combine multiple filters together. For detailed information on how filters work together, see: [Filters for Scanning](/docs/Features/Filters_for_Scanning.md)
 
 {: .note }
 > After making significant changes to scan filters, use the "Scan Vault" feature to re-scan your vault with the new filters applied.
@@ -30,7 +30,7 @@ You can use one filter independently or combine multiple filters together. For d
 |---|---|---|
 | Dropdown | **Balanced** - Scans modified files when you finish editing and switch tabs/windows<br>**Real-Time** - Live updates with ~1 second delay (slight performance impact)<br>**Manual** - Requires manual refresh via button | Balanced |
 
-Select how frequently Task Board scans your vault for changes. The Balanced and Real-Time modes provide [automatic scanning](../6_Features/11_Auto_Scanning_Files.md) capabilities.
+Select how frequently Task Board scans your vault for changes. The Balanced and Real-Time modes provide [automatic scanning](/docs/Features/Scanning_Modes.md) capabilities.
 
 ## Auto Add Unique ID
 
@@ -49,7 +49,7 @@ When enabled, the plugin automatically assigns incremental numeric IDs to tasks 
 |---|---|
 | File Path Input | `.obsidian/plugins/task-board/tasks.json` |
 
-This setting allows you to customize where the plugin stores its tasks cache file. The cache improves performance by storing task metadata and retrieve it faster from a single location. Its easy to rebuild this cache, incase it gets corrupted using the [vault scanner feature](/docs/6_Features/9_Vault_Scanner.md).
+This setting allows you to customize where the plugin stores its tasks cache file. The cache improves performance by storing task metadata and retrieve it faster from a single location. Its easy to rebuild this cache, incase it gets corrupted using the [vault scanner feature](/docs/Features/Vault_Scanner.md).
 
 Using this setting you can store the cache within your vault, incase if you want to sync it across devices. This will show real-time changes on the board when its opened on two devices at the same time and if the cache file is synching in real-time.
 
@@ -79,9 +79,9 @@ If you want Task Board to scan the modified files automatically without showing 
 |---|---|
 | 1 Button | NA |
 
-This settings contains a single button, called **Update**. Task Board supports some of the languages which are supported by Obsidian. The default language of this plugin will be english when you going to install it. If your Obsidian language is other than english, simply click on this update button and the latest language translations for your language will be downloaded from GitHub. Following are the languages supported by Task Board : [Languages translation status](/docs/10_Advanced/3_How_To_Contribute/2_HowToContributeToTranslations.md#supported-languages-status).
+This settings contains a single button, called **Update**. Task Board supports some of the languages which are supported by Obsidian. The default language of this plugin will be english when you going to install it. If your Obsidian language is other than english, simply click on this update button and the latest language translations for your language will be downloaded from GitHub. Following are the languages supported by Task Board : [Languages translation status](/docs/Advanced/How_To_Contribute/Improve_Language_Translations.md#supported-languages-status).
 
-To contribute translations or improve existing ones, see: [How to Contribute to Translations](../10_Advanced/3_How_To_Contribute/2_HowToContributeToTranslations.md)
+To contribute translations or improve existing ones, see: [How to Contribute to Translations](/docs/Advanced/How_To_Contribute/Improve_Language_Translations.md)
 
 ## Import/Export configurations
 
@@ -101,7 +101,7 @@ When you will click on the button a file selector will open to let you choose wh
 |---|---|
 | 1 Button | NA |
 
-Using this setting you can easily export the logs captured within this plugin. For more information on how this plugin captures logs, please refer the following wiki : [Bug reporter](/docs/6_Features/20_Bug_Reporter.md).
+Using this setting you can easily export the logs captured within this plugin. For more information on how this plugin captures logs, please refer the following wiki : [Bug reporter](/docs/Features/Bug_Reporter.md).
 
 
 ## Safe Guard Feature
@@ -110,7 +110,7 @@ Using this setting you can easily export the logs captured within this plugin. F
 |---|---|
 | Toggle | ON |
 
-When enabled, the Safe Guard feature provides additional protections to prevent accidental data loss. See [Safe Guard feature](../6_Features/14_Safe_Guard.md) for more details.
+When enabled, the Safe Guard feature provides additional protections to prevent accidental data loss. See [Safe Guard feature](/docs/Features/Safe_Guard.md) for more details.
 
 
 ## Experimental Features
