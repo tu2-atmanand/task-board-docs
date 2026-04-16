@@ -3,5 +3,6 @@
         "Frontmatter",
         "instanceof",
         "Kanban"
-    ]
+    ],
+    "explorer.sortOrder": "modified"
 }
