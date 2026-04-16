@@ -1,7 +1,7 @@
 ---
 parent: What is new
 title: Upcoming Features
-nav_order: 1
+nav_order: 13
 ---
 
 # Major Upcoming Features

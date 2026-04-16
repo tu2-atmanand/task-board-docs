@@ -1,6 +1,6 @@
 ---
 parent: Task Formats
-title: Task note
+title: Note per Task
 nav_order: 3
 ---
 

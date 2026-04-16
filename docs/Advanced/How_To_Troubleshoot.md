@@ -1,7 +1,7 @@
 ---
 parent: Advanced Topics
 title: Troubleshoot an issue
-nav_order: 3
+nav_order: 4
 ---
 
 # How to troubleshoot an issue
