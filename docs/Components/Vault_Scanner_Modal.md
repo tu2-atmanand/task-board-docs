@@ -1,7 +1,7 @@
 ---
 parent: UI Components
 title: Vault Scanner Modal
-nav_order: 4
+nav_order: 6
 ---
 
 # Vault Scanner Modal

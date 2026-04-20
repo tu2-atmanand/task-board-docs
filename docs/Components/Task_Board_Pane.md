@@ -4,13 +4,13 @@ title: Task Board Tab
 nav_order: 1
 ---
 
-# Task Board Pane
+# Task Board Tab
 
 This is the complete view which you will see when you will open Task Board in a new tab or in a new window of Obsidian.
 
 The UI consists of various sections as can be seen in the below image :
 
-![Task Board UI Legend](/assets//TaskBoardUIBreakLegend.png)
+![Task Board UI Legend](/assets/TaskBoardUIBreakLegend.png)
 
 ## View Header Section
 

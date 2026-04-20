@@ -1,7 +1,7 @@
 ---
 parent: How to Contribute
 title: Contribute to Language Translation
-nav_order: 4
+nav_order: 2
 ---
 
 # Contribute to Language Translation

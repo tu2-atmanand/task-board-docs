@@ -1,11 +1,13 @@
 index.md
 Task_Board_Pane.md
+Switch_Board_Panel.md
+Kanban_View.md
+Dependency_Map_View.md
 Task_Item_Card.md
 Task_Editor.md
 Vault_Scanner_Modal.md
-Content_Compare_Modal.md
+Board_Config_Modal.md
+Swimlane_Config_Modal.md
 Advanced_Filter_Menu.md
 Bug_Reporter_Modal.md
-Board_Config_Modal.md
-Switch_Board_Panel.md
-Swimlane_Config_Modal.md
+Content_Compare_Modal.md

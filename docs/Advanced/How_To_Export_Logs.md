@@ -1,5 +1,7 @@
 ---
 parent: Advanced Topics
-title: Troubleshoot an issue
+title: Export Logs
 nav_order: 4
 ---
+
+# How to Export Logs

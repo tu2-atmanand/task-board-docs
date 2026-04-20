@@ -1,7 +1,7 @@
 ---
 parent: UI Components
 title: Task Editor
-nav_order: 3
+nav_order: 5
 ---
 
 # Task Editor

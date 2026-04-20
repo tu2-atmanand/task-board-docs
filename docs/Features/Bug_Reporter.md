@@ -10,7 +10,7 @@ nav_order: 20
 
 The **Bug Reporter** is a built-in diagnostic system designed to capture, log, and help you report issues when Task Board encounters problems. It serves two critical functions:
 
-1. **For Users** - Easily collect and submit bug reports with complete system context
+1. **For Users** - Easily collect and submit bug reports with complete system context, as well as get solution if provided in the report.
 2. **For Developers** - Gather comprehensive debugging information including system state, plugin versions, and exact error messages
 
 When an error occurs, you'll see a notification that lets you review the details and prepare a report for the developers. All reported bugs are automatically logged to your vault for documentation and export.
@@ -32,7 +32,7 @@ Without this feature, you'd need to manually note down error details and try to 
 
 1. **Notification appears** - A banner notification pops up indicating an error occurred
 2. **Once per bug** - The same bug won't show the notification twice (de-duplication by bug ID)
-3. **You can view details** - Click "Show Error" to open the detailed Bug Reporter modal
+3. **You can view details** - Click "Show Error" to open the detailed [Bug Reporter modal](/docs/Components/Bug_Reporter_Modal.md)
 4. **Click ignore** - Or dismiss it if you prefer
 
 ### Bug Notification Notice

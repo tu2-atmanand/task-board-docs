@@ -8,7 +8,7 @@ nav_order: 3
 There are three options for installing **Task Board**:
 - **Method 1:** Install from the Official Obsidian Community Plugin Marketplace
 - **Method 2:** Install using the BRAT Plugin
-- **Method 2:** Install from the Github's source files
+- **Method 3:** Install from the source files
 
 ## Method 1: Obsidian Community Plugin Marketplace
 

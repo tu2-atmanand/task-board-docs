@@ -6,6 +6,11 @@ nav_order: 3
 
 ## How to test beta release
 
+{: .new-title }
+> 2.0.0 Beta Release
+>
+> If you are testing the version 2.0.0-beta-1 release, the steps are slightly different. Hence, please refer the following wiki : [Test 2.0.0-beta-1 release](./Test_2.0.0_Beta_Release.md).
+
 Beta releases are the versions released for testing and ensuring the plugin will work as expected after the main release. Beta version usually will have the name/tag as minor release version followed by a 'beta' name, followed by a number. Eg.: `1.5.0-beta-2`.
 
 Whenever a new beta version has been released, you will get a notification for the same either through mail if you are watching this repository or in the Announcement section of the discussion.

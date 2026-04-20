@@ -1,23 +1,23 @@
 ---
 parent: Advanced Topics
-title: Create a Request
+title: Create a Ticket
 nav_order: 2
 ---
 
-## How to Create a Request
+## How to Create a Ticket
 
-Create a request for :
+Create a ticket for :
 
 - Asking any kind of question about the plugin.
 - A new feature suggestion.
-- Suggesting improvement for an existing feature.
+- Suggesting improvement for an existing feature/UI.
 - Reporting a bug.
 
 To create this request you can use GitHub issues section from the plugin GitHub repository.
 
 Follow the below steps to create a request :
 
-**Step 1 :** Head on to this website : [Task Board Requests](https://github.com/tu2-atmanand/Task-Board/issues).
+**Step 1 :** Head on to this website : [Task Board Issues](https://github.com/tu2-atmanand/Task-Board/issues).
 
 **Step 2 :** You will see a green button called `New issue`, click on this button.
 ![New Issue Button](/assets/NewIssueButton.png)

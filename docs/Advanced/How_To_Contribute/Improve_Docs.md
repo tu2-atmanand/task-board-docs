@@ -1,7 +1,7 @@
 ---
 parent: How to Contribute
 title: Contribute to documentation
-nav_order: 3
+nav_order: 1
 ---
 
 # How to Contribute to Task Board Documentation

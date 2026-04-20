@@ -4,7 +4,7 @@ title: Vault Scanner
 nav_order: 9
 ---
 
-# Vault Scanner Feature
+# Vault Scanner
 
 This feature helps you to scan your whole vault files to extract the tasks from them. After installing the plugin you will be required to run this feature to extract all tasks only for the first time.
 

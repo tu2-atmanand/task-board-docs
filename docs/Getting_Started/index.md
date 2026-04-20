@@ -19,14 +19,14 @@ After proper installation, **Task Board** can be opened by clicking the new icon
 
 Once you open the Task Board tab for the first time you will notice there are already few predefined boards present for your convenience. Feel free to delete or edit the boards and [create your own boards](/docs/How_To/Create_New_Board.md).
 
-For now these boards will be empty because this plugin havent scanned any of your task yet. Move to step 2...
+For now these boards will be empty because this plugin have'nt scanned any of your task yet. Move to step 2...
 
 ## **Step 2:** Scan tasks for the first time
 
 Click on the **Vault Scanner Modal** button. It is located inside the "View Header" in the top-right corner. This will open a window that can automatically scan all of the files in your vault for tasks.
 
 {: .note }
-> Before running the scanner, you might like to use the "Filters for scanning" feature, which will allow you to skip certain files from being scanned, if you dont want this plugin to scan your those files. BTW, dont worry this plugin is also completely offline like Obsidian.
+> Before running the scanner, you might like to use the ["Filters for scanning" feature](/docs/Features/Filters_for_Scanning.md), which will allow you to skip certain files from being scanned, if you dont want this plugin to scan your those files. BTW, dont worry this plugin is also completely offline like Obsidian.
 > 
 > You won't need to use this "[Vault Scanner Feature](/docs/Features/Vault_Scanner.md)" feature often. It is only for fresh install or for special cases like troubleshooting or solving any other issue.
 
