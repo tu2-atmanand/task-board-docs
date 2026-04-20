@@ -5,7 +5,7 @@ nav_order: 13
 
 # Migrating to Task Board 2.x.x series
 
-As you all know, Task Board is now migrating from `1.x.x` version series to `2.x.x` version series. This means, some of the features from the `1.x.x` versions will not be supported in the new series, because of some architectural changes done within this plugin. These major changes has been done to this plugin because of the following issue found in Task Board : [tu2-atmanand/ticket-561](https://github.com/tu2-atmanand/Task-Board/issues/561).
+Task Board is now migrating from `1.x.x` version series to `2.x.x` version series. This means, some of the features from the `1.x.x` versions will not be supported in the new series, because of some architectural changes done within this plugin. These major changes has been done to this plugin because of the following issue found in Task Board : [tu2-atmanand/ticket-561](https://github.com/tu2-atmanand/Task-Board/issues/561).
 
 Task Board version `2.0.0` will going to be the first production ready version in this new series. But to test these new changes, we will be releasing few beta versions before we finally release the `2.0.0` version officially.
 
