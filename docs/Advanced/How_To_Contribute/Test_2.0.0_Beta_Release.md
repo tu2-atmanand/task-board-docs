@@ -6,9 +6,9 @@ nav_order: 4
 
 # How to test 2.0.0 beta releases
 
-As, moving from any version of the `1.x.x` series to any version of `2.x.x` series requires some migrations to be applied, hence the testing process for the beta versions of `2.0.0` will require few extra steps compared to the other beta version.
+As we are updating Task Board from any version of the `1.x.x` series to any version of `2.x.x` series, this plugin will require some migrations to be applied, hence testing for any of the beta versions of `2.0.0` will require few extra steps compared to the other beta versions.
 
-During the testing phase, will be releasing multiple beta version, such as `2.0.0-beta-1`, `2.0.0-beta-2`, etc..., Where in each new beta version will make few enhancements and bug fixes, so when you will install each of this new beta version, you should following the below steps to properly and thoroughly do the testing, to make the next series ready for common use.
+During the testing phase, will be releasing multiple beta version, such as `2.0.0-beta-1`, `2.0.0-beta-2`, etc..., where in each new beta version will make few enhancements and bug fixes, so when you will install each of this new beta version, you should follow the below steps to properly and thoroughly do the testing and to make the next series ready for release.
 
 Keep an eye on the [GitHub releases](https://github.com/tu2-atmanand/Task-Board/releases) section to find out if there are any latest beta versions has been released for this new Task Board series.
 
