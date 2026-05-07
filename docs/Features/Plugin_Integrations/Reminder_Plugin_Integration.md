@@ -48,6 +48,6 @@ Now, when you will open the [Task Editor](/docs/Features/Task_Editor.md), you sh
 {: .new-title }
 > Announcement
 > 
-> We have a new feature on roadmap, using this feature, the Desktop system-level notifications will be supported out of the box in Task Board : [tu2-atmanand/task-board#761](https://github.com/tu2-atmanand/Task-Board/issues/761).
+> We have a new feature on roadmap, using this feature, the Desktop system-level notifications will be supported out of the box in Task Board : [task-board-github/ticket-761](https://github.com/tu2-atmanand/Task-Board/issues/761).
 >
 > After this feature, you will only need to care about which [notification service](/docs/Features/Plugin_Integrations/Notification_Services_Integration.md) to chose, to have mobile push notification functionality.

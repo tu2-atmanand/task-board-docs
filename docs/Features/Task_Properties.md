@@ -214,6 +214,6 @@ You might want to check out the [Dependency Flow Planning (DFP) methodology](/do
 {: .new-title }
 > Announcement
 > 
-> In future, you will be able to add your custom properties to your tasks. Following is the ticket for this feature : [tu2-atmanand/task-board#688](https://github.com/tu2-atmanand/Task-Board/issues/688).
+> In future, you will be able to add your custom properties to your tasks. Following is the ticket for this feature : [task-board-github/ticket-688](https://github.com/tu2-atmanand/Task-Board/issues/688).
 >
 > As well as, using this new feature, you should be able to decide whether you want date value or date-time value to each of your date related task properties.

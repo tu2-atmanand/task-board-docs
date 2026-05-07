@@ -69,4 +69,4 @@ With this method:
 > 
 > To solve this issue, we have a new feature on roadmap to have a "Archived inline-tasks folder" instead of a single file and then all your inline-tasks will go to a specific note inside this folder with the note's name as the month-year name.
 >
-> Follow the development status of this feature here : [tu2-atmanand/task-board#702](https://github.com/tu2-atmanand/Task-Board/issues/702).
+> Follow the development status of this feature here : [task-board-github/ticket-702](https://github.com/tu2-atmanand/Task-Board/issues/702).

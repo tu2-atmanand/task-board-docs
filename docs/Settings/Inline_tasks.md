@@ -40,7 +40,7 @@ Specify the default markdown file where new inline-tasks created via the [task e
 {: .note }
 > In few recent discussions, we have realized a problem with having a single note to save all your newly created tasks. Over time, this single file can become wildly massive in size and can be difficult to manage.
 >
-> To solve this issue, we have a better solution on roadmap : [tu2-atmanand/task-board#702](https://github.com/tu2-atmanand/Task-Board/issues/702).
+> To solve this issue, we have a better solution on roadmap : [task-board-github/ticket-702](https://github.com/tu2-atmanand/Task-Board/issues/702).
 
 
 ## File for archived tasks

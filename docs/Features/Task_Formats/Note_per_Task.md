@@ -93,6 +93,6 @@ The idea is...
 > You are also free to create a task-note directly inside Task Board using the various options we have in the following wiki : [Add a new task](/docs/How_To/Add_New_Task.md).
 
 {: .note }
-> This feature is under development. You can read more about this feature and track its development in the following GitHub ticket : [tu2-atmanand/task-board#33](https://github.com/tu2-atmanand/Task-Board/issues/33).
+> This feature is under development. You can read more about this feature and track its development in the following GitHub ticket : [task-board-github/ticket-33](https://github.com/tu2-atmanand/Task-Board/issues/33).
 >
 > BTW... This is the [vision of Task Board plugin](/docs/Vision/index.md).
