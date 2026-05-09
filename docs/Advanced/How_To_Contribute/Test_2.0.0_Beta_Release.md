@@ -17,7 +17,9 @@ Please follow the below step-by-step guide :
 
 ### Step 1 : Download the test vault
 
-In every beta release, at the end of the release notes, you will find a zip file attached. Which you can easily download, unzip and open inside Obsidian as a vault. Whatever changes you do inside this test vault, will not affect any other vault in your computer, so its completely safe.
+In every beta release, at the end of the release notes, you will find a zip file attached. Which you can easily download, unzip and open inside Obsidian as a vault. For example, in the beta [release of version `2.0.0-beta-1`](https://github.com/tu2-atmanand/Task-Board/releases/tag/2.0.0-beta-1) you can see a zip file attached.
+
+Whatever changes you do inside this test vault, will not affect any other vault in your computer, so its completely safe.
 
 ### Step 2 : Use the `1.x.x` version for a while
 
@@ -26,6 +28,11 @@ Now, in this test vault, you will notice there are mainly two plugin (there can 
 You are now supposed use this version for a while. This is because, the main testing we will be doing for the upcoming version `2.0.0` release, is to test, whether the migration code is properly working or not. You can read more about how the migrations will be applied and everything from here : [Migrating to Task Board 2.x.x series](/docs/Migrating_To_2.x.x.md).
 
 So, as we want to ensure that the map view data is properly being migrated or not, we should use the map view feature extensively and then verify whether, after migrating to the beta version, the map view data has been properly moved or not.
+
+In general, we shall use the following feature in the older series of Task Board : 
+- Map view
+- Board Filters (Save few filters)
+- Create your custom boards
 
 ### Step 3 : Install the beta version
 

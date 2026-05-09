@@ -58,7 +58,7 @@ When you will click on the **"Open migration modal"** button a new modal will be
 
 ![Migration modal](/assets/migrationModal.png)
 
-You can also open this migration modal from the settings, incase if the notice do not appears after the plugin update.
+You can also open this migration modal using the following command, incase if the notice do not appears after the plugin update : `CTRL + p` -> `Task board : Open migration modal`.
 
 In this modal, when you will click on the **Run migrations** button, few actions will be executed step-by-step automatically.
 
@@ -109,6 +109,8 @@ Since, both these boards are for managing the same project, hence you can combin
 > 1. There is a possibility that, your map view data might get completely lost when you will revert back to this previous version. As you might have read in the GitHub ticket shared above. This is a major flaw in the previous series of this plugin. Hence, if you are heavily dependent on the Map view feature, you should migrate to the `2.x.x` series.
 >
 > 2. Please note that, the previous Task Board version series, `1.x.x`, will reach its end of life, 2 months after the release of the version `2.0.0`. No, further improvements, bug-fixes or features will be provided for the previous version series of this plugin, after its end of life. Hence, its highly recommended to be on the latest version of this plugin.
+>
+> 3. To use the below steps, you should have either already executed the migration or you must export your current configurations manually. Because, the below steps will require you to import your current configurations again when you will uninstall and install the previous version.
 
 
 {: .note }
