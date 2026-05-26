@@ -1,7 +1,7 @@
 ---
 parent: UI Components
 title: Content Compare Modal
-nav_order: 11
+nav_order: 12
 ---
 
 # Content Compare Modal

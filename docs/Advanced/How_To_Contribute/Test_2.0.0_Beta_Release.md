@@ -30,7 +30,7 @@ You are now supposed use this version for a while. This is because, the main tes
 So, as we want to ensure that the map view data is properly being migrated or not, we should use the map view feature extensively and then verify whether, after migrating to the beta version, the map view data has been properly moved or not.
 
 In general, we shall use the following feature in the older series of Task Board : 
-- Map view
+- Map view (Please note, you should enable the "Auto add unique id" setting.)
 - Board Filters (Save few filters)
 - Create your custom boards
 
