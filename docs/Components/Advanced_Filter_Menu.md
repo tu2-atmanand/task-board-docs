@@ -16,6 +16,8 @@ Depending on your device and screen resolution, this component may present itsel
 
 Also, after you have made any changes to the filter configs, you dont have to click on any save button. Simply close this component and your filter will be applied to the board or the column for which you have opened this feature.
 
+This docs page only explains the various UI elements of this feature. To understand the working and other aspects of this feature, refer the following page : [Advanced filter](/docs/Features/Advanced_Filter/Overview.md).
+
 ## Sections
 
 This component shows you the multiple filter criteria you have applied for either the board or the column. 
@@ -59,4 +61,6 @@ Besides the **Save Filter Configs** button you will also see a **Load Existing F
 
 {: .warning }
 > Please note that, when you will load an existing filter config. It will replace the current filter configs. So, you should take a backup of the current filter configs, if its important for you, before loading the saved configs.
+>
+> This problem will be fixed in the upcoming enhanced version of this feature : [Advanced Filter in Task Board V2](/docs/Components/Advanced_Filter_Menu_v2.md).
 

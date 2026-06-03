@@ -87,7 +87,7 @@ To solve this problem, we have simply decided that, whenever a new task shows up
 
 And ofcourse, this problem will only be faced, when a new task has automatically appeared or an older task(s), which was earlier not present in this column, has been modified such that their properties are now matching the column configuration. But if you are using the [drag and drop feature](/docs/Features/Drag_Drop_Tasks.md) of this plugin, then you should not face this problem, as you will be moving the tasks manually and everything will be on your watch. You will going to get a "drop indicator", so you can drop the task at a specific position directly. See the below demo video : 
 
-![Drag-n-drop and column sorting demo](/assets/Manual_Order_Demo.mp4)
+![Drag-n-drop and column sorting demo](/assets/Manual_Order_Demo.gif)
 
 
 ## Whats coming in the future ?

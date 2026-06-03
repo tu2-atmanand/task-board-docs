@@ -51,6 +51,30 @@ In [Map View](/docs/Features/Dependency_Map.md), card widths are individually ad
 
 When enabled, scrollbars appear on columns that exceed the viewport height. If you prefer cleaner look within your board, disable this feature and all the column scrollbars will be hidden.
 
+
+## Edit button action
+
+| Input Field | Options | Default |
+|---|---|---|
+| Dropdown | **Task Editor (Modal)** - Opens task in floating dialog<br>**Task Editor (Tab)** - Opens task in a new tab<br>**Task Editor (Window)** - Opens task in external window<br>**Open note in new tab** - Opens source file in new tab<br>**Open note in right split** - Opens source file in right panel<br>**Open note in new window** - Opens source file in new OS window<br>**Open note in hover-preview** - Shows file in hover preview | Task Editor (Modal) |
+
+Control what happens when you click the Edit button on a task card. Choose between:
+- Editing within the plugin's Task Editor (recommended for quick edits)
+- Opening the source markdown file in various Obsidian locations
+- Viewing in hover preview
+
+## Double click card action
+
+| Input Field | Options | Default |
+|---|---|---|
+| Dropdown | None<br>Task editor (window)<br>Open note in new tab<br>Open note in right split<br>Open note in new window<br>Open note in hover-preview | None |
+
+Using this setting you can configure the action you want to have when you double click on the [task item card](/docs/Components/Task_Item_Card.md).
+
+## Tag Colors
+
+Assign custom colors to specific tags for visual organization. Tags with custom colors display with your chosen color across the board.
+
 ## Tag Color Indicator Type
 
 | Input Field | Options | Default |
@@ -58,10 +82,6 @@ When enabled, scrollbars appear on columns that exceed the viewport height. If y
 | Dropdown | **Tag Text** - Color applied to tag text<br>**Tag Background** - Color applied behind tag<br>**Card Background** - Color applied to entire card background | Tag Text |
 
 Choose to which component the custom tag colors you have configured below, should be applied to. Changing this setting will allow you to have different board UIs.
-
-## Tag Colors
-
-Assign custom colors to specific tags for visual organization. Tags with custom colors display with your chosen color across the board.
 
 ### Adding Custom Tag Colors
 
